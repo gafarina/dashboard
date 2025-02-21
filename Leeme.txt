@@ -1,0 +1,48 @@
+1. Crear una carpeta con el proyecto llamada Opciones_Django
+2. abrir una consola cmd e ir a la ruta donde esta la carpeta C:\Users\gasto\OneDrive\Opciones_Django>
+3. chequear la versión de Python que tengo con el comando python --versión que en mi caso es Python 3.9.5
+4. Actualizar el pip  python.exe -m pip install --upgrade pip
+5. Instalar Python de la web y agregar las variables de entorno a la raíz de Python como esta adelante
+6. agregar el path 
+Verifica la variable de entorno PATH
+Si virtualenv está instalado, pero no está en la variable de entorno PATH, el sistema no podrá encontrarlo. Para verificar y solucionar esto, sigue estos pasos:
+
+En Windows
+Abre el menú Inicio y busca "variables de entorno".
+Haz clic en "Editar las variables de entorno del sistema".
+En la ventana que se abre, haz clic en "Variables de entorno...".
+En la sección "Variables del sistema", busca la variable PATH y selecciónala.
+Haz clic en "Editar...".
+Asegúrate de que la ruta a la carpeta donde se instaló virtualenv esté incluida en la lista. Normalmente, esta carpeta es C:\Users\<TuNombreDeUsuario>\AppData\Local\Programs\Python\Python3x\Scripts (reemplaza 3x con la versión de Python que estás usando).
+Si la ruta no está incluida, haz clic en "Nuevo" y agrégala.
+Cierra todas las ventanas y vuelve a intentar crear el entorno virtual.
+
+
+2. Ensure virtualenv is in your PATH
+
+After installing virtualenv, you need to make sure its location is included in your system's PATH environment variable. This allows your system to find and execute the virtualenv command.
+
+For Windows:
+
+Open the Start Menu and search for "environment variables".
+Click on "Edit the system environment variables".
+In the "System Properties" window, click on "Environment Variables...".   
+In the "System Variables" section, find the "Path" variable and select it.   
+Click on "Edit...".
+Add the path to the virtualenv script to the list of paths. This is typically located in your Python installation's Scripts directory (e.g., C:\Python39\Scripts).
+Click "OK" on all windows to save the changes.
+
+
+
+
+
+7. instalar el virtual environment pip install virtualenv
+8. crear un virtual environment que este aislado de todo lo que tenga en el computador virtualenv options_django
+9 Para activar el environment ir a C:\Users\gasto\OneDrive\Opciones_Django\options_django\Scripts>activate
+10. instalar django como pip install django
+11. crear el proyecto django-admin startproject opciones
+12.ir a la carpeta del proyecto llamado opciones y crear una app como django-admin startapp selección
+13. abir el archivo en el vscode
+14. abrir en vs code una terminal 
+15. abrir un archivo de Python y abajo a la derecha cambiar el interpeter al Python del virtualenv creado poniendo el path del virtualenv hasta el script
+    C:\Users\gasto\OneDrive\Opciones_Django\options_django
