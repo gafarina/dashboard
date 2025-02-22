@@ -1,12 +1,7 @@
-from django.shortcuts import render
+from celery import shared_task
 import yfinance as yf
-
-
-def seleccion(request):
-    #stock_picker = tickers_nifty50()
-    #print(stock_picker)
-    # va a llamar el html en el template
-    # por el momento tomar todos los tickers
+@shared_task(bind = True)
+def update_stock(self):
     stock_symbols = ["AAPL", "MSFT", "GOOG", "AMZN"]
     data = yf.download(stock_symbols, period="1d")
     current_prices = data['Close'].transpose().reset_index()
@@ -16,5 +11,5 @@ def seleccion(request):
     print(current_prices)
     current_prices.columns = ['ticker','price','date']
     current_prices = current_prices[['date','ticker','price']]
-    current_prices = current_prices.to_dict('records')
-    return render(request, 'seleccion/base.html',{'current_prices':current_prices})
+    data = current_prices.to_dict('records')
+    return 'Done'

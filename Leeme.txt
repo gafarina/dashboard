@@ -45,4 +45,24 @@ Click "OK" on all windows to save the changes.
 13. abir el archivo en el vscode
 14. abrir en vs code una terminal 
 15. abrir un archivo de Python y abajo a la derecha cambiar el interpeter al Python del virtualenv creado poniendo el path del virtualenv hasta el script
-    C:\Users\gasto\OneDrive\Opciones_Django\options_django
+    C:\Users\gasto\OneDrive\Opciones_Django\options_django\python.exe
+16. Crear el include de las urls del proyecto con el de la aplicación
+17. crear el urls.py dentro de la aplicación
+18. registrar en el setting.py la apps
+19. Crear en la aplicación el directorio de templates,despues un directorio con nombre de la app selección y dentro de esa un HTML que se llame base.html
+20.definir la primera view que es donde va a estar la tabla con las estrategias
+21. instalar celery pip install celery
+22. abrir el archivo que esta en C:\Program Files\Redis redis-server
+23. abrir redis-cli y poner ping y debe salir pong
+24.para saber los resultados de la conexión se debe instalar pip install django-celery-results
+25. Celery_beats le dice a celery que debe hacer un task a redis, pip install django-celery-beat 
+26. a nivel de proyecto debemos crear un nuevo archivo celery.py
+27. dentro de la app hay que crear un archivo llamado tasks.py
+28. como celery usa django models hay que hacer migrate en el database python manage.py migrate, python manage.py makemigrations
+29. Instalar redis en pip pip install redis
+30. en una nueva cmd correr el redis, con redis-sever
+30. start celery worker celery -A opciones.celery worker --pool=solo -l info en un nuevo cmd en el virtual env
+31. start celery beat en una nueva consola con celery -A opciones beat -l INFO
+32. Se debería ejecutar el task
+
+

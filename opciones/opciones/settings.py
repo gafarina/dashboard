@@ -39,6 +39,9 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
     # aca se registran las apps instaladas
     'seleccion',
+    # instalar django_celery_results
+    'django_celery_results',
+    'django_celery_beat',
 ]
 
 MIDDLEWARE = [
@@ -123,3 +126,19 @@ STATIC_URL = 'static/'
 # https://docs.djangoproject.com/en/5.1/ref/settings/#default-auto-field
 
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
+
+# Celery Settings
+# el servidor que se va a conectar
+CELERY_BROKER_URL = 'redis://127.0.0.1:6379'
+# el tipo de archivo que va a aceptar el broker redis
+CELERY_ACCEPT_CONTENT = ['application/json']
+# es el tipo de resultado despues de generar el task
+CELERY_RESULT_SERIALIZER = 'json'
+# como los mensajes se van a serializar
+CELERY_TASK_SERIALIZER = 'json'
+# mi time zone
+CELERY_TIMEZONE = 'America/Santiago'
+# donde se va a guardar la info
+CELERY_RESULT_BACKEND = 'django-db'
+#django_celery_beat.schedulers:DatabaseScheduler: If you're using Django with the django-celery-beat extension, this scheduler stores the schedule information in your Django database. This allows you to manage your periodic tasks through the Django admin interface, providing a more user-friendly way to configure and monitor scheduled tasks.
+CELERY_BEAT_SCHEDULER = 'django_celery_beat.schedulers:DatabaseScheduler'
