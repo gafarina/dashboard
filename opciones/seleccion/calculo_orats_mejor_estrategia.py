@@ -2,6 +2,11 @@ import pandas as pd
 import requests
 import pandas_market_calendars as mcal
 import datetime
+from sklearn.preprocessing import StandardScaler
+from sklearn.decomposition import PCA
+from sklearn.cluster import KMeans
+import numpy as np
+import math
 class opciones:
     """Class of the computation of the ranking of best strategy"""
 
@@ -17,6 +22,23 @@ class opciones:
         nzdq = mcal.get_calendar('NASDAQ')
         trading_days = nzdq.valid_days(start_date=list_dates[0], end_date=str(datetime.date.today()))
         trading_days = [str(x)[0:10] for x in trading_days]
+        last_day = trading_days[-2]
+        print(last_day)
+        ## get the tickers with more volume in the last day
+        try:
+            link = "https://api.orats.io/datav2/hist/cores?token=" + self.api + "&tradeDate=" + str(last_day)
+            f = requests.get(link)
+            f = f.json()
+            db = pd.DataFrame(f['data'])
+            # tomar solo los que el cVolu + pVolu y cOi + pOi sea mayor que el cuantil 95
+            db['option_volume'] = db['cVolu'] + db['pVolu']
+            db['option_oi'] = db['cOi'] + db['pOi']
+            db = db[(db['option_volume'] >= db['option_volume'].quantile(0.70)) & (db['option_volume'] >= db['option_oi'].quantile(0.70))]
+            df_total = pd.concat([df_total, db])
+            tickers = list(pd.unique(df_total['ticker']))
+        except:
+            tickers = []
+        print("Los tickers en el universo son {}".format(str(tickers)))
         for date in trading_days:
             print("Se esta procesando {} ".format(str(date)))
             try:
@@ -24,17 +46,14 @@ class opciones:
                 f = requests.get(link)
                 f = f.json()
                 db = pd.DataFrame(f['data'])
-                # tomar solo los que el cVolu + pVolu y cOi + pOi sea mayor que el cuantil 95
-                db['option_volume'] = db['cVolu'] + db['pVolu']
-                db['option_oi'] = db['cOi'] + db['pOi']
-                db = db[(db['option_volume'] >= db['option_volume'].quantile(0.70)) & (db['option_volume'] >= db['option_oi'].quantile(0.70))]
+                db = db[db['ticker'].isin(tickers)]
                 df_total = pd.concat([df_total, db])
-                df_total.to_pickle("base_clusters.pkl")
+                df_total.to_pickle("C:\\Users\\gasto\\OneDrive\\base_datos_proyecto.pkl")
             except:
                 print("existio un problema con la fecha {}".format(str(date)))
                 db = pd.DataFrame()
                 df_total = pd.concat([df_total, db])
-        print(df_total)
+        #print(df_total)
         return None
 
     def read_train_data(self, path):
@@ -47,7 +66,7 @@ class opciones:
                      'slope','slopeInf','slopeFcst','slopeFcstInf','deriv','derivInf','derivFcst','derivFcstInf','mktWidthVol','mktWidthVolInf',
                      'orHv1d','orHv5d','orHv10d','orHv20d','orHv60d','orHv90d','orHv120d','orHv252d','orHv500d','orHv1000d','clsHv5d','clsHv10d',
                      'clsHv20d','clsHv60d','clsHv90d','clsHv120d','clsHv252d','clsHv500d','clsHv1000d','iv20d','iv30d','iv60d','iv90d','iv6m','clsPx1w',
-                     'stkPxChng1wk','clsPx1m','stkPxChng1m','clsPx6m','stkPxChng6m','clsPx1y','stkPxChng1y','divFreq','divYield','divGrwth','divDate','divAmt',
+                     'stkPxChng1wk','clsPx1m','stkPxChng1m','clsPx6m','stkPxChng6m','clsPx1y','stkPxChng1y','divFreq','divYield','divGrwth','divAmt',
                      'correlSpy1m','correlSpy1y','correlEtf1m','correlEtf1y','beta1m','beta1y','ivPctile1m','ivPctile1y','ivPctileSpy','ivPctileEtf','ivStdvMean',
                      'ivStdv1y','ivSpyRatio','ivSpyRatioAvg1m','ivSpyRatioAvg1y','ivSpyRatioStdv1y','ivEtfRatio','ivEtfRatioAvg1m','ivEtfRatioAvg1y','ivEtFratioStdv1y',
                      'ivHvXernRatio','ivHvXernRatio1m','ivHvXernRatio1y','ivHvXernRatioStdv1y','etfIvHvXernRatio','etfIvHvXernRatio1m','etfIvHvXernRatio1y','etfIvHvXernRatioStdv1y',
@@ -67,8 +86,67 @@ class opciones:
                      'fbfexErn60_30','fbfexErn90_60','fbfexErn180_90','fbfexErn90_30','impliedEarningsMove']]
         return base
     
+    def pca(self, base, numero_componentes, drop_columns):
+        X = base.drop(drop_columns, axis=1, errors='ignore')
+        scaler = StandardScaler()
+        X_scaled = scaler.fit_transform(X)
+        pca = PCA(n_components=numero_componentes)
+        X_pca = pca.fit_transform(X_scaled)
+
+        # Print explained variance ratio to help choose n_components
+        print("Explained Variance Ratio:", pca.explained_variance_ratio_)
+        print("Total Explained Variance:", sum(pca.explained_variance_ratio_))
+
+        X_pca_df = pd.DataFrame(data = X_pca, columns = [f'PC{i+1}' for i in range(numero_componentes)])
+        
+
+        # 4. Apply K-Means Clustering
+        n_clusters = 10  # Choose the number of clusters. You might need to experiment with this.
+        kmeans = KMeans(n_clusters=n_clusters, random_state=42, n_init=10) # Set random_state for reproducibility
+        X_pca_df['Cluster'] = kmeans.fit_predict(X_pca) # Fit and predict in one line. It is better to use the DataFrame here.
+        #print(X_pca_df.head())
+        centers = kmeans.cluster_centers_
+        print("Cluster Centers (in PCA space):\n", centers)
+
+        base['Cluster'] = X_pca_df['Cluster']
+        for cluster in base['Cluster'].unique():
+            print(f"Cluster {cluster}:\n", base[base['Cluster'] == cluster].describe())
+        base.to_pickle("C:\\Users\\gasto\\OneDrive\\base_test_clusters.pkl")
+        return None
+    
+    def calcular_retornos(self, base_cluster, clusters = [2,9]):
+        base_total = pd.DataFrame()
+        for clus in clusters:
+            base_test = base_cluster[base_cluster['Cluster'] == clus]
+            retornos = []
+            for i,j in zip(base_test['ticker'],base_test['tradeDate']):
+                #print(i,j)
+                base_ret = base_cluster[(pd.to_datetime(base_cluster['tradeDate']) >= pd.to_datetime(j)) & (base_cluster['ticker'] == i)].sort_values(['tradeDate']).head(5).drop_duplicates()['pxAtmIv'].pct_change(4).iloc[-1]
+                retornos.append(base_ret)
+            print(retornos)
+            retornos = [x for x in retornos if not math.isnan(x)]
+            base_estadisticas = pd.DataFrame({
+                                            'cluster':[clus],
+                                            'count':[len(retornos)],
+                                            'min':[np.min(retornos)],
+                                            'q5':[np.quantile(retornos, 0.05)],
+                                            'q25':[np.quantile(retornos, 0.25)],
+                                            'q50':[np.quantile(retornos, 0.50)],
+                                            'mean':[np.mean(retornos)],
+                                            'q75':[np.quantile(retornos, 0.75)],
+                                            'q95':[np.quantile(retornos, 0.95)],
+                                            'max':[np.max(retornos)],
+                                            'std':[np.std(retornos)],
+                                            })
+            base_total = pd.concat([base_total, base_estadisticas])
+        print(base_total)
+        return base_total
+    
 op = opciones()
 ## get the data
-#base = op.get_core_data_historical(list_dates=['2024-02-20'])
-base = op.read_train_data("base_clusters.pkl")
-print(base[base['ticker'] == 'AA'])
+# base = op.get_core_data_historical(list_dates=['2024-02-20'])
+#base = op.read_train_data("C:\\Users\\gasto\\OneDrive\\base_datos_proyecto.pkl")
+#op.pca(base = base,numero_componentes=35,drop_columns=['ticker','tradeDate','pxAtmIv'])
+base_cluster = pd.read_pickle("C:\\Users\\gasto\\OneDrive\\base_test_clusters.pkl")
+print(base_cluster.groupby(['Cluster']).count())
+op.calcular_retornos(base_cluster, clusters = [2,5,8,9])
