@@ -5,5 +5,5 @@ urlpatterns = [
     #
     #path('', views.stockPicker, name = 'stockpicker'),
     #Este es el path de la applicacion que es la base
-    path('', views.seleccion, name = 'seleccion'),
+    path('', views.positions, name = 'seleccion'),
 ]

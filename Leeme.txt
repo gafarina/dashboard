@@ -66,3 +66,14 @@ Click "OK" on all windows to save the changes.
 32. Se debería ejecutar el task
 
 
+CREAR la tabla de posiciones
+
+1. checkear la versión de java java -versión
+2. bajar desde la pagina de ibkr el portal clientportal.gw
+3. ejecutar bin\run.bat root\conf.yaml
+4. ir a https://localhost:5000
+5. autentificarse y acceder
+
+
+
+

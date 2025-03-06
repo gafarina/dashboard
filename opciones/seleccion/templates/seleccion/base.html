@@ -13,25 +13,20 @@
         <table id="myTable" class="table table-striped table-bordered">
           <thead>
             <tr>
-              <th scope="col">date</th>
               <th scope="col">ticker</th>
-              <th scope="col">price</th>
+              <th scope="col">unrealizedPnl</th>
             </tr>
           </thead>
           <tbody>
 
-            {% for stock in current_prices %}
+            {% for stock in current_prices %} 
                 <tr>
-                    <td>
-                        {{stock.date}}
-                    </td>
                     <td>
                         {{stock.ticker}}
                     </td>
                     <td>
-                        {{stock.price}}
+                        {{stock.unrealizedPnl}}
                     </td>
-                    
                 </tr>
             {% endfor %}
           </tbody>
