@@ -75,16 +75,6 @@ def seleccion(request):
 
 ## features to select ticker,tradeDate,assetType,orFcst20d,orIvFcst20d,slope,slopeFcst,deriv,derivFcst,orHv1d,orHv5d,orHv10d,orHv20d,orHv60d,iv10d,iv20d,iv30d,iv60d,slopepctile,contango,wksNextErn,orHvXern5d,orHvXern10d,orHvXern20d,exErnIv10d,exErnIv20d,exErnIv30d,exErnIv60d
 """
-1. bajar los datos de los features de arriba diarios por fecha
-2. Hacer una prueba con un año
-3. generar los rankings de las variables
-4. Generar Un PCA y cluster algoritmo
-5. Calcular a que clase pertenece el ultimo valor o sea calcular el ultimo feature
-6. Para cada clase encontrar la fecha
-7. Generar las proyecciones en cada fecha y cada clase retorno de volatilidad y retorno de precio
-8. Guardar los retornos de cada clase
-9. Simular una estrategia para tickers en base a el ultimo feature (ej. calcular una diagonal atm y venta otm delta = 20)
-10. Generar la evolucion para cada retorno de los ultimos valores con BS
-11. Calcular estadisticas y sharpe ratios
-12. rankear los tickers en base a sus sharpe ratios
+1. Crear una tabla con las posiciones, sacado de la API, de forma local
+2. Calcular las griegas y la volatilidad actual
 """
