@@ -138,7 +138,7 @@ def positions(request):
     g = requests.get(link_delta, verify=False)
     print(g)
     g = g.json()
-    print(pd.DataFrame(g)
+    print(pd.DataFrame(g))
 
   
     return render(request, 'seleccion/base.html',{'current_prices':posiciones_final_gb.to_dict('records')})
