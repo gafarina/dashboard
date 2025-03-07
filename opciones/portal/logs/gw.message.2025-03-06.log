@@ -1759,3 +1759,5 @@
 -> GET /sso/ping,200|247ms
 -> request: /v1/api/tickle
 -> GET /v1/api/tickle,200|464ms
+-> request: /v1/api/tickle
+-> GET /v1/api/tickle,200|241ms
