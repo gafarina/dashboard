@@ -133,15 +133,85 @@ def positions(request):
     contratos = ','.join(posiciones_final['conid'])
     print(contratos)
     
-    link_delta = "https://localhost:5000/v1/api/iserver/marketdata/snapshot?conids=" + str(contratos) + "&fields=7308,7309,7310,7311,31,"
+    link_delta = "https://localhost:5000/v1/api/iserver/marketdata/snapshot?conids=" + str(contratos) + "&fields=7308,7309,7310,7311,31,7633,6457"
     print(link_delta)
     g = requests.get(link_delta, verify=False)
     print(g)
     g = g.json()
-    print(pd.DataFrame(g))
+    base_opciones = pd.DataFrame(g)
+    base_opciones = base_opciones[['conid','31','7308','7309','7310','7311','7633','6457']]
+    base_opciones.columns = ['conid','precio','delta','gamma','theta','vega','iv','conid_sub']
+    print(base_opciones)
+    # calcular los precios de los subyacentes
+    subyacentes = list(pd.unique(base_opciones['conid_sub'].astype('str')))
+    subyacentes = ','.join(subyacentes)
+    link_subyacentes = "https://localhost:5000/v1/api/iserver/marketdata/snapshot?conids=" + str(subyacentes) + "&fields=55,31,7287,7655"
+    g = requests.get(link_subyacentes, verify=False)
+    print(g)
+    g = g.json()
+    base_subs = pd.DataFrame(g)
+    base_subs = base_subs[['conid','55','31','7287']]
+    base_subs.columns = ['conid_sub','ticker','precio_sub','dividendo']
 
-  
-    return render(request, 'seleccion/base.html',{'current_prices':posiciones_final_gb.to_dict('records')})
+    base_opciones['conid'] = base_opciones['conid'].astype('str')
+    posiciones_final['conid'] = posiciones_final['conid'].astype('str')
+
+    posiciones_final = pd.merge(posiciones_final, base_opciones, on=['conid'], how='left')
+    # juntar las griegas y volatilidad
+    base_subs['conid_sub'] = base_subs['conid_sub'].astype('str')
+    posiciones_final = pd.merge(posiciones_final, base_subs, on=['conid_sub'], how='left')
+
+    posiciones_final['delta'] = posiciones_final['delta'].fillna(0)
+    posiciones_final['position'] = posiciones_final['position'].astype('float')
+    posiciones_final['delta'] = posiciones_final['delta'].astype('float')
+    posiciones_final['gamma'] = posiciones_final['gamma'].astype('float')
+    posiciones_final['theta'] = posiciones_final['theta'].astype('float')
+    posiciones_final['vega'] = posiciones_final['vega'].astype('float')
+
+    posiciones_final['delta_pos'] = posiciones_final['delta']*posiciones_final['position']*100
+    posiciones_final['gamma_pos'] = posiciones_final['gamma']*posiciones_final['position']*100
+    posiciones_final['theta_pos'] = posiciones_final['theta']*posiciones_final['position']*100
+    posiciones_final['vega_pos'] = posiciones_final['vega']*posiciones_final['position']*100
+
+    posiciones_final = posiciones_final.rename(columns={'ticker_x':'ticker'})
+
+    posiciones_final_gb = posiciones_final.groupby(['ticker'])[['unrealizedPnl','delta_pos', 'gamma_pos', 'theta_pos', 'vega_pos']].sum().reset_index()
+    posiciones_final_gb['unrealizedPnl'] = np.round(posiciones_final_gb['unrealizedPnl'],0)
+    posiciones_final_gb['delta_pos'] = np.round(posiciones_final_gb['delta_pos'],2)
+    posiciones_final_gb['gamma_pos'] = np.round(posiciones_final_gb['gamma_pos'],2)
+    posiciones_final_gb['theta_pos'] = np.round(posiciones_final_gb['theta_pos'],2)
+    posiciones_final_gb['vega_pos'] = np.round(posiciones_final_gb['vega_pos'],2)
+
+    posiciones_final['unrealizedPnl'] = np.round(posiciones_final['unrealizedPnl'],0)
+    posiciones_final['delta_pos'] = np.round(posiciones_final['delta_pos'],2)
+    posiciones_final['gamma_pos'] = np.round(posiciones_final['gamma_pos'],2)
+    posiciones_final['theta_pos'] = np.round(posiciones_final['theta_pos'],2)
+    posiciones_final['vega_pos'] = np.round(posiciones_final['vega_pos'],2)
+
+    posiciones_final['strike'] = posiciones_final['strike'].astype('float')
+    posiciones_final['precio_sub'] = posiciones_final['precio_sub'].str.replace('C','')
+    posiciones_final['precio_sub'] = posiciones_final['precio_sub'].astype('float')
+
+    posiciones_final['precio_dist'] = ((posiciones_final['precio_sub']/posiciones_final['strike'])-1)*100
+    posiciones_final['precio_dist'] = np.round(posiciones_final['precio_dist'],3)
+   
+    # pl short position
+    posiciones_final_short = posiciones_final[posiciones_final['position'] < 0]
+    posiciones_final_short_gb = posiciones_final_short.groupby(['ticker'])[['unrealizedPnl']].sum().reset_index()
+    posiciones_final_short_gb.columns = ['ticker', 'unrealizedPnl_short']
+    posiciones_final_gb = pd.merge(posiciones_final_gb, posiciones_final_short_gb, on=['ticker'], how='left')
+    posiciones_final_gb['unrealizedPnl_short'] = np.round(posiciones_final_gb['unrealizedPnl_short'],0)
+
+    # pl short position
+    posiciones_final_long = posiciones_final[posiciones_final['position'] >= 0]
+    posiciones_final_long_gb = posiciones_final_long.groupby(['ticker'])[['unrealizedPnl']].sum().reset_index()
+    posiciones_final_long_gb.columns = ['ticker', 'unrealizedPnl_long']
+    posiciones_final_gb = pd.merge(posiciones_final_gb, posiciones_final_long_gb, on=['ticker'], how='left')
+    posiciones_final_gb['unrealizedPnl_long'] = np.round(posiciones_final_gb['unrealizedPnl_long'],0)
+
+
+    
+    return render(request, 'seleccion/base.html',{'current_prices':posiciones_final_gb.to_dict('records'), 'posiciones_final':posiciones_final.to_dict('records')})
 
 
 ## features to select ticker,tradeDate,assetType,orFcst20d,orIvFcst20d,slope,slopeFcst,deriv,derivFcst,orHv1d,orHv5d,orHv10d,orHv20d,orHv60d,iv10d,iv20d,iv30d,iv60d,slopepctile,contango,wksNextErn,orHvXern5d,orHvXern10d,orHvXern20d,exErnIv10d,exErnIv20d,exErnIv30d,exErnIv60d
