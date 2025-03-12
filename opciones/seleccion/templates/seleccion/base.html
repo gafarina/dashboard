@@ -133,17 +133,9 @@
                 "order": [[0, "asc"]] // Sort by the first column (Name) in ascending order by default
             });
 
-            var table = $('#myTable2').DataTable({
-                "paging": true,
-                "ordering": true,
-                "info": true,
-                "select": true,
-                "order": [[0, "asc"]] // Sort by the first column (Name) in ascending order by default
-            });
-
             // Add search inputs to each column
             $('#myTable thead tr').clone(true).appendTo('#myTable thead');
-            $('#myTable2 thead tr').clone(true).appendTo('#myTable2 thead');
+            
             $('#myTable thead tr:eq(1) th').each(function (i) {
                 var title = $(this).text();
                 $(this).html('<input type="text" placeholder="Search ' + title + '" />');
@@ -157,7 +149,22 @@
                     }
                 });
             });
+        });
 
+
+        $(document).ready(function () {
+            // Initialize DataTable
+            var table = $('#myTable2').DataTable({
+                "paging": true,
+                "ordering": true,
+                "info": true,
+                "select": true,
+                "order": [[0, "asc"]] // Sort by the first column (Name) in ascending order by default
+            });
+
+            // Add search inputs to each column
+            $('#myTable2 thead tr').clone(true).appendTo('#myTable2 thead');
+            
             $('#myTable2 thead tr:eq(1) th').each(function (i) {
                 var title = $(this).text();
                 $(this).html('<input type="text" placeholder="Search ' + title + '" />');

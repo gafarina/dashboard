@@ -5,6 +5,7 @@ from scipy.signal import argrelextrema
 from sklearn.cluster import KMeans
 import requests
 import pandas as pd
+from .clase_opciones import opciones
 
 
 def seleccion(request):
@@ -76,6 +77,7 @@ def seleccion(request):
     return render(request, 'seleccion/base.html',{'current_prices':current_prices})
 
 def positions(request):
+    ## calcular las posiciones de mi cartera
     link = "https://localhost:5000/v1/api/portfolio/U4264576/positions"
     g = requests.get(link, verify=False)
     g = g.json()
@@ -124,30 +126,26 @@ def positions(request):
                                             'assetClass':i['assetClass']})
             posiciones_stk = pd.concat([posiciones_stk, posiciones_tmp_stk])
     posiciones_final = pd.concat([posiciones, posiciones_stk])
-    posiciones_final['exp'] = posiciones_final['exp'].fillna('1982-05-13')
-    posiciones_final_gb = posiciones_final.groupby(['ticker'])[['unrealizedPnl']].sum().reset_index()
-    posiciones_final_gb['unrealizedPnl'] = np.round(posiciones_final_gb['unrealizedPnl'],0)
 
-    # get delta
+    # los valores de los stocks estan en nan y los strikes dejarlos en cero
+    posiciones_final['exp'] = posiciones_final['exp'].fillna('1982-05-13')
+    posiciones_final.loc[posiciones_final['call_put'].isnull(), 'call_put'] = 'S'
+    posiciones_final.loc[posiciones_final['strike'].isnull(), 'strike'] = 0
+
+    # necesito calcular el precio del subyacente y las griegas para cada contrato
     posiciones_final['conid'] = posiciones_final['conid'].astype('str')
     contratos = ','.join(posiciones_final['conid'])
-    print(contratos)
-    
     link_delta = "https://localhost:5000/v1/api/iserver/marketdata/snapshot?conids=" + str(contratos) + "&fields=7308,7309,7310,7311,31,7633,6457"
-    print(link_delta)
     g = requests.get(link_delta, verify=False)
-    print(g)
     g = g.json()
+    print(g)
     base_opciones = pd.DataFrame(g)
     base_opciones = base_opciones[['conid','31','7308','7309','7310','7311','7633','6457']]
     base_opciones.columns = ['conid','precio','delta','gamma','theta','vega','iv','conid_sub']
-    print(base_opciones)
-    # calcular los precios de los subyacentes
     subyacentes = list(pd.unique(base_opciones['conid_sub'].astype('str')))
     subyacentes = ','.join(subyacentes)
     link_subyacentes = "https://localhost:5000/v1/api/iserver/marketdata/snapshot?conids=" + str(subyacentes) + "&fields=55,31,7287,7655"
     g = requests.get(link_subyacentes, verify=False)
-    print(g)
     g = g.json()
     base_subs = pd.DataFrame(g)
     base_subs = base_subs[['conid','55','31','7287']]
@@ -155,25 +153,113 @@ def positions(request):
 
     base_opciones['conid'] = base_opciones['conid'].astype('str')
     posiciones_final['conid'] = posiciones_final['conid'].astype('str')
+    base_subs['conid_sub'] = base_subs['conid_sub'].astype('str')
 
     posiciones_final = pd.merge(posiciones_final, base_opciones, on=['conid'], how='left')
-    # juntar las griegas y volatilidad
-    base_subs['conid_sub'] = base_subs['conid_sub'].astype('str')
     posiciones_final = pd.merge(posiciones_final, base_subs, on=['conid_sub'], how='left')
 
-    posiciones_final['delta'] = posiciones_final['delta'].fillna(0)
+    # formateo iv
+    posiciones_final['iv'] = posiciones_final['iv'].str.replace("%",'').astype('float')/100
+    # calculo del iv usando BS
+    # calculo del ultimo precio de las opciones
+    posiciones_final['precio'] = posiciones_final['precio'].str.replace("C",'').astype('float')
+    posiciones_final['dividendo'] = posiciones_final['dividendo'].str.replace("%",'').astype('float')/100
+    posiciones_final['dividendo'] = posiciones_final['dividendo'].fillna(0)
+    posiciones_final['interest_rate'] = 0.045
+    posiciones_final['strike'] = posiciones_final['strike'].astype('float')
+    posiciones_final['precio_sub'] = posiciones_final['precio_sub'].str.replace("C",'').astype('float')
+    #posiciones_final['precio_sub'] = posiciones_final['precio_sub'].astype('float')
+    # con el ultimo precio puedo obtener la ultima volatilidad
+    # time to maturiry
+    posiciones_final['TimeToMaturity'] = (pd.to_datetime(posiciones_final['exp'])-pd.to_datetime('today')).dt.total_seconds()/60 + 60*24
+    posiciones_final['TimeToMaturity'] = posiciones_final['TimeToMaturity']/(365*24*60)
     posiciones_final['position'] = posiciones_final['position'].astype('float')
-    posiciones_final['delta'] = posiciones_final['delta'].astype('float')
-    posiciones_final['gamma'] = posiciones_final['gamma'].astype('float')
-    posiciones_final['theta'] = posiciones_final['theta'].astype('float')
-    posiciones_final['vega'] = posiciones_final['vega'].astype('float')
 
-    posiciones_final['delta_pos'] = posiciones_final['delta']*posiciones_final['position']*100
-    posiciones_final['gamma_pos'] = posiciones_final['gamma']*posiciones_final['position']*100
-    posiciones_final['theta_pos'] = posiciones_final['theta']*posiciones_final['position']*100
-    posiciones_final['vega_pos'] = posiciones_final['vega']*posiciones_final['position']*100
+    op = opciones()
+    #posiciones_final['iv_model'] = posiciones_final.apply(lambda row: op.implied_volatility_american_dividend(row['precio_sub'], row['strike'], row['TimeToMaturity'],row['interest_rate'], row['dividendo'], row['precio']), axis=1)
+    #posiciones_final['delta_model'] = ''
+    #posiciones_final['iv_model'] = posiciones_final.apply(lambda row: op.implied_volatility_dividend(row['precio_sub'], row['strike'], row['TimeToMaturity'],row['interest_rate'], row['dividendo'], row['precio'], row['call_put'], initial_guess=0.2),axis=1)
+    
+    posiciones_final_call = posiciones_final[posiciones_final['call_put'] == 'C']
+    posiciones_final_put = posiciones_final[posiciones_final['call_put'] == 'P']
+    # print(posiciones_final_call)
+    
+    # print("Test_call")
+    # print(posiciones_final_call[['precio_sub','strike','TimeToMaturity','interest_rate','dividendo','precio','call_put']])
+    
+    
+    posiciones_final_call['iv_model'] = posiciones_final_call.apply(lambda row: op.implied_volatility_with_dividends(row['precio_sub'], row['strike'], row['TimeToMaturity'],row['interest_rate'], row['dividendo'], row['precio'], row['call_put']),axis=1)
+    posiciones_final_put['iv_model'] = posiciones_final_put.apply(lambda row: op.implied_volatility_with_dividends(row['precio_sub'], row['strike'], row['TimeToMaturity'],row['interest_rate'], row['dividendo'], row['precio'], row['call_put']),axis=1)
+    
+    posiciones_final_call.loc[posiciones_final_call['iv_model'] > 2, 'iv_model'] = 1
+    posiciones_final_put.loc[posiciones_final_put['iv_model'] > 2, 'iv_model'] = 1
+    posiciones_final_call.loc[posiciones_final_call['iv_model'].isnull(), 'iv_model'] = 1
+    posiciones_final_put.loc[posiciones_final_put['iv_model'].isnull(), 'iv_model'] = 1
 
-    posiciones_final = posiciones_final.rename(columns={'ticker_x':'ticker'})
+    posiciones_final_call.loc[posiciones_final_call['iv'].isnull(), 'iv'] = posiciones_final_call.loc[posiciones_final_call['iv'].isnull(), 'iv_model']
+    posiciones_final_put.loc[posiciones_final_put['iv'].isnull(), 'iv'] = posiciones_final_put.loc[posiciones_final_put['iv'].isnull(), 'iv_model']
+
+
+ 
+
+    posiciones_final_call['delta_model'] = posiciones_final_call.apply(lambda row: op.european_call_delta_dividend(row['precio_sub'], row['strike'], row['TimeToMaturity'],row['interest_rate'], row['dividendo'], row['iv']), axis=1)
+    posiciones_final_put['delta_model'] = posiciones_final_put.apply(lambda row: op.european_put_delta_dividend(row['precio_sub'], row['strike'], row['TimeToMaturity'],row['interest_rate'], row['dividendo'], row['iv']), axis=1)
+
+    posiciones_final_call['gamma_model'] = posiciones_final_call.apply(lambda row: op.gamma_call_dividend(row['precio_sub'], row['strike'], row['TimeToMaturity'],row['interest_rate'], row['dividendo'], row['iv']), axis=1)
+    posiciones_final_put['gamma_model'] = posiciones_final_put.apply(lambda row: op.gamma_call_dividend(row['precio_sub'], row['strike'], row['TimeToMaturity'],row['interest_rate'], row['dividendo'], row['iv']), axis=1)
+
+    posiciones_final_call['theta_model'] = posiciones_final_call.apply(lambda row: op.theta_call_dividend(row['precio_sub'], row['strike'], row['TimeToMaturity'],row['interest_rate'], row['dividendo'], row['iv']), axis=1)
+    posiciones_final_put['theta_model'] = posiciones_final_put.apply(lambda row: op.theta_put_dividend(row['precio_sub'], row['strike'], row['TimeToMaturity'],row['interest_rate'], row['dividendo'], row['iv']), axis=1)
+
+    posiciones_final_call['vega_model'] = posiciones_final_call.apply(lambda row: op.vega_european_dividend(row['precio_sub'], row['strike'], row['TimeToMaturity'],row['interest_rate'], row['dividendo'], row['iv']), axis=1)
+    posiciones_final_put['vega_model'] = posiciones_final_put.apply(lambda row: op.vega_european_dividend(row['precio_sub'], row['strike'], row['TimeToMaturity'],row['interest_rate'], row['dividendo'], row['iv']), axis=1)
+
+    posiciones_final_call['theta_model'] = posiciones_final_call['theta_model']/365
+    posiciones_final_put['theta_model'] = posiciones_final_put['theta_model']/365
+    posiciones_final_put['vega_model'] = posiciones_final_put['vega_model']/100
+    posiciones_final_call['vega_model'] = posiciones_final_call['vega_model']/100
+    
+    posiciones_final_call.loc[posiciones_final_call['delta'].isnull(), 'delta'] = posiciones_final_call.loc[posiciones_final_call['delta'].isnull(), 'delta_model']
+    posiciones_final_put.loc[posiciones_final_put['delta'].isnull(), 'delta'] = posiciones_final_put.loc[posiciones_final_put['iv'].isnull(), 'delta_model']
+
+    posiciones_final_call.loc[posiciones_final_call['gamma'].isnull(), 'gamma'] = posiciones_final_call.loc[posiciones_final_call['gamma'].isnull(), 'gamma_model']
+    posiciones_final_put.loc[posiciones_final_put['gamma'].isnull(), 'gamma'] = posiciones_final_put.loc[posiciones_final_put['gamma'].isnull(), 'gamma_model']
+
+    posiciones_final_call.loc[posiciones_final_call['vega'].isnull(), 'vega'] = posiciones_final_call.loc[posiciones_final_call['vega'].isnull(), 'vega_model']
+    posiciones_final_put.loc[posiciones_final_put['vega'].isnull(), 'vega'] = posiciones_final_put.loc[posiciones_final_put['vega'].isnull(), 'vega_model']
+
+    posiciones_final_call.loc[posiciones_final_call['theta'].isnull(), 'theta'] = posiciones_final_call.loc[posiciones_final_call['theta'].isnull(), 'theta_model']
+    posiciones_final_put.loc[posiciones_final_put['theta'].isnull(), 'theta'] = posiciones_final_put.loc[posiciones_final_put['theta'].isnull(), 'theta_model']
+
+    base_opciones = pd.concat([posiciones_final_call,posiciones_final_put])
+    base_opciones = base_opciones[['ticker_x','call_put','position','exp','strike','delta','gamma','vega','theta','iv']]
+    base_opciones.columns = ['ticker_x','call_put','position','exp','strike','delta_final','gamma_final','vega_final','theta_final','iv_final']
+    
+    posiciones_final = pd.merge(posiciones_final, base_opciones, on=['ticker_x','call_put','position','exp','strike'], how='left')
+    posiciones_final.loc[posiciones_final['call_put'] == 'S','delta_final'] = posiciones_final.loc[posiciones_final['call_put'] == 'S','position']/100
+    posiciones_final.loc[posiciones_final['call_put'] == 'S','gamma_final'] = 0
+    posiciones_final.loc[posiciones_final['call_put'] == 'S','vega_final'] = 0
+    posiciones_final.loc[posiciones_final['call_put'] == 'S','theta_final'] = 0
+    posiciones_final.loc[posiciones_final['call_put'] == 'S','iv_final'] = 0
+    # print(posiciones_final)
+    # print(posiciones_final.columns)
+
+    posiciones_final['delta_final'] = posiciones_final['delta_final'].astype('float')
+    posiciones_final['theta_final'] = posiciones_final['theta_final'].astype('float')
+    posiciones_final['vega_final'] = posiciones_final['vega_final'].astype('float')
+    posiciones_final['gamma_final'] = posiciones_final['gamma_final'].astype('float')
+    posiciones_final['position'] = posiciones_final['position'].astype('float')
+
+    print(posiciones_final)
+    posiciones_final.loc[posiciones_final['call_put'] == 'S','delta_final'] = posiciones_final.loc[posiciones_final['call_put'] == 'S','position']/100
+    posiciones_final['delta_pos'] = posiciones_final['delta_final']*posiciones_final['position']*100
+    posiciones_final['gamma_pos'] = posiciones_final['gamma_final']*posiciones_final['position']*100
+    posiciones_final['theta_pos'] = posiciones_final['theta_final']*posiciones_final['position']*100
+    posiciones_final['vega_pos'] = posiciones_final['vega_final']*posiciones_final['position']*100
+    posiciones_final.loc[posiciones_final['call_put'] == 'S','delta_pos'] = posiciones_final.loc[posiciones_final['call_put'] == 'S','position']/100
+
+    posiciones_final = posiciones_final.rename(columns = {'ticker_x':'ticker'})
+    print(posiciones_final)
 
     posiciones_final_gb = posiciones_final.groupby(['ticker'])[['unrealizedPnl','delta_pos', 'gamma_pos', 'theta_pos', 'vega_pos']].sum().reset_index()
     posiciones_final_gb['unrealizedPnl'] = np.round(posiciones_final_gb['unrealizedPnl'],0)
@@ -182,32 +268,98 @@ def positions(request):
     posiciones_final_gb['theta_pos'] = np.round(posiciones_final_gb['theta_pos'],2)
     posiciones_final_gb['vega_pos'] = np.round(posiciones_final_gb['vega_pos'],2)
 
-    posiciones_final['unrealizedPnl'] = np.round(posiciones_final['unrealizedPnl'],0)
-    posiciones_final['delta_pos'] = np.round(posiciones_final['delta_pos'],2)
-    posiciones_final['gamma_pos'] = np.round(posiciones_final['gamma_pos'],2)
-    posiciones_final['theta_pos'] = np.round(posiciones_final['theta_pos'],2)
-    posiciones_final['vega_pos'] = np.round(posiciones_final['vega_pos'],2)
-
-    posiciones_final['strike'] = posiciones_final['strike'].astype('float')
-    posiciones_final['precio_sub'] = posiciones_final['precio_sub'].str.replace('C','')
-    posiciones_final['precio_sub'] = posiciones_final['precio_sub'].astype('float')
-
-    posiciones_final['precio_dist'] = ((posiciones_final['precio_sub']/posiciones_final['strike'])-1)*100
-    posiciones_final['precio_dist'] = np.round(posiciones_final['precio_dist'],3)
-   
-    # pl short position
+    # # pl short position
     posiciones_final_short = posiciones_final[posiciones_final['position'] < 0]
     posiciones_final_short_gb = posiciones_final_short.groupby(['ticker'])[['unrealizedPnl']].sum().reset_index()
     posiciones_final_short_gb.columns = ['ticker', 'unrealizedPnl_short']
     posiciones_final_gb = pd.merge(posiciones_final_gb, posiciones_final_short_gb, on=['ticker'], how='left')
     posiciones_final_gb['unrealizedPnl_short'] = np.round(posiciones_final_gb['unrealizedPnl_short'],0)
 
-    # pl short position
+    # # pl short position
     posiciones_final_long = posiciones_final[posiciones_final['position'] >= 0]
     posiciones_final_long_gb = posiciones_final_long.groupby(['ticker'])[['unrealizedPnl']].sum().reset_index()
     posiciones_final_long_gb.columns = ['ticker', 'unrealizedPnl_long']
     posiciones_final_gb = pd.merge(posiciones_final_gb, posiciones_final_long_gb, on=['ticker'], how='left')
     posiciones_final_gb['unrealizedPnl_long'] = np.round(posiciones_final_gb['unrealizedPnl_long'],0)
+
+    # # get greeks
+    # posiciones_final['conid'] = posiciones_final['conid'].astype('str')
+    # contratos = ','.join(posiciones_final['conid'])
+    
+    # link_delta = "https://localhost:5000/v1/api/iserver/marketdata/snapshot?conids=" + str(contratos) + "&fields=7308,7309,7310,7311,31,7633,6457"
+    # g = requests.get(link_delta, verify=False)
+    # print(g)
+    # g = g.json()
+    # base_opciones = pd.DataFrame(g)
+    # base_opciones = base_opciones[['conid','31','7308','7309','7310','7311','7633','6457']]
+    # base_opciones.columns = ['conid','precio','delta','gamma','theta','vega','iv','conid_sub']
+    # # calcular los precios de los subyacentes
+    # subyacentes = list(pd.unique(base_opciones['conid_sub'].astype('str')))
+    # subyacentes = ','.join(subyacentes)
+    # link_subyacentes = "https://localhost:5000/v1/api/iserver/marketdata/snapshot?conids=" + str(subyacentes) + "&fields=55,31,7287,7655"
+    # g = requests.get(link_subyacentes, verify=False)
+    # print(g)
+    # g = g.json()
+    # base_subs = pd.DataFrame(g)
+    # base_subs = base_subs[['conid','55','31','7287']]
+    # base_subs.columns = ['conid_sub','ticker','precio_sub','dividendo']
+
+    # base_opciones['conid'] = base_opciones['conid'].astype('str')
+    # posiciones_final['conid'] = posiciones_final['conid'].astype('str')
+
+    # posiciones_final = pd.merge(posiciones_final, base_opciones, on=['conid'], how='left')
+    # # juntar las griegas y volatilidad
+    # base_subs['conid_sub'] = base_subs['conid_sub'].astype('str')
+    # posiciones_final = pd.merge(posiciones_final, base_subs, on=['conid_sub'], how='left')
+
+    # #posiciones_final['delta'] = posiciones_final['delta'].fillna(0)
+    # posiciones_final['position'] = posiciones_final['position'].astype('float')
+    # posiciones_final['delta'] = posiciones_final['delta'].astype('float')
+    # posiciones_final['gamma'] = posiciones_final['gamma'].astype('float')
+    # posiciones_final['theta'] = posiciones_final['theta'].astype('float')
+    # posiciones_final['vega'] = posiciones_final['vega'].astype('float')
+
+
+    # posiciones_final['delta_pos'] = posiciones_final['delta']*posiciones_final['position']*100
+    # posiciones_final['gamma_pos'] = posiciones_final['gamma']*posiciones_final['position']*100
+    # posiciones_final['theta_pos'] = posiciones_final['theta']*posiciones_final['position']*100
+    # posiciones_final['vega_pos'] = posiciones_final['vega']*posiciones_final['position']*100
+
+    # posiciones_final = posiciones_final.rename(columns={'ticker_x':'ticker'})
+
+    # posiciones_final_gb = posiciones_final.groupby(['ticker'])[['unrealizedPnl','delta_pos', 'gamma_pos', 'theta_pos', 'vega_pos']].sum().reset_index()
+    # posiciones_final_gb['unrealizedPnl'] = np.round(posiciones_final_gb['unrealizedPnl'],0)
+    # posiciones_final_gb['delta_pos'] = np.round(posiciones_final_gb['delta_pos'],2)
+    # posiciones_final_gb['gamma_pos'] = np.round(posiciones_final_gb['gamma_pos'],2)
+    # posiciones_final_gb['theta_pos'] = np.round(posiciones_final_gb['theta_pos'],2)
+    # posiciones_final_gb['vega_pos'] = np.round(posiciones_final_gb['vega_pos'],2)
+
+    # posiciones_final['unrealizedPnl'] = np.round(posiciones_final['unrealizedPnl'],0)
+    # posiciones_final['delta_pos'] = np.round(posiciones_final['delta_pos'],2)
+    # posiciones_final['gamma_pos'] = np.round(posiciones_final['gamma_pos'],2)
+    # posiciones_final['theta_pos'] = np.round(posiciones_final['theta_pos'],2)
+    # posiciones_final['vega_pos'] = np.round(posiciones_final['vega_pos'],2)
+
+    # posiciones_final['strike'] = posiciones_final['strike'].astype('float')
+    # posiciones_final['precio_sub'] = posiciones_final['precio_sub'].str.replace('C','')
+    # posiciones_final['precio_sub'] = posiciones_final['precio_sub'].astype('float')
+
+    # posiciones_final['precio_dist'] = ((posiciones_final['precio_sub']/posiciones_final['strike'])-1)*100
+    # posiciones_final['precio_dist'] = np.round(posiciones_final['precio_dist'],3)
+   
+    # # pl short position
+    # posiciones_final_short = posiciones_final[posiciones_final['position'] < 0]
+    # posiciones_final_short_gb = posiciones_final_short.groupby(['ticker'])[['unrealizedPnl']].sum().reset_index()
+    # posiciones_final_short_gb.columns = ['ticker', 'unrealizedPnl_short']
+    # posiciones_final_gb = pd.merge(posiciones_final_gb, posiciones_final_short_gb, on=['ticker'], how='left')
+    # posiciones_final_gb['unrealizedPnl_short'] = np.round(posiciones_final_gb['unrealizedPnl_short'],0)
+
+    # # pl short position
+    # posiciones_final_long = posiciones_final[posiciones_final['position'] >= 0]
+    # posiciones_final_long_gb = posiciones_final_long.groupby(['ticker'])[['unrealizedPnl']].sum().reset_index()
+    # posiciones_final_long_gb.columns = ['ticker', 'unrealizedPnl_long']
+    # posiciones_final_gb = pd.merge(posiciones_final_gb, posiciones_final_long_gb, on=['ticker'], how='left')
+    # posiciones_final_gb['unrealizedPnl_long'] = np.round(posiciones_final_gb['unrealizedPnl_long'],0)
 
 
     
