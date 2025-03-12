@@ -2621,3 +2621,748 @@ io.vertx.core.impl.NoStackTraceThrowable: io.vertx.core.json.DecodeException: Fa
 21:57:51.806 INFO  vert.x-eventloop-thread-0 ClientPortalService  : get user reply {"username":"farin0003","features":{"env":"PROD","wlms":true,"realtime":true,"bond":true,"optionChains":true,"calendar":true,"newMf":true},"wbId":"","uar":{"portfolioAnalyst":true,"userInfo":true,"messageCenter":true,"accountDetails":true,"tradingRestrictions":false,"tws":true,"fyi":true,"voting":true,"forum":true,"recentTransactions":true},"props":{"isIBAMClient":false,"ReadOnlySession":null},"firstApprovedDate":1592193600000,"accts":{"U4264576":{"isIBAMClient":false,"clearingStatus":"O","openDate":1592193600000,"isFAClient":false,"isFunded":true,"tradingPermissions":["OPT","FUT","IOPT","WAR","STK","CASH","FOP","SSF"]}},"hasBrokerageAccessInd":true,"fa":false,"has2fa":false,"islite":false,"ispaper":false,"applicants":[{"id":6062844,"type":"INDIVIDUAL","businessType":"INDEPENDENT","nlcode":"es_ES","legalCountry":{"name":"Chile","alpha3":"CHL"}}]}
 21:57:51.909 INFO  vert.x-eventloop-thread-0 BaseServiceProxy     : -> GET /v1/api/one/user,200|788ms
 21:57:51.909 INFO  vert.x-eventloop-thread-0 ClientPortalService  : get user reply {"username":"farin0003","features":{"env":"PROD","wlms":true,"realtime":true,"bond":true,"optionChains":true,"calendar":true,"newMf":true},"wbId":"","uar":{"portfolioAnalyst":true,"userInfo":true,"messageCenter":true,"accountDetails":true,"tradingRestrictions":false,"tws":true,"fyi":true,"voting":true,"forum":true,"recentTransactions":true},"props":{"isIBAMClient":false,"ReadOnlySession":null},"firstApprovedDate":1592193600000,"accts":{"U4264576":{"isIBAMClient":false,"clearingStatus":"O","openDate":1592193600000,"isFAClient":false,"isFunded":true,"tradingPermissions":["OPT","FUT","IOPT","WAR","STK","CASH","FOP","SSF"]}},"hasBrokerageAccessInd":true,"fa":false,"has2fa":false,"islite":false,"ispaper":false,"applicants":[{"id":6062844,"type":"INDIVIDUAL","businessType":"INDEPENDENT","nlcode":"es_ES","legalCountry":{"name":"Chile","alpha3":"CHL"}}]}
+22:00:33.249 INFO  vert.x-eventloop-thread-0 BaseServiceProxy     : -> GET /v1/api/portfolio/U4264576/positions,200|348ms
+22:00:36.149 INFO  vert.x-eventloop-thread-0 BaseServiceProxy     : -> GET /v1/api/iserver/marketdata/snapshot?conids=653081429,653081500,672829101,672829170,758114662,758114828,674163806,653250687,653250400,758133096,758133156,653152108,758140742,758140908,758141216,763662441,703415862,712169275,712168761,763687503,758177015,759650152,653157622,763683078,758183400,692857360,692857481,728874969,724340545,758162101,763684349,728881746,758152265,763687845,728902115,758170565,758170739,690021176,690022201,756975736,758204660,758204706,766258321,758220287,758220354,712238916,712237558,712237585,758648592,758204003,758204102,760319827,763762262,695638272,729003845,60532895,152486141,11031&fields=7308,7309,7310,7311,31,7633,6457,200|263ms
+22:00:38.591 INFO  vert.x-eventloop-thread-0 BaseServiceProxy     : -> GET /v1/api/iserver/marketdata/snapshot?conids=4391,3691937,761335611,5684,44001820,51529211,208813719,209411798,152486141,83975037,75960201,11031,756733,76792991,365207014,nan&fields=55,31,7287,7655,200|251ms
+22:01:53.252 INFO  vert.x-eventloop-thread-0 BaseServiceProxy     : -> GET /v1/api/portfolio/U4264576/positions,200|362ms
+22:01:56.337 INFO  vert.x-eventloop-thread-0 BaseServiceProxy     : -> GET /v1/api/iserver/marketdata/snapshot?conids=653081429,653081500,672829101,672829170,758114662,758114828,674163806,653250687,653250400,758133096,758133156,653152108,758140742,758140908,758141216,763662441,703415862,712169275,712168761,763687503,758177015,759650152,653157622,763683078,758183400,692857360,692857481,728874969,724340545,758162101,763684349,728881746,758152265,763687845,728902115,758170565,758170739,690021176,690022201,756975736,758204660,758204706,766258321,758220287,758220354,712238916,712237558,712237585,758648592,758204003,758204102,760319827,763762262,695638272,729003845,60532895,152486141,11031&fields=7308,7309,7310,7311,31,7633,6457,200|256ms
+22:01:58.756 INFO  vert.x-eventloop-thread-0 BaseServiceProxy     : -> GET /v1/api/iserver/marketdata/snapshot?conids=4391,3691937,761335611,5684,44001820,51529211,208813719,209411798,152486141,83975037,75960201,11031,756733,76792991,365207014,nan&fields=55,31,7287,7655,200|241ms
+22:02:51.497 INFO  vert.x-eventloop-thread-0 BaseServiceProxy     : -> GET /sso/ping,200|361ms
+22:02:51.499 INFO  vert.x-eventloop-thread-0 SsoService           : sso ping {"result": "true"}
+22:05:35.584 INFO  vert.x-eventloop-thread-0 BaseServiceProxy     : -> GET /v1/api/portfolio/U4264576/positions,200|361ms
+22:05:38.082 INFO  vert.x-eventloop-thread-0 BaseServiceProxy     : -> GET /v1/api/iserver/marketdata/snapshot?conids=653081429,653081500,672829101,672829170,758114662,758114828,674163806,653250687,653250400,758133096,758133156,653152108,758140742,758140908,758141216,763662441,703415862,712169275,712168761,763687503,758177015,759650152,653157622,763683078,758183400,692857360,692857481,728874969,724340545,758162101,763684349,728881746,758152265,763687845,728902115,758170565,758170739,690021176,690022201,756975736,758204660,758204706,766258321,758220287,758220354,712238916,712237558,712237585,758648592,758204003,758204102,760319827,763762262,695638272,729003845,60532895,152486141,11031&fields=7308,7309,7310,7311,31,7633,6457,200|220ms
+22:05:40.395 INFO  vert.x-eventloop-thread-0 BaseServiceProxy     : -> GET /v1/api/iserver/marketdata/snapshot?conids=4391,3691937,761335611,5684,44001820,51529211,208813719,209411798,152486141,83975037,75960201,11031,756733,76792991,365207014,nan&fields=55,31,7287,7655,200|225ms
+22:07:51.398 INFO  vert.x-eventloop-thread-0 BaseServiceProxy     : -> GET /sso/ping,200|265ms
+22:07:51.398 INFO  vert.x-eventloop-thread-0 SsoService           : sso ping {"result": "true"}
+22:09:34.559 INFO  vert.x-eventloop-thread-0 BaseServiceProxy     : -> GET /v1/api/portfolio/U4264576/positions,200|314ms
+22:09:37.109 INFO  vert.x-eventloop-thread-0 BaseServiceProxy     : -> GET /v1/api/iserver/marketdata/snapshot?conids=653081429,653081500,672829101,672829170,758114662,758114828,674163806,653250687,653250400,758133096,758133156,653152108,758140742,758140908,758141216,763662441,703415862,712169275,712168761,763687503,758177015,759650152,653157622,763683078,758183400,692857360,692857481,728874969,724340545,758162101,763684349,728881746,758152265,763687845,728902115,758170565,758170739,690021176,690022201,756975736,758204660,758204706,766258321,758220287,758220354,712238916,712237558,712237585,758648592,758204003,758204102,760319827,763762262,695638272,729003845,60532895,152486141,11031&fields=7308,7309,7310,7311,31,7633,6457,200|228ms
+22:09:39.398 INFO  vert.x-eventloop-thread-0 BaseServiceProxy     : -> GET /v1/api/iserver/marketdata/snapshot?conids=4391,3691937,761335611,5684,44001820,51529211,208813719,209411798,152486141,83975037,75960201,11031,756733,76792991,365207014,nan&fields=55,31,7287,7655,200|206ms
+22:11:08.424 INFO  vert.x-eventloop-thread-0 BaseServiceProxy     : -> GET /v1/api/portfolio/U4264576/positions,200|404ms
+22:11:10.862 INFO  vert.x-eventloop-thread-0 BaseServiceProxy     : -> GET /v1/api/iserver/marketdata/snapshot?conids=653081429,653081500,672829101,672829170,758114662,758114828,674163806,653250687,653250400,758133096,758133156,653152108,758140742,758140908,758141216,763662441,703415862,712169275,712168761,763687503,758177015,759650152,653157622,763683078,758183400,692857360,692857481,728874969,724340545,758162101,763684349,728881746,758152265,763687845,728902115,758170565,758170739,690021176,690022201,756975736,758204660,758204706,766258321,758220287,758220354,712238916,712237558,712237585,758648592,758204003,758204102,760319827,763762262,695638272,729003845,60532895,152486141,11031&fields=7308,7309,7310,7311,31,7633,6457,200|226ms
+22:11:13.189 INFO  vert.x-eventloop-thread-0 BaseServiceProxy     : -> GET /v1/api/iserver/marketdata/snapshot?conids=4391,3691937,761335611,5684,44001820,51529211,208813719,209411798,152486141,83975037,75960201,11031,756733,76792991,365207014,nan&fields=55,31,7287,7655,200|248ms
+22:12:18.102 INFO  vert.x-eventloop-thread-0 BaseServiceProxy     : -> GET /v1/api/portfolio/U4264576/positions,200|595ms
+22:12:20.527 INFO  vert.x-eventloop-thread-0 BaseServiceProxy     : -> GET /v1/api/iserver/marketdata/snapshot?conids=653081429,653081500,672829101,672829170,758114662,758114828,674163806,653250687,653250400,758133096,758133156,653152108,758140742,758140908,758141216,763662441,703415862,712169275,712168761,763687503,758177015,759650152,653157622,763683078,758183400,692857360,692857481,728874969,724340545,758162101,763684349,728881746,758152265,763687845,728902115,758170565,758170739,690021176,690022201,756975736,758204660,758204706,766258321,758220287,758220354,712238916,712237558,712237585,758648592,758204003,758204102,760319827,763762262,695638272,729003845,60532895,152486141,11031&fields=7308,7309,7310,7311,31,7633,6457,200|214ms
+22:12:22.881 INFO  vert.x-eventloop-thread-0 BaseServiceProxy     : -> GET /v1/api/iserver/marketdata/snapshot?conids=4391,3691937,761335611,5684,44001820,51529211,208813719,209411798,152486141,83975037,75960201,11031,756733,76792991,365207014,nan&fields=55,31,7287,7655,200|248ms
+22:12:51.348 INFO  vert.x-eventloop-thread-0 BaseServiceProxy     : -> GET /sso/ping,200|214ms
+22:12:51.348 INFO  vert.x-eventloop-thread-0 SsoService           : sso ping {"result": "true"}
+22:17:51.370 INFO  vert.x-eventloop-thread-0 BaseServiceProxy     : -> GET /sso/ping,200|231ms
+22:17:51.371 INFO  vert.x-eventloop-thread-0 SsoService           : sso ping {"result": "true"}
+22:19:46.954 INFO  vert.x-eventloop-thread-0 BaseServiceProxy     : -> GET /v1/api/portfolio/U4264576/positions,200|520ms
+22:19:49.688 INFO  vert.x-eventloop-thread-0 BaseServiceProxy     : -> GET /v1/api/iserver/marketdata/snapshot?conids=653081429,653081500,672829101,672829170,758114662,758114828,674163806,653250687,653250400,758133096,758133156,653152108,758140742,758140908,758141216,763662441,703415862,712169275,712168761,763687503,758177015,759650152,653157622,763683078,758183400,692857360,692857481,728874969,724340545,758162101,763684349,728881746,758152265,763687845,728902115,758170565,758170739,690021176,690022201,756975736,758204660,758204706,766258321,758220287,758220354,712238916,712237558,712237585,758648592,758204003,758204102,760319827,763762262,695638272,729003845,60532895,152486141,11031&fields=7308,7309,7310,7311,31,7633,6457,400|201ms
+22:20:08.870 INFO  vert.x-eventloop-thread-0 BaseServiceProxy     : -> GET /v1/api/portfolio/U4264576/positions,200|634ms
+22:20:11.339 INFO  vert.x-eventloop-thread-0 BaseServiceProxy     : -> GET /v1/api/iserver/marketdata/snapshot?conids=653081429,653081500,672829101,672829170,758114662,758114828,674163806,653250687,653250400,758133096,758133156,653152108,758140742,758140908,758141216,763662441,703415862,712169275,712168761,763687503,758177015,759650152,653157622,763683078,758183400,692857360,692857481,728874969,724340545,758162101,763684349,728881746,758152265,763687845,728902115,758170565,758170739,690021176,690022201,756975736,758204660,758204706,766258321,758220287,758220354,712238916,712237558,712237585,758648592,758204003,758204102,760319827,763762262,695638272,729003845,60532895,152486141,11031&fields=7308,7309,7310,7311,31,7633,6457,400|220ms
+22:20:30.658 INFO  vert.x-eventloop-thread-0 BaseServiceProxy     : -> GET /v1/api/portfolio/U4264576/positions,200|302ms
+22:20:33.427 INFO  vert.x-eventloop-thread-0 BaseServiceProxy     : -> GET /v1/api/iserver/marketdata/snapshot?conids=653081429,653081500,672829101,672829170,758114662,758114828,674163806,653250687,653250400,758133096,758133156,653152108,758140742,758140908,758141216,763662441,703415862,712169275,712168761,763687503,758177015,759650152,653157622,763683078,758183400,692857360,692857481,728874969,724340545,758162101,763684349,728881746,758152265,763687845,728902115,758170565,758170739,690021176,690022201,756975736,758204660,758204706,766258321,758220287,758220354,712238916,712237558,712237585,758648592,758204003,758204102,760319827,763762262,695638272,729003845,60532895,152486141,11031&fields=7308,7309,7310,7311,31,7633,6457,400|375ms
+22:20:46.586 WARN  vert.x-eventloop-thread-0 DefaultChannelPipeline : An exceptionCaught() event was fired, and it reached at the tail of the pipeline. It usually means the last handler in the pipeline did not handle the exception.
+io.netty.handler.codec.DecoderException: javax.net.ssl.SSLHandshakeException: Received fatal alert: certificate_unknown
+	at io.netty.handler.codec.ByteToMessageDecoder.callDecode(ByteToMessageDecoder.java:459)
+	at io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:265)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:362)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:348)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:340)
+	at io.netty.channel.DefaultChannelPipeline$HeadContext.channelRead(DefaultChannelPipeline.java:1359)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:362)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:348)
+	at io.netty.channel.DefaultChannelPipeline.fireChannelRead(DefaultChannelPipeline.java:935)
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:134)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:645)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:580)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:497)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:459)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:858)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: javax.net.ssl.SSLHandshakeException: Received fatal alert: certificate_unknown
+	at sun.security.ssl.Alert.createSSLException(Unknown Source)
+	at sun.security.ssl.Alert.createSSLException(Unknown Source)
+	at sun.security.ssl.TransportContext.fatal(Unknown Source)
+	at sun.security.ssl.Alert$AlertConsumer.consume(Unknown Source)
+	at sun.security.ssl.TransportContext.dispatch(Unknown Source)
+	at sun.security.ssl.SSLTransport.decode(Unknown Source)
+	at sun.security.ssl.SSLEngineImpl.decode(Unknown Source)
+	at sun.security.ssl.SSLEngineImpl.readRecord(Unknown Source)
+	at sun.security.ssl.SSLEngineImpl.unwrap(Unknown Source)
+	at sun.security.ssl.SSLEngineImpl.unwrap(Unknown Source)
+	at javax.net.ssl.SSLEngine.unwrap(Unknown Source)
+	at io.netty.handler.ssl.SslHandler$SslEngineType$3.unwrap(SslHandler.java:281)
+	at io.netty.handler.ssl.SslHandler.unwrap(SslHandler.java:1215)
+	at io.netty.handler.ssl.SslHandler.decodeJdkCompatible(SslHandler.java:1127)
+	at io.netty.handler.ssl.SslHandler.decode(SslHandler.java:1162)
+	at io.netty.handler.codec.ByteToMessageDecoder.decodeRemovalReentryProtection(ByteToMessageDecoder.java:489)
+	at io.netty.handler.codec.ByteToMessageDecoder.callDecode(ByteToMessageDecoder.java:428)
+	... 15 common frames omitted
+22:20:46.845 WARN  vert.x-eventloop-thread-0 DefaultChannelPipeline : An exceptionCaught() event was fired, and it reached at the tail of the pipeline. It usually means the last handler in the pipeline did not handle the exception.
+io.netty.handler.codec.DecoderException: javax.net.ssl.SSLHandshakeException: Received fatal alert: certificate_unknown
+	at io.netty.handler.codec.ByteToMessageDecoder.callDecode(ByteToMessageDecoder.java:459)
+	at io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:265)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:362)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:348)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:340)
+	at io.netty.channel.DefaultChannelPipeline$HeadContext.channelRead(DefaultChannelPipeline.java:1359)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:362)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:348)
+	at io.netty.channel.DefaultChannelPipeline.fireChannelRead(DefaultChannelPipeline.java:935)
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:134)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:645)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:580)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:497)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:459)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:858)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: javax.net.ssl.SSLHandshakeException: Received fatal alert: certificate_unknown
+	at sun.security.ssl.Alert.createSSLException(Unknown Source)
+	at sun.security.ssl.Alert.createSSLException(Unknown Source)
+	at sun.security.ssl.TransportContext.fatal(Unknown Source)
+	at sun.security.ssl.Alert$AlertConsumer.consume(Unknown Source)
+	at sun.security.ssl.TransportContext.dispatch(Unknown Source)
+	at sun.security.ssl.SSLTransport.decode(Unknown Source)
+	at sun.security.ssl.SSLEngineImpl.decode(Unknown Source)
+	at sun.security.ssl.SSLEngineImpl.readRecord(Unknown Source)
+	at sun.security.ssl.SSLEngineImpl.unwrap(Unknown Source)
+	at sun.security.ssl.SSLEngineImpl.unwrap(Unknown Source)
+	at javax.net.ssl.SSLEngine.unwrap(Unknown Source)
+	at io.netty.handler.ssl.SslHandler$SslEngineType$3.unwrap(SslHandler.java:281)
+	at io.netty.handler.ssl.SslHandler.unwrap(SslHandler.java:1215)
+	at io.netty.handler.ssl.SslHandler.decodeJdkCompatible(SslHandler.java:1127)
+	at io.netty.handler.ssl.SslHandler.decode(SslHandler.java:1162)
+	at io.netty.handler.codec.ByteToMessageDecoder.decodeRemovalReentryProtection(ByteToMessageDecoder.java:489)
+	at io.netty.handler.codec.ByteToMessageDecoder.callDecode(ByteToMessageDecoder.java:428)
+	... 15 common frames omitted
+22:20:47.176 WARN  vert.x-eventloop-thread-0 DefaultChannelPipeline : An exceptionCaught() event was fired, and it reached at the tail of the pipeline. It usually means the last handler in the pipeline did not handle the exception.
+io.netty.handler.codec.DecoderException: javax.net.ssl.SSLHandshakeException: Received fatal alert: certificate_unknown
+	at io.netty.handler.codec.ByteToMessageDecoder.callDecode(ByteToMessageDecoder.java:459)
+	at io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:265)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:362)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:348)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:340)
+	at io.netty.channel.DefaultChannelPipeline$HeadContext.channelRead(DefaultChannelPipeline.java:1359)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:362)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:348)
+	at io.netty.channel.DefaultChannelPipeline.fireChannelRead(DefaultChannelPipeline.java:935)
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:134)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:645)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:580)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:497)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:459)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:858)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: javax.net.ssl.SSLHandshakeException: Received fatal alert: certificate_unknown
+	at sun.security.ssl.Alert.createSSLException(Unknown Source)
+	at sun.security.ssl.Alert.createSSLException(Unknown Source)
+	at sun.security.ssl.TransportContext.fatal(Unknown Source)
+	at sun.security.ssl.Alert$AlertConsumer.consume(Unknown Source)
+	at sun.security.ssl.TransportContext.dispatch(Unknown Source)
+	at sun.security.ssl.SSLTransport.decode(Unknown Source)
+	at sun.security.ssl.SSLEngineImpl.decode(Unknown Source)
+	at sun.security.ssl.SSLEngineImpl.readRecord(Unknown Source)
+	at sun.security.ssl.SSLEngineImpl.unwrap(Unknown Source)
+	at sun.security.ssl.SSLEngineImpl.unwrap(Unknown Source)
+	at javax.net.ssl.SSLEngine.unwrap(Unknown Source)
+	at io.netty.handler.ssl.SslHandler$SslEngineType$3.unwrap(SslHandler.java:281)
+	at io.netty.handler.ssl.SslHandler.unwrap(SslHandler.java:1215)
+	at io.netty.handler.ssl.SslHandler.decodeJdkCompatible(SslHandler.java:1127)
+	at io.netty.handler.ssl.SslHandler.decode(SslHandler.java:1162)
+	at io.netty.handler.codec.ByteToMessageDecoder.decodeRemovalReentryProtection(ByteToMessageDecoder.java:489)
+	at io.netty.handler.codec.ByteToMessageDecoder.callDecode(ByteToMessageDecoder.java:428)
+	... 15 common frames omitted
+22:20:47.177 WARN  vert.x-eventloop-thread-0 DefaultChannelPipeline : An exceptionCaught() event was fired, and it reached at the tail of the pipeline. It usually means the last handler in the pipeline did not handle the exception.
+io.netty.handler.codec.DecoderException: javax.net.ssl.SSLHandshakeException: Received fatal alert: certificate_unknown
+	at io.netty.handler.codec.ByteToMessageDecoder.callDecode(ByteToMessageDecoder.java:459)
+	at io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:265)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:362)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:348)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:340)
+	at io.netty.channel.DefaultChannelPipeline$HeadContext.channelRead(DefaultChannelPipeline.java:1359)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:362)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:348)
+	at io.netty.channel.DefaultChannelPipeline.fireChannelRead(DefaultChannelPipeline.java:935)
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:134)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:645)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:580)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:497)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:459)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:858)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: javax.net.ssl.SSLHandshakeException: Received fatal alert: certificate_unknown
+	at sun.security.ssl.Alert.createSSLException(Unknown Source)
+	at sun.security.ssl.Alert.createSSLException(Unknown Source)
+	at sun.security.ssl.TransportContext.fatal(Unknown Source)
+	at sun.security.ssl.Alert$AlertConsumer.consume(Unknown Source)
+	at sun.security.ssl.TransportContext.dispatch(Unknown Source)
+	at sun.security.ssl.SSLTransport.decode(Unknown Source)
+	at sun.security.ssl.SSLEngineImpl.decode(Unknown Source)
+	at sun.security.ssl.SSLEngineImpl.readRecord(Unknown Source)
+	at sun.security.ssl.SSLEngineImpl.unwrap(Unknown Source)
+	at sun.security.ssl.SSLEngineImpl.unwrap(Unknown Source)
+	at javax.net.ssl.SSLEngine.unwrap(Unknown Source)
+	at io.netty.handler.ssl.SslHandler$SslEngineType$3.unwrap(SslHandler.java:281)
+	at io.netty.handler.ssl.SslHandler.unwrap(SslHandler.java:1215)
+	at io.netty.handler.ssl.SslHandler.decodeJdkCompatible(SslHandler.java:1127)
+	at io.netty.handler.ssl.SslHandler.decode(SslHandler.java:1162)
+	at io.netty.handler.codec.ByteToMessageDecoder.decodeRemovalReentryProtection(ByteToMessageDecoder.java:489)
+	at io.netty.handler.codec.ByteToMessageDecoder.callDecode(ByteToMessageDecoder.java:428)
+	... 15 common frames omitted
+22:20:47.736 INFO  vert.x-eventloop-thread-0 BaseServiceProxy     : -> GET /sso/Login?forwardTo=22&RL=1&ip2loc=US,200|237ms
+22:20:47.736 INFO  vert.x-eventloop-thread-0 CookieManager        : set cookies [partnerID=""; Domain=.ibkr.com; Expires=Thu, 01 Jan 1970 00:00:10 GMT; Path=/; Secure;Secure;HttpOnly;SameSite=None, XYZAB_AM.LOGIN=""; Domain=.ibkr.com; Expires=Thu, 01 Jan 1970 00:00:10 GMT; Path=/; Secure;Secure;SameSite=None, XYZAB=""; Domain=.ibkr.com; Expires=Thu, 01 Jan 1970 00:00:10 GMT; Path=/; Secure;Secure;SameSite=None, USERID=""; Domain=.ibkr.com; Expires=Thu, 01 Jan 1970 00:00:10 GMT; Path=/; Secure;Secure;SameSite=None, partnerID=""; Domain=.ibkr.com; Expires=Thu, 01 Jan 1970 00:00:10 GMT; Path=/; Secure;Secure;HttpOnly;SameSite=None, URL_PARAM="forwardTo=22&RL=1&ip2loc=US"; Version=1; Domain=.ibkr.com; Path=/; Secure;Secure, JSESSIONID=FE3564D780F1A13F3F74C987D8423A76.cwwwdam1-internet; Path=/sso; Secure; HttpOnly;Secure;SameSite=None, x-sess-uuid=0.c1dd517.1741742447.89e46a8; secure; HttpOnly]
+22:20:47.736 DEBUG vert.x-eventloop-thread-0 BaseServiceProxy     : Remapping Set-cookies [partnerID=""; Domain=.ibkr.com; Expires=Thu, 01 Jan 1970 00:00:10 GMT; Path=/; Secure;Secure;HttpOnly;SameSite=None, XYZAB_AM.LOGIN=""; Domain=.ibkr.com; Expires=Thu, 01 Jan 1970 00:00:10 GMT; Path=/; Secure;Secure;SameSite=None, XYZAB=""; Domain=.ibkr.com; Expires=Thu, 01 Jan 1970 00:00:10 GMT; Path=/; Secure;Secure;SameSite=None, USERID=""; Domain=.ibkr.com; Expires=Thu, 01 Jan 1970 00:00:10 GMT; Path=/; Secure;Secure;SameSite=None, partnerID=""; Domain=.ibkr.com; Expires=Thu, 01 Jan 1970 00:00:10 GMT; Path=/; Secure;Secure;HttpOnly;SameSite=None, URL_PARAM="forwardTo=22&RL=1&ip2loc=US"; Version=1; Domain=.ibkr.com; Path=/; Secure;Secure, JSESSIONID=FE3564D780F1A13F3F74C987D8423A76.cwwwdam1-internet; Path=/sso; Secure; HttpOnly;Secure;SameSite=None, x-sess-uuid=0.c1dd517.1741742447.89e46a8; secure; HttpOnly] -> 
+22:20:48.037 INFO  vert.x-eventloop-thread-0 BaseServiceProxy     : -> GET /css/bootstrap-5.2.2/bootstrap.min.css,200|253ms
+22:20:48.086 INFO  vert.x-eventloop-thread-0 BaseServiceProxy     : -> GET /css/fontawesome-6.2.0/all.min.css,200|299ms
+22:20:48.101 WARN  vert.x-eventloop-thread-0 DefaultChannelPipeline : An exceptionCaught() event was fired, and it reached at the tail of the pipeline. It usually means the last handler in the pipeline did not handle the exception.
+io.netty.handler.codec.DecoderException: javax.net.ssl.SSLHandshakeException: Received fatal alert: certificate_unknown
+	at io.netty.handler.codec.ByteToMessageDecoder.callDecode(ByteToMessageDecoder.java:459)
+	at io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:265)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:362)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:348)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:340)
+	at io.netty.channel.DefaultChannelPipeline$HeadContext.channelRead(DefaultChannelPipeline.java:1359)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:362)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:348)
+	at io.netty.channel.DefaultChannelPipeline.fireChannelRead(DefaultChannelPipeline.java:935)
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:134)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:645)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:580)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:497)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:459)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:858)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: javax.net.ssl.SSLHandshakeException: Received fatal alert: certificate_unknown
+	at sun.security.ssl.Alert.createSSLException(Unknown Source)
+	at sun.security.ssl.Alert.createSSLException(Unknown Source)
+	at sun.security.ssl.TransportContext.fatal(Unknown Source)
+	at sun.security.ssl.Alert$AlertConsumer.consume(Unknown Source)
+	at sun.security.ssl.TransportContext.dispatch(Unknown Source)
+	at sun.security.ssl.SSLTransport.decode(Unknown Source)
+	at sun.security.ssl.SSLEngineImpl.decode(Unknown Source)
+	at sun.security.ssl.SSLEngineImpl.readRecord(Unknown Source)
+	at sun.security.ssl.SSLEngineImpl.unwrap(Unknown Source)
+	at sun.security.ssl.SSLEngineImpl.unwrap(Unknown Source)
+	at javax.net.ssl.SSLEngine.unwrap(Unknown Source)
+	at io.netty.handler.ssl.SslHandler$SslEngineType$3.unwrap(SslHandler.java:281)
+	at io.netty.handler.ssl.SslHandler.unwrap(SslHandler.java:1215)
+	at io.netty.handler.ssl.SslHandler.decodeJdkCompatible(SslHandler.java:1127)
+	at io.netty.handler.ssl.SslHandler.decode(SslHandler.java:1162)
+	at io.netty.handler.codec.ByteToMessageDecoder.decodeRemovalReentryProtection(ByteToMessageDecoder.java:489)
+	at io.netty.handler.codec.ByteToMessageDecoder.callDecode(ByteToMessageDecoder.java:428)
+	... 15 common frames omitted
+22:20:48.103 WARN  vert.x-eventloop-thread-0 DefaultChannelPipeline : An exceptionCaught() event was fired, and it reached at the tail of the pipeline. It usually means the last handler in the pipeline did not handle the exception.
+io.netty.handler.codec.DecoderException: javax.net.ssl.SSLHandshakeException: Received fatal alert: certificate_unknown
+	at io.netty.handler.codec.ByteToMessageDecoder.callDecode(ByteToMessageDecoder.java:459)
+	at io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:265)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:362)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:348)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:340)
+	at io.netty.channel.DefaultChannelPipeline$HeadContext.channelRead(DefaultChannelPipeline.java:1359)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:362)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:348)
+	at io.netty.channel.DefaultChannelPipeline.fireChannelRead(DefaultChannelPipeline.java:935)
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:134)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:645)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:580)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:497)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:459)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:858)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: javax.net.ssl.SSLHandshakeException: Received fatal alert: certificate_unknown
+	at sun.security.ssl.Alert.createSSLException(Unknown Source)
+	at sun.security.ssl.Alert.createSSLException(Unknown Source)
+	at sun.security.ssl.TransportContext.fatal(Unknown Source)
+	at sun.security.ssl.Alert$AlertConsumer.consume(Unknown Source)
+	at sun.security.ssl.TransportContext.dispatch(Unknown Source)
+	at sun.security.ssl.SSLTransport.decode(Unknown Source)
+	at sun.security.ssl.SSLEngineImpl.decode(Unknown Source)
+	at sun.security.ssl.SSLEngineImpl.readRecord(Unknown Source)
+	at sun.security.ssl.SSLEngineImpl.unwrap(Unknown Source)
+	at sun.security.ssl.SSLEngineImpl.unwrap(Unknown Source)
+	at javax.net.ssl.SSLEngine.unwrap(Unknown Source)
+	at io.netty.handler.ssl.SslHandler$SslEngineType$3.unwrap(SslHandler.java:281)
+	at io.netty.handler.ssl.SslHandler.unwrap(SslHandler.java:1215)
+	at io.netty.handler.ssl.SslHandler.decodeJdkCompatible(SslHandler.java:1127)
+	at io.netty.handler.ssl.SslHandler.decode(SslHandler.java:1162)
+	at io.netty.handler.codec.ByteToMessageDecoder.decodeRemovalReentryProtection(ByteToMessageDecoder.java:489)
+	at io.netty.handler.codec.ByteToMessageDecoder.callDecode(ByteToMessageDecoder.java:428)
+	... 15 common frames omitted
+22:20:48.105 WARN  vert.x-eventloop-thread-0 DefaultChannelPipeline : An exceptionCaught() event was fired, and it reached at the tail of the pipeline. It usually means the last handler in the pipeline did not handle the exception.
+io.netty.handler.codec.DecoderException: javax.net.ssl.SSLHandshakeException: Received fatal alert: certificate_unknown
+	at io.netty.handler.codec.ByteToMessageDecoder.callDecode(ByteToMessageDecoder.java:459)
+	at io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:265)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:362)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:348)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:340)
+	at io.netty.channel.DefaultChannelPipeline$HeadContext.channelRead(DefaultChannelPipeline.java:1359)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:362)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:348)
+	at io.netty.channel.DefaultChannelPipeline.fireChannelRead(DefaultChannelPipeline.java:935)
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:134)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:645)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:580)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:497)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:459)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:858)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: javax.net.ssl.SSLHandshakeException: Received fatal alert: certificate_unknown
+	at sun.security.ssl.Alert.createSSLException(Unknown Source)
+	at sun.security.ssl.Alert.createSSLException(Unknown Source)
+	at sun.security.ssl.TransportContext.fatal(Unknown Source)
+	at sun.security.ssl.Alert$AlertConsumer.consume(Unknown Source)
+	at sun.security.ssl.TransportContext.dispatch(Unknown Source)
+	at sun.security.ssl.SSLTransport.decode(Unknown Source)
+	at sun.security.ssl.SSLEngineImpl.decode(Unknown Source)
+	at sun.security.ssl.SSLEngineImpl.readRecord(Unknown Source)
+	at sun.security.ssl.SSLEngineImpl.unwrap(Unknown Source)
+	at sun.security.ssl.SSLEngineImpl.unwrap(Unknown Source)
+	at javax.net.ssl.SSLEngine.unwrap(Unknown Source)
+	at io.netty.handler.ssl.SslHandler$SslEngineType$3.unwrap(SslHandler.java:281)
+	at io.netty.handler.ssl.SslHandler.unwrap(SslHandler.java:1215)
+	at io.netty.handler.ssl.SslHandler.decodeJdkCompatible(SslHandler.java:1127)
+	at io.netty.handler.ssl.SslHandler.decode(SslHandler.java:1162)
+	at io.netty.handler.codec.ByteToMessageDecoder.decodeRemovalReentryProtection(ByteToMessageDecoder.java:489)
+	at io.netty.handler.codec.ByteToMessageDecoder.callDecode(ByteToMessageDecoder.java:428)
+	... 15 common frames omitted
+22:20:48.106 WARN  vert.x-eventloop-thread-0 DefaultChannelPipeline : An exceptionCaught() event was fired, and it reached at the tail of the pipeline. It usually means the last handler in the pipeline did not handle the exception.
+io.netty.handler.codec.DecoderException: javax.net.ssl.SSLHandshakeException: Received fatal alert: certificate_unknown
+	at io.netty.handler.codec.ByteToMessageDecoder.callDecode(ByteToMessageDecoder.java:459)
+	at io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:265)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:362)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:348)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:340)
+	at io.netty.channel.DefaultChannelPipeline$HeadContext.channelRead(DefaultChannelPipeline.java:1359)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:362)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:348)
+	at io.netty.channel.DefaultChannelPipeline.fireChannelRead(DefaultChannelPipeline.java:935)
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:134)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:645)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:580)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:497)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:459)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:858)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: javax.net.ssl.SSLHandshakeException: Received fatal alert: certificate_unknown
+	at sun.security.ssl.Alert.createSSLException(Unknown Source)
+	at sun.security.ssl.Alert.createSSLException(Unknown Source)
+	at sun.security.ssl.TransportContext.fatal(Unknown Source)
+	at sun.security.ssl.Alert$AlertConsumer.consume(Unknown Source)
+	at sun.security.ssl.TransportContext.dispatch(Unknown Source)
+	at sun.security.ssl.SSLTransport.decode(Unknown Source)
+	at sun.security.ssl.SSLEngineImpl.decode(Unknown Source)
+	at sun.security.ssl.SSLEngineImpl.readRecord(Unknown Source)
+	at sun.security.ssl.SSLEngineImpl.unwrap(Unknown Source)
+	at sun.security.ssl.SSLEngineImpl.unwrap(Unknown Source)
+	at javax.net.ssl.SSLEngine.unwrap(Unknown Source)
+	at io.netty.handler.ssl.SslHandler$SslEngineType$3.unwrap(SslHandler.java:281)
+	at io.netty.handler.ssl.SslHandler.unwrap(SslHandler.java:1215)
+	at io.netty.handler.ssl.SslHandler.decodeJdkCompatible(SslHandler.java:1127)
+	at io.netty.handler.ssl.SslHandler.decode(SslHandler.java:1162)
+	at io.netty.handler.codec.ByteToMessageDecoder.decodeRemovalReentryProtection(ByteToMessageDecoder.java:489)
+	at io.netty.handler.codec.ByteToMessageDecoder.callDecode(ByteToMessageDecoder.java:428)
+	... 15 common frames omitted
+22:20:48.273 INFO  vert.x-eventloop-thread-0 BaseServiceProxy     : -> GET /css/bootstrap-switch-3.3.2/bootstrap-switch.min.css,200|215ms
+22:20:48.425 WARN  vert.x-eventloop-thread-0 DefaultChannelPipeline : An exceptionCaught() event was fired, and it reached at the tail of the pipeline. It usually means the last handler in the pipeline did not handle the exception.
+io.netty.handler.codec.DecoderException: javax.net.ssl.SSLHandshakeException: Received fatal alert: certificate_unknown
+	at io.netty.handler.codec.ByteToMessageDecoder.callDecode(ByteToMessageDecoder.java:459)
+	at io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:265)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:362)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:348)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:340)
+	at io.netty.channel.DefaultChannelPipeline$HeadContext.channelRead(DefaultChannelPipeline.java:1359)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:362)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:348)
+	at io.netty.channel.DefaultChannelPipeline.fireChannelRead(DefaultChannelPipeline.java:935)
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:134)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:645)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:580)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:497)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:459)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:858)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: javax.net.ssl.SSLHandshakeException: Received fatal alert: certificate_unknown
+	at sun.security.ssl.Alert.createSSLException(Unknown Source)
+	at sun.security.ssl.Alert.createSSLException(Unknown Source)
+	at sun.security.ssl.TransportContext.fatal(Unknown Source)
+	at sun.security.ssl.Alert$AlertConsumer.consume(Unknown Source)
+	at sun.security.ssl.TransportContext.dispatch(Unknown Source)
+	at sun.security.ssl.SSLTransport.decode(Unknown Source)
+	at sun.security.ssl.SSLEngineImpl.decode(Unknown Source)
+	at sun.security.ssl.SSLEngineImpl.readRecord(Unknown Source)
+	at sun.security.ssl.SSLEngineImpl.unwrap(Unknown Source)
+	at sun.security.ssl.SSLEngineImpl.unwrap(Unknown Source)
+	at javax.net.ssl.SSLEngine.unwrap(Unknown Source)
+	at io.netty.handler.ssl.SslHandler$SslEngineType$3.unwrap(SslHandler.java:281)
+	at io.netty.handler.ssl.SslHandler.unwrap(SslHandler.java:1215)
+	at io.netty.handler.ssl.SslHandler.decodeJdkCompatible(SslHandler.java:1127)
+	at io.netty.handler.ssl.SslHandler.decode(SslHandler.java:1162)
+	at io.netty.handler.codec.ByteToMessageDecoder.decodeRemovalReentryProtection(ByteToMessageDecoder.java:489)
+	at io.netty.handler.codec.ByteToMessageDecoder.callDecode(ByteToMessageDecoder.java:428)
+	... 15 common frames omitted
+22:20:48.480 INFO  vert.x-eventloop-thread-0 BaseServiceProxy     : -> GET /scripts/common/js/bootstrap-5.2.2/bootstrap.bundle.min.js,200|30ms
+22:20:48.488 INFO  vert.x-eventloop-thread-0 BaseServiceProxy     : -> GET /sso/lib/xyz.bundle.min.js,200|36ms
+22:20:48.488 INFO  vert.x-eventloop-thread-0 CookieManager        : set cookies [x-sess-uuid=0.161dd517.1741742448.599c049e; secure; HttpOnly]
+22:20:48.488 DEBUG vert.x-eventloop-thread-0 BaseServiceProxy     : Remapping Set-cookies [x-sess-uuid=0.161dd517.1741742448.599c049e; secure; HttpOnly] -> 
+22:20:48.539 INFO  vert.x-eventloop-thread-0 BaseServiceProxy     : -> GET /scripts/common/js/jquery-3.7.0/jquery.min.js,200|88ms
+22:20:48.547 INFO  vert.x-eventloop-thread-0 BaseServiceProxy     : -> GET /css/reg-am/login.min.css,200|399ms
+22:20:48.595 INFO  vert.x-eventloop-thread-0 BaseServiceProxy     : -> GET /css/ibkr/theme-ibkr-portal.min.css,200|319ms
+22:20:48.711 INFO  vert.x-eventloop-thread-0 BaseServiceProxy     : -> GET /fonts/proxima-nova/Proxima-Nova-Regular.woff2,200|25ms
+22:20:48.713 INFO  vert.x-eventloop-thread-0 BaseServiceProxy     : -> GET /fonts/fontawesome-6.4.2/webfonts/fa-solid-900.woff2,200|25ms
+22:20:48.716 INFO  vert.x-eventloop-thread-0 BaseServiceProxy     : -> GET /images/common/logos/ibkr/interactive-brokers.svg,200|38ms
+22:20:48.720 INFO  vert.x-eventloop-thread-0 BaseServiceProxy     : -> GET /fonts/fontawesome-6.2.0/webfonts/fa-brands-400.woff2,200|31ms
+22:20:48.729 INFO  vert.x-eventloop-thread-0 BaseServiceProxy     : -> GET /fonts/proxima-nova/Proxima-Nova-Semibold.woff2,200|41ms
+22:20:48.788 INFO  vert.x-eventloop-thread-0 BaseServiceProxy     : -> GET /sso/images/2fa-animated-once.gif,200|33ms
+22:20:48.788 INFO  vert.x-eventloop-thread-0 CookieManager        : set cookies [x-sess-uuid=0.161dd517.1741742448.599c09f8; secure; HttpOnly]
+22:20:48.789 DEBUG vert.x-eventloop-thread-0 BaseServiceProxy     : Remapping Set-cookies [x-sess-uuid=0.161dd517.1741742448.599c09f8; secure; HttpOnly] -> 
+22:20:55.203 INFO  vert.x-eventloop-thread-0 BaseServiceProxy     : -> GET /sso/Authenticator,200|270ms
+22:20:55.204 INFO  vert.x-eventloop-thread-0 CookieManager        : set cookies [x-sess-uuid=0.c1dd517.1741742454.8a18b02; secure; HttpOnly]
+22:20:55.204 DEBUG vert.x-eventloop-thread-0 BaseServiceProxy     : Remapping Set-cookies [x-sess-uuid=0.c1dd517.1741742454.8a18b02; secure; HttpOnly] -> 
+22:20:55.918 INFO  vert.x-eventloop-thread-0 BaseServiceProxy     : -> GET /sso/Authenticator,200|702ms
+22:20:55.923 INFO  vert.x-eventloop-thread-0 CookieManager        : set cookies [x-sess-uuid=0.c1dd517.1741742454.8a18b08; secure; HttpOnly]
+22:20:55.923 DEBUG vert.x-eventloop-thread-0 BaseServiceProxy     : Remapping Set-cookies [x-sess-uuid=0.c1dd517.1741742454.8a18b08; secure; HttpOnly] -> 
+22:20:56.204 INFO  vert.x-eventloop-thread-0 BaseServiceProxy     : -> GET /sso/Authenticator,200|275ms
+22:20:56.204 INFO  vert.x-eventloop-thread-0 CookieManager        : set cookies [x-sess-uuid=0.c1dd517.1741742455.8a18b00; secure; HttpOnly]
+22:20:56.205 DEBUG vert.x-eventloop-thread-0 BaseServiceProxy     : Remapping Set-cookies [x-sess-uuid=0.c1dd517.1741742455.8a18b00; secure; HttpOnly] -> 
+22:20:56.282 INFO  vert.x-eventloop-thread-0 BaseServiceProxy     : -> GET /fonts/proxima-nova/proximanova-extrabold.woff2,200|51ms
+22:20:56.454 INFO  vert.x-eventloop-thread-0 BaseServiceProxy     : -> GET /sso/images/2fa-animated-once.gif?q=0.7850789876408837,200|227ms
+22:20:56.454 INFO  vert.x-eventloop-thread-0 CookieManager        : set cookies [x-sess-uuid=0.161dd517.1741742455.599c09fa; secure; HttpOnly]
+22:20:56.454 DEBUG vert.x-eventloop-thread-0 BaseServiceProxy     : Remapping Set-cookies [x-sess-uuid=0.161dd517.1741742455.599c09fa; secure; HttpOnly] -> 
+22:20:59.428 INFO  vert.x-eventloop-thread-0 BaseServiceProxy     : -> GET /sso/Authenticator,200|212ms
+22:20:59.428 INFO  vert.x-eventloop-thread-0 CookieManager        : set cookies [x-sess-uuid=0.c1dd517.1741742458.8a1e478; secure; HttpOnly]
+22:20:59.428 DEBUG vert.x-eventloop-thread-0 BaseServiceProxy     : Remapping Set-cookies [x-sess-uuid=0.c1dd517.1741742458.8a1e478; secure; HttpOnly] -> 
+22:21:02.464 INFO  vert.x-eventloop-thread-0 BaseServiceProxy     : -> GET /sso/Authenticator,200|244ms
+22:21:02.466 INFO  vert.x-eventloop-thread-0 CookieManager        : set cookies [x-sess-uuid=0.c1dd517.1741742461.8a1edfa; secure; HttpOnly]
+22:21:02.466 DEBUG vert.x-eventloop-thread-0 BaseServiceProxy     : Remapping Set-cookies [x-sess-uuid=0.c1dd517.1741742461.8a1edfa; secure; HttpOnly] -> 
+22:21:05.433 INFO  vert.x-eventloop-thread-0 BaseServiceProxy     : -> GET /sso/Authenticator,200|212ms
+22:21:05.433 INFO  vert.x-eventloop-thread-0 CookieManager        : set cookies [x-sess-uuid=0.c1dd517.1741742464.8a1f16d; secure; HttpOnly]
+22:21:05.435 DEBUG vert.x-eventloop-thread-0 BaseServiceProxy     : Remapping Set-cookies [x-sess-uuid=0.c1dd517.1741742464.8a1f16d; secure; HttpOnly] -> 
+22:21:09.438 INFO  vert.x-eventloop-thread-0 BaseServiceProxy     : -> GET /sso/Authenticator,200|1226ms
+22:21:09.438 INFO  vert.x-eventloop-thread-0 CookieManager        : set cookies [x-sess-uuid=0.161dd517.1741742467.599c6926; secure; HttpOnly]
+22:21:09.438 DEBUG vert.x-eventloop-thread-0 BaseServiceProxy     : Remapping Set-cookies [x-sess-uuid=0.161dd517.1741742467.599c6926; secure; HttpOnly] -> 
+22:21:11.422 INFO  vert.x-eventloop-thread-0 BaseServiceProxy     : -> GET /sso/Authenticator,200|211ms
+22:21:11.422 INFO  vert.x-eventloop-thread-0 CookieManager        : set cookies [x-sess-uuid=0.161dd517.1741742470.599c6d33; secure; HttpOnly]
+22:21:11.422 DEBUG vert.x-eventloop-thread-0 BaseServiceProxy     : Remapping Set-cookies [x-sess-uuid=0.161dd517.1741742470.599c6d33; secure; HttpOnly] -> 
+22:21:14.726 INFO  vert.x-eventloop-thread-0 BaseServiceProxy     : -> GET /sso/Authenticator,200|501ms
+22:21:14.727 INFO  vert.x-eventloop-thread-0 CookieManager        : set cookies [x-sess-uuid=0.c1dd517.1741742474.8a21e63; secure; HttpOnly]
+22:21:14.727 DEBUG vert.x-eventloop-thread-0 BaseServiceProxy     : Remapping Set-cookies [x-sess-uuid=0.c1dd517.1741742474.8a21e63; secure; HttpOnly] -> 
+22:21:22.941 INFO  vert.x-eventloop-thread-0 BaseServiceProxy     : -> GET /sso/Login?forwardTo=22&RL=1&ip2loc=US,200|230ms
+22:21:22.942 INFO  vert.x-eventloop-thread-0 CookieManager        : set cookies [partnerID=""; Domain=.ibkr.com; Expires=Thu, 01 Jan 1970 00:00:10 GMT; Path=/; Secure;Secure;HttpOnly;SameSite=None, XYZAB_AM.LOGIN=""; Domain=.ibkr.com; Expires=Thu, 01 Jan 1970 00:00:10 GMT; Path=/; Secure;Secure;SameSite=None, XYZAB=""; Domain=.ibkr.com; Expires=Thu, 01 Jan 1970 00:00:10 GMT; Path=/; Secure;Secure;SameSite=None, USERID=""; Domain=.ibkr.com; Expires=Thu, 01 Jan 1970 00:00:10 GMT; Path=/; Secure;Secure;SameSite=None, partnerID=""; Domain=.ibkr.com; Expires=Thu, 01 Jan 1970 00:00:10 GMT; Path=/; Secure;Secure;HttpOnly;SameSite=None, URL_PARAM="forwardTo=22&RL=1&ip2loc=US"; Version=1; Domain=.ibkr.com; Path=/; Secure;Secure, JSESSIONID=23E65DC038CA9E937839E63D90DB11C7.cwwwdam1-internet; Path=/sso; Secure; HttpOnly;Secure;SameSite=None, x-sess-uuid=0.c1dd517.1741742482.8a247a4; secure; HttpOnly]
+22:21:22.942 DEBUG vert.x-eventloop-thread-0 BaseServiceProxy     : Remapping Set-cookies [partnerID=""; Domain=.ibkr.com; Expires=Thu, 01 Jan 1970 00:00:10 GMT; Path=/; Secure;Secure;HttpOnly;SameSite=None, XYZAB_AM.LOGIN=""; Domain=.ibkr.com; Expires=Thu, 01 Jan 1970 00:00:10 GMT; Path=/; Secure;Secure;SameSite=None, XYZAB=""; Domain=.ibkr.com; Expires=Thu, 01 Jan 1970 00:00:10 GMT; Path=/; Secure;Secure;SameSite=None, USERID=""; Domain=.ibkr.com; Expires=Thu, 01 Jan 1970 00:00:10 GMT; Path=/; Secure;Secure;SameSite=None, partnerID=""; Domain=.ibkr.com; Expires=Thu, 01 Jan 1970 00:00:10 GMT; Path=/; Secure;Secure;HttpOnly;SameSite=None, URL_PARAM="forwardTo=22&RL=1&ip2loc=US"; Version=1; Domain=.ibkr.com; Path=/; Secure;Secure, JSESSIONID=23E65DC038CA9E937839E63D90DB11C7.cwwwdam1-internet; Path=/sso; Secure; HttpOnly;Secure;SameSite=None, x-sess-uuid=0.c1dd517.1741742482.8a247a4; secure; HttpOnly] -> 
+22:21:23.166 INFO  vert.x-eventloop-thread-0 BaseServiceProxy     : -> GET /css/bootstrap-5.2.2/bootstrap.min.css,200|214ms
+22:21:23.168 INFO  vert.x-eventloop-thread-0 BaseServiceProxy     : -> GET /css/bootstrap-switch-3.3.2/bootstrap-switch.min.css,200|215ms
+22:21:23.222 INFO  vert.x-eventloop-thread-0 BaseServiceProxy     : -> GET /css/fontawesome-6.2.0/all.min.css,200|269ms
+22:21:23.290 INFO  vert.x-eventloop-thread-0 BaseServiceProxy     : -> GET /scripts/common/js/jquery-3.7.0/jquery.min.js,200|46ms
+22:21:23.353 INFO  vert.x-eventloop-thread-0 BaseServiceProxy     : -> GET /scripts/common/js/bootstrap-5.2.2/bootstrap.bundle.min.js,200|52ms
+22:21:23.390 INFO  vert.x-eventloop-thread-0 BaseServiceProxy     : -> GET /sso/lib/xyz.bundle.min.js,200|28ms
+22:21:23.391 INFO  vert.x-eventloop-thread-0 CookieManager        : set cookies [x-sess-uuid=0.161dd517.1741742483.599dc010; secure; HttpOnly]
+22:21:23.391 DEBUG vert.x-eventloop-thread-0 BaseServiceProxy     : Remapping Set-cookies [x-sess-uuid=0.161dd517.1741742483.599dc010; secure; HttpOnly] -> 
+22:21:23.416 INFO  vert.x-eventloop-thread-0 BaseServiceProxy     : -> GET /css/reg-am/login.min.css,200|227ms
+22:21:23.442 INFO  vert.x-eventloop-thread-0 BaseServiceProxy     : -> GET /css/ibkr/theme-ibkr-portal.min.css,200|252ms
+22:21:23.547 INFO  vert.x-eventloop-thread-0 BaseServiceProxy     : -> GET /images/common/logos/ibkr/interactive-brokers.svg,200|25ms
+22:21:23.652 INFO  vert.x-eventloop-thread-0 BaseServiceProxy     : -> GET /fonts/proxima-nova/Proxima-Nova-Regular.woff2,200|30ms
+22:21:23.653 INFO  vert.x-eventloop-thread-0 BaseServiceProxy     : -> GET /fonts/fontawesome-6.4.2/webfonts/fa-solid-900.woff2,200|30ms
+22:21:23.670 INFO  vert.x-eventloop-thread-0 BaseServiceProxy     : -> GET /fonts/fontawesome-6.2.0/webfonts/fa-brands-400.woff2,200|30ms
+22:21:23.683 INFO  vert.x-eventloop-thread-0 BaseServiceProxy     : -> GET /fonts/proxima-nova/Proxima-Nova-Semibold.woff2,200|23ms
+22:21:23.692 INFO  vert.x-eventloop-thread-0 BaseServiceProxy     : -> GET /sso/images/2fa-animated-once.gif,200|27ms
+22:21:23.692 INFO  vert.x-eventloop-thread-0 CookieManager        : set cookies [x-sess-uuid=0.161dd517.1741742483.599dc42f; secure; HttpOnly]
+22:21:23.692 DEBUG vert.x-eventloop-thread-0 BaseServiceProxy     : Remapping Set-cookies [x-sess-uuid=0.161dd517.1741742483.599dc42f; secure; HttpOnly] -> 
+22:21:34.359 INFO  vert.x-eventloop-thread-0 BaseServiceProxy     : -> GET /sso/Authenticator,200|251ms
+22:21:34.360 INFO  vert.x-eventloop-thread-0 CookieManager        : set cookies [x-sess-uuid=0.c1dd517.1741742493.8a36ae8; secure; HttpOnly]
+22:21:34.360 DEBUG vert.x-eventloop-thread-0 BaseServiceProxy     : Remapping Set-cookies [x-sess-uuid=0.c1dd517.1741742493.8a36ae8; secure; HttpOnly] -> 
+22:21:34.648 INFO  vert.x-eventloop-thread-0 BaseServiceProxy     : -> GET /sso/Authenticator,200|277ms
+22:21:34.648 INFO  vert.x-eventloop-thread-0 CookieManager        : set cookies [x-sess-uuid=0.161dd517.1741742494.599dc590; secure; HttpOnly]
+22:21:34.648 DEBUG vert.x-eventloop-thread-0 BaseServiceProxy     : Remapping Set-cookies [x-sess-uuid=0.161dd517.1741742494.599dc590; secure; HttpOnly] -> 
+22:21:35.080 INFO  vert.x-eventloop-thread-0 BaseServiceProxy     : -> GET /sso/Authenticator,200|428ms
+22:21:35.080 INFO  vert.x-eventloop-thread-0 CookieManager        : set cookies [x-sess-uuid=0.c1dd517.1741742494.8a36b2e; secure; HttpOnly]
+22:21:35.080 DEBUG vert.x-eventloop-thread-0 BaseServiceProxy     : Remapping Set-cookies [x-sess-uuid=0.c1dd517.1741742494.8a36b2e; secure; HttpOnly] -> 
+22:21:35.152 INFO  vert.x-eventloop-thread-0 BaseServiceProxy     : -> GET /fonts/proxima-nova/proximanova-extrabold.woff2,200|43ms
+22:21:35.337 INFO  vert.x-eventloop-thread-0 BaseServiceProxy     : -> GET /sso/images/2fa-animated-once.gif?q=0.6135337129688907,200|232ms
+22:21:35.337 INFO  vert.x-eventloop-thread-0 CookieManager        : set cookies [x-sess-uuid=0.c1dd517.1741742494.8a36b6a; secure; HttpOnly]
+22:21:35.337 DEBUG vert.x-eventloop-thread-0 BaseServiceProxy     : Remapping Set-cookies [x-sess-uuid=0.c1dd517.1741742494.8a36b6a; secure; HttpOnly] -> 
+22:21:38.304 INFO  vert.x-eventloop-thread-0 BaseServiceProxy     : -> GET /sso/Authenticator,200|215ms
+22:21:38.305 INFO  vert.x-eventloop-thread-0 CookieManager        : set cookies [x-sess-uuid=0.c1dd517.1741742497.8a3fe95; secure; HttpOnly]
+22:21:38.305 DEBUG vert.x-eventloop-thread-0 BaseServiceProxy     : Remapping Set-cookies [x-sess-uuid=0.c1dd517.1741742497.8a3fe95; secure; HttpOnly] -> 
+22:21:41.318 INFO  vert.x-eventloop-thread-0 BaseServiceProxy     : -> GET /sso/Authenticator,200|228ms
+22:21:41.318 INFO  vert.x-eventloop-thread-0 CookieManager        : set cookies [x-sess-uuid=0.161dd517.1741742500.599e504b; secure; HttpOnly]
+22:21:41.318 DEBUG vert.x-eventloop-thread-0 BaseServiceProxy     : Remapping Set-cookies [x-sess-uuid=0.161dd517.1741742500.599e504b; secure; HttpOnly] -> 
+22:21:44.350 INFO  vert.x-eventloop-thread-0 BaseServiceProxy     : -> GET /sso/Authenticator,200|254ms
+22:21:44.351 INFO  vert.x-eventloop-thread-0 CookieManager        : set cookies [x-sess-uuid=0.c1dd517.1741742503.8a407e8; secure; HttpOnly]
+22:21:44.351 DEBUG vert.x-eventloop-thread-0 BaseServiceProxy     : Remapping Set-cookies [x-sess-uuid=0.c1dd517.1741742503.8a407e8; secure; HttpOnly] -> 
+22:21:47.350 INFO  vert.x-eventloop-thread-0 BaseServiceProxy     : -> GET /sso/Authenticator,200|260ms
+22:21:47.350 INFO  vert.x-eventloop-thread-0 CookieManager        : set cookies [x-sess-uuid=0.161dd517.1741742506.599e56db; secure; HttpOnly]
+22:21:47.350 DEBUG vert.x-eventloop-thread-0 BaseServiceProxy     : Remapping Set-cookies [x-sess-uuid=0.161dd517.1741742506.599e56db; secure; HttpOnly] -> 
+22:21:47.910 INFO  vert.x-eventloop-thread-0 BaseServiceProxy     : -> GET /sso/Dispatcher,302|545ms
+22:21:47.910 INFO  vert.x-eventloop-thread-0 CookieManager        : set cookies [USERID=50303093; Domain=.ibkr.com; Path=/; Secure;Secure;SameSite=None, x-sess-uuid=0.c1dd517.1741742507.8a40c49; secure; HttpOnly]
+22:21:47.910 DEBUG vert.x-eventloop-thread-0 BaseServiceProxy     : Remapping Set-cookies [USERID=50303093; Domain=.ibkr.com; Path=/; Secure;Secure;SameSite=None, x-sess-uuid=0.c1dd517.1741742507.8a40c49; secure; HttpOnly] -> 
+22:21:47.910 INFO  vert.x-eventloop-thread-0 GatewayHttpProxy     : Client login succeeds
+22:21:48.206 INFO  vert.x-eventloop-thread-0 BaseServiceProxy     : -> GET /v1/api/sso/validate?gw=1,200|295ms
+22:21:48.206 DEBUG vert.x-eventloop-thread-0 ClientPortalService  : portal validate response: {"SFT":"5.2a","IS_PENDING_APPLICANT":false,"SF_ENABLED":true,"HARDWARE_INFO":"","UNIQUE_LOGIN_ID":"50303093-1741742503701","AUTH_TIME":1741742503848,"SF_CONFIG":"5.2a","USER_NAME":"farin0003","CREDENTIAL_TYPE":0,"IS_FREE_TRIAL":false,"LOGIN_TYPE":1,"LANDING_APP":"PORTAL-US","CREDENTIAL":"farin0003","ANOMALOUS_LOGIN":false,"RESULT":true,"IP":"190.21.97.115","USER_ID":50303093,"EXPIRES":1741742507868,"TOKEN":"8c57e9a8ee01a33c1b49cf14baf0492adf02bf59","took":26,"IS_MASTER":false,"features":{"env":"PROD","wlms":true,"realtime":true,"bond":true,"optionChains":true,"calendar":true,"newMf":true},"region":"IL"}
+22:21:48.206 INFO  vert.x-eventloop-thread-0 GatewayHttpProxy     : authenticated to cp
+22:21:48.206 DEBUG vert.x-eventloop-thread-0 BaseServiceProxy     : cancel timer SsoService 21
+22:21:48.206 DEBUG vert.x-eventloop-thread-0 BaseServiceProxy     : start timer 300000 SsoService
+22:21:48.207 DEBUG vert.x-eventloop-thread-0 BaseServiceProxy     : forward event ON_SSO_VALIDATION, payload 50303093
+22:21:48.546 INFO  vert.x-eventloop-thread-0 BaseServiceProxy     : -> GET /v1/api/one/user,200|340ms
+22:21:48.546 INFO  vert.x-eventloop-thread-0 ClientPortalService  : get user reply {"username":"farin0003","features":{"env":"PROD","wlms":true,"realtime":true,"bond":true,"optionChains":true,"calendar":true,"newMf":true},"wbId":"","uar":{"portfolioAnalyst":true,"userInfo":true,"messageCenter":true,"accountDetails":true,"tradingRestrictions":false,"tws":true,"fyi":true,"voting":true,"forum":true,"recentTransactions":true},"props":{"isIBAMClient":false,"ReadOnlySession":null},"firstApprovedDate":1592193600000,"accts":{"U4264576":{"isIBAMClient":false,"clearingStatus":"O","openDate":1592193600000,"isFAClient":false,"isFunded":true,"tradingPermissions":["OPT","FUT","IOPT","WAR","STK","CASH","FOP","SSF"]}},"hasBrokerageAccessInd":true,"fa":false,"has2fa":false,"islite":false,"ispaper":false,"applicants":[{"id":6062844,"type":"INDIVIDUAL","businessType":"INDEPENDENT","nlcode":"es_ES","legalCountry":{"name":"Chile","alpha3":"CHL"}}]}
+22:21:49.937 INFO  vert.x-eventloop-thread-0 SsoService           : sso init status=200, url=https://api.ibkr.com/v1/api/ssodh/init
+22:21:50.213 DEBUG vert.x-eventloop-thread-0 SsoService           : K ec86a228999a8f96cbd8db284174f225ed4f1462
+22:21:50.213 DEBUG vert.x-eventloop-thread-0 BaseServiceProxy     : forward event ON_SSODH_COMPLETED, payload none
+22:21:50.213 DEBUG vert.x-eventloop-thread-0 GatewayHttpProxy     : delaying authentication for 3000
+22:21:53.428 INFO  vert.x-eventloop-thread-0 BaseServiceProxy     : -> GET /v1/api/iserver/auth/status,200|208ms
+22:21:53.428 DEBUG vert.x-eventloop-thread-0 ClientPortalService  : status {"authenticated":false,"competing":false,"connected":false,"MAC":"F4:03:43:CC:A2:00"}
+22:21:53.428 INFO  vert.x-eventloop-thread-0 ClientPortalService  : process auth status {"authenticated":false,"competing":false,"connected":false,"MAC":"F4:03:43:CC:A2:00"}
+22:21:53.432 DEBUG vert.x-eventloop-thread-0 ClientPortalService  : auth brokerage, k=ec86a228999a8f96cbd8db284174f225ed4f1462, post={"username":"farin0003","machineId":"2ea0e31a","compete":true}
+22:21:55.238 INFO  vert.x-eventloop-thread-0 BaseServiceProxy     : -> POST https://api.ibkr.com/v1/api/iserver/auth/ssodh/init,200|1805ms
+22:21:55.239 DEBUG vert.x-eventloop-thread-0 ClientPortalService  : iserver init : {"passed":true,"authenticated":true,"connected":true,"competing":false,"hardware_info":"2e71a9c8|F4:03:43:CC:A2:00"}
+22:21:55.239 INFO  vert.x-eventloop-thread-0 ClientPortalService  : process auth status {"passed":true,"authenticated":true,"connected":true,"competing":false,"hardware_info":"2e71a9c8|F4:03:43:CC:A2:00"}
+22:21:55.239 DEBUG vert.x-eventloop-thread-0 BaseServiceProxy     : start timer 30000 ClientPortalService
+22:21:55.478 INFO  vert.x-eventloop-thread-0 BaseServiceProxy     : -> GET /v1/api/iserver/accounts,200|239ms
+22:21:55.478 DEBUG vert.x-eventloop-thread-0 ClientPortalService  : iserver accounts {"accounts":["U4264576"],"acctProps":{"U4264576":{"hasChildAccounts":false,"supportsCashQty":true,"liteUnderPro":false,"noFXConv":false,"isProp":false,"supportsFractions":true,"allowCustomerTime":false}},"aliases":{"U4264576":"U4264576"},"allowFeatures":{"showGFIS":true,"showEUCostReport":false,"allowEventContract":true,"allowFXConv":true,"allowFinancialLens":false,"allowMTA":true,"allowTypeAhead":true,"allowEventTrading":true,"snapshotRefreshTimeout":30,"liteUser":false,"showWebNews":true,"research":true,"debugPnl":true,"showTaxOpt":true,"showImpactDashboard":true,"allowDynAccount":false,"allowCrypto":false,"allowFA":false,"allowLiteUnderPro":false,"allowedAssetTypes":"STK,CFD,OPT,FOP,WAR,FUT,BAG,PDC,CASH,IND,BOND,BILL,FUND,SLB,News,CMDTY,IOPT,ICU,ICS,PHYSS,CRYPTO","restrictTradeSubscription":false},"chartPeriods":{"STK":["*"],"CFD":["*"],"OPT":["2h","1d","2d","1w","1m"],"FOP":["2h","1d","2d","1w","1m"],"WAR":["*"],"IOPT":["*"],"FUT":["*"],"CASH":["*"],"IND":["*"],"BOND":["*"],"FUND":["*"],"CMDTY":["*"],"PHYSS":["*"],"CRYPTO":["*"]},"groups":[],"profiles":[],"selectedAccount":"U4264576","serverInfo":{"serverName":"JifC23003","serverVersion":"Build 10.34.1a, Mar 3, 2025 5:30:37 PM"},"sessionId":"67cfb9f2.00000210","isFT":false,"isPaper":false}
+22:22:01.426 INFO  vert.x-eventloop-thread-0 BaseServiceProxy     : -> GET /v1/api/portfolio/U4264576/positions,200|299ms
+22:22:04.056 INFO  vert.x-eventloop-thread-0 BaseServiceProxy     : -> GET /v1/api/iserver/marketdata/snapshot?conids=653081429,653081500,672829101,672829170,758114662,758114828,674163806,653250687,653250400,758133096,758133156,653152108,758140742,758140908,758141216,763662441,703415862,712169275,712168761,763687503,758177015,759650152,653157622,763683078,758183400,692857360,692857481,728874969,724340545,758162101,763684349,728881746,758152265,763687845,728902115,758170565,758170739,690021176,690022201,756975736,758204660,758204706,766258321,758220287,758220354,712238916,712237558,712237585,758648592,758204003,758204102,760319827,763762262,695638272,729003845,60532895,152486141,11031&fields=7308,7309,7310,7311,31,7633,6457,200|320ms
+22:22:09.659 INFO  vert.x-eventloop-thread-0 BaseServiceProxy     : -> GET /v1/api/portfolio/U4264576/positions,200|976ms
+22:22:12.436 INFO  vert.x-eventloop-thread-0 BaseServiceProxy     : -> GET /v1/api/iserver/marketdata/snapshot?conids=653081429,653081500,672829101,672829170,758114662,758114828,674163806,653250687,653250400,758133096,758133156,653152108,758140742,758140908,758141216,763662441,703415862,712169275,712168761,763687503,758177015,759650152,653157622,763683078,758183400,692857360,692857481,728874969,724340545,758162101,763684349,728881746,758152265,763687845,728902115,758170565,758170739,690021176,690022201,756975736,758204660,758204706,766258321,758220287,758220354,712238916,712237558,712237585,758648592,758204003,758204102,760319827,763762262,695638272,729003845,60532895,152486141,11031&fields=7308,7309,7310,7311,31,7633,6457,200|471ms
+22:22:14.808 INFO  vert.x-eventloop-thread-0 BaseServiceProxy     : -> GET /v1/api/iserver/marketdata/snapshot?conids=4391,3691937,761335611,5684,44001820,51529211,208813719,209411798,152486141,83975037,75960201,11031,756733,76792991,365207014,nan&fields=55,31,7287,7655,200|263ms
+22:22:19.079 INFO  vert.x-eventloop-thread-0 BaseServiceProxy     : -> GET /v1/api/portfolio/U4264576/positions,200|280ms
+22:22:21.579 INFO  vert.x-eventloop-thread-0 BaseServiceProxy     : -> GET /v1/api/iserver/marketdata/snapshot?conids=653081429,653081500,672829101,672829170,758114662,758114828,674163806,653250687,653250400,758133096,758133156,653152108,758140742,758140908,758141216,763662441,703415862,712169275,712168761,763687503,758177015,759650152,653157622,763683078,758183400,692857360,692857481,728874969,724340545,758162101,763684349,728881746,758152265,763687845,728902115,758170565,758170739,690021176,690022201,756975736,758204660,758204706,766258321,758220287,758220354,712238916,712237558,712237585,758648592,758204003,758204102,760319827,763762262,695638272,729003845,60532895,152486141,11031&fields=7308,7309,7310,7311,31,7633,6457,200|233ms
+22:22:23.941 INFO  vert.x-eventloop-thread-0 BaseServiceProxy     : -> GET /v1/api/iserver/marketdata/snapshot?conids=4391,3691937,761335611,5684,44001820,51529211,208813719,209411798,152486141,83975037,75960201,11031,756733,76792991,365207014,nan&fields=55,31,7287,7655,200|254ms
+22:22:25.785 INFO  vert.x-eventloop-thread-0 BaseServiceProxy     : -> GET /v1/api/tickle,200|539ms
+22:22:25.786 DEBUG vert.x-eventloop-thread-0 ClientPortalService  : tickle {"session":"58c26e48a61440d94e0c100bec6943fe","ssoExpires":562417,"collission":false,"userId":50303093,"hmds":{"error":"no bridge"},"iserver":{"authStatus":{"authenticated":true,"competing":false,"connected":true,"message":"","MAC":"F4:03:43:CC:A2:00","serverInfo":{"serverName":"JifC23003","serverVersion":"Build 10.34.1a, Mar 3, 2025 5:30:37 PM"},"hardware_info":"2e71a9c8|F4:03:43:CC:A2:00"}}}
+22:22:55.659 INFO  vert.x-eventloop-thread-0 BaseServiceProxy     : -> GET /v1/api/tickle,200|405ms
+22:22:55.659 DEBUG vert.x-eventloop-thread-0 ClientPortalService  : tickle {"session":"58c26e48a61440d94e0c100bec6943fe","ssoExpires":532571,"collission":false,"userId":50303093,"hmds":{"error":"no bridge"},"iserver":{"authStatus":{"authenticated":true,"competing":false,"connected":true,"message":"","MAC":"F4:03:43:CC:A2:00","serverInfo":{"serverName":"JifC23003","serverVersion":"Build 10.34.1a, Mar 3, 2025 5:30:37 PM"},"hardware_info":"2e71a9c8|F4:03:43:CC:A2:00"}}}
+22:23:25.635 INFO  vert.x-eventloop-thread-0 BaseServiceProxy     : -> GET /v1/api/tickle,200|380ms
+22:23:25.635 DEBUG vert.x-eventloop-thread-0 ClientPortalService  : tickle {"session":"58c26e48a61440d94e0c100bec6943fe","ssoExpires":502566,"collission":false,"userId":50303093,"hmds":{"error":"no bridge"},"iserver":{"authStatus":{"authenticated":true,"competing":false,"connected":true,"message":"","MAC":"F4:03:43:CC:A2:00","serverInfo":{"serverName":"JifC23003","serverVersion":"Build 10.34.1a, Mar 3, 2025 5:30:37 PM"},"hardware_info":"2e71a9c8|F4:03:43:CC:A2:00"}}}
+22:23:54.002 INFO  vert.x-eventloop-thread-0 BaseServiceProxy     : -> GET /v1/api/portfolio/U4264576/positions,200|356ms
+22:23:55.457 INFO  vert.x-eventloop-thread-0 BaseServiceProxy     : -> GET /v1/api/tickle,200|204ms
+22:23:55.457 DEBUG vert.x-eventloop-thread-0 ClientPortalService  : tickle {"session":"58c26e48a61440d94e0c100bec6943fe","ssoExpires":472736,"collission":false,"userId":50303093,"hmds":{"error":"no bridge"},"iserver":{"authStatus":{"authenticated":true,"competing":false,"connected":true,"message":"","MAC":"F4:03:43:CC:A2:00","serverInfo":{"serverName":"JifC23003","serverVersion":"Build 10.34.1a, Mar 3, 2025 5:30:37 PM"},"hardware_info":"2e71a9c8|F4:03:43:CC:A2:00"}}}
+22:23:56.642 INFO  vert.x-eventloop-thread-0 BaseServiceProxy     : -> GET /v1/api/iserver/marketdata/snapshot?conids=653081429,653081500,672829101,672829170,758114662,758114828,674163806,653250687,653250400,758133096,758133156,653152108,758140742,758140908,758141216,763662441,703415862,712169275,712168761,763687503,758177015,759650152,653157622,763683078,758183400,692857360,692857481,728874969,724340545,758162101,763684349,728881746,758152265,763687845,728902115,758170565,758170739,690021176,690022201,756975736,758204660,758204706,766258321,758220287,758220354,712238916,712237558,712237585,758648592,758204003,758204102,760319827,763762262,695638272,729003845,60532895,152486141,11031&fields=7308,7309,7310,7311,31,7633,6457,200|331ms
+22:23:58.992 INFO  vert.x-eventloop-thread-0 BaseServiceProxy     : -> GET /v1/api/iserver/marketdata/snapshot?conids=4391,3691937,761335611,5684,44001820,51529211,208813719,209411798,152486141,83975037,75960201,11031,756733,76792991,365207014,nan&fields=55,31,7287,7655,200|248ms
+22:24:25.523 INFO  vert.x-eventloop-thread-0 BaseServiceProxy     : -> GET /v1/api/tickle,200|278ms
+22:24:25.523 DEBUG vert.x-eventloop-thread-0 ClientPortalService  : tickle {"session":"58c26e48a61440d94e0c100bec6943fe","ssoExpires":442682,"collission":false,"userId":50303093,"hmds":{"error":"no bridge"},"iserver":{"authStatus":{"authenticated":true,"competing":false,"connected":true,"message":"","MAC":"F4:03:43:CC:A2:00","serverInfo":{"serverName":"JifC23003","serverVersion":"Build 10.34.1a, Mar 3, 2025 5:30:37 PM"},"hardware_info":"2e71a9c8|F4:03:43:CC:A2:00"}}}
+22:24:55.633 INFO  vert.x-eventloop-thread-0 BaseServiceProxy     : -> GET /v1/api/tickle,200|386ms
+22:24:55.633 DEBUG vert.x-eventloop-thread-0 ClientPortalService  : tickle {"session":"58c26e48a61440d94e0c100bec6943fe","ssoExpires":412703,"collission":false,"userId":50303093,"hmds":{"error":"no bridge"},"iserver":{"authStatus":{"authenticated":true,"competing":false,"connected":true,"message":"","MAC":"F4:03:43:CC:A2:00","serverInfo":{"serverName":"JifC23003","serverVersion":"Build 10.34.1a, Mar 3, 2025 5:30:37 PM"},"hardware_info":"2e71a9c8|F4:03:43:CC:A2:00"}}}
+22:25:25.528 INFO  vert.x-eventloop-thread-0 BaseServiceProxy     : -> GET /v1/api/tickle,200|274ms
+22:25:25.528 DEBUG vert.x-eventloop-thread-0 ClientPortalService  : tickle {"session":"58c26e48a61440d94e0c100bec6943fe","ssoExpires":382683,"collission":false,"userId":50303093,"hmds":{"error":"no bridge"},"iserver":{"authStatus":{"authenticated":true,"competing":false,"connected":true,"message":"","MAC":"F4:03:43:CC:A2:00","serverInfo":{"serverName":"JifC23003","serverVersion":"Build 10.34.1a, Mar 3, 2025 5:30:37 PM"},"hardware_info":"2e71a9c8|F4:03:43:CC:A2:00"}}}
+22:25:55.485 INFO  vert.x-eventloop-thread-0 BaseServiceProxy     : -> GET /v1/api/tickle,200|236ms
+22:25:55.485 DEBUG vert.x-eventloop-thread-0 ClientPortalService  : tickle {"session":"58c26e48a61440d94e0c100bec6943fe","ssoExpires":352744,"collission":false,"userId":50303093,"hmds":{"error":"no bridge"},"iserver":{"authStatus":{"authenticated":true,"competing":false,"connected":true,"message":"","MAC":"F4:03:43:CC:A2:00","serverInfo":{"serverName":"JifC23003","serverVersion":"Build 10.34.1a, Mar 3, 2025 5:30:37 PM"},"hardware_info":"2e71a9c8|F4:03:43:CC:A2:00"}}}
+22:26:25.454 INFO  vert.x-eventloop-thread-0 BaseServiceProxy     : -> GET /v1/api/tickle,200|207ms
+22:26:25.454 DEBUG vert.x-eventloop-thread-0 ClientPortalService  : tickle {"session":"58c26e48a61440d94e0c100bec6943fe","ssoExpires":322753,"collission":false,"userId":50303093,"hmds":{"error":"no bridge"},"iserver":{"authStatus":{"authenticated":true,"competing":false,"connected":true,"message":"","MAC":"F4:03:43:CC:A2:00","serverInfo":{"serverName":"JifC23003","serverVersion":"Build 10.34.1a, Mar 3, 2025 5:30:37 PM"},"hardware_info":"2e71a9c8|F4:03:43:CC:A2:00"}}}
+22:26:48.425 INFO  vert.x-eventloop-thread-0 BaseServiceProxy     : -> GET /sso/ping,200|207ms
+22:26:48.425 INFO  vert.x-eventloop-thread-0 SsoService           : sso ping {"result": "true"}
+22:26:55.800 INFO  vert.x-eventloop-thread-0 BaseServiceProxy     : -> GET /v1/api/tickle,200|558ms
+22:26:55.800 DEBUG vert.x-eventloop-thread-0 ClientPortalService  : tickle {"session":"58c26e48a61440d94e0c100bec6943fe","ssoExpires":292426,"collission":false,"userId":50303093,"hmds":{"error":"no bridge"},"iserver":{"authStatus":{"authenticated":true,"competing":false,"connected":true,"message":"","MAC":"F4:03:43:CC:A2:00","serverInfo":{"serverName":"JifC23003","serverVersion":"Build 10.34.1a, Mar 3, 2025 5:30:37 PM"},"hardware_info":"2e71a9c8|F4:03:43:CC:A2:00"}}}
+22:27:25.691 INFO  vert.x-eventloop-thread-0 BaseServiceProxy     : -> GET /v1/api/tickle,200|450ms
+22:27:25.691 DEBUG vert.x-eventloop-thread-0 ClientPortalService  : tickle {"session":"58c26e48a61440d94e0c100bec6943fe","ssoExpires":262512,"collission":false,"userId":50303093,"hmds":{"error":"no bridge"},"iserver":{"authStatus":{"authenticated":true,"competing":false,"connected":true,"message":"","MAC":"F4:03:43:CC:A2:00","serverInfo":{"serverName":"JifC23003","serverVersion":"Build 10.34.1a, Mar 3, 2025 5:30:37 PM"},"hardware_info":"2e71a9c8|F4:03:43:CC:A2:00"}}}
+22:27:31.182 INFO  vert.x-eventloop-thread-0 BaseServiceProxy     : -> GET /v1/api/portfolio/U4264576/positions,200|323ms
+22:27:33.731 INFO  vert.x-eventloop-thread-0 BaseServiceProxy     : -> GET /v1/api/iserver/marketdata/snapshot?conids=653081429,653081500,672829101,672829170,758114662,758114828,674163806,653250687,653250400,758133096,758133156,653152108,758140742,758140908,758141216,763662441,703415862,712169275,712168761,763687503,758177015,759650152,653157622,763683078,758183400,692857360,692857481,728874969,724340545,758162101,763684349,728881746,758152265,763687845,728902115,758170565,758170739,690021176,690022201,756975736,758204660,758204706,766258321,758220287,758220354,712238916,712237558,712237585,758648592,758204003,758204102,760319827,763762262,695638272,729003845,60532895,152486141,11031&fields=7308,7309,7310,7311,31,7633,6457,200|241ms
+22:27:36.089 INFO  vert.x-eventloop-thread-0 BaseServiceProxy     : -> GET /v1/api/iserver/marketdata/snapshot?conids=4391,3691937,761335611,5684,44001820,51529211,208813719,209411798,152486141,83975037,75960201,11031,756733,76792991,365207014,nan&fields=55,31,7287,7655,200|241ms
+22:27:55.701 INFO  vert.x-eventloop-thread-0 BaseServiceProxy     : -> GET /v1/api/tickle,200|455ms
+22:27:55.701 DEBUG vert.x-eventloop-thread-0 ClientPortalService  : tickle {"session":"58c26e48a61440d94e0c100bec6943fe","ssoExpires":232510,"collission":false,"userId":50303093,"hmds":{"error":"no bridge"},"iserver":{"authStatus":{"authenticated":true,"competing":false,"connected":true,"message":"","MAC":"F4:03:43:CC:A2:00","serverInfo":{"serverName":"JifC23003","serverVersion":"Build 10.34.1a, Mar 3, 2025 5:30:37 PM"},"hardware_info":"2e71a9c8|F4:03:43:CC:A2:00"}}}
+22:28:02.591 INFO  vert.x-eventloop-thread-0 BaseServiceProxy     : -> GET /v1/api/portfolio/U4264576/positions,200|300ms
+22:28:05.031 INFO  vert.x-eventloop-thread-0 BaseServiceProxy     : -> GET /v1/api/iserver/marketdata/snapshot?conids=653081429,653081500,672829101,672829170,758114662,758114828,674163806,653250687,653250400,758133096,758133156,653152108,758140742,758140908,758141216,763662441,703415862,712169275,712168761,763687503,758177015,759650152,653157622,763683078,758183400,692857360,692857481,728874969,724340545,758162101,763684349,728881746,758152265,763687845,728902115,758170565,758170739,690021176,690022201,756975736,758204660,758204706,766258321,758220287,758220354,712238916,712237558,712237585,758648592,758204003,758204102,760319827,763762262,695638272,729003845,60532895,152486141,11031&fields=7308,7309,7310,7311,31,7633,6457,200|213ms
+22:28:07.355 INFO  vert.x-eventloop-thread-0 BaseServiceProxy     : -> GET /v1/api/iserver/marketdata/snapshot?conids=4391,3691937,761335611,5684,44001820,51529211,208813719,209411798,152486141,83975037,75960201,11031,756733,76792991,365207014,nan&fields=55,31,7287,7655,200|219ms
+22:28:25.516 INFO  vert.x-eventloop-thread-0 BaseServiceProxy     : -> GET /v1/api/tickle,200|274ms
+22:28:25.516 DEBUG vert.x-eventloop-thread-0 ClientPortalService  : tickle {"session":"58c26e48a61440d94e0c100bec6943fe","ssoExpires":202702,"collission":false,"userId":50303093,"hmds":{"error":"no bridge"},"iserver":{"authStatus":{"authenticated":true,"competing":false,"connected":true,"message":"","MAC":"F4:03:43:CC:A2:00","serverInfo":{"serverName":"JifC23003","serverVersion":"Build 10.34.1a, Mar 3, 2025 5:30:37 PM"},"hardware_info":"2e71a9c8|F4:03:43:CC:A2:00"}}}
+22:28:55.506 INFO  vert.x-eventloop-thread-0 BaseServiceProxy     : -> GET /v1/api/tickle,200|257ms
+22:28:55.507 DEBUG vert.x-eventloop-thread-0 ClientPortalService  : tickle {"session":"58c26e48a61440d94e0c100bec6943fe","ssoExpires":172696,"collission":false,"userId":50303093,"hmds":{"error":"no bridge"},"iserver":{"authStatus":{"authenticated":true,"competing":false,"connected":true,"message":"","MAC":"F4:03:43:CC:A2:00","serverInfo":{"serverName":"JifC23003","serverVersion":"Build 10.34.1a, Mar 3, 2025 5:30:37 PM"},"hardware_info":"2e71a9c8|F4:03:43:CC:A2:00"}}}
+22:29:13.658 INFO  vert.x-eventloop-thread-0 BaseServiceProxy     : -> GET /v1/api/portfolio/U4264576/positions,200|525ms
+22:29:16.171 INFO  vert.x-eventloop-thread-0 BaseServiceProxy     : -> GET /v1/api/iserver/marketdata/snapshot?conids=653081429,653081500,672829101,672829170,758114662,758114828,674163806,653250687,653250400,758133096,758133156,653152108,758140742,758140908,758141216,763662441,703415862,712169275,712168761,763687503,758177015,759650152,653157622,763683078,758183400,692857360,692857481,728874969,724340545,758162101,763684349,728881746,758152265,763687845,728902115,758170565,758170739,690021176,690022201,756975736,758204660,758204706,766258321,758220287,758220354,712238916,712237558,712237585,758648592,758204003,758204102,760319827,763762262,695638272,729003845,60532895,152486141,11031&fields=7308,7309,7310,7311,31,7633,6457,200|210ms
+22:29:18.517 INFO  vert.x-eventloop-thread-0 BaseServiceProxy     : -> GET /v1/api/iserver/marketdata/snapshot?conids=4391,3691937,761335611,5684,44001820,51529211,208813719,209411798,152486141,83975037,75960201,11031,756733,76792991,365207014,nan&fields=55,31,7287,7655,200|216ms
+22:29:25.454 INFO  vert.x-eventloop-thread-0 BaseServiceProxy     : -> GET /v1/api/tickle,200|211ms
+22:29:25.454 DEBUG vert.x-eventloop-thread-0 ClientPortalService  : tickle {"session":"58c26e48a61440d94e0c100bec6943fe","ssoExpires":142750,"collission":false,"userId":50303093,"hmds":{"error":"no bridge"},"iserver":{"authStatus":{"authenticated":true,"competing":false,"connected":true,"message":"","MAC":"F4:03:43:CC:A2:00","serverInfo":{"serverName":"JifC23003","serverVersion":"Build 10.34.1a, Mar 3, 2025 5:30:37 PM"},"hardware_info":"2e71a9c8|F4:03:43:CC:A2:00"}}}
+22:29:55.476 INFO  vert.x-eventloop-thread-0 BaseServiceProxy     : -> GET /v1/api/tickle,200|225ms
+22:29:55.476 DEBUG vert.x-eventloop-thread-0 ClientPortalService  : tickle {"session":"58c26e48a61440d94e0c100bec6943fe","ssoExpires":112743,"collission":false,"userId":50303093,"hmds":{"error":"no bridge"},"iserver":{"authStatus":{"authenticated":true,"competing":false,"connected":true,"message":"","MAC":"F4:03:43:CC:A2:00","serverInfo":{"serverName":"JifC23003","serverVersion":"Build 10.34.1a, Mar 3, 2025 5:30:37 PM"},"hardware_info":"2e71a9c8|F4:03:43:CC:A2:00"}}}
+22:30:25.450 INFO  vert.x-eventloop-thread-0 BaseServiceProxy     : -> GET /v1/api/tickle,200|199ms
+22:30:25.450 DEBUG vert.x-eventloop-thread-0 ClientPortalService  : tickle {"session":"58c26e48a61440d94e0c100bec6943fe","ssoExpires":82752,"collission":false,"userId":50303093,"hmds":{"error":"no bridge"},"iserver":{"authStatus":{"authenticated":true,"competing":false,"connected":true,"message":"","MAC":"F4:03:43:CC:A2:00","serverInfo":{"serverName":"JifC23003","serverVersion":"Build 10.34.1a, Mar 3, 2025 5:30:37 PM"},"hardware_info":"2e71a9c8|F4:03:43:CC:A2:00"}}}
+22:30:55.468 INFO  vert.x-eventloop-thread-0 BaseServiceProxy     : -> GET /v1/api/tickle,200|218ms
+22:30:55.468 DEBUG vert.x-eventloop-thread-0 ClientPortalService  : tickle {"session":"58c26e48a61440d94e0c100bec6943fe","ssoExpires":52735,"collission":false,"userId":50303093,"hmds":{"error":"no bridge"},"iserver":{"authStatus":{"authenticated":true,"competing":false,"connected":true,"message":"","MAC":"F4:03:43:CC:A2:00","serverInfo":{"serverName":"JifC23003","serverVersion":"Build 10.34.1a, Mar 3, 2025 5:30:37 PM"},"hardware_info":"2e71a9c8|F4:03:43:CC:A2:00"}}}
+22:31:25.557 INFO  vert.x-eventloop-thread-0 BaseServiceProxy     : -> GET /v1/api/tickle,200|302ms
+22:31:25.557 DEBUG vert.x-eventloop-thread-0 ClientPortalService  : tickle {"session":"58c26e48a61440d94e0c100bec6943fe","ssoExpires":22685,"collission":false,"userId":50303093,"hmds":{"error":"no bridge"},"iserver":{"authStatus":{"authenticated":true,"competing":false,"connected":true,"message":"","MAC":"F4:03:43:CC:A2:00","serverInfo":{"serverName":"JifC23003","serverVersion":"Build 10.34.1a, Mar 3, 2025 5:30:37 PM"},"hardware_info":"2e71a9c8|F4:03:43:CC:A2:00"}}}
+22:31:27.316 INFO  vert.x-eventloop-thread-0 BaseServiceProxy     : -> GET /v1/api/portfolio/U4264576/positions,200|463ms
+22:31:29.899 INFO  vert.x-eventloop-thread-0 BaseServiceProxy     : -> GET /v1/api/iserver/marketdata/snapshot?conids=653081429,653081500,672829101,672829170,758114662,758114828,674163806,653250687,653250400,758133096,758133156,653152108,758140742,758140908,758141216,763662441,703415862,712169275,712168761,763687503,758177015,759650152,653157622,763683078,758183400,692857360,692857481,728874969,724340545,758162101,763684349,728881746,758152265,763687845,728902115,758170565,758170739,690021176,690022201,756975736,758204660,758204706,766258321,758220287,758220354,712238916,712237558,712237585,758648592,758204003,758204102,760319827,763762262,695638272,729003845,60532895,152486141,11031&fields=7308,7309,7310,7311,31,7633,6457,200|332ms
+22:31:32.196 INFO  vert.x-eventloop-thread-0 BaseServiceProxy     : -> GET /v1/api/iserver/marketdata/snapshot?conids=4391,3691937,761335611,5684,44001820,51529211,208813719,209411798,152486141,83975037,75960201,11031,756733,76792991,365207014,nan&fields=55,31,7287,7655,200|196ms
+22:31:48.449 INFO  vert.x-eventloop-thread-0 BaseServiceProxy     : -> GET /sso/ping,200|241ms
+22:31:48.450 INFO  vert.x-eventloop-thread-0 SsoService           : sso ping {"result": "true"}
+22:31:55.585 INFO  vert.x-eventloop-thread-0 BaseServiceProxy     : -> GET /v1/api/tickle,200|336ms
+22:31:55.585 DEBUG vert.x-eventloop-thread-0 ClientPortalService  : tickle {"session":"58c26e48a61440d94e0c100bec6943fe","ssoExpires":0,"collission":false,"userId":50303093,"hmds":{"error":"no bridge"},"iserver":{"authStatus":{"authenticated":true,"competing":false,"connected":true,"message":"","MAC":"F4:03:43:CC:A2:00","serverInfo":{"serverName":"JifC23003","serverVersion":"Build 10.34.1a, Mar 3, 2025 5:30:37 PM"},"hardware_info":"2e71a9c8|F4:03:43:CC:A2:00"}}}
+22:32:25.436 INFO  vert.x-eventloop-thread-0 BaseServiceProxy     : -> GET /v1/api/tickle,200|196ms
+22:32:25.436 DEBUG vert.x-eventloop-thread-0 ClientPortalService  : tickle {"session":"58c26e48a61440d94e0c100bec6943fe","ssoExpires":570140,"collission":false,"userId":50303093,"hmds":{"error":"no bridge"},"iserver":{"authStatus":{"authenticated":true,"competing":false,"connected":true,"message":"","MAC":"F4:03:43:CC:A2:00","serverInfo":{"serverName":"JifC23003","serverVersion":"Build 10.34.1a, Mar 3, 2025 5:30:37 PM"},"hardware_info":"2e71a9c8|F4:03:43:CC:A2:00"}}}
+22:32:39.992 INFO  vert.x-eventloop-thread-0 BaseServiceProxy     : -> GET /v1/api/portfolio/U4264576/positions,200|325ms
+22:32:42.714 INFO  vert.x-eventloop-thread-0 BaseServiceProxy     : -> GET /v1/api/iserver/marketdata/snapshot?conids=653081429,653081500,672829101,672829170,758114662,758114828,674163806,653250687,653250400,758133096,758133156,653152108,758140742,758140908,758141216,763662441,703415862,712169275,712168761,763687503,758177015,759650152,653157622,763683078,758183400,692857360,692857481,728874969,724340545,758162101,763684349,728881746,758152265,763687845,728902115,758170565,758170739,690021176,690022201,756975736,758204660,758204706,766258321,758220287,758220354,712238916,712237558,712237585,758648592,758204003,758204102,760319827,763762262,695638272,729003845,60532895,152486141,11031&fields=7308,7309,7310,7311,31,7633,6457,200|414ms
+22:32:45.027 INFO  vert.x-eventloop-thread-0 BaseServiceProxy     : -> GET /v1/api/iserver/marketdata/snapshot?conids=4391,3691937,761335611,5684,44001820,51529211,208813719,209411798,152486141,83975037,75960201,11031,756733,76792991,365207014,nan&fields=55,31,7287,7655,200|211ms
+22:32:55.505 INFO  vert.x-eventloop-thread-0 BaseServiceProxy     : -> GET /v1/api/tickle,200|252ms
+22:32:55.505 DEBUG vert.x-eventloop-thread-0 ClientPortalService  : tickle {"session":"58c26e48a61440d94e0c100bec6943fe","ssoExpires":540128,"collission":false,"userId":50303093,"hmds":{"error":"no bridge"},"iserver":{"authStatus":{"authenticated":true,"competing":false,"connected":true,"message":"","MAC":"F4:03:43:CC:A2:00","serverInfo":{"serverName":"JifC23003","serverVersion":"Build 10.34.1a, Mar 3, 2025 5:30:37 PM"},"hardware_info":"2e71a9c8|F4:03:43:CC:A2:00"}}}
+22:33:25.584 INFO  vert.x-eventloop-thread-0 BaseServiceProxy     : -> GET /v1/api/tickle,200|344ms
+22:33:25.593 DEBUG vert.x-eventloop-thread-0 ClientPortalService  : tickle {"session":"58c26e48a61440d94e0c100bec6943fe","ssoExpires":510040,"collission":false,"userId":50303093,"hmds":{"error":"no bridge"},"iserver":{"authStatus":{"authenticated":true,"competing":false,"connected":true,"message":"","MAC":"F4:03:43:CC:A2:00","serverInfo":{"serverName":"JifC23003","serverVersion":"Build 10.34.1a, Mar 3, 2025 5:30:37 PM"},"hardware_info":"2e71a9c8|F4:03:43:CC:A2:00"}}}
+22:33:55.963 INFO  vert.x-eventloop-thread-0 BaseServiceProxy     : -> GET /v1/api/tickle,200|711ms
+22:33:55.963 DEBUG vert.x-eventloop-thread-0 ClientPortalService  : tickle {"session":"58c26e48a61440d94e0c100bec6943fe","ssoExpires":479626,"collission":false,"userId":50303093,"hmds":{"error":"no bridge"},"iserver":{"authStatus":{"authenticated":true,"competing":false,"connected":true,"message":"","MAC":"F4:03:43:CC:A2:00","serverInfo":{"serverName":"JifC23003","serverVersion":"Build 10.34.1a, Mar 3, 2025 5:30:37 PM"},"hardware_info":"2e71a9c8|F4:03:43:CC:A2:00"}}}
+22:34:25.477 INFO  vert.x-eventloop-thread-0 BaseServiceProxy     : -> GET /v1/api/tickle,200|225ms
+22:34:25.477 DEBUG vert.x-eventloop-thread-0 ClientPortalService  : tickle {"session":"58c26e48a61440d94e0c100bec6943fe","ssoExpires":450115,"collission":false,"userId":50303093,"hmds":{"error":"no bridge"},"iserver":{"authStatus":{"authenticated":true,"competing":false,"connected":true,"message":"","MAC":"F4:03:43:CC:A2:00","serverInfo":{"serverName":"JifC23003","serverVersion":"Build 10.34.1a, Mar 3, 2025 5:30:37 PM"},"hardware_info":"2e71a9c8|F4:03:43:CC:A2:00"}}}
+22:34:55.540 INFO  vert.x-eventloop-thread-0 BaseServiceProxy     : -> GET /v1/api/tickle,200|295ms
+22:34:55.542 DEBUG vert.x-eventloop-thread-0 ClientPortalService  : tickle {"session":"58c26e48a61440d94e0c100bec6943fe","ssoExpires":420101,"collission":false,"userId":50303093,"hmds":{"error":"no bridge"},"iserver":{"authStatus":{"authenticated":true,"competing":false,"connected":true,"message":"","MAC":"F4:03:43:CC:A2:00","serverInfo":{"serverName":"JifC23003","serverVersion":"Build 10.34.1a, Mar 3, 2025 5:30:37 PM"},"hardware_info":"2e71a9c8|F4:03:43:CC:A2:00"}}}
+22:35:25.959 INFO  vert.x-eventloop-thread-0 BaseServiceProxy     : -> GET /v1/api/tickle,200|718ms
+22:35:25.959 DEBUG vert.x-eventloop-thread-0 ClientPortalService  : tickle {"session":"58c26e48a61440d94e0c100bec6943fe","ssoExpires":389636,"collission":false,"userId":50303093,"hmds":{"error":"no bridge"},"iserver":{"authStatus":{"authenticated":true,"competing":false,"connected":true,"message":"","MAC":"F4:03:43:CC:A2:00","serverInfo":{"serverName":"JifC23003","serverVersion":"Build 10.34.1a, Mar 3, 2025 5:30:37 PM"},"hardware_info":"2e71a9c8|F4:03:43:CC:A2:00"}}}
+22:35:40.003 INFO  vert.x-eventloop-thread-0 BaseServiceProxy     : -> GET /v1/api/portfolio/U4264576/positions,200|322ms
+22:35:42.476 INFO  vert.x-eventloop-thread-0 BaseServiceProxy     : -> GET /v1/api/iserver/marketdata/snapshot?conids=653081429,653081500,672829101,672829170,758114662,758114828,674163806,653250687,653250400,758133096,758133156,653152108,758140742,758140908,758141216,763662441,703415862,712169275,712168761,763687503,758177015,759650152,653157622,763683078,758183400,692857360,692857481,728874969,724340545,758162101,763684349,728881746,758152265,763687845,728902115,758170565,758170739,690021176,690022201,756975736,758204660,758204706,766258321,758220287,758220354,712238916,712237558,712237585,758648592,758204003,758204102,760319827,763762262,695638272,729003845,60532895,152486141,11031&fields=7308,7309,7310,7311,31,7633,6457,200|213ms
+22:35:44.826 INFO  vert.x-eventloop-thread-0 BaseServiceProxy     : -> GET /v1/api/iserver/marketdata/snapshot?conids=4391,3691937,761335611,5684,44001820,51529211,208813719,209411798,152486141,83975037,75960201,11031,756733,76792991,365207014,nan&fields=55,31,7287,7655,200|249ms
+22:35:55.507 INFO  vert.x-eventloop-thread-0 BaseServiceProxy     : -> GET /v1/api/tickle,200|257ms
+22:35:55.507 DEBUG vert.x-eventloop-thread-0 ClientPortalService  : tickle {"session":"58c26e48a61440d94e0c100bec6943fe","ssoExpires":360076,"collission":false,"userId":50303093,"hmds":{"error":"no bridge"},"iserver":{"authStatus":{"authenticated":true,"competing":false,"connected":true,"message":"","MAC":"F4:03:43:CC:A2:00","serverInfo":{"serverName":"JifC23003","serverVersion":"Build 10.34.1a, Mar 3, 2025 5:30:37 PM"},"hardware_info":"2e71a9c8|F4:03:43:CC:A2:00"}}}
+22:36:25.697 INFO  vert.x-eventloop-thread-0 BaseServiceProxy     : -> GET /v1/api/tickle,200|455ms
+22:36:25.697 DEBUG vert.x-eventloop-thread-0 ClientPortalService  : tickle {"session":"58c26e48a61440d94e0c100bec6943fe","ssoExpires":329899,"collission":false,"userId":50303093,"hmds":{"error":"no bridge"},"iserver":{"authStatus":{"authenticated":true,"competing":false,"connected":true,"message":"","MAC":"F4:03:43:CC:A2:00","serverInfo":{"serverName":"JifC23003","serverVersion":"Build 10.34.1a, Mar 3, 2025 5:30:37 PM"},"hardware_info":"2e71a9c8|F4:03:43:CC:A2:00"}}}
+22:36:48.419 INFO  vert.x-eventloop-thread-0 BaseServiceProxy     : -> GET /sso/ping,200|208ms
+22:36:48.420 INFO  vert.x-eventloop-thread-0 SsoService           : sso ping {"result": "true"}
+22:36:51.951 INFO  vert.x-eventloop-thread-0 BaseServiceProxy     : -> GET /v1/api/portfolio/U4264576/positions,200|303ms
+22:36:54.750 INFO  vert.x-eventloop-thread-0 BaseServiceProxy     : -> GET /v1/api/iserver/marketdata/snapshot?conids=653081429,653081500,672829101,672829170,758114662,758114828,674163806,653250687,653250400,758133096,758133156,653152108,758140742,758140908,758141216,763662441,703415862,712169275,712168761,763687503,758177015,759650152,653157622,763683078,758183400,692857360,692857481,728874969,724340545,758162101,763684349,728881746,758152265,763687845,728902115,758170565,758170739,690021176,690022201,756975736,758204660,758204706,766258321,758220287,758220354,712238916,712237558,712237585,758648592,758204003,758204102,760319827,763762262,695638272,729003845,60532895,152486141,11031&fields=7308,7309,7310,7311,31,7633,6457,200|553ms
+22:36:55.550 INFO  vert.x-eventloop-thread-0 BaseServiceProxy     : -> GET /v1/api/tickle,200|307ms
+22:36:55.550 DEBUG vert.x-eventloop-thread-0 ClientPortalService  : tickle {"session":"58c26e48a61440d94e0c100bec6943fe","ssoExpires":300061,"collission":false,"userId":50303093,"hmds":{"error":"no bridge"},"iserver":{"authStatus":{"authenticated":true,"competing":false,"connected":true,"message":"","MAC":"F4:03:43:CC:A2:00","serverInfo":{"serverName":"JifC23003","serverVersion":"Build 10.34.1a, Mar 3, 2025 5:30:37 PM"},"hardware_info":"2e71a9c8|F4:03:43:CC:A2:00"}}}
+22:36:57.068 INFO  vert.x-eventloop-thread-0 BaseServiceProxy     : -> GET /v1/api/iserver/marketdata/snapshot?conids=4391,3691937,761335611,5684,44001820,51529211,208813719,209411798,152486141,83975037,75960201,11031,756733,76792991,365207014,nan&fields=55,31,7287,7655,200|214ms
+22:37:18.750 INFO  vert.x-eventloop-thread-0 BaseServiceProxy     : -> GET /v1/api/portfolio/U4264576/positions,200|296ms
+22:37:21.318 INFO  vert.x-eventloop-thread-0 BaseServiceProxy     : -> GET /v1/api/iserver/marketdata/snapshot?conids=653081429,653081500,672829101,672829170,758114662,758114828,674163806,653250687,653250400,758133096,758133156,653152108,758140742,758140908,758141216,763662441,703415862,712169275,712168761,763687503,758177015,759650152,653157622,763683078,758183400,692857360,692857481,728874969,724340545,758162101,763684349,728881746,758152265,763687845,728902115,758170565,758170739,690021176,690022201,756975736,758204660,758204706,766258321,758220287,758220354,712238916,712237558,712237585,758648592,758204003,758204102,760319827,763762262,695638272,729003845,60532895,152486141,11031&fields=7308,7309,7310,7311,31,7633,6457,200|267ms
+22:37:23.820 INFO  vert.x-eventloop-thread-0 BaseServiceProxy     : -> GET /v1/api/iserver/marketdata/snapshot?conids=4391,3691937,761335611,5684,44001820,51529211,208813719,209411798,152486141,83975037,75960201,11031,756733,76792991,365207014,nan&fields=55,31,7287,7655,200|411ms
+22:37:25.501 INFO  vert.x-eventloop-thread-0 BaseServiceProxy     : -> GET /v1/api/tickle,200|256ms
+22:37:25.501 DEBUG vert.x-eventloop-thread-0 ClientPortalService  : tickle {"session":"58c26e48a61440d94e0c100bec6943fe","ssoExpires":270097,"collission":false,"userId":50303093,"hmds":{"error":"no bridge"},"iserver":{"authStatus":{"authenticated":true,"competing":false,"connected":true,"message":"","MAC":"F4:03:43:CC:A2:00","serverInfo":{"serverName":"JifC23003","serverVersion":"Build 10.34.1a, Mar 3, 2025 5:30:37 PM"},"hardware_info":"2e71a9c8|F4:03:43:CC:A2:00"}}}
+22:37:55.638 INFO  vert.x-eventloop-thread-0 BaseServiceProxy     : -> GET /v1/api/tickle,200|382ms
+22:37:55.638 DEBUG vert.x-eventloop-thread-0 ClientPortalService  : tickle {"session":"58c26e48a61440d94e0c100bec6943fe","ssoExpires":240003,"collission":false,"userId":50303093,"hmds":{"error":"no bridge"},"iserver":{"authStatus":{"authenticated":true,"competing":false,"connected":true,"message":"","MAC":"F4:03:43:CC:A2:00","serverInfo":{"serverName":"JifC23003","serverVersion":"Build 10.34.1a, Mar 3, 2025 5:30:37 PM"},"hardware_info":"2e71a9c8|F4:03:43:CC:A2:00"}}}
+22:38:08.639 INFO  vert.x-eventloop-thread-0 BaseServiceProxy     : -> GET /v1/api/portfolio/U4264576/positions,200|422ms
+22:38:11.186 INFO  vert.x-eventloop-thread-0 BaseServiceProxy     : -> GET /v1/api/iserver/marketdata/snapshot?conids=653081429,653081500,672829101,672829170,758114662,758114828,674163806,653250687,653250400,758133096,758133156,653152108,758140742,758140908,758141216,763662441,703415862,712169275,712168761,763687503,758177015,759650152,653157622,763683078,758183400,692857360,692857481,728874969,724340545,758162101,763684349,728881746,758152265,763687845,728902115,758170565,758170739,690021176,690022201,756975736,758204660,758204706,766258321,758220287,758220354,712238916,712237558,712237585,758648592,758204003,758204102,760319827,763762262,695638272,729003845,60532895,152486141,11031&fields=7308,7309,7310,7311,31,7633,6457,200|288ms
+22:38:13.479 INFO  vert.x-eventloop-thread-0 BaseServiceProxy     : -> GET /v1/api/iserver/marketdata/snapshot?conids=4391,3691937,761335611,5684,44001820,51529211,208813719,209411798,152486141,83975037,75960201,11031,756733,76792991,365207014,nan&fields=55,31,7287,7655,200|210ms
+22:38:25.581 INFO  vert.x-eventloop-thread-0 BaseServiceProxy     : -> GET /v1/api/tickle,200|340ms
+22:38:25.581 DEBUG vert.x-eventloop-thread-0 ClientPortalService  : tickle {"session":"58c26e48a61440d94e0c100bec6943fe","ssoExpires":210049,"collission":false,"userId":50303093,"hmds":{"error":"no bridge"},"iserver":{"authStatus":{"authenticated":true,"competing":false,"connected":true,"message":"","MAC":"F4:03:43:CC:A2:00","serverInfo":{"serverName":"JifC23003","serverVersion":"Build 10.34.1a, Mar 3, 2025 5:30:37 PM"},"hardware_info":"2e71a9c8|F4:03:43:CC:A2:00"}}}
+22:38:55.540 INFO  vert.x-eventloop-thread-0 BaseServiceProxy     : -> GET /v1/api/tickle,200|294ms
+22:38:55.541 DEBUG vert.x-eventloop-thread-0 ClientPortalService  : tickle {"session":"58c26e48a61440d94e0c100bec6943fe","ssoExpires":180088,"collission":false,"userId":50303093,"hmds":{"error":"no bridge"},"iserver":{"authStatus":{"authenticated":true,"competing":false,"connected":true,"message":"","MAC":"F4:03:43:CC:A2:00","serverInfo":{"serverName":"JifC23003","serverVersion":"Build 10.34.1a, Mar 3, 2025 5:30:37 PM"},"hardware_info":"2e71a9c8|F4:03:43:CC:A2:00"}}}
+22:39:25.827 INFO  vert.x-eventloop-thread-0 BaseServiceProxy     : -> GET /v1/api/tickle,200|574ms
+22:39:25.827 DEBUG vert.x-eventloop-thread-0 ClientPortalService  : tickle {"session":"58c26e48a61440d94e0c100bec6943fe","ssoExpires":149771,"collission":false,"userId":50303093,"hmds":{"error":"no bridge"},"iserver":{"authStatus":{"authenticated":true,"competing":false,"connected":true,"message":"","MAC":"F4:03:43:CC:A2:00","serverInfo":{"serverName":"JifC23003","serverVersion":"Build 10.34.1a, Mar 3, 2025 5:30:37 PM"},"hardware_info":"2e71a9c8|F4:03:43:CC:A2:00"}}}
+22:39:55.528 INFO  vert.x-eventloop-thread-0 BaseServiceProxy     : -> GET /v1/api/tickle,200|279ms
+22:39:55.528 DEBUG vert.x-eventloop-thread-0 ClientPortalService  : tickle {"session":"58c26e48a61440d94e0c100bec6943fe","ssoExpires":120076,"collission":false,"userId":50303093,"hmds":{"error":"no bridge"},"iserver":{"authStatus":{"authenticated":true,"competing":false,"connected":true,"message":"","MAC":"F4:03:43:CC:A2:00","serverInfo":{"serverName":"JifC23003","serverVersion":"Build 10.34.1a, Mar 3, 2025 5:30:37 PM"},"hardware_info":"2e71a9c8|F4:03:43:CC:A2:00"}}}
+22:40:25.566 INFO  vert.x-eventloop-thread-0 BaseServiceProxy     : -> GET /v1/api/tickle,200|316ms
+22:40:25.566 DEBUG vert.x-eventloop-thread-0 ClientPortalService  : tickle {"session":"58c26e48a61440d94e0c100bec6943fe","ssoExpires":90081,"collission":false,"userId":50303093,"hmds":{"error":"no bridge"},"iserver":{"authStatus":{"authenticated":true,"competing":false,"connected":true,"message":"","MAC":"F4:03:43:CC:A2:00","serverInfo":{"serverName":"JifC23003","serverVersion":"Build 10.34.1a, Mar 3, 2025 5:30:37 PM"},"hardware_info":"2e71a9c8|F4:03:43:CC:A2:00"}}}
+22:40:55.484 INFO  vert.x-eventloop-thread-0 BaseServiceProxy     : -> GET /v1/api/tickle,200|242ms
+22:40:55.484 DEBUG vert.x-eventloop-thread-0 ClientPortalService  : tickle {"session":"58c26e48a61440d94e0c100bec6943fe","ssoExpires":60115,"collission":false,"userId":50303093,"hmds":{"error":"no bridge"},"iserver":{"authStatus":{"authenticated":true,"competing":false,"connected":true,"message":"","MAC":"F4:03:43:CC:A2:00","serverInfo":{"serverName":"JifC23003","serverVersion":"Build 10.34.1a, Mar 3, 2025 5:30:37 PM"},"hardware_info":"2e71a9c8|F4:03:43:CC:A2:00"}}}
+22:41:25.444 INFO  vert.x-eventloop-thread-0 BaseServiceProxy     : -> GET /v1/api/tickle,200|196ms
+22:41:25.444 DEBUG vert.x-eventloop-thread-0 ClientPortalService  : tickle {"session":"58c26e48a61440d94e0c100bec6943fe","ssoExpires":30145,"collission":false,"userId":50303093,"hmds":{"error":"no bridge"},"iserver":{"authStatus":{"authenticated":true,"competing":false,"connected":true,"message":"","MAC":"F4:03:43:CC:A2:00","serverInfo":{"serverName":"JifC23003","serverVersion":"Build 10.34.1a, Mar 3, 2025 5:30:37 PM"},"hardware_info":"2e71a9c8|F4:03:43:CC:A2:00"}}}
+22:41:48.480 INFO  vert.x-eventloop-thread-0 BaseServiceProxy     : -> GET /sso/ping,200|263ms
+22:41:48.480 INFO  vert.x-eventloop-thread-0 SsoService           : sso ping {"result": "true"}
+22:41:55.515 INFO  vert.x-eventloop-thread-0 BaseServiceProxy     : -> GET /v1/api/tickle,200|271ms
+22:41:55.515 DEBUG vert.x-eventloop-thread-0 ClientPortalService  : tickle {"session":"58c26e48a61440d94e0c100bec6943fe","ssoExpires":116,"collission":false,"userId":50303093,"hmds":{"error":"no bridge"},"iserver":{"authStatus":{"authenticated":true,"competing":false,"connected":true,"message":"","MAC":"F4:03:43:CC:A2:00","serverInfo":{"serverName":"JifC23003","serverVersion":"Build 10.34.1a, Mar 3, 2025 5:30:37 PM"},"hardware_info":"2e71a9c8|F4:03:43:CC:A2:00"}}}
+22:42:25.459 INFO  vert.x-eventloop-thread-0 BaseServiceProxy     : -> GET /v1/api/tickle,200|208ms
+22:42:25.467 DEBUG vert.x-eventloop-thread-0 ClientPortalService  : tickle {"session":"58c26e48a61440d94e0c100bec6943fe","ssoExpires":0,"collission":false,"userId":50303093,"hmds":{"error":"no bridge"},"iserver":{"authStatus":{"authenticated":true,"competing":false,"connected":true,"message":"","MAC":"F4:03:43:CC:A2:00","serverInfo":{"serverName":"JifC23003","serverVersion":"Build 10.34.1a, Mar 3, 2025 5:30:37 PM"},"hardware_info":"2e71a9c8|F4:03:43:CC:A2:00"}}}
+22:42:42.043 INFO  vert.x-eventloop-thread-0 BaseServiceProxy     : -> GET /v1/api/portfolio/U4264576/positions,200|471ms
+22:42:44.562 INFO  vert.x-eventloop-thread-0 BaseServiceProxy     : -> GET /v1/api/iserver/marketdata/snapshot?conids=653081429,653081500,672829101,672829170,758114662,758114828,674163806,653250687,653250400,758133096,758133156,653152108,758140742,758140908,758141216,763662441,703415862,712169275,712168761,763687503,758177015,759650152,653157622,763683078,758183400,692857360,692857481,728874969,724340545,758162101,763684349,728881746,758152265,763687845,728902115,758170565,758170739,690021176,690022201,756975736,758204660,758204706,766258321,758220287,758220354,712238916,712237558,712237585,758648592,758204003,758204102,760319827,763762262,695638272,729003845,60532895,152486141,11031&fields=7308,7309,7310,7311,31,7633,6457,200|278ms
+22:42:46.873 INFO  vert.x-eventloop-thread-0 BaseServiceProxy     : -> GET /v1/api/iserver/marketdata/snapshot?conids=4391,3691937,761335611,5684,44001820,51529211,208813719,209411798,152486141,83975037,75960201,11031,756733,76792991,365207014,nan&fields=55,31,7287,7655,200|215ms
+22:42:55.502 INFO  vert.x-eventloop-thread-0 BaseServiceProxy     : -> GET /v1/api/tickle,200|246ms
+22:42:55.503 DEBUG vert.x-eventloop-thread-0 ClientPortalService  : tickle {"session":"58c26e48a61440d94e0c100bec6943fe","ssoExpires":570001,"collission":false,"userId":50303093,"hmds":{"error":"no bridge"},"iserver":{"authStatus":{"authenticated":true,"competing":false,"connected":true,"message":"","MAC":"F4:03:43:CC:A2:00","serverInfo":{"serverName":"JifC23003","serverVersion":"Build 10.34.1a, Mar 3, 2025 5:30:37 PM"},"hardware_info":"2e71a9c8|F4:03:43:CC:A2:00"}}}
+22:43:25.460 INFO  vert.x-eventloop-thread-0 BaseServiceProxy     : -> GET /v1/api/tickle,200|212ms
+22:43:25.460 DEBUG vert.x-eventloop-thread-0 ClientPortalService  : tickle {"session":"58c26e48a61440d94e0c100bec6943fe","ssoExpires":540035,"collission":false,"userId":50303093,"hmds":{"error":"no bridge"},"iserver":{"authStatus":{"authenticated":true,"competing":false,"connected":true,"message":"","MAC":"F4:03:43:CC:A2:00","serverInfo":{"serverName":"JifC23003","serverVersion":"Build 10.34.1a, Mar 3, 2025 5:30:37 PM"},"hardware_info":"2e71a9c8|F4:03:43:CC:A2:00"}}}
+22:43:31.065 INFO  vert.x-eventloop-thread-0 BaseServiceProxy     : -> GET /v1/api/portfolio/U4264576/positions,200|376ms
+22:43:33.505 INFO  vert.x-eventloop-thread-0 BaseServiceProxy     : -> GET /v1/api/iserver/marketdata/snapshot?conids=653081429,653081500,672829101,672829170,758114662,758114828,674163806,653250687,653250400,758133096,758133156,653152108,758140742,758140908,758141216,763662441,703415862,712169275,712168761,763687503,758177015,759650152,653157622,763683078,758183400,692857360,692857481,728874969,724340545,758162101,763684349,728881746,758152265,763687845,728902115,758170565,758170739,690021176,690022201,756975736,758204660,758204706,766258321,758220287,758220354,712238916,712237558,712237585,758648592,758204003,758204102,760319827,763762262,695638272,729003845,60532895,152486141,11031&fields=7308,7309,7310,7311,31,7633,6457,200|234ms
+22:43:35.839 INFO  vert.x-eventloop-thread-0 BaseServiceProxy     : -> GET /v1/api/iserver/marketdata/snapshot?conids=4391,3691937,761335611,5684,44001820,51529211,208813719,209411798,152486141,83975037,75960201,11031,756733,76792991,365207014,nan&fields=55,31,7287,7655,200|220ms
+22:43:55.474 INFO  vert.x-eventloop-thread-0 BaseServiceProxy     : -> GET /v1/api/tickle,200|219ms
+22:43:55.475 DEBUG vert.x-eventloop-thread-0 ClientPortalService  : tickle {"session":"58c26e48a61440d94e0c100bec6943fe","ssoExpires":510015,"collission":false,"userId":50303093,"hmds":{"error":"no bridge"},"iserver":{"authStatus":{"authenticated":true,"competing":false,"connected":true,"message":"","MAC":"F4:03:43:CC:A2:00","serverInfo":{"serverName":"JifC23003","serverVersion":"Build 10.34.1a, Mar 3, 2025 5:30:37 PM"},"hardware_info":"2e71a9c8|F4:03:43:CC:A2:00"}}}
+22:44:25.626 INFO  vert.x-eventloop-thread-0 BaseServiceProxy     : -> GET /v1/api/tickle,200|375ms
+22:44:25.626 DEBUG vert.x-eventloop-thread-0 ClientPortalService  : tickle {"session":"58c26e48a61440d94e0c100bec6943fe","ssoExpires":479863,"collission":false,"userId":50303093,"hmds":{"error":"no bridge"},"iserver":{"authStatus":{"authenticated":true,"competing":false,"connected":true,"message":"","MAC":"F4:03:43:CC:A2:00","serverInfo":{"serverName":"JifC23003","serverVersion":"Build 10.34.1a, Mar 3, 2025 5:30:37 PM"},"hardware_info":"2e71a9c8|F4:03:43:CC:A2:00"}}}
+22:44:27.161 INFO  vert.x-eventloop-thread-0 BaseServiceProxy     : -> GET /v1/api/portfolio/U4264576/positions,200|314ms
+22:44:29.611 INFO  vert.x-eventloop-thread-0 BaseServiceProxy     : -> GET /v1/api/iserver/marketdata/snapshot?conids=653081429,653081500,672829101,672829170,758114662,758114828,674163806,653250687,653250400,758133096,758133156,653152108,758140742,758140908,758141216,763662441,703415862,712169275,712168761,763687503,758177015,759650152,653157622,763683078,758183400,692857360,692857481,728874969,724340545,758162101,763684349,728881746,758152265,763687845,728902115,758170565,758170739,690021176,690022201,756975736,758204660,758204706,766258321,758220287,758220354,712238916,712237558,712237585,758648592,758204003,758204102,760319827,763762262,695638272,729003845,60532895,152486141,11031&fields=7308,7309,7310,7311,31,7633,6457,200|217ms
+22:44:32.113 INFO  vert.x-eventloop-thread-0 BaseServiceProxy     : -> GET /v1/api/iserver/marketdata/snapshot?conids=4391,3691937,761335611,5684,44001820,51529211,208813719,209411798,152486141,83975037,75960201,11031,756733,76792991,365207014,nan&fields=55,31,7287,7655,200|411ms
+22:44:55.502 INFO  vert.x-eventloop-thread-0 BaseServiceProxy     : -> GET /v1/api/tickle,200|255ms
+22:44:55.502 DEBUG vert.x-eventloop-thread-0 ClientPortalService  : tickle {"session":"58c26e48a61440d94e0c100bec6943fe","ssoExpires":450012,"collission":false,"userId":50303093,"hmds":{"error":"no bridge"},"iserver":{"authStatus":{"authenticated":true,"competing":false,"connected":true,"message":"","MAC":"F4:03:43:CC:A2:00","serverInfo":{"serverName":"JifC23003","serverVersion":"Build 10.34.1a, Mar 3, 2025 5:30:37 PM"},"hardware_info":"2e71a9c8|F4:03:43:CC:A2:00"}}}
+22:45:25.731 INFO  vert.x-eventloop-thread-0 BaseServiceProxy     : -> GET /v1/api/tickle,200|478ms
+22:45:25.731 DEBUG vert.x-eventloop-thread-0 ClientPortalService  : tickle {"session":"58c26e48a61440d94e0c100bec6943fe","ssoExpires":419767,"collission":false,"userId":50303093,"hmds":{"error":"no bridge"},"iserver":{"authStatus":{"authenticated":true,"competing":false,"connected":true,"message":"","MAC":"F4:03:43:CC:A2:00","serverInfo":{"serverName":"JifC23003","serverVersion":"Build 10.34.1a, Mar 3, 2025 5:30:37 PM"},"hardware_info":"2e71a9c8|F4:03:43:CC:A2:00"}}}
+22:45:55.794 INFO  vert.x-eventloop-thread-0 BaseServiceProxy     : -> GET /v1/api/tickle,200|539ms
+22:45:55.794 DEBUG vert.x-eventloop-thread-0 ClientPortalService  : tickle {"session":"58c26e48a61440d94e0c100bec6943fe","ssoExpires":389717,"collission":false,"userId":50303093,"hmds":{"error":"no bridge"},"iserver":{"authStatus":{"authenticated":true,"competing":false,"connected":true,"message":"","MAC":"F4:03:43:CC:A2:00","serverInfo":{"serverName":"JifC23003","serverVersion":"Build 10.34.1a, Mar 3, 2025 5:30:37 PM"},"hardware_info":"2e71a9c8|F4:03:43:CC:A2:00"}}}
+22:46:25.454 INFO  vert.x-eventloop-thread-0 BaseServiceProxy     : -> GET /v1/api/tickle,200|207ms
+22:46:25.454 DEBUG vert.x-eventloop-thread-0 ClientPortalService  : tickle {"session":"58c26e48a61440d94e0c100bec6943fe","ssoExpires":360039,"collission":false,"userId":50303093,"hmds":{"error":"no bridge"},"iserver":{"authStatus":{"authenticated":true,"competing":false,"connected":true,"message":"","MAC":"F4:03:43:CC:A2:00","serverInfo":{"serverName":"JifC23003","serverVersion":"Build 10.34.1a, Mar 3, 2025 5:30:37 PM"},"hardware_info":"2e71a9c8|F4:03:43:CC:A2:00"}}}
+22:46:48.797 INFO  vert.x-eventloop-thread-0 BaseServiceProxy     : -> GET /sso/ping,200|584ms
+22:46:48.797 INFO  vert.x-eventloop-thread-0 SsoService           : sso ping {"result": "true"}
+22:46:55.665 INFO  vert.x-eventloop-thread-0 BaseServiceProxy     : -> GET /v1/api/tickle,200|424ms
+22:46:55.666 DEBUG vert.x-eventloop-thread-0 ClientPortalService  : tickle {"session":"58c26e48a61440d94e0c100bec6943fe","ssoExpires":329920,"collission":false,"userId":50303093,"hmds":{"error":"no bridge"},"iserver":{"authStatus":{"authenticated":true,"competing":false,"connected":true,"message":"","MAC":"F4:03:43:CC:A2:00","serverInfo":{"serverName":"JifC23003","serverVersion":"Build 10.34.1a, Mar 3, 2025 5:30:37 PM"},"hardware_info":"2e71a9c8|F4:03:43:CC:A2:00"}}}
+22:47:25.450 INFO  vert.x-eventloop-thread-0 BaseServiceProxy     : -> GET /v1/api/tickle,200|208ms
+22:47:25.450 DEBUG vert.x-eventloop-thread-0 ClientPortalService  : tickle {"session":"58c26e48a61440d94e0c100bec6943fe","ssoExpires":300048,"collission":false,"userId":50303093,"hmds":{"error":"no bridge"},"iserver":{"authStatus":{"authenticated":true,"competing":false,"connected":true,"message":"","MAC":"F4:03:43:CC:A2:00","serverInfo":{"serverName":"JifC23003","serverVersion":"Build 10.34.1a, Mar 3, 2025 5:30:37 PM"},"hardware_info":"2e71a9c8|F4:03:43:CC:A2:00"}}}
+22:47:37.791 INFO  vert.x-eventloop-thread-0 BaseServiceProxy     : -> GET /v1/api/portfolio/U4264576/positions,200|310ms
+22:47:40.276 INFO  vert.x-eventloop-thread-0 BaseServiceProxy     : -> GET /v1/api/iserver/marketdata/snapshot?conids=653081429,653081500,672829101,672829170,758114662,758114828,674163806,653250687,653250400,758133096,758133156,653152108,758140742,758140908,758141216,763662441,703415862,712169275,712168761,763687503,758177015,759650152,653157622,763683078,758183400,692857360,692857481,728874969,724340545,758162101,763684349,728881746,758152265,763687845,728902115,758170565,758170739,690021176,690022201,756975736,758204660,758204706,766258321,758220287,758220354,712238916,712237558,712237585,758648592,758204003,758204102,760319827,763762262,695638272,729003845,60532895,152486141,11031&fields=7308,7309,7310,7311,31,7633,6457,200|244ms
+22:47:42.756 INFO  vert.x-eventloop-thread-0 BaseServiceProxy     : -> GET /v1/api/iserver/marketdata/snapshot?conids=4391,3691937,761335611,5684,44001820,51529211,208813719,209411798,152486141,83975037,75960201,11031,756733,76792991,365207014,nan&fields=55,31,7287,7655,200|380ms
+22:47:55.458 INFO  vert.x-eventloop-thread-0 BaseServiceProxy     : -> GET /v1/api/tickle,200|215ms
+22:47:55.458 DEBUG vert.x-eventloop-thread-0 ClientPortalService  : tickle {"session":"58c26e48a61440d94e0c100bec6943fe","ssoExpires":270046,"collission":false,"userId":50303093,"hmds":{"error":"no bridge"},"iserver":{"authStatus":{"authenticated":true,"competing":false,"connected":true,"message":"","MAC":"F4:03:43:CC:A2:00","serverInfo":{"serverName":"JifC23003","serverVersion":"Build 10.34.1a, Mar 3, 2025 5:30:37 PM"},"hardware_info":"2e71a9c8|F4:03:43:CC:A2:00"}}}
+22:48:25.759 INFO  vert.x-eventloop-thread-0 BaseServiceProxy     : -> GET /v1/api/tickle,200|504ms
+22:48:25.759 DEBUG vert.x-eventloop-thread-0 ClientPortalService  : tickle {"session":"58c26e48a61440d94e0c100bec6943fe","ssoExpires":239753,"collission":false,"userId":50303093,"hmds":{"error":"no bridge"},"iserver":{"authStatus":{"authenticated":true,"competing":false,"connected":true,"message":"","MAC":"F4:03:43:CC:A2:00","serverInfo":{"serverName":"JifC23003","serverVersion":"Build 10.34.1a, Mar 3, 2025 5:30:37 PM"},"hardware_info":"2e71a9c8|F4:03:43:CC:A2:00"}}}
+22:48:55.464 INFO  vert.x-eventloop-thread-0 BaseServiceProxy     : -> GET /v1/api/tickle,200|210ms
+22:48:55.464 DEBUG vert.x-eventloop-thread-0 ClientPortalService  : tickle {"session":"58c26e48a61440d94e0c100bec6943fe","ssoExpires":210023,"collission":false,"userId":50303093,"hmds":{"error":"no bridge"},"iserver":{"authStatus":{"authenticated":true,"competing":false,"connected":true,"message":"","MAC":"F4:03:43:CC:A2:00","serverInfo":{"serverName":"JifC23003","serverVersion":"Build 10.34.1a, Mar 3, 2025 5:30:37 PM"},"hardware_info":"2e71a9c8|F4:03:43:CC:A2:00"}}}
+22:49:18.089 INFO  vert.x-eventloop-thread-0 BaseServiceProxy     : -> GET /v1/api/portfolio/U4264576/positions,200|580ms
+22:49:20.622 INFO  vert.x-eventloop-thread-0 BaseServiceProxy     : -> GET /v1/api/iserver/marketdata/snapshot?conids=653081429,653081500,672829101,672829170,758114662,758114828,674163806,653250687,653250400,758133096,758133156,653152108,758140742,758140908,758141216,763662441,703415862,712169275,712168761,763687503,758177015,759650152,653157622,763683078,758183400,692857360,692857481,728874969,724340545,758162101,763684349,728881746,758152265,763687845,728902115,758170565,758170739,690021176,690022201,756975736,758204660,758204706,766258321,758220287,758220354,712238916,712237558,712237585,758648592,758204003,758204102,760319827,763762262,695638272,729003845,60532895,152486141,11031&fields=7308,7309,7310,7311,31,7633,6457,200|250ms
+22:49:23.007 INFO  vert.x-eventloop-thread-0 BaseServiceProxy     : -> GET /v1/api/iserver/marketdata/snapshot?conids=4391,3691937,761335611,5684,44001820,51529211,208813719,209411798,152486141,83975037,75960201,11031,756733,76792991,365207014,nan&fields=55,31,7287,7655,200|300ms
+22:49:25.554 INFO  vert.x-eventloop-thread-0 BaseServiceProxy     : -> GET /v1/api/tickle,200|305ms
+22:49:25.554 DEBUG vert.x-eventloop-thread-0 ClientPortalService  : tickle {"session":"58c26e48a61440d94e0c100bec6943fe","ssoExpires":180004,"collission":false,"userId":50303093,"hmds":{"error":"no bridge"},"iserver":{"authStatus":{"authenticated":true,"competing":false,"connected":true,"message":"","MAC":"F4:03:43:CC:A2:00","serverInfo":{"serverName":"JifC23003","serverVersion":"Build 10.34.1a, Mar 3, 2025 5:30:37 PM"},"hardware_info":"2e71a9c8|F4:03:43:CC:A2:00"}}}
+22:49:55.015 INFO  vert.x-eventloop-thread-0 BaseServiceProxy     : -> GET /v1/api/portfolio/U4264576/positions,200|417ms
+22:49:55.573 INFO  vert.x-eventloop-thread-0 BaseServiceProxy     : -> GET /v1/api/tickle,200|327ms
+22:49:55.573 DEBUG vert.x-eventloop-thread-0 ClientPortalService  : tickle {"session":"58c26e48a61440d94e0c100bec6943fe","ssoExpires":150010,"collission":false,"userId":50303093,"hmds":{"error":"no bridge"},"iserver":{"authStatus":{"authenticated":true,"competing":false,"connected":true,"message":"","MAC":"F4:03:43:CC:A2:00","serverInfo":{"serverName":"JifC23003","serverVersion":"Build 10.34.1a, Mar 3, 2025 5:30:37 PM"},"hardware_info":"2e71a9c8|F4:03:43:CC:A2:00"}}}
+22:49:57.799 INFO  vert.x-eventloop-thread-0 BaseServiceProxy     : -> GET /v1/api/iserver/marketdata/snapshot?conids=653081429,653081500,672829101,672829170,758114662,758114828,674163806,653250687,653250400,758133096,758133156,653152108,758140742,758140908,758141216,763662441,703415862,712169275,712168761,763687503,758177015,759650152,653157622,763683078,758183400,692857360,692857481,728874969,724340545,758162101,763684349,728881746,758152265,763687845,728902115,758170565,758170739,690021176,690022201,756975736,758204660,758204706,766258321,758220287,758220354,712238916,712237558,712237585,758648592,758204003,758204102,760319827,763762262,695638272,729003845,60532895,152486141,11031&fields=7308,7309,7310,7311,31,7633,6457,200|566ms
+22:50:00.173 INFO  vert.x-eventloop-thread-0 BaseServiceProxy     : -> GET /v1/api/iserver/marketdata/snapshot?conids=4391,3691937,761335611,5684,44001820,51529211,208813719,209411798,152486141,83975037,75960201,11031,756733,76792991,365207014,nan&fields=55,31,7287,7655,200|291ms
+22:50:25.668 INFO  vert.x-eventloop-thread-0 BaseServiceProxy     : -> GET /v1/api/tickle,200|419ms
+22:50:25.668 DEBUG vert.x-eventloop-thread-0 ClientPortalService  : tickle {"session":"58c26e48a61440d94e0c100bec6943fe","ssoExpires":119960,"collission":false,"userId":50303093,"hmds":{"error":"no bridge"},"iserver":{"authStatus":{"authenticated":true,"competing":false,"connected":true,"message":"","MAC":"F4:03:43:CC:A2:00","serverInfo":{"serverName":"JifC23003","serverVersion":"Build 10.34.1a, Mar 3, 2025 5:30:37 PM"},"hardware_info":"2e71a9c8|F4:03:43:CC:A2:00"}}}
+22:50:55.467 INFO  vert.x-eventloop-thread-0 BaseServiceProxy     : -> GET /v1/api/tickle,200|217ms
+22:50:55.467 DEBUG vert.x-eventloop-thread-0 ClientPortalService  : tickle {"session":"58c26e48a61440d94e0c100bec6943fe","ssoExpires":90032,"collission":false,"userId":50303093,"hmds":{"error":"no bridge"},"iserver":{"authStatus":{"authenticated":true,"competing":false,"connected":true,"message":"","MAC":"F4:03:43:CC:A2:00","serverInfo":{"serverName":"JifC23003","serverVersion":"Build 10.34.1a, Mar 3, 2025 5:30:37 PM"},"hardware_info":"2e71a9c8|F4:03:43:CC:A2:00"}}}
+22:51:25.469 INFO  vert.x-eventloop-thread-0 BaseServiceProxy     : -> GET /v1/api/tickle,200|216ms
+22:51:25.469 DEBUG vert.x-eventloop-thread-0 ClientPortalService  : tickle {"session":"58c26e48a61440d94e0c100bec6943fe","ssoExpires":60020,"collission":false,"userId":50303093,"hmds":{"error":"no bridge"},"iserver":{"authStatus":{"authenticated":true,"competing":false,"connected":true,"message":"","MAC":"F4:03:43:CC:A2:00","serverInfo":{"serverName":"JifC23003","serverVersion":"Build 10.34.1a, Mar 3, 2025 5:30:37 PM"},"hardware_info":"2e71a9c8|F4:03:43:CC:A2:00"}}}
+22:51:48.440 INFO  vert.x-eventloop-thread-0 BaseServiceProxy     : -> GET /sso/ping,200|221ms
+22:51:48.447 INFO  vert.x-eventloop-thread-0 SsoService           : sso ping {"result": "true"}
+22:51:55.483 INFO  vert.x-eventloop-thread-0 BaseServiceProxy     : -> GET /v1/api/tickle,200|238ms
+22:51:55.483 DEBUG vert.x-eventloop-thread-0 ClientPortalService  : tickle {"session":"58c26e48a61440d94e0c100bec6943fe","ssoExpires":30019,"collission":false,"userId":50303093,"hmds":{"error":"no bridge"},"iserver":{"authStatus":{"authenticated":true,"competing":false,"connected":true,"message":"","MAC":"F4:03:43:CC:A2:00","serverInfo":{"serverName":"JifC23003","serverVersion":"Build 10.34.1a, Mar 3, 2025 5:30:37 PM"},"hardware_info":"2e71a9c8|F4:03:43:CC:A2:00"}}}
+22:52:25.464 INFO  vert.x-eventloop-thread-0 BaseServiceProxy     : -> GET /v1/api/tickle,200|210ms
+22:52:25.464 DEBUG vert.x-eventloop-thread-0 ClientPortalService  : tickle {"session":"58c26e48a61440d94e0c100bec6943fe","ssoExpires":26,"collission":false,"userId":50303093,"hmds":{"error":"no bridge"},"iserver":{"authStatus":{"authenticated":true,"competing":false,"connected":true,"message":"","MAC":"F4:03:43:CC:A2:00","serverInfo":{"serverName":"JifC23003","serverVersion":"Build 10.34.1a, Mar 3, 2025 5:30:37 PM"},"hardware_info":"2e71a9c8|F4:03:43:CC:A2:00"}}}
+22:52:55.483 INFO  vert.x-eventloop-thread-0 BaseServiceProxy     : -> GET /v1/api/tickle,200|242ms
+22:52:55.483 DEBUG vert.x-eventloop-thread-0 ClientPortalService  : tickle {"session":"58c26e48a61440d94e0c100bec6943fe","ssoExpires":0,"collission":false,"userId":50303093,"hmds":{"error":"no bridge"},"iserver":{"authStatus":{"authenticated":true,"competing":false,"connected":true,"message":"","MAC":"F4:03:43:CC:A2:00","serverInfo":{"serverName":"JifC23003","serverVersion":"Build 10.34.1a, Mar 3, 2025 5:30:37 PM"},"hardware_info":"2e71a9c8|F4:03:43:CC:A2:00"}}}
+22:53:25.490 INFO  vert.x-eventloop-thread-0 BaseServiceProxy     : -> GET /v1/api/tickle,200|240ms
+22:53:25.490 DEBUG vert.x-eventloop-thread-0 ClientPortalService  : tickle {"session":"58c26e48a61440d94e0c100bec6943fe","ssoExpires":570038,"collission":false,"userId":50303093,"hmds":{"error":"no bridge"},"iserver":{"authStatus":{"authenticated":true,"competing":false,"connected":true,"message":"","MAC":"F4:03:43:CC:A2:00","serverInfo":{"serverName":"JifC23003","serverVersion":"Build 10.34.1a, Mar 3, 2025 5:30:37 PM"},"hardware_info":"2e71a9c8|F4:03:43:CC:A2:00"}}}
+22:53:55.517 INFO  vert.x-eventloop-thread-0 BaseServiceProxy     : -> GET /v1/api/tickle,200|264ms
+22:53:55.517 DEBUG vert.x-eventloop-thread-0 ClientPortalService  : tickle {"session":"58c26e48a61440d94e0c100bec6943fe","ssoExpires":540005,"collission":false,"userId":50303093,"hmds":{"error":"no bridge"},"iserver":{"authStatus":{"authenticated":true,"competing":false,"connected":true,"message":"","MAC":"F4:03:43:CC:A2:00","serverInfo":{"serverName":"JifC23003","serverVersion":"Build 10.34.1a, Mar 3, 2025 5:30:37 PM"},"hardware_info":"2e71a9c8|F4:03:43:CC:A2:00"}}}
+22:54:25.450 INFO  vert.x-eventloop-thread-0 BaseServiceProxy     : -> GET /v1/api/tickle,200|206ms
+22:54:25.450 DEBUG vert.x-eventloop-thread-0 ClientPortalService  : tickle {"session":"58c26e48a61440d94e0c100bec6943fe","ssoExpires":510057,"collission":false,"userId":50303093,"hmds":{"error":"no bridge"},"iserver":{"authStatus":{"authenticated":true,"competing":false,"connected":true,"message":"","MAC":"F4:03:43:CC:A2:00","serverInfo":{"serverName":"JifC23003","serverVersion":"Build 10.34.1a, Mar 3, 2025 5:30:37 PM"},"hardware_info":"2e71a9c8|F4:03:43:CC:A2:00"}}}
+22:54:55.758 INFO  vert.x-eventloop-thread-0 BaseServiceProxy     : -> GET /v1/api/tickle,200|517ms
+22:54:55.758 DEBUG vert.x-eventloop-thread-0 ClientPortalService  : tickle {"session":"58c26e48a61440d94e0c100bec6943fe","ssoExpires":479796,"collission":false,"userId":50303093,"hmds":{"error":"no bridge"},"iserver":{"authStatus":{"authenticated":true,"competing":false,"connected":true,"message":"","MAC":"F4:03:43:CC:A2:00","serverInfo":{"serverName":"JifC23003","serverVersion":"Build 10.34.1a, Mar 3, 2025 5:30:37 PM"},"hardware_info":"2e71a9c8|F4:03:43:CC:A2:00"}}}
+22:55:25.492 INFO  vert.x-eventloop-thread-0 BaseServiceProxy     : -> GET /v1/api/tickle,200|245ms
+22:55:25.492 DEBUG vert.x-eventloop-thread-0 ClientPortalService  : tickle {"session":"58c26e48a61440d94e0c100bec6943fe","ssoExpires":450027,"collission":false,"userId":50303093,"hmds":{"error":"no bridge"},"iserver":{"authStatus":{"authenticated":true,"competing":false,"connected":true,"message":"","MAC":"F4:03:43:CC:A2:00","serverInfo":{"serverName":"JifC23003","serverVersion":"Build 10.34.1a, Mar 3, 2025 5:30:37 PM"},"hardware_info":"2e71a9c8|F4:03:43:CC:A2:00"}}}
+22:55:55.471 INFO  vert.x-eventloop-thread-0 BaseServiceProxy     : -> GET /v1/api/tickle,200|227ms
+22:55:55.471 DEBUG vert.x-eventloop-thread-0 ClientPortalService  : tickle {"session":"58c26e48a61440d94e0c100bec6943fe","ssoExpires":420035,"collission":false,"userId":50303093,"hmds":{"error":"no bridge"},"iserver":{"authStatus":{"authenticated":true,"competing":false,"connected":true,"message":"","MAC":"F4:03:43:CC:A2:00","serverInfo":{"serverName":"JifC23003","serverVersion":"Build 10.34.1a, Mar 3, 2025 5:30:37 PM"},"hardware_info":"2e71a9c8|F4:03:43:CC:A2:00"}}}
+22:56:02.789 INFO  vert.x-eventloop-thread-0 BaseServiceProxy     : -> GET /v1/api/portfolio/U4264576/positions,200|518ms
+22:56:05.282 INFO  vert.x-eventloop-thread-0 BaseServiceProxy     : -> GET /v1/api/iserver/marketdata/snapshot?conids=653081429,653081500,672829101,672829170,758114662,758114828,674163806,653250687,653250400,758133096,758133156,653152108,758140742,758140908,758141216,763662441,703415862,712169275,712168761,763687503,758177015,759650152,653157622,763683078,758183400,692857360,692857481,728874969,724340545,758162101,763684349,728881746,758152265,763687845,728902115,758170565,758170739,690021176,690022201,756975736,758204660,758204706,766258321,758220287,758220354,712238916,712237558,712237585,758648592,758204003,758204102,760319827,763762262,695638272,729003845,60532895,152486141,11031&fields=7308,7309,7310,7311,31,7633,6457,200|220ms
+22:56:07.674 INFO  vert.x-eventloop-thread-0 BaseServiceProxy     : -> GET /v1/api/iserver/marketdata/snapshot?conids=4391,3691937,761335611,5684,44001820,51529211,208813719,209411798,152486141,83975037,75960201,11031,756733,76792991,365207014,nan&fields=55,31,7287,7655,200|232ms
+22:56:25.506 INFO  vert.x-eventloop-thread-0 BaseServiceProxy     : -> GET /v1/api/tickle,200|259ms
+22:56:25.506 DEBUG vert.x-eventloop-thread-0 ClientPortalService  : tickle {"session":"58c26e48a61440d94e0c100bec6943fe","ssoExpires":390019,"collission":false,"userId":50303093,"hmds":{"error":"no bridge"},"iserver":{"authStatus":{"authenticated":true,"competing":false,"connected":true,"message":"","MAC":"F4:03:43:CC:A2:00","serverInfo":{"serverName":"JifC23003","serverVersion":"Build 10.34.1a, Mar 3, 2025 5:30:37 PM"},"hardware_info":"2e71a9c8|F4:03:43:CC:A2:00"}}}
+22:56:48.731 INFO  vert.x-eventloop-thread-0 BaseServiceProxy     : -> GET /sso/ping,200|524ms
+22:56:48.731 INFO  vert.x-eventloop-thread-0 SsoService           : sso ping {"result": "true"}
+22:56:55.470 INFO  vert.x-eventloop-thread-0 BaseServiceProxy     : -> GET /v1/api/tickle,200|227ms
+22:56:55.471 DEBUG vert.x-eventloop-thread-0 ClientPortalService  : tickle {"session":"58c26e48a61440d94e0c100bec6943fe","ssoExpires":360058,"collission":false,"userId":50303093,"hmds":{"error":"no bridge"},"iserver":{"authStatus":{"authenticated":true,"competing":false,"connected":true,"message":"","MAC":"F4:03:43:CC:A2:00","serverInfo":{"serverName":"JifC23003","serverVersion":"Build 10.34.1a, Mar 3, 2025 5:30:37 PM"},"hardware_info":"2e71a9c8|F4:03:43:CC:A2:00"}}}
+22:57:25.485 INFO  vert.x-eventloop-thread-0 BaseServiceProxy     : -> GET /v1/api/tickle,200|232ms
+22:57:25.485 DEBUG vert.x-eventloop-thread-0 ClientPortalService  : tickle {"session":"58c26e48a61440d94e0c100bec6943fe","ssoExpires":330031,"collission":false,"userId":50303093,"hmds":{"error":"no bridge"},"iserver":{"authStatus":{"authenticated":true,"competing":false,"connected":true,"message":"","MAC":"F4:03:43:CC:A2:00","server
+22:57:25.500 WARN  vert.x-eventloop-thread-0 BaseServiceProxy     : failed /v1/api/tickle | reason io.vertx.core.json.DecodeException: Failed to decode:null
+22:57:25.500 DEBUG vert.x-eventloop-thread-0 ClientPortalService  : tickle null
+22:57:25.501 ERROR vert.x-eventloop-thread-0 ClientPortalService  : tickle cp session failed {}
+io.vertx.core.impl.NoStackTraceThrowable: io.vertx.core.json.DecodeException: Failed to decode:null
+22:57:25.501 DEBUG vert.x-eventloop-thread-0 BaseServiceProxy     : cancel timer ClientPortalService 24
+22:57:25.501 DEBUG vert.x-eventloop-thread-0 ClientPortalService  : tickle Info":{"serverName":"JifC23003","serverVersion":"Build 10.34.1a, Mar 3, 2025 5:30:37 PM"},"hardware_info":"2e71a9c8|F4:03:43:CC:A2:00"}}}
+22:57:25.502 WARN  vert.x-eventloop-thread-0 BaseServiceProxy     : failed /v1/api/tickle | reason io.vertx.core.json.DecodeException: Failed to decode:Unrecognized token 'Info': was expecting 'null', 'true', 'false' or NaN
+ at [Source: (io.netty.buffer.ByteBufInputStream); line: 1, column: -1]
+22:57:25.502 DEBUG vert.x-eventloop-thread-0 ClientPortalService  : tickle null
+22:57:25.502 ERROR vert.x-eventloop-thread-0 ClientPortalService  : tickle cp session failed {}
+io.vertx.core.impl.NoStackTraceThrowable: io.vertx.core.json.DecodeException: Failed to decode:Unrecognized token 'Info': was expecting 'null', 'true', 'false' or NaN
+ at [Source: (io.netty.buffer.ByteBufInputStream); line: 1, column: -1]
+22:57:25.502 DEBUG vert.x-eventloop-thread-0 BaseServiceProxy     : cancel timer ClientPortalService 0
+22:57:25.502 DEBUG vert.x-eventloop-thread-0 BaseServiceProxy     : forward event ON_CP_TICKLE_FAILED, payload none
+22:57:25.503 DEBUG vert.x-eventloop-thread-0 BaseServiceProxy     : forward event ON_CP_TICKLE_FAILED, payload none
+22:57:25.790 INFO  vert.x-eventloop-thread-0 BaseServiceProxy     : -> GET /v1/api/sso/validate?gw=1,200|287ms
+22:57:25.790 DEBUG vert.x-eventloop-thread-0 ClientPortalService  : portal validate response: {"USER_ID":50303093,"USER_NAME":"farin0003","RESULT":true,"AUTH_TIME":1741742503848,"SF_ENABLED":true,"IS_FREE_TRIAL":false,"CREDENTIAL":"farin0003","IP":"190.21.97.115","EXPIRES":329724,"QUALIFIED_FOR_MOBILE_AUTH":null,"LANDING_APP":"PORTAL-US","IS_MASTER":false,"lastAccessed":1741744645101,"features":{"env":"PROD","wlms":true,"realtime":true,"bond":true,"optionChains":true,"calendar":true,"newMf":true},"region":"IL"}
+22:57:25.790 INFO  vert.x-eventloop-thread-0 GatewayHttpProxy     : authenticated to cp
+22:57:25.790 DEBUG vert.x-eventloop-thread-0 BaseServiceProxy     : cancel timer SsoService 22
+22:57:25.790 DEBUG vert.x-eventloop-thread-0 BaseServiceProxy     : start timer 300000 SsoService
+22:57:25.791 DEBUG vert.x-eventloop-thread-0 BaseServiceProxy     : forward event ON_SSO_VALIDATION, payload 50303093
+22:57:25.841 INFO  vert.x-eventloop-thread-0 BaseServiceProxy     : -> GET /v1/api/sso/validate?gw=1,200|338ms
+22:57:25.852 DEBUG vert.x-eventloop-thread-0 ClientPortalService  : portal validate response: {"USER_ID":50303093,"USER_NAME":"farin0003","RESULT":true,"AUTH_TIME":1741742503848,"SF_ENABLED":true,"IS_FREE_TRIAL":false,"CREDENTIAL":"farin0003","IP":"190.21.97.115","EXPIRES":329683,"QUALIFIED_FOR_MOBILE_AUTH":null,"LANDING_APP":"PORTAL-US","IS_MASTER":false,"lastAccessed":1741744645408,"features":{"env":"PROD","wlms":true,"realtime":true,"bond":true,"optionChains":true,"calendar":true,"newMf":true},"region":"IL"}
+22:57:25.852 INFO  vert.x-eventloop-thread-0 GatewayHttpProxy     : authenticated to cp
+22:57:25.852 DEBUG vert.x-eventloop-thread-0 BaseServiceProxy     : cancel timer SsoService 25
+22:57:25.852 DEBUG vert.x-eventloop-thread-0 BaseServiceProxy     : start timer 300000 SsoService
+22:57:25.852 DEBUG vert.x-eventloop-thread-0 BaseServiceProxy     : forward event ON_SSO_VALIDATION, payload 50303093
+22:57:26.009 INFO  vert.x-eventloop-thread-0 SsoService           : sso init status=200, url=https://api.ibkr.com/v1/api/ssodh/init
+22:57:26.009 ERROR vert.x-eventloop-thread-0 SsoService           : ssodh response error: {"message":"sso dh already set"}
+22:57:26.009 DEBUG vert.x-eventloop-thread-0 BaseServiceProxy     : forward event ON_SSODH_FAILED, payload none
+22:57:26.009 ERROR vert.x-eventloop-thread-0 GatewayHttpProxy     : ssodh failed, retry with /iserver/reauthenticate
+22:57:26.055 INFO  vert.x-eventloop-thread-0 SsoService           : sso init status=200, url=https://api.ibkr.com/v1/api/ssodh/init
+22:57:26.055 ERROR vert.x-eventloop-thread-0 SsoService           : ssodh response error: {"message":"sso dh already set"}
+22:57:26.055 DEBUG vert.x-eventloop-thread-0 BaseServiceProxy     : forward event ON_SSODH_FAILED, payload none
+22:57:26.055 ERROR vert.x-eventloop-thread-0 GatewayHttpProxy     : ssodh failed, retry with /iserver/reauthenticate
+22:57:26.543 INFO  vert.x-eventloop-thread-0 BaseServiceProxy     : -> GET /v1/api/one/user,200|691ms
+22:57:26.543 INFO  vert.x-eventloop-thread-0 ClientPortalService  : get user reply {"username":"farin0003","features":{"env":"PROD","wlms":true,"realtime":true,"bond":true,"optionChains":true,"calendar":true,"newMf":true},"wbId":"","uar":{"portfolioAnalyst":true,"userInfo":true,"messageCenter":true,"accountDetails":true,"tradingRestrictions":false,"tws":true,"fyi":true,"voting":true,"forum":true,"recentTransactions":true},"props":{"isIBAMClient":false,"ReadOnlySession":null},"firstApprovedDate":1592193600000,"accts":{"U4264576":{"isIBAMClient":false,"clearingStatus":"O","openDate":1592193600000,"isFAClient":false,"isFunded":true,"tradingPermissions":["OPT","FUT","IOPT","WAR","STK","CASH","FOP","SSF"]}},"hasBrokerageAccessInd":true,"fa":false,"has2fa":false,"islite":false,"ispaper":false,"applicants":[{"id":6062844,"type":"INDIVIDUAL","businessType":"INDEPENDENT","nlcode":"es_ES","legalCountry":{"name":"Chile","alpha3":"CHL"}}]}
+22:57:26.556 INFO  vert.x-eventloop-thread-0 BaseServiceProxy     : -> GET /v1/api/one/user,200|766ms
+22:57:26.556 INFO  vert.x-eventloop-thread-0 ClientPortalService  : get user reply {"username":"farin0003","features":{"env":"PROD","wlms":true,"realtime":true,"bond":true,"optionChains":true,"calendar":true,"newMf":true},"wbId":"","uar":{"portfolioAnalyst":true,"userInfo":true,"messageCenter":true,"accountDetails":true,"tradingRestrictions":false,"tws":true,"fyi":true,"voting":true,"forum":true,"recentTransactions":true},"props":{"isIBAMClient":false,"ReadOnlySession":null},"firstApprovedDate":1592193600000,"accts":{"U4264576":{"isIBAMClient":false,"clearingStatus":"O","openDate":1592193600000,"isFAClient":false,"isFunded":true,"tradingPermissions":["OPT","FUT","IOPT","WAR","STK","CASH","FOP","SSF"]}},"hasBrokerageAccessInd":true,"fa":false,"has2fa":false,"islite":false,"ispaper":false,"applicants":[{"id":6062844,"type":"INDIVIDUAL","businessType":"INDEPENDENT","nlcode":"es_ES","legalCountry":{"name":"Chile","alpha3":"CHL"}}]}
+23:02:26.120 INFO  vert.x-eventloop-thread-0 BaseServiceProxy     : -> GET /sso/ping,200|264ms
+23:02:26.120 INFO  vert.x-eventloop-thread-0 SsoService           : sso ping {"result": "true"}
