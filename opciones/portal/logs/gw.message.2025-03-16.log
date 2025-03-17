@@ -1030,3 +1030,5 @@
 -> GET /sso/ping,200|259ms
 -> request: /sso/ping
 -> GET /sso/ping,200|313ms
+-> request: /sso/ping
+-> GET /sso/ping,200|232ms
