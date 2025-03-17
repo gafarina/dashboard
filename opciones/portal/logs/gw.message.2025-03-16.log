@@ -1014,3 +1014,19 @@
 <- 200 GET /v1/api/iserver/marketdata/snapshot?conids=4391,3691937,761335611,5684,44001820,51529211,208813719,209411798,152486141,83975037,75960201,11031,756733,365207014,nan&fields=55,31,7287,7655
 -> request: /sso/ping
 -> GET /sso/ping,200|192ms
+-> request: /sso/ping
+-> GET /sso/ping,200|214ms
+-> request: /sso/ping
+-> GET /sso/ping,200|280ms
+-> request: /sso/ping
+-> GET /sso/ping,200|314ms
+-> request: /sso/ping
+-> GET /sso/ping,200|265ms
+-> request: /sso/ping
+-> GET /sso/ping,200|217ms
+-> request: /sso/ping
+-> GET /sso/ping,200|221ms
+-> request: /sso/ping
+-> GET /sso/ping,200|259ms
+-> request: /sso/ping
+-> GET /sso/ping,200|313ms
