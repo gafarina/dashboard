@@ -157,6 +157,8 @@ def positions(request):
 
     posiciones_final = pd.merge(posiciones_final, base_opciones, on=['conid'], how='left')
     posiciones_final = pd.merge(posiciones_final, base_subs, on=['conid_sub'], how='left')
+    print("test")
+    print(posiciones_final[posiciones_final['ticker_x'] == 'SPY'])
 
     # formateo iv
     posiciones_final['iv'] = posiciones_final['iv'].str.replace("%",'').astype('float')/100
@@ -259,7 +261,7 @@ def positions(request):
     posiciones_final.loc[posiciones_final['call_put'] == 'S','delta_pos'] = posiciones_final.loc[posiciones_final['call_put'] == 'S','position']/100
 
     posiciones_final = posiciones_final.rename(columns = {'ticker_x':'ticker'})
-    print(posiciones_final)
+    #print(posiciones_final)
 
     posiciones_final_gb = posiciones_final.groupby(['ticker'])[['unrealizedPnl','delta_pos', 'gamma_pos', 'theta_pos', 'vega_pos']].sum().reset_index()
     posiciones_final_gb['unrealizedPnl'] = np.round(posiciones_final_gb['unrealizedPnl'],0)
@@ -281,6 +283,44 @@ def positions(request):
     posiciones_final_long_gb.columns = ['ticker', 'unrealizedPnl_long']
     posiciones_final_gb = pd.merge(posiciones_final_gb, posiciones_final_long_gb, on=['ticker'], how='left')
     posiciones_final_gb['unrealizedPnl_long'] = np.round(posiciones_final_gb['unrealizedPnl_long'],0)
+
+    ### take trades
+    base_trades = pd.read_csv("C:\\Users\\gasto\\OneDrive\\Opciones_Django\\opciones\\seleccion\\trades\\trades_13_03_2025.csv")
+    base_trades = base_trades[['Symbol', 'Description', 'UnderlyingSymbol', 'TradeDate', 'Quantity', 'Buy/Sell', 'ReportDate','DateTime','IBCommission','NetCash','MtmPnl','ClosePrice','CostBasis']]
+    #print(base_trades[base_trades['UnderlyingSymbol'] == 'UBER'])
+    ### tomar todos los contratos que tengan un numero par de apariciones
+    trades_cerrados = base_trades.groupby(['Description']).agg({'Symbol':len, 'Quantity': np.sum, 'UnderlyingSymbol':max}).reset_index()
+    trades_cerrados = trades_cerrados[trades_cerrados['Quantity'] == 0]
+    contratos_cerrados = pd.unique(trades_cerrados['Description'])
+    base_trades = base_trades[base_trades['Description'].isin(contratos_cerrados)]
+    trades_cerrados_acumulados = base_trades.groupby(['UnderlyingSymbol'])[['NetCash','IBCommission']].sum().reset_index()
+    trades_cerrados_acumulados.columns = ['ticker','p_l_realized','commision']
+    tickers_activos = pd.unique(posiciones_final_gb['ticker'])
+    trades_cerrados_acumulados['cobertura'] = 0
+    trades_cerrados_acumulados['cobertura_ib_commison'] = 0
+    trades_cerrados_acumulados['cobertura'] = trades_cerrados_acumulados[~trades_cerrados_acumulados['ticker'].isin(tickers_activos)]['p_l_realized'].sum()
+    trades_cerrados_acumulados['cobertura_ib_commison'] = trades_cerrados_acumulados[~trades_cerrados_acumulados['ticker'].isin(tickers_activos)]['commision'].sum()
+    
+    posiciones_final_gb = pd.merge(posiciones_final_gb, trades_cerrados_acumulados, on=['ticker'], how='left')
+    posiciones_final_gb['p_l'] = posiciones_final_gb['p_l_realized'] + posiciones_final_gb['commision'] + posiciones_final_gb['unrealizedPnl']
+    posiciones_final_gb['p_l'] = posiciones_final_gb['p_l'].fillna(0)
+    posiciones_final_gb['cobertura_ib_commison'] = posiciones_final_gb['cobertura_ib_commison'].fillna(0)
+    posiciones_final_gb['cobertura'] = posiciones_final_gb['cobertura'].fillna(0)
+    posiciones_final_gb['commision'] = posiciones_final_gb['commision'].fillna(0)
+    posiciones_final_gb['p_l_realized'] = posiciones_final_gb['p_l_realized'].fillna(0)
+    posiciones_final_gb['p_l_realized_total'] = posiciones_final_gb['p_l_realized'].sum()
+    posiciones_final_gb['p_l_total'] = posiciones_final_gb['p_l'].sum() + posiciones_final_gb['cobertura'].max() + posiciones_final_gb['cobertura_ib_commison'].min()
+    posiciones_final_gb['cobertura_ib_commison_total'] = posiciones_final_gb['commision'].sum() + posiciones_final_gb['cobertura_ib_commison'].min()
+    posiciones_final_gb['p_l_realized'] = np.round(posiciones_final_gb['p_l_realized'],2)
+    posiciones_final_gb['p_l_realized_total'] = np.round(posiciones_final_gb['p_l_realized_total'],2)
+    posiciones_final_gb['commision'] = np.round(posiciones_final_gb['commision'],2)
+    posiciones_final_gb['cobertura'] = np.round(posiciones_final_gb['cobertura'],2)
+    posiciones_final_gb['cobertura_ib_commison'] = np.round(posiciones_final_gb['cobertura_ib_commison'],2)
+    posiciones_final_gb['p_l_total'] = np.round(posiciones_final_gb['p_l_total'],2)
+    posiciones_final_gb['p_l'] = np.round(posiciones_final_gb['p_l'],2)
+
+    #print(posiciones_final_gb.columns)
+    #symbolos_vigentes = list(pd.unique(base_trades['ticker']))
 
     # # get greeks
     # posiciones_final['conid'] = posiciones_final['conid'].astype('str')
@@ -364,6 +404,43 @@ def positions(request):
 
     
     return render(request, 'seleccion/base.html',{'current_prices':posiciones_final_gb.to_dict('records'), 'posiciones_final':posiciones_final.to_dict('records')})
+
+
+# def market_analisis(request):
+#     """
+#     1. buscar los stocks que tienen las mejores estrategias
+#     2. Buscar los universos con mas volumen
+#     1. calcular los que esten en mayor backwardation 30 y 20 dias, 60 y 30 dias, sacar un promedio
+#     2. Calcular el slope a 30 y 60 dias, calls, dividido por puts
+#     3. calculo de volatilidad a 30 y 60 dias 
+#     4. ranking de los puntos 1, 2, y 3
+#     5. porcentaje de cambio en el precio de la ultima semana y ranking de la ultima semana y ultimos 20 dias
+#     6. Calcular el RSI y el promedio
+#     6. calcular el promedio de todos los puntos anteriores y generar los pesos en base a las estrategias
+#     7. momentum 
+
+#     calendarios OTM : contango mas fuerte, volatilidad, ranking volatilidad, slope ....
+#     Credit Spread: volitilidad, slope
+#     short puts, calls: volatilidad, caida, 
+#     diagonals: contango, volatilidad, ranking voilatilidad, slope
+
+
+#     Plan General
+#     0. Tener los tickers con mas volumen al ultimo dia
+#     1. Generar una base de datos con los datos historicos, de los datos generales(empezar con un 1 año)
+#     2. Si el dia de consulta es habil y no es el ultimo valor de la base, se rellenan los datos historicos hasta el ultimo dia habil
+#     3. Si el dia habil de la consulta tiene valores y es distinto a la ultima fecha se va incluyendo
+#     4. Para cada actualizacion se van bajando los datos del ultimo dia actualizados
+#     5. Calcular los indicadores de volatilidad
+#     6. hacer una base de datos historicos de precios de los tickers por un año (yahoo)
+#     7. Con la misma logica de actualizacion que las volatilidades hacer yahoo
+#     8. calcular el RSI
+#     9. los retornos y las medias moviles
+
+#     """
+#     posiciones_final_gb = pd.DataFrame()
+#     return render(request, 'seleccion/ticker.html',{'current_prices':posiciones_final_gb.to_dict('records')})
+
 
 
 ## features to select ticker,tradeDate,assetType,orFcst20d,orIvFcst20d,slope,slopeFcst,deriv,derivFcst,orHv1d,orHv5d,orHv10d,orHv20d,orHv60d,iv10d,iv20d,iv30d,iv60d,slopepctile,contango,wksNextErn,orHvXern5d,orHvXern10d,orHvXern20d,exErnIv10d,exErnIv20d,exErnIv30d,exErnIv60d

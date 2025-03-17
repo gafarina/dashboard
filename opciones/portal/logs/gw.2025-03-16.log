@@ -1,0 +1,1570 @@
+17:32:31.693 INFO  vert.x-eventloop-thread-0 BaseServiceProxy     : -> GET /sso/ping,200|560ms
+17:32:31.696 INFO  vert.x-eventloop-thread-0 SsoService           : sso ping {"result": "false"}
+17:32:31.732 INFO  vert.x-eventloop-thread-0 BaseServiceProxy     : -> GET /sso/ping,200|861ms
+17:32:31.732 INFO  vert.x-eventloop-thread-0 SsoService           : sso ping {"result": "false"}
+17:32:31.754 INFO  vert.x-eventloop-thread-0 BaseServiceProxy     : -> GET /sso/ping,200|625ms
+17:32:31.754 INFO  vert.x-eventloop-thread-0 SsoService           : sso ping {"result": "false"}
+17:32:31.971 INFO  vert.x-eventloop-thread-0 BaseServiceProxy     : -> GET /sso/ping,200|836ms
+17:32:31.971 INFO  vert.x-eventloop-thread-0 SsoService           : sso ping {"result": "false"}
+17:32:31.975 INFO  vert.x-eventloop-thread-0 BaseServiceProxy     : -> GET /sso/ping,200|844ms
+17:32:31.975 INFO  vert.x-eventloop-thread-0 SsoService           : sso ping {"result": "false"}
+17:32:31.982 INFO  vert.x-eventloop-thread-0 BaseServiceProxy     : -> GET /sso/ping,200|847ms
+17:32:31.982 INFO  vert.x-eventloop-thread-0 SsoService           : sso ping {"result": "false"}
+17:32:31.991 INFO  vert.x-eventloop-thread-0 BaseServiceProxy     : -> GET /sso/ping,200|865ms
+17:32:31.991 INFO  vert.x-eventloop-thread-0 SsoService           : sso ping {"result": "false"}
+17:32:32.044 INFO  vert.x-eventloop-thread-0 BaseServiceProxy     : -> GET /sso/ping,200|908ms
+17:32:32.046 INFO  vert.x-eventloop-thread-0 SsoService           : sso ping {"result": "false"}
+17:32:32.180 INFO  vert.x-eventloop-thread-0 BaseServiceProxy     : -> GET /sso/ping,200|1044ms
+17:32:32.180 INFO  vert.x-eventloop-thread-0 SsoService           : sso ping {"result": "false"}
+17:32:32.193 INFO  vert.x-eventloop-thread-0 BaseServiceProxy     : -> GET /sso/ping,200|1057ms
+17:32:32.193 INFO  vert.x-eventloop-thread-0 SsoService           : sso ping {"result": "false"}
+17:32:32.203 INFO  vert.x-eventloop-thread-0 BaseServiceProxy     : -> GET /sso/ping,200|1067ms
+17:32:32.204 INFO  vert.x-eventloop-thread-0 SsoService           : sso ping {"result": "false"}
+17:32:32.267 INFO  vert.x-eventloop-thread-0 BaseServiceProxy     : -> GET /sso/ping,200|1131ms
+17:32:32.269 INFO  vert.x-eventloop-thread-0 SsoService           : sso ping {"result": "false"}
+17:32:32.316 INFO  vert.x-eventloop-thread-0 BaseServiceProxy     : -> GET /sso/ping,200|1180ms
+17:32:32.316 INFO  vert.x-eventloop-thread-0 SsoService           : sso ping {"result": "false"}
+17:32:32.415 INFO  vert.x-eventloop-thread-0 BaseServiceProxy     : -> GET /sso/ping,200|1279ms
+17:32:32.415 INFO  vert.x-eventloop-thread-0 SsoService           : sso ping {"result": "false"}
+17:32:32.571 INFO  vert.x-eventloop-thread-0 BaseServiceProxy     : -> GET /sso/ping,200|1435ms
+17:32:32.571 INFO  vert.x-eventloop-thread-0 SsoService           : sso ping {"result": "false"}
+17:32:32.594 INFO  vert.x-eventloop-thread-0 BaseServiceProxy     : -> GET /sso/ping,200|1458ms
+17:32:32.594 INFO  vert.x-eventloop-thread-0 SsoService           : sso ping {"result": "false"}
+17:32:32.597 INFO  vert.x-eventloop-thread-0 BaseServiceProxy     : -> GET /sso/ping,200|1461ms
+17:32:32.597 INFO  vert.x-eventloop-thread-0 SsoService           : sso ping {"result": "false"}
+17:32:32.599 INFO  vert.x-eventloop-thread-0 BaseServiceProxy     : -> GET /sso/ping,200|1463ms
+17:32:32.599 INFO  vert.x-eventloop-thread-0 SsoService           : sso ping {"result": "false"}
+17:32:32.722 INFO  vert.x-eventloop-thread-0 BaseServiceProxy     : -> GET /sso/ping,200|1586ms
+17:32:32.723 INFO  vert.x-eventloop-thread-0 SsoService           : sso ping {"result": "false"}
+17:32:32.792 INFO  vert.x-eventloop-thread-0 BaseServiceProxy     : -> GET /sso/ping,200|1656ms
+17:32:32.793 INFO  vert.x-eventloop-thread-0 SsoService           : sso ping {"result": "false"}
+17:32:32.804 INFO  vert.x-eventloop-thread-0 BaseServiceProxy     : -> GET /sso/ping,200|1667ms
+17:32:32.804 INFO  vert.x-eventloop-thread-0 SsoService           : sso ping {"result": "false"}
+17:32:32.912 INFO  vert.x-eventloop-thread-0 BaseServiceProxy     : -> GET /sso/ping,200|1775ms
+17:32:32.913 INFO  vert.x-eventloop-thread-0 SsoService           : sso ping {"result": "false"}
+17:32:32.914 INFO  vert.x-eventloop-thread-0 BaseServiceProxy     : -> GET /sso/ping,200|1778ms
+17:32:32.914 INFO  vert.x-eventloop-thread-0 SsoService           : sso ping {"result": "false"}
+17:32:32.962 INFO  vert.x-eventloop-thread-0 BaseServiceProxy     : -> GET /sso/ping,200|1825ms
+17:32:32.962 INFO  vert.x-eventloop-thread-0 SsoService           : sso ping {"result": "false"}
+17:32:33.037 INFO  vert.x-eventloop-thread-0 BaseServiceProxy     : -> GET /sso/ping,200|1900ms
+17:32:33.037 INFO  vert.x-eventloop-thread-0 SsoService           : sso ping {"result": "false"}
+17:32:33.051 INFO  vert.x-eventloop-thread-0 BaseServiceProxy     : -> GET /sso/ping,200|1913ms
+17:32:33.051 INFO  vert.x-eventloop-thread-0 SsoService           : sso ping {"result": "false"}
+17:32:33.122 INFO  vert.x-eventloop-thread-0 BaseServiceProxy     : -> GET /sso/ping,200|1984ms
+17:32:33.123 INFO  vert.x-eventloop-thread-0 SsoService           : sso ping {"result": "false"}
+17:32:33.192 INFO  vert.x-eventloop-thread-0 BaseServiceProxy     : -> GET /sso/ping,200|2053ms
+17:32:33.192 INFO  vert.x-eventloop-thread-0 SsoService           : sso ping {"result": "false"}
+17:32:33.205 INFO  vert.x-eventloop-thread-0 BaseServiceProxy     : -> GET /sso/ping,200|2066ms
+17:32:33.205 INFO  vert.x-eventloop-thread-0 SsoService           : sso ping {"result": "false"}
+17:32:33.281 INFO  vert.x-eventloop-thread-0 BaseServiceProxy     : -> GET /sso/ping,200|2142ms
+17:32:33.281 INFO  vert.x-eventloop-thread-0 SsoService           : sso ping {"result": "false"}
+17:32:33.359 INFO  vert.x-eventloop-thread-0 BaseServiceProxy     : -> GET /sso/ping,200|2220ms
+17:32:33.361 INFO  vert.x-eventloop-thread-0 SsoService           : sso ping {"result": "false"}
+17:32:33.438 INFO  vert.x-eventloop-thread-0 BaseServiceProxy     : -> GET /sso/ping,200|2299ms
+17:32:33.438 INFO  vert.x-eventloop-thread-0 SsoService           : sso ping {"result": "false"}
+17:32:33.440 INFO  vert.x-eventloop-thread-0 BaseServiceProxy     : -> GET /sso/ping,200|2301ms
+17:32:33.440 INFO  vert.x-eventloop-thread-0 SsoService           : sso ping {"result": "false"}
+17:32:33.462 INFO  vert.x-eventloop-thread-0 BaseServiceProxy     : -> GET /sso/ping,200|2323ms
+17:32:33.462 INFO  vert.x-eventloop-thread-0 SsoService           : sso ping {"result": "false"}
+17:32:33.701 INFO  vert.x-eventloop-thread-0 BaseServiceProxy     : -> GET /sso/ping,200|2562ms
+17:32:33.703 INFO  vert.x-eventloop-thread-0 SsoService           : sso ping {"result": "false"}
+17:32:33.760 INFO  vert.x-eventloop-thread-0 BaseServiceProxy     : -> GET /sso/ping,200|2621ms
+17:32:33.760 INFO  vert.x-eventloop-thread-0 SsoService           : sso ping {"result": "false"}
+17:32:33.782 INFO  vert.x-eventloop-thread-0 BaseServiceProxy     : -> GET /sso/ping,200|2643ms
+17:32:33.784 INFO  vert.x-eventloop-thread-0 SsoService           : sso ping {"result": "false"}
+17:32:33.785 INFO  vert.x-eventloop-thread-0 BaseServiceProxy     : -> GET /sso/ping,200|2645ms
+17:32:33.785 INFO  vert.x-eventloop-thread-0 SsoService           : sso ping {"result": "false"}
+17:32:33.787 INFO  vert.x-eventloop-thread-0 BaseServiceProxy     : -> GET /sso/ping,200|2645ms
+17:32:33.787 INFO  vert.x-eventloop-thread-0 SsoService           : sso ping {"result": "false"}
+17:32:33.970 INFO  vert.x-eventloop-thread-0 BaseServiceProxy     : -> GET /sso/ping,200|2830ms
+17:32:33.970 INFO  vert.x-eventloop-thread-0 SsoService           : sso ping {"result": "false"}
+17:32:34.028 INFO  vert.x-eventloop-thread-0 BaseServiceProxy     : -> GET /sso/ping,200|2888ms
+17:32:34.029 INFO  vert.x-eventloop-thread-0 SsoService           : sso ping {"result": "false"}
+17:32:34.035 INFO  vert.x-eventloop-thread-0 BaseServiceProxy     : -> GET /sso/ping,200|2895ms
+17:32:34.035 INFO  vert.x-eventloop-thread-0 SsoService           : sso ping {"result": "false"}
+17:32:34.037 INFO  vert.x-eventloop-thread-0 BaseServiceProxy     : -> GET /sso/ping,200|2897ms
+17:32:34.037 INFO  vert.x-eventloop-thread-0 SsoService           : sso ping {"result": "false"}
+17:32:34.053 INFO  vert.x-eventloop-thread-0 BaseServiceProxy     : -> GET /sso/ping,200|2913ms
+17:32:34.054 INFO  vert.x-eventloop-thread-0 SsoService           : sso ping {"result": "false"}
+17:32:34.189 INFO  vert.x-eventloop-thread-0 BaseServiceProxy     : -> GET /sso/ping,200|3049ms
+17:32:34.190 INFO  vert.x-eventloop-thread-0 SsoService           : sso ping {"result": "false"}
+17:32:34.318 INFO  vert.x-eventloop-thread-0 BaseServiceProxy     : -> GET /sso/ping,200|3177ms
+17:32:34.318 INFO  vert.x-eventloop-thread-0 SsoService           : sso ping {"result": "false"}
+17:32:34.319 INFO  vert.x-eventloop-thread-0 BaseServiceProxy     : -> GET /sso/ping,200|3178ms
+17:32:34.320 INFO  vert.x-eventloop-thread-0 SsoService           : sso ping {"result": "false"}
+17:32:34.325 INFO  vert.x-eventloop-thread-0 BaseServiceProxy     : -> GET /sso/ping,200|3185ms
+17:32:34.326 INFO  vert.x-eventloop-thread-0 SsoService           : sso ping {"result": "false"}
+17:32:34.376 INFO  vert.x-eventloop-thread-0 BaseServiceProxy     : -> GET /sso/ping,200|3235ms
+17:32:34.386 INFO  vert.x-eventloop-thread-0 SsoService           : sso ping {"result": "false"}
+17:32:34.480 INFO  vert.x-eventloop-thread-0 BaseServiceProxy     : -> GET /sso/ping,200|3339ms
+17:32:34.480 INFO  vert.x-eventloop-thread-0 SsoService           : sso ping {"result": "false"}
+17:32:34.527 INFO  vert.x-eventloop-thread-0 BaseServiceProxy     : -> GET /sso/ping,200|3386ms
+17:32:34.528 INFO  vert.x-eventloop-thread-0 SsoService           : sso ping {"result": "false"}
+17:32:34.559 INFO  vert.x-eventloop-thread-0 BaseServiceProxy     : -> GET /sso/ping,200|3418ms
+17:32:34.559 INFO  vert.x-eventloop-thread-0 SsoService           : sso ping {"result": "false"}
+17:32:34.573 INFO  vert.x-eventloop-thread-0 BaseServiceProxy     : -> GET /sso/ping,200|3432ms
+17:32:34.573 INFO  vert.x-eventloop-thread-0 SsoService           : sso ping {"result": "false"}
+17:32:34.681 INFO  vert.x-eventloop-thread-0 BaseServiceProxy     : -> GET /sso/ping,200|3539ms
+17:32:34.681 INFO  vert.x-eventloop-thread-0 SsoService           : sso ping {"result": "false"}
+17:32:34.728 INFO  vert.x-eventloop-thread-0 BaseServiceProxy     : -> GET /sso/ping,200|3586ms
+17:32:34.729 INFO  vert.x-eventloop-thread-0 SsoService           : sso ping {"result": "false"}
+17:32:34.788 INFO  vert.x-eventloop-thread-0 BaseServiceProxy     : -> GET /sso/ping,200|3646ms
+17:32:34.789 INFO  vert.x-eventloop-thread-0 SsoService           : sso ping {"result": "false"}
+17:32:34.812 INFO  vert.x-eventloop-thread-0 BaseServiceProxy     : -> GET /sso/ping,200|3670ms
+17:32:34.812 INFO  vert.x-eventloop-thread-0 SsoService           : sso ping {"result": "false"}
+17:32:34.944 INFO  vert.x-eventloop-thread-0 BaseServiceProxy     : -> GET /sso/ping,200|3802ms
+17:32:34.944 INFO  vert.x-eventloop-thread-0 SsoService           : sso ping {"result": "false"}
+17:32:34.945 INFO  vert.x-eventloop-thread-0 BaseServiceProxy     : -> GET /sso/ping,200|3803ms
+17:32:34.945 INFO  vert.x-eventloop-thread-0 SsoService           : sso ping {"result": "false"}
+17:32:34.992 INFO  vert.x-eventloop-thread-0 BaseServiceProxy     : -> GET /sso/ping,200|3850ms
+17:32:34.992 INFO  vert.x-eventloop-thread-0 SsoService           : sso ping {"result": "false"}
+17:32:34.997 INFO  vert.x-eventloop-thread-0 BaseServiceProxy     : -> GET /sso/ping,200|3855ms
+17:32:34.997 INFO  vert.x-eventloop-thread-0 SsoService           : sso ping {"result": "false"}
+17:32:35.017 INFO  vert.x-eventloop-thread-0 BaseServiceProxy     : -> GET /sso/ping,200|3875ms
+17:32:35.017 INFO  vert.x-eventloop-thread-0 SsoService           : sso ping {"result": "false"}
+17:32:35.153 INFO  vert.x-eventloop-thread-0 BaseServiceProxy     : -> GET /sso/ping,200|4011ms
+17:32:35.153 INFO  vert.x-eventloop-thread-0 SsoService           : sso ping {"result": "false"}
+17:32:35.159 INFO  vert.x-eventloop-thread-0 BaseServiceProxy     : -> GET /sso/ping,200|4017ms
+17:32:35.160 INFO  vert.x-eventloop-thread-0 SsoService           : sso ping {"result": "false"}
+17:32:35.195 INFO  vert.x-eventloop-thread-0 BaseServiceProxy     : -> GET /sso/ping,200|4053ms
+17:32:35.196 INFO  vert.x-eventloop-thread-0 SsoService           : sso ping {"result": "false"}
+17:32:35.235 INFO  vert.x-eventloop-thread-0 BaseServiceProxy     : -> GET /sso/ping,200|4092ms
+17:32:35.235 INFO  vert.x-eventloop-thread-0 SsoService           : sso ping {"result": "false"}
+17:32:35.296 INFO  vert.x-eventloop-thread-0 BaseServiceProxy     : -> GET /sso/ping,200|4153ms
+17:32:35.296 INFO  vert.x-eventloop-thread-0 SsoService           : sso ping {"result": "false"}
+17:32:35.385 INFO  vert.x-eventloop-thread-0 BaseServiceProxy     : -> GET /sso/ping,200|4242ms
+17:32:35.385 INFO  vert.x-eventloop-thread-0 SsoService           : sso ping {"result": "false"}
+17:32:35.414 INFO  vert.x-eventloop-thread-0 BaseServiceProxy     : -> GET /sso/ping,200|4271ms
+17:32:35.414 INFO  vert.x-eventloop-thread-0 SsoService           : sso ping {"result": "false"}
+17:32:35.451 INFO  vert.x-eventloop-thread-0 BaseServiceProxy     : -> GET /sso/ping,200|4308ms
+17:32:35.451 INFO  vert.x-eventloop-thread-0 SsoService           : sso ping {"result": "false"}
+17:32:35.490 INFO  vert.x-eventloop-thread-0 BaseServiceProxy     : -> GET /sso/ping,200|4347ms
+17:32:35.491 INFO  vert.x-eventloop-thread-0 SsoService           : sso ping {"result": "false"}
+17:32:35.512 INFO  vert.x-eventloop-thread-0 BaseServiceProxy     : -> GET /sso/ping,200|4369ms
+17:32:35.512 INFO  vert.x-eventloop-thread-0 SsoService           : sso ping {"result": "false"}
+17:32:35.612 INFO  vert.x-eventloop-thread-0 BaseServiceProxy     : -> GET /sso/ping,200|4469ms
+17:32:35.612 INFO  vert.x-eventloop-thread-0 SsoService           : sso ping {"result": "false"}
+17:32:35.628 INFO  vert.x-eventloop-thread-0 BaseServiceProxy     : -> GET /sso/ping,200|4485ms
+17:32:35.629 INFO  vert.x-eventloop-thread-0 SsoService           : sso ping {"result": "false"}
+17:32:35.665 INFO  vert.x-eventloop-thread-0 BaseServiceProxy     : -> GET /sso/ping,200|4522ms
+17:32:35.666 INFO  vert.x-eventloop-thread-0 SsoService           : sso ping {"result": "false"}
+17:32:35.728 INFO  vert.x-eventloop-thread-0 BaseServiceProxy     : -> GET /sso/ping,200|4585ms
+17:32:35.728 INFO  vert.x-eventloop-thread-0 SsoService           : sso ping {"result": "false"}
+17:32:35.815 INFO  vert.x-eventloop-thread-0 BaseServiceProxy     : -> GET /sso/ping,200|4672ms
+17:32:35.815 INFO  vert.x-eventloop-thread-0 SsoService           : sso ping {"result": "false"}
+17:32:35.833 INFO  vert.x-eventloop-thread-0 BaseServiceProxy     : -> GET /sso/ping,200|4689ms
+17:32:35.834 INFO  vert.x-eventloop-thread-0 SsoService           : sso ping {"result": "false"}
+17:32:35.862 INFO  vert.x-eventloop-thread-0 BaseServiceProxy     : -> GET /sso/ping,200|4718ms
+17:32:35.863 INFO  vert.x-eventloop-thread-0 SsoService           : sso ping {"result": "false"}
+17:32:35.890 INFO  vert.x-eventloop-thread-0 BaseServiceProxy     : -> GET /sso/ping,200|4746ms
+17:32:35.890 INFO  vert.x-eventloop-thread-0 SsoService           : sso ping {"result": "false"}
+17:32:35.942 INFO  vert.x-eventloop-thread-0 BaseServiceProxy     : -> GET /sso/ping,200|4798ms
+17:32:35.942 INFO  vert.x-eventloop-thread-0 SsoService           : sso ping {"result": "false"}
+17:32:36.031 INFO  vert.x-eventloop-thread-0 BaseServiceProxy     : -> GET /sso/ping,200|4887ms
+17:32:36.031 INFO  vert.x-eventloop-thread-0 SsoService           : sso ping {"result": "false"}
+17:32:36.034 INFO  vert.x-eventloop-thread-0 BaseServiceProxy     : -> GET /sso/ping,200|4890ms
+17:32:36.035 INFO  vert.x-eventloop-thread-0 SsoService           : sso ping {"result": "false"}
+17:32:36.077 INFO  vert.x-eventloop-thread-0 BaseServiceProxy     : -> GET /sso/ping,200|4933ms
+17:32:36.077 INFO  vert.x-eventloop-thread-0 SsoService           : sso ping {"result": "false"}
+17:32:36.153 INFO  vert.x-eventloop-thread-0 BaseServiceProxy     : -> GET /sso/ping,200|5008ms
+17:32:36.154 INFO  vert.x-eventloop-thread-0 SsoService           : sso ping {"result": "false"}
+17:32:36.172 INFO  vert.x-eventloop-thread-0 BaseServiceProxy     : -> GET /sso/ping,200|5027ms
+17:32:36.173 INFO  vert.x-eventloop-thread-0 SsoService           : sso ping {"result": "false"}
+17:32:36.391 INFO  vert.x-eventloop-thread-0 BaseServiceProxy     : -> GET /sso/ping,200|5246ms
+17:32:36.391 INFO  vert.x-eventloop-thread-0 SsoService           : sso ping {"result": "false"}
+17:32:36.422 INFO  vert.x-eventloop-thread-0 BaseServiceProxy     : -> GET /sso/ping,200|5276ms
+17:32:36.423 INFO  vert.x-eventloop-thread-0 SsoService           : sso ping {"result": "false"}
+17:32:36.460 INFO  vert.x-eventloop-thread-0 BaseServiceProxy     : -> GET /sso/ping,200|5315ms
+17:32:36.461 INFO  vert.x-eventloop-thread-0 SsoService           : sso ping {"result": "false"}
+17:32:36.638 INFO  vert.x-eventloop-thread-0 BaseServiceProxy     : -> GET /sso/ping,200|5492ms
+17:32:36.638 INFO  vert.x-eventloop-thread-0 SsoService           : sso ping {"result": "false"}
+17:32:36.664 INFO  vert.x-eventloop-thread-0 BaseServiceProxy     : -> GET /sso/ping,200|5518ms
+17:32:36.664 INFO  vert.x-eventloop-thread-0 SsoService           : sso ping {"result": "false"}
+17:32:36.699 INFO  vert.x-eventloop-thread-0 BaseServiceProxy     : -> GET /sso/ping,200|5553ms
+17:32:36.699 INFO  vert.x-eventloop-thread-0 SsoService           : sso ping {"result": "false"}
+17:32:36.712 INFO  vert.x-eventloop-thread-0 BaseServiceProxy     : -> GET /sso/ping,200|5566ms
+17:32:36.712 INFO  vert.x-eventloop-thread-0 SsoService           : sso ping {"result": "false"}
+17:32:36.746 INFO  vert.x-eventloop-thread-0 BaseServiceProxy     : -> GET /sso/ping,200|5600ms
+17:32:36.746 INFO  vert.x-eventloop-thread-0 SsoService           : sso ping {"result": "false"}
+17:32:36.871 INFO  vert.x-eventloop-thread-0 BaseServiceProxy     : -> GET /sso/ping,200|5725ms
+17:32:36.872 INFO  vert.x-eventloop-thread-0 SsoService           : sso ping {"result": "false"}
+17:32:36.883 INFO  vert.x-eventloop-thread-0 BaseServiceProxy     : -> GET /sso/ping,200|5737ms
+17:32:36.883 INFO  vert.x-eventloop-thread-0 SsoService           : sso ping {"result": "false"}
+17:32:36.976 INFO  vert.x-eventloop-thread-0 BaseServiceProxy     : -> GET /sso/ping,200|5830ms
+17:32:36.976 INFO  vert.x-eventloop-thread-0 SsoService           : sso ping {"result": "false"}
+17:32:36.990 INFO  vert.x-eventloop-thread-0 BaseServiceProxy     : -> GET /sso/ping,200|5844ms
+17:32:36.990 INFO  vert.x-eventloop-thread-0 SsoService           : sso ping {"result": "false"}
+17:32:37.006 INFO  vert.x-eventloop-thread-0 BaseServiceProxy     : -> GET /sso/ping,200|5860ms
+17:32:37.006 INFO  vert.x-eventloop-thread-0 SsoService           : sso ping {"result": "false"}
+17:32:37.141 INFO  vert.x-eventloop-thread-0 BaseServiceProxy     : -> GET /sso/ping,200|5995ms
+17:32:37.141 INFO  vert.x-eventloop-thread-0 SsoService           : sso ping {"result": "false"}
+17:32:37.142 INFO  vert.x-eventloop-thread-0 BaseServiceProxy     : -> GET /sso/ping,200|5996ms
+17:32:37.142 INFO  vert.x-eventloop-thread-0 SsoService           : sso ping {"result": "false"}
+17:32:37.205 INFO  vert.x-eventloop-thread-0 BaseServiceProxy     : -> GET /sso/ping,200|6059ms
+17:32:37.206 INFO  vert.x-eventloop-thread-0 SsoService           : sso ping {"result": "false"}
+17:32:37.250 INFO  vert.x-eventloop-thread-0 BaseServiceProxy     : -> GET /sso/ping,200|6103ms
+17:32:37.251 INFO  vert.x-eventloop-thread-0 SsoService           : sso ping {"result": "false"}
+17:32:37.267 INFO  vert.x-eventloop-thread-0 BaseServiceProxy     : -> GET /sso/ping,200|6121ms
+17:32:37.268 INFO  vert.x-eventloop-thread-0 SsoService           : sso ping {"result": "false"}
+17:32:37.426 INFO  vert.x-eventloop-thread-0 BaseServiceProxy     : -> GET /sso/ping,200|6279ms
+17:32:37.427 INFO  vert.x-eventloop-thread-0 SsoService           : sso ping {"result": "false"}
+17:32:37.452 INFO  vert.x-eventloop-thread-0 BaseServiceProxy     : -> GET /sso/ping,200|6305ms
+17:32:37.453 INFO  vert.x-eventloop-thread-0 SsoService           : sso ping {"result": "false"}
+17:32:37.469 INFO  vert.x-eventloop-thread-0 BaseServiceProxy     : -> GET /sso/ping,200|6322ms
+17:32:37.469 INFO  vert.x-eventloop-thread-0 SsoService           : sso ping {"result": "false"}
+17:32:37.486 INFO  vert.x-eventloop-thread-0 BaseServiceProxy     : -> GET /sso/ping,200|6339ms
+17:32:37.487 INFO  vert.x-eventloop-thread-0 SsoService           : sso ping {"result": "false"}
+17:32:37.488 INFO  vert.x-eventloop-thread-0 BaseServiceProxy     : -> GET /sso/ping,200|6341ms
+17:32:37.488 INFO  vert.x-eventloop-thread-0 SsoService           : sso ping {"result": "false"}
+17:32:38.026 INFO  vert.x-eventloop-thread-0 BaseServiceProxy     : -> GET /sso/ping,200|6879ms
+17:32:38.026 INFO  vert.x-eventloop-thread-0 SsoService           : sso ping {"result": "false"}
+17:32:38.027 INFO  vert.x-eventloop-thread-0 BaseServiceProxy     : -> GET /sso/ping,200|6880ms
+17:32:38.027 INFO  vert.x-eventloop-thread-0 SsoService           : sso ping {"result": "false"}
+17:32:38.028 INFO  vert.x-eventloop-thread-0 BaseServiceProxy     : -> GET /sso/ping,200|6881ms
+17:32:38.028 INFO  vert.x-eventloop-thread-0 SsoService           : sso ping {"result": "false"}
+17:32:38.028 INFO  vert.x-eventloop-thread-0 BaseServiceProxy     : -> GET /sso/ping,200|6881ms
+17:32:38.028 INFO  vert.x-eventloop-thread-0 SsoService           : sso ping {"result": "false"}
+17:32:38.028 INFO  vert.x-eventloop-thread-0 BaseServiceProxy     : -> GET /sso/ping,200|6881ms
+17:32:38.028 INFO  vert.x-eventloop-thread-0 SsoService           : sso ping {"result": "false"}
+17:32:38.268 INFO  vert.x-eventloop-thread-0 BaseServiceProxy     : -> GET /sso/ping,200|7121ms
+17:32:38.268 INFO  vert.x-eventloop-thread-0 SsoService           : sso ping {"result": "false"}
+17:32:38.285 INFO  vert.x-eventloop-thread-0 BaseServiceProxy     : -> GET /sso/ping,200|7138ms
+17:32:38.285 INFO  vert.x-eventloop-thread-0 SsoService           : sso ping {"result": "false"}
+17:32:38.285 INFO  vert.x-eventloop-thread-0 BaseServiceProxy     : -> GET /sso/ping,200|7138ms
+17:32:38.286 INFO  vert.x-eventloop-thread-0 SsoService           : sso ping {"result": "false"}
+17:32:38.289 INFO  vert.x-eventloop-thread-0 BaseServiceProxy     : -> GET /sso/ping,200|7142ms
+17:32:38.289 INFO  vert.x-eventloop-thread-0 SsoService           : sso ping {"result": "false"}
+17:32:38.296 INFO  vert.x-eventloop-thread-0 BaseServiceProxy     : -> GET /sso/ping,200|7149ms
+17:32:38.297 INFO  vert.x-eventloop-thread-0 SsoService           : sso ping {"result": "false"}
+17:32:38.535 INFO  vert.x-eventloop-thread-0 BaseServiceProxy     : -> GET /sso/ping,200|7388ms
+17:32:38.535 INFO  vert.x-eventloop-thread-0 SsoService           : sso ping {"result": "false"}
+17:32:38.591 INFO  vert.x-eventloop-thread-0 BaseServiceProxy     : -> GET /sso/ping,200|7444ms
+17:32:38.591 INFO  vert.x-eventloop-thread-0 SsoService           : sso ping {"result": "false"}
+17:32:38.592 INFO  vert.x-eventloop-thread-0 BaseServiceProxy     : -> GET /sso/ping,200|7445ms
+17:32:38.592 INFO  vert.x-eventloop-thread-0 SsoService           : sso ping {"result": "false"}
+17:32:38.593 INFO  vert.x-eventloop-thread-0 BaseServiceProxy     : -> GET /sso/ping,200|7446ms
+17:32:38.593 INFO  vert.x-eventloop-thread-0 SsoService           : sso ping {"result": "false"}
+17:32:38.637 INFO  vert.x-eventloop-thread-0 BaseServiceProxy     : -> GET /sso/ping,200|7490ms
+17:32:38.637 INFO  vert.x-eventloop-thread-0 SsoService           : sso ping {"result": "false"}
+17:32:38.803 INFO  vert.x-eventloop-thread-0 BaseServiceProxy     : -> GET /sso/ping,200|7656ms
+17:32:38.804 INFO  vert.x-eventloop-thread-0 SsoService           : sso ping {"result": "false"}
+17:32:38.804 INFO  vert.x-eventloop-thread-0 BaseServiceProxy     : -> GET /sso/ping,200|7656ms
+17:32:38.804 INFO  vert.x-eventloop-thread-0 SsoService           : sso ping {"result": "false"}
+17:32:38.805 INFO  vert.x-eventloop-thread-0 BaseServiceProxy     : -> GET /sso/ping,200|7658ms
+17:32:38.805 INFO  vert.x-eventloop-thread-0 SsoService           : sso ping {"result": "false"}
+17:32:38.841 INFO  vert.x-eventloop-thread-0 BaseServiceProxy     : -> GET /sso/ping,200|7693ms
+17:32:38.842 INFO  vert.x-eventloop-thread-0 SsoService           : sso ping {"result": "false"}
+17:32:38.889 INFO  vert.x-eventloop-thread-0 BaseServiceProxy     : -> GET /sso/ping,200|7741ms
+17:32:38.889 INFO  vert.x-eventloop-thread-0 SsoService           : sso ping {"result": "false"}
+17:32:39.003 INFO  vert.x-eventloop-thread-0 BaseServiceProxy     : -> GET /sso/ping,200|7855ms
+17:32:39.004 INFO  vert.x-eventloop-thread-0 SsoService           : sso ping {"result": "false"}
+17:32:39.013 INFO  vert.x-eventloop-thread-0 BaseServiceProxy     : -> GET /sso/ping,200|7865ms
+17:32:39.014 INFO  vert.x-eventloop-thread-0 SsoService           : sso ping {"result": "false"}
+17:32:39.026 INFO  vert.x-eventloop-thread-0 BaseServiceProxy     : -> GET /sso/ping,200|7878ms
+17:32:39.026 INFO  vert.x-eventloop-thread-0 SsoService           : sso ping {"result": "false"}
+17:32:39.049 INFO  vert.x-eventloop-thread-0 BaseServiceProxy     : -> GET /sso/ping,200|7901ms
+17:32:39.050 INFO  vert.x-eventloop-thread-0 SsoService           : sso ping {"result": "false"}
+17:32:39.206 INFO  vert.x-eventloop-thread-0 BaseServiceProxy     : -> GET /sso/ping,200|8058ms
+17:32:39.207 INFO  vert.x-eventloop-thread-0 SsoService           : sso ping {"result": "false"}
+17:32:39.208 INFO  vert.x-eventloop-thread-0 BaseServiceProxy     : -> GET /sso/ping,200|8060ms
+17:32:39.218 INFO  vert.x-eventloop-thread-0 SsoService           : sso ping {"result": "false"}
+17:32:39.219 INFO  vert.x-eventloop-thread-0 BaseServiceProxy     : -> GET /sso/ping,200|8071ms
+17:32:39.220 INFO  vert.x-eventloop-thread-0 SsoService           : sso ping {"result": "false"}
+17:32:39.278 INFO  vert.x-eventloop-thread-0 BaseServiceProxy     : -> GET /sso/ping,200|8130ms
+17:32:39.278 INFO  vert.x-eventloop-thread-0 SsoService           : sso ping {"result": "false"}
+17:32:39.279 INFO  vert.x-eventloop-thread-0 BaseServiceProxy     : -> GET /sso/ping,200|8131ms
+17:32:39.279 INFO  vert.x-eventloop-thread-0 SsoService           : sso ping {"result": "false"}
+17:32:39.430 INFO  vert.x-eventloop-thread-0 BaseServiceProxy     : -> GET /sso/ping,200|8282ms
+17:32:39.430 INFO  vert.x-eventloop-thread-0 SsoService           : sso ping {"result": "false"}
+17:32:39.450 INFO  vert.x-eventloop-thread-0 BaseServiceProxy     : -> GET /sso/ping,200|8302ms
+17:32:39.451 INFO  vert.x-eventloop-thread-0 SsoService           : sso ping {"result": "false"}
+17:32:39.458 INFO  vert.x-eventloop-thread-0 BaseServiceProxy     : -> GET /sso/ping,200|8310ms
+17:32:39.458 INFO  vert.x-eventloop-thread-0 SsoService           : sso ping {"result": "false"}
+17:32:39.480 INFO  vert.x-eventloop-thread-0 BaseServiceProxy     : -> GET /sso/ping,200|8332ms
+17:32:39.484 INFO  vert.x-eventloop-thread-0 SsoService           : sso ping {"result": "false"}
+17:32:39.500 INFO  vert.x-eventloop-thread-0 BaseServiceProxy     : -> GET /sso/ping,200|8352ms
+17:32:39.500 INFO  vert.x-eventloop-thread-0 SsoService           : sso ping {"result": "false"}
+17:32:39.708 INFO  vert.x-eventloop-thread-0 BaseServiceProxy     : -> GET /sso/ping,200|8559ms
+17:32:39.708 INFO  vert.x-eventloop-thread-0 SsoService           : sso ping {"result": "false"}
+17:32:39.709 INFO  vert.x-eventloop-thread-0 BaseServiceProxy     : -> GET /sso/ping,200|8561ms
+17:32:39.710 INFO  vert.x-eventloop-thread-0 SsoService           : sso ping {"result": "false"}
+17:32:39.710 INFO  vert.x-eventloop-thread-0 BaseServiceProxy     : -> GET /sso/ping,200|8561ms
+17:32:39.710 INFO  vert.x-eventloop-thread-0 SsoService           : sso ping {"result": "false"}
+17:32:39.710 INFO  vert.x-eventloop-thread-0 BaseServiceProxy     : -> GET /sso/ping,200|8562ms
+17:32:39.710 INFO  vert.x-eventloop-thread-0 SsoService           : sso ping {"result": "false"}
+17:32:39.717 INFO  vert.x-eventloop-thread-0 BaseServiceProxy     : -> GET /sso/ping,200|8568ms
+17:32:39.717 INFO  vert.x-eventloop-thread-0 SsoService           : sso ping {"result": "false"}
+17:32:39.934 INFO  vert.x-eventloop-thread-0 BaseServiceProxy     : -> GET /sso/ping,200|8785ms
+17:32:39.935 INFO  vert.x-eventloop-thread-0 SsoService           : sso ping {"result": "false"}
+17:32:39.948 INFO  vert.x-eventloop-thread-0 BaseServiceProxy     : -> GET /sso/ping,200|8798ms
+17:32:39.948 INFO  vert.x-eventloop-thread-0 SsoService           : sso ping {"result": "false"}
+17:32:39.949 INFO  vert.x-eventloop-thread-0 BaseServiceProxy     : -> GET /sso/ping,200|8800ms
+17:32:39.950 INFO  vert.x-eventloop-thread-0 SsoService           : sso ping {"result": "false"}
+17:32:39.952 INFO  vert.x-eventloop-thread-0 BaseServiceProxy     : -> GET /sso/ping,200|8803ms
+17:32:39.952 INFO  vert.x-eventloop-thread-0 SsoService           : sso ping {"result": "false"}
+17:32:40.000 INFO  vert.x-eventloop-thread-0 BaseServiceProxy     : -> GET /sso/ping,200|8851ms
+17:32:40.000 INFO  vert.x-eventloop-thread-0 SsoService           : sso ping {"result": "false"}
+17:32:40.163 INFO  vert.x-eventloop-thread-0 BaseServiceProxy     : -> GET /sso/ping,200|9014ms
+17:32:40.163 INFO  vert.x-eventloop-thread-0 SsoService           : sso ping {"result": "false"}
+17:32:40.165 INFO  vert.x-eventloop-thread-0 BaseServiceProxy     : -> GET /sso/ping,200|9016ms
+17:32:40.165 INFO  vert.x-eventloop-thread-0 SsoService           : sso ping {"result": "false"}
+17:32:40.207 INFO  vert.x-eventloop-thread-0 BaseServiceProxy     : -> GET /sso/ping,200|9057ms
+17:32:40.207 INFO  vert.x-eventloop-thread-0 SsoService           : sso ping {"result": "false"}
+17:32:40.221 INFO  vert.x-eventloop-thread-0 BaseServiceProxy     : -> GET /sso/ping,200|9072ms
+17:32:40.222 INFO  vert.x-eventloop-thread-0 SsoService           : sso ping {"result": "false"}
+17:32:40.262 INFO  vert.x-eventloop-thread-0 BaseServiceProxy     : -> GET /sso/ping,200|9113ms
+17:32:40.262 INFO  vert.x-eventloop-thread-0 SsoService           : sso ping {"result": "false"}
+17:32:40.393 INFO  vert.x-eventloop-thread-0 BaseServiceProxy     : -> GET /sso/ping,200|9243ms
+17:32:40.394 INFO  vert.x-eventloop-thread-0 SsoService           : sso ping {"result": "false"}
+17:32:40.415 INFO  vert.x-eventloop-thread-0 BaseServiceProxy     : -> GET /sso/ping,200|9265ms
+17:32:40.416 INFO  vert.x-eventloop-thread-0 SsoService           : sso ping {"result": "false"}
+17:32:40.447 INFO  vert.x-eventloop-thread-0 BaseServiceProxy     : -> GET /sso/ping,200|9297ms
+17:32:40.448 INFO  vert.x-eventloop-thread-0 SsoService           : sso ping {"result": "false"}
+17:32:40.462 INFO  vert.x-eventloop-thread-0 BaseServiceProxy     : -> GET /sso/ping,200|9312ms
+17:32:40.474 INFO  vert.x-eventloop-thread-0 SsoService           : sso ping {"result": "false"}
+17:32:40.479 INFO  vert.x-eventloop-thread-0 BaseServiceProxy     : -> GET /sso/ping,200|9329ms
+17:32:40.500 INFO  vert.x-eventloop-thread-0 SsoService           : sso ping {"result": "false"}
+17:32:40.629 INFO  vert.x-eventloop-thread-0 BaseServiceProxy     : -> GET /sso/ping,200|9479ms
+17:32:40.629 INFO  vert.x-eventloop-thread-0 SsoService           : sso ping {"result": "false"}
+17:32:40.643 INFO  vert.x-eventloop-thread-0 BaseServiceProxy     : -> GET /sso/ping,200|9493ms
+17:32:40.643 INFO  vert.x-eventloop-thread-0 SsoService           : sso ping {"result": "false"}
+17:32:40.666 INFO  vert.x-eventloop-thread-0 BaseServiceProxy     : -> GET /sso/ping,200|9516ms
+17:32:40.667 INFO  vert.x-eventloop-thread-0 SsoService           : sso ping {"result": "false"}
+17:32:40.718 INFO  vert.x-eventloop-thread-0 BaseServiceProxy     : -> GET /sso/ping,200|9568ms
+17:32:40.718 INFO  vert.x-eventloop-thread-0 SsoService           : sso ping {"result": "false"}
+17:32:40.740 INFO  vert.x-eventloop-thread-0 BaseServiceProxy     : -> GET /sso/ping,200|9590ms
+17:32:40.741 INFO  vert.x-eventloop-thread-0 SsoService           : sso ping {"result": "false"}
+17:32:40.851 INFO  vert.x-eventloop-thread-0 BaseServiceProxy     : -> GET /sso/ping,200|9701ms
+17:32:40.851 INFO  vert.x-eventloop-thread-0 SsoService           : sso ping {"result": "false"}
+17:32:40.899 INFO  vert.x-eventloop-thread-0 BaseServiceProxy     : -> GET /sso/ping,200|9749ms
+17:32:40.899 INFO  vert.x-eventloop-thread-0 SsoService           : sso ping {"result": "false"}
+17:32:40.912 INFO  vert.x-eventloop-thread-0 BaseServiceProxy     : -> GET /sso/ping,200|9762ms
+17:32:40.912 INFO  vert.x-eventloop-thread-0 SsoService           : sso ping {"result": "false"}
+17:32:40.925 INFO  vert.x-eventloop-thread-0 BaseServiceProxy     : -> GET /sso/ping,200|9775ms
+17:32:40.925 INFO  vert.x-eventloop-thread-0 SsoService           : sso ping {"result": "false"}
+17:32:41.060 INFO  vert.x-eventloop-thread-0 BaseServiceProxy     : -> GET /sso/ping,200|9909ms
+17:32:41.061 INFO  vert.x-eventloop-thread-0 SsoService           : sso ping {"result": "false"}
+17:32:41.144 INFO  vert.x-eventloop-thread-0 BaseServiceProxy     : -> GET /sso/ping,200|9993ms
+17:32:41.145 INFO  vert.x-eventloop-thread-0 SsoService           : sso ping {"result": "false"}
+17:32:41.146 INFO  vert.x-eventloop-thread-0 BaseServiceProxy     : -> GET /sso/ping,200|9995ms
+17:32:41.146 INFO  vert.x-eventloop-thread-0 SsoService           : sso ping {"result": "false"}
+17:32:41.156 INFO  vert.x-eventloop-thread-0 BaseServiceProxy     : -> GET /sso/ping,200|10005ms
+17:32:41.157 INFO  vert.x-eventloop-thread-0 SsoService           : sso ping {"result": "false"}
+17:32:41.168 INFO  vert.x-eventloop-thread-0 BaseServiceProxy     : -> GET /sso/ping,200|10017ms
+17:32:41.168 INFO  vert.x-eventloop-thread-0 SsoService           : sso ping {"result": "false"}
+17:32:41.328 INFO  vert.x-eventloop-thread-0 BaseServiceProxy     : -> GET /sso/ping,200|10177ms
+17:32:41.328 INFO  vert.x-eventloop-thread-0 SsoService           : sso ping {"result": "false"}
+17:32:41.356 INFO  vert.x-eventloop-thread-0 BaseServiceProxy     : -> GET /sso/ping,200|10205ms
+17:32:41.357 INFO  vert.x-eventloop-thread-0 SsoService           : sso ping {"result": "false"}
+17:32:41.359 INFO  vert.x-eventloop-thread-0 BaseServiceProxy     : -> GET /sso/ping,200|10208ms
+17:32:41.359 INFO  vert.x-eventloop-thread-0 SsoService           : sso ping {"result": "false"}
+17:32:41.363 INFO  vert.x-eventloop-thread-0 BaseServiceProxy     : -> GET /sso/ping,200|10212ms
+17:32:41.363 INFO  vert.x-eventloop-thread-0 SsoService           : sso ping {"result": "false"}
+17:32:41.383 INFO  vert.x-eventloop-thread-0 BaseServiceProxy     : -> GET /sso/ping,200|10232ms
+17:32:41.385 INFO  vert.x-eventloop-thread-0 SsoService           : sso ping {"result": "false"}
+17:32:41.530 INFO  vert.x-eventloop-thread-0 BaseServiceProxy     : -> GET /sso/ping,200|10379ms
+17:32:41.530 INFO  vert.x-eventloop-thread-0 SsoService           : sso ping {"result": "false"}
+17:32:41.567 INFO  vert.x-eventloop-thread-0 BaseServiceProxy     : -> GET /sso/ping,200|10416ms
+17:32:41.567 INFO  vert.x-eventloop-thread-0 SsoService           : sso ping {"result": "false"}
+17:32:41.576 INFO  vert.x-eventloop-thread-0 BaseServiceProxy     : -> GET /sso/ping,200|10424ms
+17:32:41.576 INFO  vert.x-eventloop-thread-0 SsoService           : sso ping {"result": "false"}
+17:32:41.598 INFO  vert.x-eventloop-thread-0 BaseServiceProxy     : -> GET /sso/ping,200|10446ms
+17:32:41.598 INFO  vert.x-eventloop-thread-0 SsoService           : sso ping {"result": "false"}
+17:32:41.613 INFO  vert.x-eventloop-thread-0 BaseServiceProxy     : -> GET /sso/ping,200|10462ms
+17:32:41.614 INFO  vert.x-eventloop-thread-0 SsoService           : sso ping {"result": "false"}
+17:32:41.729 INFO  vert.x-eventloop-thread-0 BaseServiceProxy     : -> GET /sso/ping,200|10577ms
+17:32:41.730 INFO  vert.x-eventloop-thread-0 SsoService           : sso ping {"result": "false"}
+17:32:41.777 INFO  vert.x-eventloop-thread-0 BaseServiceProxy     : -> GET /sso/ping,200|10624ms
+17:32:41.778 INFO  vert.x-eventloop-thread-0 SsoService           : sso ping {"result": "false"}
+17:32:41.820 INFO  vert.x-eventloop-thread-0 BaseServiceProxy     : -> GET /sso/ping,200|10668ms
+17:32:41.821 INFO  vert.x-eventloop-thread-0 SsoService           : sso ping {"result": "false"}
+17:32:41.821 INFO  vert.x-eventloop-thread-0 BaseServiceProxy     : -> GET /sso/ping,200|10668ms
+17:32:41.822 INFO  vert.x-eventloop-thread-0 SsoService           : sso ping {"result": "false"}
+17:32:41.840 INFO  vert.x-eventloop-thread-0 BaseServiceProxy     : -> GET /sso/ping,200|10687ms
+17:32:41.840 INFO  vert.x-eventloop-thread-0 SsoService           : sso ping {"result": "false"}
+17:32:41.933 INFO  vert.x-eventloop-thread-0 BaseServiceProxy     : -> GET /sso/ping,200|10780ms
+17:32:41.935 INFO  vert.x-eventloop-thread-0 SsoService           : sso ping {"result": "false"}
+17:32:41.983 INFO  vert.x-eventloop-thread-0 BaseServiceProxy     : -> GET /sso/ping,200|10830ms
+17:32:41.983 INFO  vert.x-eventloop-thread-0 SsoService           : sso ping {"result": "false"}
+17:32:42.025 INFO  vert.x-eventloop-thread-0 BaseServiceProxy     : -> GET /sso/ping,200|10872ms
+17:32:42.026 INFO  vert.x-eventloop-thread-0 SsoService           : sso ping {"result": "false"}
+17:32:42.026 INFO  vert.x-eventloop-thread-0 BaseServiceProxy     : -> GET /sso/ping,200|10873ms
+17:32:42.026 INFO  vert.x-eventloop-thread-0 SsoService           : sso ping {"result": "false"}
+17:32:42.045 INFO  vert.x-eventloop-thread-0 BaseServiceProxy     : -> GET /sso/ping,200|10892ms
+17:32:42.045 INFO  vert.x-eventloop-thread-0 SsoService           : sso ping {"result": "false"}
+17:32:42.132 INFO  vert.x-eventloop-thread-0 BaseServiceProxy     : -> GET /sso/ping,200|10979ms
+17:32:42.132 INFO  vert.x-eventloop-thread-0 SsoService           : sso ping {"result": "false"}
+17:32:42.184 INFO  vert.x-eventloop-thread-0 BaseServiceProxy     : -> GET /sso/ping,200|11031ms
+17:32:42.186 INFO  vert.x-eventloop-thread-0 SsoService           : sso ping {"result": "false"}
+17:32:42.282 INFO  vert.x-eventloop-thread-0 BaseServiceProxy     : -> GET /sso/ping,200|11128ms
+17:32:42.282 INFO  vert.x-eventloop-thread-0 SsoService           : sso ping {"result": "false"}
+17:32:42.283 INFO  vert.x-eventloop-thread-0 BaseServiceProxy     : -> GET /sso/ping,200|11130ms
+17:32:42.283 INFO  vert.x-eventloop-thread-0 SsoService           : sso ping {"result": "false"}
+17:32:42.319 INFO  vert.x-eventloop-thread-0 BaseServiceProxy     : -> GET /sso/ping,200|11165ms
+17:32:42.320 INFO  vert.x-eventloop-thread-0 SsoService           : sso ping {"result": "false"}
+17:32:42.376 INFO  vert.x-eventloop-thread-0 BaseServiceProxy     : -> GET /sso/ping,200|11222ms
+17:32:42.376 INFO  vert.x-eventloop-thread-0 SsoService           : sso ping {"result": "false"}
+17:32:42.415 INFO  vert.x-eventloop-thread-0 BaseServiceProxy     : -> GET /sso/ping,200|11261ms
+17:32:42.420 INFO  vert.x-eventloop-thread-0 SsoService           : sso ping {"result": "false"}
+17:32:42.517 INFO  vert.x-eventloop-thread-0 BaseServiceProxy     : -> GET /sso/ping,200|11363ms
+17:32:42.517 INFO  vert.x-eventloop-thread-0 SsoService           : sso ping {"result": "false"}
+17:32:42.570 INFO  vert.x-eventloop-thread-0 BaseServiceProxy     : -> GET /sso/ping,200|11416ms
+17:32:42.571 INFO  vert.x-eventloop-thread-0 SsoService           : sso ping {"result": "false"}
+17:32:42.572 INFO  vert.x-eventloop-thread-0 BaseServiceProxy     : -> GET /sso/ping,200|11418ms
+17:32:42.573 INFO  vert.x-eventloop-thread-0 SsoService           : sso ping {"result": "false"}
+17:32:42.602 INFO  vert.x-eventloop-thread-0 BaseServiceProxy     : -> GET /sso/ping,200|11448ms
+17:32:42.602 INFO  vert.x-eventloop-thread-0 SsoService           : sso ping {"result": "false"}
+17:32:42.730 INFO  vert.x-eventloop-thread-0 BaseServiceProxy     : -> GET /sso/ping,200|11576ms
+17:32:42.730 INFO  vert.x-eventloop-thread-0 SsoService           : sso ping {"result": "false"}
+17:32:42.779 INFO  vert.x-eventloop-thread-0 BaseServiceProxy     : -> GET /sso/ping,200|11625ms
+17:32:42.779 INFO  vert.x-eventloop-thread-0 SsoService           : sso ping {"result": "false"}
+17:32:42.780 INFO  vert.x-eventloop-thread-0 BaseServiceProxy     : -> GET /sso/ping,200|11626ms
+17:32:42.780 INFO  vert.x-eventloop-thread-0 SsoService           : sso ping {"result": "false"}
+17:32:42.815 INFO  vert.x-eventloop-thread-0 BaseServiceProxy     : -> GET /sso/ping,200|11661ms
+17:32:42.815 INFO  vert.x-eventloop-thread-0 SsoService           : sso ping {"result": "false"}
+17:32:42.840 INFO  vert.x-eventloop-thread-0 BaseServiceProxy     : -> GET /sso/ping,200|11686ms
+17:32:42.840 INFO  vert.x-eventloop-thread-0 SsoService           : sso ping {"result": "false"}
+17:32:42.950 INFO  vert.x-eventloop-thread-0 BaseServiceProxy     : -> GET /sso/ping,200|11796ms
+17:32:42.950 INFO  vert.x-eventloop-thread-0 SsoService           : sso ping {"result": "false"}
+17:32:43.030 INFO  vert.x-eventloop-thread-0 BaseServiceProxy     : -> GET /sso/ping,200|11875ms
+17:32:43.030 INFO  vert.x-eventloop-thread-0 SsoService           : sso ping {"result": "false"}
+17:32:43.034 INFO  vert.x-eventloop-thread-0 BaseServiceProxy     : -> GET /sso/ping,200|11879ms
+17:32:43.034 INFO  vert.x-eventloop-thread-0 SsoService           : sso ping {"result": "false"}
+17:32:43.038 INFO  vert.x-eventloop-thread-0 BaseServiceProxy     : -> GET /sso/ping,200|11883ms
+17:32:43.038 INFO  vert.x-eventloop-thread-0 SsoService           : sso ping {"result": "false"}
+17:32:43.042 INFO  vert.x-eventloop-thread-0 BaseServiceProxy     : -> GET /sso/ping,200|11887ms
+17:32:43.044 INFO  vert.x-eventloop-thread-0 SsoService           : sso ping {"result": "false"}
+17:32:43.173 INFO  vert.x-eventloop-thread-0 BaseServiceProxy     : -> GET /sso/ping,200|12017ms
+17:32:43.173 INFO  vert.x-eventloop-thread-0 SsoService           : sso ping {"result": "false"}
+17:32:43.264 INFO  vert.x-eventloop-thread-0 BaseServiceProxy     : -> GET /sso/ping,200|12108ms
+17:32:43.265 INFO  vert.x-eventloop-thread-0 SsoService           : sso ping {"result": "false"}
+17:32:43.287 INFO  vert.x-eventloop-thread-0 BaseServiceProxy     : -> GET /sso/ping,200|12131ms
+17:32:43.288 INFO  vert.x-eventloop-thread-0 SsoService           : sso ping {"result": "false"}
+17:32:43.289 INFO  vert.x-eventloop-thread-0 BaseServiceProxy     : -> GET /sso/ping,200|12133ms
+17:32:43.289 INFO  vert.x-eventloop-thread-0 SsoService           : sso ping {"result": "false"}
+17:32:43.298 INFO  vert.x-eventloop-thread-0 BaseServiceProxy     : -> GET /sso/ping,200|12142ms
+17:32:43.298 INFO  vert.x-eventloop-thread-0 SsoService           : sso ping {"result": "false"}
+17:32:43.375 INFO  vert.x-eventloop-thread-0 BaseServiceProxy     : -> GET /sso/ping,200|12218ms
+17:32:43.376 INFO  vert.x-eventloop-thread-0 SsoService           : sso ping {"result": "false"}
+17:32:43.501 INFO  vert.x-eventloop-thread-0 BaseServiceProxy     : -> GET /sso/ping,200|12344ms
+17:32:43.502 INFO  vert.x-eventloop-thread-0 SsoService           : sso ping {"result": "false"}
+17:32:43.515 INFO  vert.x-eventloop-thread-0 BaseServiceProxy     : -> GET /sso/ping,200|12358ms
+17:32:43.515 INFO  vert.x-eventloop-thread-0 SsoService           : sso ping {"result": "false"}
+17:32:43.543 INFO  vert.x-eventloop-thread-0 BaseServiceProxy     : -> GET /sso/ping,200|12386ms
+17:32:43.544 INFO  vert.x-eventloop-thread-0 SsoService           : sso ping {"result": "false"}
+17:32:43.572 INFO  vert.x-eventloop-thread-0 BaseServiceProxy     : -> GET /sso/ping,200|12415ms
+17:32:43.573 INFO  vert.x-eventloop-thread-0 SsoService           : sso ping {"result": "false"}
+17:32:43.611 INFO  vert.x-eventloop-thread-0 BaseServiceProxy     : -> GET /sso/ping,200|12454ms
+17:32:43.611 INFO  vert.x-eventloop-thread-0 SsoService           : sso ping {"result": "false"}
+17:32:43.745 INFO  vert.x-eventloop-thread-0 BaseServiceProxy     : -> GET /sso/ping,200|12588ms
+17:32:43.746 INFO  vert.x-eventloop-thread-0 SsoService           : sso ping {"result": "false"}
+17:32:43.749 INFO  vert.x-eventloop-thread-0 BaseServiceProxy     : -> GET /sso/ping,200|12592ms
+17:32:43.750 INFO  vert.x-eventloop-thread-0 SsoService           : sso ping {"result": "false"}
+17:32:43.828 INFO  vert.x-eventloop-thread-0 BaseServiceProxy     : -> GET /sso/ping,200|12671ms
+17:32:43.830 INFO  vert.x-eventloop-thread-0 SsoService           : sso ping {"result": "false"}
+17:32:43.830 INFO  vert.x-eventloop-thread-0 BaseServiceProxy     : -> GET /sso/ping,200|12672ms
+17:32:43.832 INFO  vert.x-eventloop-thread-0 SsoService           : sso ping {"result": "false"}
+17:32:43.885 INFO  vert.x-eventloop-thread-0 BaseServiceProxy     : -> GET /sso/ping,200|12728ms
+17:32:43.886 INFO  vert.x-eventloop-thread-0 SsoService           : sso ping {"result": "false"}
+17:32:43.960 INFO  vert.x-eventloop-thread-0 BaseServiceProxy     : -> GET /sso/ping,200|12802ms
+17:32:43.962 INFO  vert.x-eventloop-thread-0 SsoService           : sso ping {"result": "false"}
+17:32:43.987 INFO  vert.x-eventloop-thread-0 BaseServiceProxy     : -> GET /sso/ping,200|12829ms
+17:32:43.987 INFO  vert.x-eventloop-thread-0 SsoService           : sso ping {"result": "false"}
+17:32:44.097 INFO  vert.x-eventloop-thread-0 BaseServiceProxy     : -> GET /sso/ping,200|12939ms
+17:32:44.097 INFO  vert.x-eventloop-thread-0 SsoService           : sso ping {"result": "false"}
+17:32:44.097 INFO  vert.x-eventloop-thread-0 BaseServiceProxy     : -> GET /sso/ping,200|12939ms
+17:32:44.097 INFO  vert.x-eventloop-thread-0 SsoService           : sso ping {"result": "false"}
+17:32:44.132 INFO  vert.x-eventloop-thread-0 BaseServiceProxy     : -> GET /sso/ping,200|12974ms
+17:32:44.132 INFO  vert.x-eventloop-thread-0 SsoService           : sso ping {"result": "false"}
+17:32:44.221 INFO  vert.x-eventloop-thread-0 BaseServiceProxy     : -> GET /sso/ping,200|13063ms
+17:32:44.222 INFO  vert.x-eventloop-thread-0 SsoService           : sso ping {"result": "false"}
+17:32:44.296 INFO  vert.x-eventloop-thread-0 BaseServiceProxy     : -> GET /sso/ping,200|13137ms
+17:32:44.296 INFO  vert.x-eventloop-thread-0 SsoService           : sso ping {"result": "false"}
+17:32:44.305 INFO  vert.x-eventloop-thread-0 BaseServiceProxy     : -> GET /sso/ping,200|13147ms
+17:32:44.306 INFO  vert.x-eventloop-thread-0 SsoService           : sso ping {"result": "false"}
+17:32:44.306 INFO  vert.x-eventloop-thread-0 BaseServiceProxy     : -> GET /sso/ping,200|13148ms
+17:32:44.306 INFO  vert.x-eventloop-thread-0 SsoService           : sso ping {"result": "false"}
+17:32:44.353 INFO  vert.x-eventloop-thread-0 BaseServiceProxy     : -> GET /sso/ping,200|13195ms
+17:32:44.353 INFO  vert.x-eventloop-thread-0 SsoService           : sso ping {"result": "false"}
+17:32:44.428 INFO  vert.x-eventloop-thread-0 BaseServiceProxy     : -> GET /sso/ping,200|13270ms
+17:32:44.428 INFO  vert.x-eventloop-thread-0 SsoService           : sso ping {"result": "false"}
+17:32:44.541 INFO  vert.x-eventloop-thread-0 BaseServiceProxy     : -> GET /sso/ping,200|13383ms
+17:32:44.541 INFO  vert.x-eventloop-thread-0 SsoService           : sso ping {"result": "false"}
+17:32:44.547 INFO  vert.x-eventloop-thread-0 BaseServiceProxy     : -> GET /sso/ping,200|13389ms
+17:32:44.547 INFO  vert.x-eventloop-thread-0 SsoService           : sso ping {"result": "false"}
+17:32:44.584 INFO  vert.x-eventloop-thread-0 BaseServiceProxy     : -> GET /sso/ping,200|13426ms
+17:32:44.584 INFO  vert.x-eventloop-thread-0 SsoService           : sso ping {"result": "false"}
+17:32:44.591 INFO  vert.x-eventloop-thread-0 BaseServiceProxy     : -> GET /sso/ping,200|13432ms
+17:32:44.592 INFO  vert.x-eventloop-thread-0 SsoService           : sso ping {"result": "false"}
+17:32:44.751 INFO  vert.x-eventloop-thread-0 BaseServiceProxy     : -> GET /sso/ping,200|13592ms
+17:32:44.751 INFO  vert.x-eventloop-thread-0 SsoService           : sso ping {"result": "false"}
+17:32:44.759 INFO  vert.x-eventloop-thread-0 BaseServiceProxy     : -> GET /sso/ping,200|13600ms
+17:32:44.759 INFO  vert.x-eventloop-thread-0 SsoService           : sso ping {"result": "false"}
+17:32:44.790 INFO  vert.x-eventloop-thread-0 BaseServiceProxy     : -> GET /sso/ping,200|13630ms
+17:32:44.790 INFO  vert.x-eventloop-thread-0 SsoService           : sso ping {"result": "false"}
+17:32:44.795 INFO  vert.x-eventloop-thread-0 BaseServiceProxy     : -> GET /sso/ping,200|13636ms
+17:32:44.795 INFO  vert.x-eventloop-thread-0 SsoService           : sso ping {"result": "false"}
+17:32:44.816 INFO  vert.x-eventloop-thread-0 BaseServiceProxy     : -> GET /sso/ping,200|13657ms
+17:32:44.816 INFO  vert.x-eventloop-thread-0 SsoService           : sso ping {"result": "false"}
+17:32:44.997 INFO  vert.x-eventloop-thread-0 BaseServiceProxy     : -> GET /sso/ping,200|13837ms
+17:32:44.997 INFO  vert.x-eventloop-thread-0 SsoService           : sso ping {"result": "false"}
+17:32:45.001 INFO  vert.x-eventloop-thread-0 BaseServiceProxy     : -> GET /sso/ping,200|13841ms
+17:32:45.002 INFO  vert.x-eventloop-thread-0 SsoService           : sso ping {"result": "false"}
+17:32:45.013 INFO  vert.x-eventloop-thread-0 BaseServiceProxy     : -> GET /sso/ping,200|13853ms
+17:32:45.013 INFO  vert.x-eventloop-thread-0 SsoService           : sso ping {"result": "false"}
+17:32:45.020 INFO  vert.x-eventloop-thread-0 BaseServiceProxy     : -> GET /sso/ping,200|13860ms
+17:32:45.020 INFO  vert.x-eventloop-thread-0 SsoService           : sso ping {"result": "false"}
+17:32:45.038 INFO  vert.x-eventloop-thread-0 BaseServiceProxy     : -> GET /sso/ping,200|13878ms
+17:32:45.039 INFO  vert.x-eventloop-thread-0 SsoService           : sso ping {"result": "false"}
+17:32:45.216 INFO  vert.x-eventloop-thread-0 BaseServiceProxy     : -> GET /sso/ping,200|14056ms
+17:32:45.217 INFO  vert.x-eventloop-thread-0 SsoService           : sso ping {"result": "false"}
+17:32:45.230 INFO  vert.x-eventloop-thread-0 BaseServiceProxy     : -> GET /sso/ping,200|14069ms
+17:32:45.230 INFO  vert.x-eventloop-thread-0 SsoService           : sso ping {"result": "false"}
+17:32:45.242 INFO  vert.x-eventloop-thread-0 BaseServiceProxy     : -> GET /sso/ping,200|14082ms
+17:32:45.243 INFO  vert.x-eventloop-thread-0 SsoService           : sso ping {"result": "false"}
+17:32:45.244 INFO  vert.x-eventloop-thread-0 BaseServiceProxy     : -> GET /sso/ping,200|14083ms
+17:32:45.244 INFO  vert.x-eventloop-thread-0 SsoService           : sso ping {"result": "false"}
+17:32:45.256 INFO  vert.x-eventloop-thread-0 BaseServiceProxy     : -> GET /sso/ping,200|14096ms
+17:32:45.257 INFO  vert.x-eventloop-thread-0 SsoService           : sso ping {"result": "false"}
+17:32:45.432 INFO  vert.x-eventloop-thread-0 BaseServiceProxy     : -> GET /sso/ping,200|14271ms
+17:32:45.432 INFO  vert.x-eventloop-thread-0 SsoService           : sso ping {"result": "false"}
+17:32:45.435 INFO  vert.x-eventloop-thread-0 BaseServiceProxy     : -> GET /sso/ping,200|14274ms
+17:32:45.435 INFO  vert.x-eventloop-thread-0 SsoService           : sso ping {"result": "false"}
+17:32:45.457 INFO  vert.x-eventloop-thread-0 BaseServiceProxy     : -> GET /sso/ping,200|14296ms
+17:32:45.458 INFO  vert.x-eventloop-thread-0 SsoService           : sso ping {"result": "false"}
+17:32:45.464 INFO  vert.x-eventloop-thread-0 BaseServiceProxy     : -> GET /sso/ping,200|14303ms
+17:32:45.465 INFO  vert.x-eventloop-thread-0 SsoService           : sso ping {"result": "false"}
+17:32:45.577 INFO  vert.x-eventloop-thread-0 BaseServiceProxy     : -> GET /sso/ping,200|14416ms
+17:32:45.578 INFO  vert.x-eventloop-thread-0 SsoService           : sso ping {"result": "false"}
+17:32:45.634 INFO  vert.x-eventloop-thread-0 BaseServiceProxy     : -> GET /sso/ping,200|14473ms
+17:32:45.635 INFO  vert.x-eventloop-thread-0 SsoService           : sso ping {"result": "false"}
+17:32:45.663 INFO  vert.x-eventloop-thread-0 BaseServiceProxy     : -> GET /sso/ping,200|14502ms
+17:32:45.664 INFO  vert.x-eventloop-thread-0 SsoService           : sso ping {"result": "false"}
+17:32:45.665 INFO  vert.x-eventloop-thread-0 BaseServiceProxy     : -> GET /sso/ping,200|14504ms
+17:32:45.665 INFO  vert.x-eventloop-thread-0 SsoService           : sso ping {"result": "false"}
+17:32:45.683 INFO  vert.x-eventloop-thread-0 BaseServiceProxy     : -> GET /sso/ping,200|14522ms
+17:32:45.684 INFO  vert.x-eventloop-thread-0 SsoService           : sso ping {"result": "false"}
+17:32:45.861 INFO  vert.x-eventloop-thread-0 BaseServiceProxy     : -> GET /sso/ping,200|14700ms
+17:32:45.862 INFO  vert.x-eventloop-thread-0 SsoService           : sso ping {"result": "false"}
+17:32:45.870 INFO  vert.x-eventloop-thread-0 BaseServiceProxy     : -> GET /sso/ping,200|14709ms
+17:32:45.870 INFO  vert.x-eventloop-thread-0 SsoService           : sso ping {"result": "false"}
+17:32:45.877 INFO  vert.x-eventloop-thread-0 BaseServiceProxy     : -> GET /sso/ping,200|14716ms
+17:32:45.877 INFO  vert.x-eventloop-thread-0 SsoService           : sso ping {"result": "false"}
+17:32:45.899 INFO  vert.x-eventloop-thread-0 BaseServiceProxy     : -> GET /sso/ping,200|14737ms
+17:32:45.899 INFO  vert.x-eventloop-thread-0 SsoService           : sso ping {"result": "false"}
+17:32:45.951 INFO  vert.x-eventloop-thread-0 BaseServiceProxy     : -> GET /sso/ping,200|14790ms
+17:32:45.951 INFO  vert.x-eventloop-thread-0 SsoService           : sso ping {"result": "false"}
+17:32:46.078 INFO  vert.x-eventloop-thread-0 BaseServiceProxy     : -> GET /sso/ping,200|14916ms
+17:32:46.079 INFO  vert.x-eventloop-thread-0 SsoService           : sso ping {"result": "false"}
+17:32:46.088 INFO  vert.x-eventloop-thread-0 BaseServiceProxy     : -> GET /sso/ping,200|14926ms
+17:32:46.088 INFO  vert.x-eventloop-thread-0 SsoService           : sso ping {"result": "false"}
+17:32:46.135 INFO  vert.x-eventloop-thread-0 BaseServiceProxy     : -> GET /sso/ping,200|14973ms
+17:32:46.136 INFO  vert.x-eventloop-thread-0 SsoService           : sso ping {"result": "false"}
+17:32:46.160 INFO  vert.x-eventloop-thread-0 BaseServiceProxy     : -> GET /sso/ping,200|14998ms
+17:32:46.161 INFO  vert.x-eventloop-thread-0 SsoService           : sso ping {"result": "false"}
+17:32:46.191 INFO  vert.x-eventloop-thread-0 BaseServiceProxy     : -> GET /sso/ping,200|15029ms
+17:32:46.191 INFO  vert.x-eventloop-thread-0 SsoService           : sso ping {"result": "false"}
+17:32:46.315 INFO  vert.x-eventloop-thread-0 BaseServiceProxy     : -> GET /sso/ping,200|15152ms
+17:32:46.316 INFO  vert.x-eventloop-thread-0 SsoService           : sso ping {"result": "false"}
+17:32:46.351 INFO  vert.x-eventloop-thread-0 BaseServiceProxy     : -> GET /sso/ping,200|15189ms
+17:32:46.351 INFO  vert.x-eventloop-thread-0 SsoService           : sso ping {"result": "false"}
+17:32:46.352 INFO  vert.x-eventloop-thread-0 BaseServiceProxy     : -> GET /sso/ping,200|15189ms
+17:32:46.352 INFO  vert.x-eventloop-thread-0 SsoService           : sso ping {"result": "false"}
+17:32:46.423 INFO  vert.x-eventloop-thread-0 BaseServiceProxy     : -> GET /sso/ping,200|15260ms
+17:32:46.423 INFO  vert.x-eventloop-thread-0 SsoService           : sso ping {"result": "false"}
+17:32:46.427 INFO  vert.x-eventloop-thread-0 BaseServiceProxy     : -> GET /sso/ping,200|15264ms
+17:32:46.427 INFO  vert.x-eventloop-thread-0 SsoService           : sso ping {"result": "false"}
+17:32:46.542 INFO  vert.x-eventloop-thread-0 BaseServiceProxy     : -> GET /sso/ping,200|15379ms
+17:32:46.542 INFO  vert.x-eventloop-thread-0 SsoService           : sso ping {"result": "false"}
+17:32:46.554 INFO  vert.x-eventloop-thread-0 BaseServiceProxy     : -> GET /sso/ping,200|15381ms
+17:32:46.554 INFO  vert.x-eventloop-thread-0 SsoService           : sso ping {"result": "false"}
+17:32:46.686 INFO  vert.x-eventloop-thread-0 BaseServiceProxy     : -> GET /sso/ping,200|15513ms
+17:32:46.686 INFO  vert.x-eventloop-thread-0 SsoService           : sso ping {"result": "false"}
+17:32:46.692 INFO  vert.x-eventloop-thread-0 BaseServiceProxy     : -> GET /sso/ping,200|15519ms
+17:32:46.692 INFO  vert.x-eventloop-thread-0 SsoService           : sso ping {"result": "false"}
+17:32:46.694 INFO  vert.x-eventloop-thread-0 BaseServiceProxy     : -> GET /sso/ping,200|15521ms
+17:32:46.695 INFO  vert.x-eventloop-thread-0 SsoService           : sso ping {"result": "false"}
+17:32:46.772 INFO  vert.x-eventloop-thread-0 BaseServiceProxy     : -> GET /sso/ping,200|15599ms
+17:32:46.773 INFO  vert.x-eventloop-thread-0 SsoService           : sso ping {"result": "false"}
+17:32:46.792 INFO  vert.x-eventloop-thread-0 BaseServiceProxy     : -> GET /sso/ping,200|15619ms
+17:32:46.793 INFO  vert.x-eventloop-thread-0 SsoService           : sso ping {"result": "false"}
+17:32:41.813 INFO  vert.x-eventloop-thread-0 BaseServiceProxy     : -> GET /sso/ping,200|10640ms
+17:32:41.813 INFO  vert.x-eventloop-thread-0 SsoService           : sso ping {"result": "false"}
+17:32:41.824 INFO  vert.x-eventloop-thread-0 BaseServiceProxy     : -> GET /sso/ping,200|10651ms
+17:32:41.835 INFO  vert.x-eventloop-thread-0 SsoService           : sso ping {"result": "false"}
+17:32:41.838 INFO  vert.x-eventloop-thread-0 BaseServiceProxy     : -> GET /sso/ping,200|10665ms
+17:32:41.838 INFO  vert.x-eventloop-thread-0 SsoService           : sso ping {"result": "false"}
+17:32:41.863 INFO  vert.x-eventloop-thread-0 BaseServiceProxy     : -> GET /sso/ping,200|10690ms
+17:32:41.864 INFO  vert.x-eventloop-thread-0 SsoService           : sso ping {"result": "false"}
+17:32:41.900 INFO  vert.x-eventloop-thread-0 BaseServiceProxy     : -> GET /sso/ping,200|10727ms
+17:32:41.901 INFO  vert.x-eventloop-thread-0 SsoService           : sso ping {"result": "false"}
+17:32:42.016 INFO  vert.x-eventloop-thread-0 BaseServiceProxy     : -> GET /sso/ping,200|10843ms
+17:32:42.016 INFO  vert.x-eventloop-thread-0 SsoService           : sso ping {"result": "false"}
+17:32:42.044 INFO  vert.x-eventloop-thread-0 BaseServiceProxy     : -> GET /sso/ping,200|10871ms
+17:32:42.044 INFO  vert.x-eventloop-thread-0 SsoService           : sso ping {"result": "false"}
+17:32:42.076 INFO  vert.x-eventloop-thread-0 BaseServiceProxy     : -> GET /sso/ping,200|10903ms
+17:32:42.077 INFO  vert.x-eventloop-thread-0 SsoService           : sso ping {"result": "false"}
+17:32:42.101 INFO  vert.x-eventloop-thread-0 BaseServiceProxy     : -> GET /sso/ping,200|10928ms
+17:32:42.102 INFO  vert.x-eventloop-thread-0 SsoService           : sso ping {"result": "false"}
+17:32:42.123 INFO  vert.x-eventloop-thread-0 BaseServiceProxy     : -> GET /sso/ping,200|10950ms
+17:32:42.124 INFO  vert.x-eventloop-thread-0 SsoService           : sso ping {"result": "false"}
+17:32:42.228 INFO  vert.x-eventloop-thread-0 BaseServiceProxy     : -> GET /sso/ping,200|11055ms
+17:32:42.228 INFO  vert.x-eventloop-thread-0 SsoService           : sso ping {"result": "false"}
+17:32:42.260 INFO  vert.x-eventloop-thread-0 BaseServiceProxy     : -> GET /sso/ping,200|11087ms
+17:32:42.261 INFO  vert.x-eventloop-thread-0 SsoService           : sso ping {"result": "false"}
+17:32:42.295 INFO  vert.x-eventloop-thread-0 BaseServiceProxy     : -> GET /sso/ping,200|11122ms
+17:32:42.295 INFO  vert.x-eventloop-thread-0 SsoService           : sso ping {"result": "false"}
+17:32:42.327 INFO  vert.x-eventloop-thread-0 BaseServiceProxy     : -> GET /sso/ping,200|11153ms
+17:32:42.327 INFO  vert.x-eventloop-thread-0 SsoService           : sso ping {"result": "false"}
+17:32:42.355 INFO  vert.x-eventloop-thread-0 BaseServiceProxy     : -> GET /sso/ping,200|11182ms
+17:32:42.356 INFO  vert.x-eventloop-thread-0 SsoService           : sso ping {"result": "false"}
+17:32:42.451 INFO  vert.x-eventloop-thread-0 BaseServiceProxy     : -> GET /sso/ping,200|11277ms
+17:32:42.452 INFO  vert.x-eventloop-thread-0 SsoService           : sso ping {"result": "false"}
+17:32:42.509 INFO  vert.x-eventloop-thread-0 BaseServiceProxy     : -> GET /sso/ping,200|11335ms
+17:32:42.509 INFO  vert.x-eventloop-thread-0 SsoService           : sso ping {"result": "false"}
+17:32:42.510 INFO  vert.x-eventloop-thread-0 BaseServiceProxy     : -> GET /sso/ping,200|11330ms
+17:32:42.510 INFO  vert.x-eventloop-thread-0 SsoService           : sso ping {"result": "false"}
+17:32:42.534 INFO  vert.x-eventloop-thread-0 BaseServiceProxy     : -> GET /sso/ping,200|11354ms
+17:32:42.534 INFO  vert.x-eventloop-thread-0 SsoService           : sso ping {"result": "false"}
+17:32:42.555 INFO  vert.x-eventloop-thread-0 BaseServiceProxy     : -> GET /sso/ping,200|11375ms
+17:32:42.555 INFO  vert.x-eventloop-thread-0 SsoService           : sso ping {"result": "false"}
+17:32:42.652 INFO  vert.x-eventloop-thread-0 BaseServiceProxy     : -> GET /sso/ping,200|11472ms
+17:32:42.652 INFO  vert.x-eventloop-thread-0 SsoService           : sso ping {"result": "false"}
+17:32:42.719 INFO  vert.x-eventloop-thread-0 BaseServiceProxy     : -> GET /sso/ping,200|11539ms
+17:32:42.720 INFO  vert.x-eventloop-thread-0 SsoService           : sso ping {"result": "false"}
+17:32:42.736 INFO  vert.x-eventloop-thread-0 BaseServiceProxy     : -> GET /sso/ping,200|11556ms
+17:32:42.736 INFO  vert.x-eventloop-thread-0 SsoService           : sso ping {"result": "false"}
+17:32:42.740 INFO  vert.x-eventloop-thread-0 BaseServiceProxy     : -> GET /sso/ping,200|11560ms
+17:32:42.741 INFO  vert.x-eventloop-thread-0 SsoService           : sso ping {"result": "false"}
+17:32:42.823 INFO  vert.x-eventloop-thread-0 BaseServiceProxy     : -> GET /sso/ping,200|11643ms
+17:32:42.823 INFO  vert.x-eventloop-thread-0 SsoService           : sso ping {"result": "false"}
+17:32:42.859 INFO  vert.x-eventloop-thread-0 BaseServiceProxy     : -> GET /sso/ping,200|11679ms
+17:32:42.859 INFO  vert.x-eventloop-thread-0 SsoService           : sso ping {"result": "false"}
+17:32:42.939 INFO  vert.x-eventloop-thread-0 BaseServiceProxy     : -> GET /sso/ping,200|11759ms
+17:32:42.939 INFO  vert.x-eventloop-thread-0 SsoService           : sso ping {"result": "false"}
+17:32:42.953 INFO  vert.x-eventloop-thread-0 BaseServiceProxy     : -> GET /sso/ping,200|11773ms
+17:32:42.954 INFO  vert.x-eventloop-thread-0 SsoService           : sso ping {"result": "false"}
+17:32:42.968 INFO  vert.x-eventloop-thread-0 BaseServiceProxy     : -> GET /sso/ping,200|11788ms
+17:32:42.968 INFO  vert.x-eventloop-thread-0 SsoService           : sso ping {"result": "false"}
+17:32:43.048 INFO  vert.x-eventloop-thread-0 BaseServiceProxy     : -> GET /sso/ping,200|11868ms
+17:32:43.048 INFO  vert.x-eventloop-thread-0 SsoService           : sso ping {"result": "false"}
+17:32:43.116 INFO  vert.x-eventloop-thread-0 BaseServiceProxy     : -> GET /sso/ping,200|11936ms
+17:32:43.117 INFO  vert.x-eventloop-thread-0 SsoService           : sso ping {"result": "false"}
+17:32:43.236 INFO  vert.x-eventloop-thread-0 BaseServiceProxy     : -> GET /sso/ping,200|12056ms
+17:32:43.236 INFO  vert.x-eventloop-thread-0 SsoService           : sso ping {"result": "false"}
+17:32:43.236 INFO  vert.x-eventloop-thread-0 BaseServiceProxy     : -> GET /sso/ping,200|12056ms
+17:32:43.236 INFO  vert.x-eventloop-thread-0 SsoService           : sso ping {"result": "false"}
+17:32:43.240 INFO  vert.x-eventloop-thread-0 BaseServiceProxy     : -> GET /sso/ping,200|12059ms
+17:32:43.240 INFO  vert.x-eventloop-thread-0 SsoService           : sso ping {"result": "false"}
+17:32:43.337 INFO  vert.x-eventloop-thread-0 BaseServiceProxy     : -> GET /sso/ping,200|12156ms
+17:32:43.337 INFO  vert.x-eventloop-thread-0 SsoService           : sso ping {"result": "false"}
+17:32:43.466 INFO  vert.x-eventloop-thread-0 BaseServiceProxy     : -> GET /sso/ping,200|12285ms
+17:32:43.466 INFO  vert.x-eventloop-thread-0 SsoService           : sso ping {"result": "false"}
+17:32:43.472 INFO  vert.x-eventloop-thread-0 BaseServiceProxy     : -> GET /sso/ping,200|12291ms
+17:32:43.472 INFO  vert.x-eventloop-thread-0 SsoService           : sso ping {"result": "false"}
+17:32:43.500 INFO  vert.x-eventloop-thread-0 BaseServiceProxy     : -> GET /sso/ping,200|12319ms
+17:32:43.502 INFO  vert.x-eventloop-thread-0 SsoService           : sso ping {"result": "false"}
+17:32:43.508 INFO  vert.x-eventloop-thread-0 BaseServiceProxy     : -> GET /sso/ping,200|12327ms
+17:32:43.508 INFO  vert.x-eventloop-thread-0 SsoService           : sso ping {"result": "false"}
+17:32:43.574 INFO  vert.x-eventloop-thread-0 BaseServiceProxy     : -> GET /sso/ping,200|12393ms
+17:32:43.574 INFO  vert.x-eventloop-thread-0 SsoService           : sso ping {"result": "false"}
+17:32:43.670 INFO  vert.x-eventloop-thread-0 BaseServiceProxy     : -> GET /sso/ping,200|12489ms
+17:32:43.670 INFO  vert.x-eventloop-thread-0 SsoService           : sso ping {"result": "false"}
+17:32:43.733 INFO  vert.x-eventloop-thread-0 BaseServiceProxy     : -> GET /sso/ping,200|12552ms
+17:32:43.733 INFO  vert.x-eventloop-thread-0 SsoService           : sso ping {"result": "false"}
+17:32:43.734 INFO  vert.x-eventloop-thread-0 BaseServiceProxy     : -> GET /sso/ping,200|12553ms
+17:32:43.734 INFO  vert.x-eventloop-thread-0 SsoService           : sso ping {"result": "false"}
+17:32:43.779 INFO  vert.x-eventloop-thread-0 BaseServiceProxy     : -> GET /sso/ping,200|12598ms
+17:32:43.779 INFO  vert.x-eventloop-thread-0 SsoService           : sso ping {"result": "false"}
+17:32:43.916 INFO  vert.x-eventloop-thread-0 BaseServiceProxy     : -> GET /sso/ping,200|12735ms
+17:32:43.916 INFO  vert.x-eventloop-thread-0 SsoService           : sso ping {"result": "false"}
+17:32:43.963 INFO  vert.x-eventloop-thread-0 BaseServiceProxy     : -> GET /sso/ping,200|12782ms
+17:32:43.963 INFO  vert.x-eventloop-thread-0 SsoService           : sso ping {"result": "false"}
+17:32:43.974 INFO  vert.x-eventloop-thread-0 BaseServiceProxy     : -> GET /sso/ping,200|12793ms
+17:32:43.974 INFO  vert.x-eventloop-thread-0 SsoService           : sso ping {"result": "false"}
+17:32:43.999 INFO  vert.x-eventloop-thread-0 BaseServiceProxy     : -> GET /sso/ping,200|12818ms
+17:32:43.999 INFO  vert.x-eventloop-thread-0 SsoService           : sso ping {"result": "false"}
+17:32:44.189 INFO  vert.x-eventloop-thread-0 BaseServiceProxy     : -> GET /sso/ping,200|13008ms
+17:32:44.189 INFO  vert.x-eventloop-thread-0 SsoService           : sso ping {"result": "false"}
+17:32:44.190 INFO  vert.x-eventloop-thread-0 BaseServiceProxy     : -> GET /sso/ping,200|13009ms
+17:32:44.190 INFO  vert.x-eventloop-thread-0 SsoService           : sso ping {"result": "false"}
+17:32:44.190 INFO  vert.x-eventloop-thread-0 BaseServiceProxy     : -> GET /sso/ping,200|13009ms
+17:32:44.190 INFO  vert.x-eventloop-thread-0 SsoService           : sso ping {"result": "false"}
+17:32:44.221 INFO  vert.x-eventloop-thread-0 BaseServiceProxy     : -> GET /sso/ping,200|13040ms
+17:32:44.222 INFO  vert.x-eventloop-thread-0 SsoService           : sso ping {"result": "false"}
+17:32:44.237 INFO  vert.x-eventloop-thread-0 BaseServiceProxy     : -> GET /sso/ping,200|13056ms
+17:32:44.237 INFO  vert.x-eventloop-thread-0 SsoService           : sso ping {"result": "false"}
+17:32:44.434 INFO  vert.x-eventloop-thread-0 BaseServiceProxy     : -> GET /sso/ping,200|13252ms
+17:32:44.435 INFO  vert.x-eventloop-thread-0 SsoService           : sso ping {"result": "false"}
+17:32:44.466 INFO  vert.x-eventloop-thread-0 BaseServiceProxy     : -> GET /sso/ping,200|13284ms
+17:32:44.467 INFO  vert.x-eventloop-thread-0 SsoService           : sso ping {"result": "false"}
+17:32:44.470 INFO  vert.x-eventloop-thread-0 BaseServiceProxy     : -> GET /sso/ping,200|13288ms
+17:32:44.471 INFO  vert.x-eventloop-thread-0 SsoService           : sso ping {"result": "false"}
+17:32:44.480 INFO  vert.x-eventloop-thread-0 BaseServiceProxy     : -> GET /sso/ping,200|13298ms
+17:32:44.480 INFO  vert.x-eventloop-thread-0 SsoService           : sso ping {"result": "false"}
+17:32:44.635 INFO  vert.x-eventloop-thread-0 BaseServiceProxy     : -> GET /sso/ping,200|13453ms
+17:32:44.635 INFO  vert.x-eventloop-thread-0 SsoService           : sso ping {"result": "false"}
+17:32:44.694 INFO  vert.x-eventloop-thread-0 BaseServiceProxy     : -> GET /sso/ping,200|13512ms
+17:32:44.694 INFO  vert.x-eventloop-thread-0 SsoService           : sso ping {"result": "false"}
+17:32:44.717 INFO  vert.x-eventloop-thread-0 BaseServiceProxy     : -> GET /sso/ping,200|13535ms
+17:32:44.718 INFO  vert.x-eventloop-thread-0 SsoService           : sso ping {"result": "false"}
+17:32:44.733 INFO  vert.x-eventloop-thread-0 BaseServiceProxy     : -> GET /sso/ping,200|13551ms
+17:32:44.733 INFO  vert.x-eventloop-thread-0 SsoService           : sso ping {"result": "false"}
+17:32:44.836 INFO  vert.x-eventloop-thread-0 BaseServiceProxy     : -> GET /sso/ping,200|13654ms
+17:32:44.836 INFO  vert.x-eventloop-thread-0 SsoService           : sso ping {"result": "false"}
+17:32:44.938 INFO  vert.x-eventloop-thread-0 BaseServiceProxy     : -> GET /sso/ping,200|13755ms
+17:32:44.939 INFO  vert.x-eventloop-thread-0 SsoService           : sso ping {"result": "false"}
+17:32:44.972 INFO  vert.x-eventloop-thread-0 BaseServiceProxy     : -> GET /sso/ping,200|13789ms
+17:32:44.972 INFO  vert.x-eventloop-thread-0 SsoService           : sso ping {"result": "false"}
+17:32:44.977 INFO  vert.x-eventloop-thread-0 BaseServiceProxy     : -> GET /sso/ping,200|13794ms
+17:32:44.977 INFO  vert.x-eventloop-thread-0 SsoService           : sso ping {"result": "false"}
+17:32:45.010 INFO  vert.x-eventloop-thread-0 BaseServiceProxy     : -> GET /sso/ping,200|13827ms
+17:32:45.010 INFO  vert.x-eventloop-thread-0 SsoService           : sso ping {"result": "false"}
+17:32:45.101 INFO  vert.x-eventloop-thread-0 BaseServiceProxy     : -> GET /sso/ping,200|13918ms
+17:32:45.101 INFO  vert.x-eventloop-thread-0 SsoService           : sso ping {"result": "false"}
+17:32:45.159 INFO  vert.x-eventloop-thread-0 BaseServiceProxy     : -> GET /sso/ping,200|13976ms
+17:32:45.159 INFO  vert.x-eventloop-thread-0 SsoService           : sso ping {"result": "false"}
+17:32:45.232 INFO  vert.x-eventloop-thread-0 BaseServiceProxy     : -> GET /sso/ping,200|14049ms
+17:32:45.232 INFO  vert.x-eventloop-thread-0 SsoService           : sso ping {"result": "false"}
+17:32:45.237 INFO  vert.x-eventloop-thread-0 BaseServiceProxy     : -> GET /sso/ping,200|14054ms
+17:32:45.237 INFO  vert.x-eventloop-thread-0 SsoService           : sso ping {"result": "false"}
+17:32:45.248 INFO  vert.x-eventloop-thread-0 BaseServiceProxy     : -> GET /sso/ping,200|14065ms
+17:32:45.250 INFO  vert.x-eventloop-thread-0 SsoService           : sso ping {"result": "false"}
+17:33:59.941 INFO  vert.x-eventloop-thread-0 BaseServiceProxy     : -> GET /sso/ping,200|203ms
+17:33:59.941 INFO  vert.x-eventloop-thread-0 SsoService           : sso ping {"result": "true"}
+17:39:00.155 INFO  vert.x-eventloop-thread-0 BaseServiceProxy     : -> GET /sso/ping,200|406ms
+17:39:00.155 INFO  vert.x-eventloop-thread-0 SsoService           : sso ping {"result": "true"}
+17:44:00.048 INFO  vert.x-eventloop-thread-0 BaseServiceProxy     : -> GET /sso/ping,200|299ms
+17:44:00.048 INFO  vert.x-eventloop-thread-0 SsoService           : sso ping {"result": "true"}
+17:48:59.998 INFO  vert.x-eventloop-thread-0 BaseServiceProxy     : -> GET /sso/ping,200|258ms
+17:48:59.998 INFO  vert.x-eventloop-thread-0 SsoService           : sso ping {"result": "true"}
+17:54:00.270 INFO  vert.x-eventloop-thread-0 BaseServiceProxy     : -> GET /sso/ping,200|521ms
+17:54:00.270 INFO  vert.x-eventloop-thread-0 SsoService           : sso ping {"result": "true"}
+17:59:00.052 INFO  vert.x-eventloop-thread-0 BaseServiceProxy     : -> GET /sso/ping,200|307ms
+17:59:00.052 INFO  vert.x-eventloop-thread-0 SsoService           : sso ping {"result": "true"}
+18:01:33.131 ERROR vert.x-eventloop-thread-0 ConnectionBase       : java.io.IOException: Se ha forzado la interrupción de una conexión existente por el host remoto
+18:04:00.013 INFO  vert.x-eventloop-thread-0 BaseServiceProxy     : -> GET /sso/ping,200|268ms
+18:04:00.014 INFO  vert.x-eventloop-thread-0 SsoService           : sso ping {"result": "true"}
+18:09:00.203 INFO  vert.x-eventloop-thread-0 BaseServiceProxy     : -> GET /sso/ping,200|456ms
+18:09:00.204 INFO  vert.x-eventloop-thread-0 SsoService           : sso ping {"result": "true"}
+18:14:00.006 INFO  vert.x-eventloop-thread-0 BaseServiceProxy     : -> GET /sso/ping,200|256ms
+18:14:00.007 INFO  vert.x-eventloop-thread-0 SsoService           : sso ping {"result": "true"}
+18:18:59.960 INFO  vert.x-eventloop-thread-0 BaseServiceProxy     : -> GET /sso/ping,200|215ms
+18:18:59.961 INFO  vert.x-eventloop-thread-0 SsoService           : sso ping {"result": "true"}
+18:23:59.998 INFO  vert.x-eventloop-thread-0 BaseServiceProxy     : -> GET /sso/ping,200|253ms
+18:23:59.998 INFO  vert.x-eventloop-thread-0 SsoService           : sso ping {"result": "true"}
+18:28:59.956 INFO  vert.x-eventloop-thread-0 BaseServiceProxy     : -> GET /sso/ping,200|213ms
+18:28:59.956 INFO  vert.x-eventloop-thread-0 SsoService           : sso ping {"result": "true"}
+18:33:59.976 INFO  vert.x-eventloop-thread-0 BaseServiceProxy     : -> GET /sso/ping,200|233ms
+18:33:59.976 INFO  vert.x-eventloop-thread-0 SsoService           : sso ping {"result": "true"}
+18:39:00.051 INFO  vert.x-eventloop-thread-0 BaseServiceProxy     : -> GET /sso/ping,200|304ms
+18:39:00.051 INFO  vert.x-eventloop-thread-0 SsoService           : sso ping {"result": "true"}
+18:44:00.116 INFO  vert.x-eventloop-thread-0 BaseServiceProxy     : -> GET /sso/ping,200|369ms
+18:44:00.117 INFO  vert.x-eventloop-thread-0 SsoService           : sso ping {"result": "true"}
+18:49:00.264 INFO  vert.x-eventloop-thread-0 BaseServiceProxy     : -> GET /sso/ping,200|524ms
+18:49:00.264 INFO  vert.x-eventloop-thread-0 SsoService           : sso ping {"result": "true"}
+18:54:00.111 INFO  vert.x-eventloop-thread-0 BaseServiceProxy     : -> GET /sso/ping,200|361ms
+18:54:00.111 INFO  vert.x-eventloop-thread-0 SsoService           : sso ping {"result": "true"}
+18:59:00.077 INFO  vert.x-eventloop-thread-0 BaseServiceProxy     : -> GET /sso/ping,200|330ms
+18:59:00.077 INFO  vert.x-eventloop-thread-0 SsoService           : sso ping {"result": "true"}
+19:03:59.962 INFO  vert.x-eventloop-thread-0 BaseServiceProxy     : -> GET /sso/ping,200|216ms
+19:03:59.963 INFO  vert.x-eventloop-thread-0 SsoService           : sso ping {"result": "true"}
+19:08:59.980 INFO  vert.x-eventloop-thread-0 BaseServiceProxy     : -> GET /sso/ping,200|236ms
+19:08:59.980 INFO  vert.x-eventloop-thread-0 SsoService           : sso ping {"result": "true"}
+19:14:00.029 INFO  vert.x-eventloop-thread-0 BaseServiceProxy     : -> GET /sso/ping,200|289ms
+19:14:00.029 INFO  vert.x-eventloop-thread-0 SsoService           : sso ping {"result": "true"}
+19:19:00.167 INFO  vert.x-eventloop-thread-0 BaseServiceProxy     : -> GET /sso/ping,200|425ms
+19:19:00.167 INFO  vert.x-eventloop-thread-0 SsoService           : sso ping {"result": "true"}
+19:24:00.056 INFO  vert.x-eventloop-thread-0 BaseServiceProxy     : -> GET /sso/ping,200|316ms
+19:24:00.056 INFO  vert.x-eventloop-thread-0 SsoService           : sso ping {"result": "true"}
+19:29:00.024 INFO  vert.x-eventloop-thread-0 BaseServiceProxy     : -> GET /sso/ping,200|278ms
+19:29:00.025 INFO  vert.x-eventloop-thread-0 SsoService           : sso ping {"result": "true"}
+19:33:59.966 INFO  vert.x-eventloop-thread-0 BaseServiceProxy     : -> GET /sso/ping,200|226ms
+19:33:59.966 INFO  vert.x-eventloop-thread-0 SsoService           : sso ping {"result": "true"}
+19:39:00.073 INFO  vert.x-eventloop-thread-0 BaseServiceProxy     : -> GET /sso/ping,200|332ms
+19:39:00.074 INFO  vert.x-eventloop-thread-0 SsoService           : sso ping {"result": "true"}
+19:43:59.993 INFO  vert.x-eventloop-thread-0 BaseServiceProxy     : -> GET /sso/ping,200|251ms
+19:43:59.994 INFO  vert.x-eventloop-thread-0 SsoService           : sso ping {"result": "true"}
+19:48:59.979 INFO  vert.x-eventloop-thread-0 BaseServiceProxy     : -> GET /sso/ping,200|230ms
+19:48:59.979 INFO  vert.x-eventloop-thread-0 SsoService           : sso ping {"result": "true"}
+19:53:59.952 INFO  vert.x-eventloop-thread-0 BaseServiceProxy     : -> GET /sso/ping,200|204ms
+19:53:59.952 INFO  vert.x-eventloop-thread-0 SsoService           : sso ping {"result": "true"}
+19:58:59.991 INFO  vert.x-eventloop-thread-0 BaseServiceProxy     : -> GET /sso/ping,200|246ms
+19:58:59.991 INFO  vert.x-eventloop-thread-0 SsoService           : sso ping {"result": "true"}
+20:04:00.316 INFO  vert.x-eventloop-thread-0 BaseServiceProxy     : -> GET /sso/ping,200|573ms
+20:04:00.316 INFO  vert.x-eventloop-thread-0 SsoService           : sso ping {"result": "true"}
+20:08:59.961 INFO  vert.x-eventloop-thread-0 BaseServiceProxy     : -> GET /sso/ping,200|213ms
+20:08:59.961 INFO  vert.x-eventloop-thread-0 SsoService           : sso ping {"result": "true"}
+20:13:59.971 INFO  vert.x-eventloop-thread-0 BaseServiceProxy     : -> GET /sso/ping,200|228ms
+20:13:59.972 INFO  vert.x-eventloop-thread-0 SsoService           : sso ping {"result": "true"}
+20:19:00.119 INFO  vert.x-eventloop-thread-0 BaseServiceProxy     : -> GET /sso/ping,200|368ms
+20:19:00.120 INFO  vert.x-eventloop-thread-0 SsoService           : sso ping {"result": "true"}
+20:24:00.013 INFO  vert.x-eventloop-thread-0 BaseServiceProxy     : -> GET /sso/ping,200|267ms
+20:24:00.013 INFO  vert.x-eventloop-thread-0 SsoService           : sso ping {"result": "true"}
+20:29:00.055 INFO  vert.x-eventloop-thread-0 BaseServiceProxy     : -> GET /sso/ping,200|309ms
+20:29:00.055 INFO  vert.x-eventloop-thread-0 SsoService           : sso ping {"result": "true"}
+20:34:00.032 INFO  vert.x-eventloop-thread-0 BaseServiceProxy     : -> GET /sso/ping,200|282ms
+20:34:00.032 INFO  vert.x-eventloop-thread-0 SsoService           : sso ping {"result": "true"}
+20:39:00.012 INFO  vert.x-eventloop-thread-0 BaseServiceProxy     : -> GET /sso/ping,200|268ms
+20:39:00.012 INFO  vert.x-eventloop-thread-0 SsoService           : sso ping {"result": "true"}
+20:44:00.017 INFO  vert.x-eventloop-thread-0 BaseServiceProxy     : -> GET /sso/ping,200|280ms
+20:44:00.017 INFO  vert.x-eventloop-thread-0 SsoService           : sso ping {"result": "true"}
+20:49:00.045 INFO  vert.x-eventloop-thread-0 BaseServiceProxy     : -> GET /sso/ping,200|306ms
+20:49:00.045 INFO  vert.x-eventloop-thread-0 SsoService           : sso ping {"result": "true"}
+20:54:00.013 INFO  vert.x-eventloop-thread-0 BaseServiceProxy     : -> GET /sso/ping,200|277ms
+20:54:00.013 INFO  vert.x-eventloop-thread-0 SsoService           : sso ping {"result": "true"}
+20:59:00.023 INFO  vert.x-eventloop-thread-0 BaseServiceProxy     : -> GET /sso/ping,200|279ms
+20:59:00.023 INFO  vert.x-eventloop-thread-0 SsoService           : sso ping {"result": "true"}
+21:04:00.007 INFO  vert.x-eventloop-thread-0 BaseServiceProxy     : -> GET /sso/ping,200|266ms
+21:04:00.007 INFO  vert.x-eventloop-thread-0 SsoService           : sso ping {"result": "true"}
+21:09:00.010 INFO  vert.x-eventloop-thread-0 BaseServiceProxy     : -> GET /sso/ping,200|270ms
+21:09:00.011 INFO  vert.x-eventloop-thread-0 SsoService           : sso ping {"result": "true"}
+21:13:59.954 INFO  vert.x-eventloop-thread-0 BaseServiceProxy     : -> GET /sso/ping,200|215ms
+21:13:59.954 INFO  vert.x-eventloop-thread-0 SsoService           : sso ping {"result": "true"}
+21:18:59.977 INFO  vert.x-eventloop-thread-0 BaseServiceProxy     : -> GET /sso/ping,200|227ms
+21:18:59.978 INFO  vert.x-eventloop-thread-0 SsoService           : sso ping {"result": "true"}
+21:23:59.985 INFO  vert.x-eventloop-thread-0 BaseServiceProxy     : -> GET /sso/ping,200|243ms
+21:23:59.985 INFO  vert.x-eventloop-thread-0 SsoService           : sso ping {"result": "true"}
+21:29:00.039 INFO  vert.x-eventloop-thread-0 BaseServiceProxy     : -> GET /sso/ping,200|292ms
+21:29:00.052 INFO  vert.x-eventloop-thread-0 SsoService           : sso ping {"result": "true"}
+21:34:00.044 INFO  vert.x-eventloop-thread-0 BaseServiceProxy     : -> GET /sso/ping,200|300ms
+21:34:00.045 INFO  vert.x-eventloop-thread-0 SsoService           : sso ping {"result": "true"}
+21:38:59.953 INFO  vert.x-eventloop-thread-0 BaseServiceProxy     : -> GET /sso/ping,200|214ms
+21:38:59.953 INFO  vert.x-eventloop-thread-0 SsoService           : sso ping {"result": "true"}
+21:41:06.531 WARN  vert.x-eventloop-thread-0 DefaultChannelPipeline : An exceptionCaught() event was fired, and it reached at the tail of the pipeline. It usually means the last handler in the pipeline did not handle the exception.
+io.netty.handler.codec.DecoderException: javax.net.ssl.SSLHandshakeException: Received fatal alert: certificate_unknown
+	at io.netty.handler.codec.ByteToMessageDecoder.callDecode(ByteToMessageDecoder.java:459)
+	at io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:265)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:362)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:348)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:340)
+	at io.netty.channel.DefaultChannelPipeline$HeadContext.channelRead(DefaultChannelPipeline.java:1359)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:362)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:348)
+	at io.netty.channel.DefaultChannelPipeline.fireChannelRead(DefaultChannelPipeline.java:935)
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:134)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:645)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:580)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:497)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:459)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:858)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: javax.net.ssl.SSLHandshakeException: Received fatal alert: certificate_unknown
+	at sun.security.ssl.Alert.createSSLException(Unknown Source)
+	at sun.security.ssl.Alert.createSSLException(Unknown Source)
+	at sun.security.ssl.TransportContext.fatal(Unknown Source)
+	at sun.security.ssl.Alert$AlertConsumer.consume(Unknown Source)
+	at sun.security.ssl.TransportContext.dispatch(Unknown Source)
+	at sun.security.ssl.SSLTransport.decode(Unknown Source)
+	at sun.security.ssl.SSLEngineImpl.decode(Unknown Source)
+	at sun.security.ssl.SSLEngineImpl.readRecord(Unknown Source)
+	at sun.security.ssl.SSLEngineImpl.unwrap(Unknown Source)
+	at sun.security.ssl.SSLEngineImpl.unwrap(Unknown Source)
+	at javax.net.ssl.SSLEngine.unwrap(Unknown Source)
+	at io.netty.handler.ssl.SslHandler$SslEngineType$3.unwrap(SslHandler.java:281)
+	at io.netty.handler.ssl.SslHandler.unwrap(SslHandler.java:1215)
+	at io.netty.handler.ssl.SslHandler.decodeJdkCompatible(SslHandler.java:1127)
+	at io.netty.handler.ssl.SslHandler.decode(SslHandler.java:1162)
+	at io.netty.handler.codec.ByteToMessageDecoder.decodeRemovalReentryProtection(ByteToMessageDecoder.java:489)
+	at io.netty.handler.codec.ByteToMessageDecoder.callDecode(ByteToMessageDecoder.java:428)
+	... 15 common frames omitted
+21:41:06.794 WARN  vert.x-eventloop-thread-0 DefaultChannelPipeline : An exceptionCaught() event was fired, and it reached at the tail of the pipeline. It usually means the last handler in the pipeline did not handle the exception.
+io.netty.handler.codec.DecoderException: javax.net.ssl.SSLHandshakeException: Received fatal alert: certificate_unknown
+	at io.netty.handler.codec.ByteToMessageDecoder.callDecode(ByteToMessageDecoder.java:459)
+	at io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:265)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:362)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:348)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:340)
+	at io.netty.channel.DefaultChannelPipeline$HeadContext.channelRead(DefaultChannelPipeline.java:1359)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:362)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:348)
+	at io.netty.channel.DefaultChannelPipeline.fireChannelRead(DefaultChannelPipeline.java:935)
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:134)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:645)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:580)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:497)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:459)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:858)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: javax.net.ssl.SSLHandshakeException: Received fatal alert: certificate_unknown
+	at sun.security.ssl.Alert.createSSLException(Unknown Source)
+	at sun.security.ssl.Alert.createSSLException(Unknown Source)
+	at sun.security.ssl.TransportContext.fatal(Unknown Source)
+	at sun.security.ssl.Alert$AlertConsumer.consume(Unknown Source)
+	at sun.security.ssl.TransportContext.dispatch(Unknown Source)
+	at sun.security.ssl.SSLTransport.decode(Unknown Source)
+	at sun.security.ssl.SSLEngineImpl.decode(Unknown Source)
+	at sun.security.ssl.SSLEngineImpl.readRecord(Unknown Source)
+	at sun.security.ssl.SSLEngineImpl.unwrap(Unknown Source)
+	at sun.security.ssl.SSLEngineImpl.unwrap(Unknown Source)
+	at javax.net.ssl.SSLEngine.unwrap(Unknown Source)
+	at io.netty.handler.ssl.SslHandler$SslEngineType$3.unwrap(SslHandler.java:281)
+	at io.netty.handler.ssl.SslHandler.unwrap(SslHandler.java:1215)
+	at io.netty.handler.ssl.SslHandler.decodeJdkCompatible(SslHandler.java:1127)
+	at io.netty.handler.ssl.SslHandler.decode(SslHandler.java:1162)
+	at io.netty.handler.codec.ByteToMessageDecoder.decodeRemovalReentryProtection(ByteToMessageDecoder.java:489)
+	at io.netty.handler.codec.ByteToMessageDecoder.callDecode(ByteToMessageDecoder.java:428)
+	... 15 common frames omitted
+21:41:07.257 WARN  vert.x-eventloop-thread-0 DefaultChannelPipeline : An exceptionCaught() event was fired, and it reached at the tail of the pipeline. It usually means the last handler in the pipeline did not handle the exception.
+io.netty.handler.codec.DecoderException: javax.net.ssl.SSLHandshakeException: Received fatal alert: certificate_unknown
+	at io.netty.handler.codec.ByteToMessageDecoder.callDecode(ByteToMessageDecoder.java:459)
+	at io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:265)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:362)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:348)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:340)
+	at io.netty.channel.DefaultChannelPipeline$HeadContext.channelRead(DefaultChannelPipeline.java:1359)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:362)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:348)
+	at io.netty.channel.DefaultChannelPipeline.fireChannelRead(DefaultChannelPipeline.java:935)
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:134)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:645)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:580)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:497)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:459)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:858)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: javax.net.ssl.SSLHandshakeException: Received fatal alert: certificate_unknown
+	at sun.security.ssl.Alert.createSSLException(Unknown Source)
+	at sun.security.ssl.Alert.createSSLException(Unknown Source)
+	at sun.security.ssl.TransportContext.fatal(Unknown Source)
+	at sun.security.ssl.Alert$AlertConsumer.consume(Unknown Source)
+	at sun.security.ssl.TransportContext.dispatch(Unknown Source)
+	at sun.security.ssl.SSLTransport.decode(Unknown Source)
+	at sun.security.ssl.SSLEngineImpl.decode(Unknown Source)
+	at sun.security.ssl.SSLEngineImpl.readRecord(Unknown Source)
+	at sun.security.ssl.SSLEngineImpl.unwrap(Unknown Source)
+	at sun.security.ssl.SSLEngineImpl.unwrap(Unknown Source)
+	at javax.net.ssl.SSLEngine.unwrap(Unknown Source)
+	at io.netty.handler.ssl.SslHandler$SslEngineType$3.unwrap(SslHandler.java:281)
+	at io.netty.handler.ssl.SslHandler.unwrap(SslHandler.java:1215)
+	at io.netty.handler.ssl.SslHandler.decodeJdkCompatible(SslHandler.java:1127)
+	at io.netty.handler.ssl.SslHandler.decode(SslHandler.java:1162)
+	at io.netty.handler.codec.ByteToMessageDecoder.decodeRemovalReentryProtection(ByteToMessageDecoder.java:489)
+	at io.netty.handler.codec.ByteToMessageDecoder.callDecode(ByteToMessageDecoder.java:428)
+	... 15 common frames omitted
+21:41:07.259 WARN  vert.x-eventloop-thread-0 DefaultChannelPipeline : An exceptionCaught() event was fired, and it reached at the tail of the pipeline. It usually means the last handler in the pipeline did not handle the exception.
+io.netty.handler.codec.DecoderException: javax.net.ssl.SSLHandshakeException: Received fatal alert: certificate_unknown
+	at io.netty.handler.codec.ByteToMessageDecoder.callDecode(ByteToMessageDecoder.java:459)
+	at io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:265)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:362)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:348)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:340)
+	at io.netty.channel.DefaultChannelPipeline$HeadContext.channelRead(DefaultChannelPipeline.java:1359)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:362)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:348)
+	at io.netty.channel.DefaultChannelPipeline.fireChannelRead(DefaultChannelPipeline.java:935)
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:134)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:645)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:580)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:497)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:459)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:858)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: javax.net.ssl.SSLHandshakeException: Received fatal alert: certificate_unknown
+	at sun.security.ssl.Alert.createSSLException(Unknown Source)
+	at sun.security.ssl.Alert.createSSLException(Unknown Source)
+	at sun.security.ssl.TransportContext.fatal(Unknown Source)
+	at sun.security.ssl.Alert$AlertConsumer.consume(Unknown Source)
+	at sun.security.ssl.TransportContext.dispatch(Unknown Source)
+	at sun.security.ssl.SSLTransport.decode(Unknown Source)
+	at sun.security.ssl.SSLEngineImpl.decode(Unknown Source)
+	at sun.security.ssl.SSLEngineImpl.readRecord(Unknown Source)
+	at sun.security.ssl.SSLEngineImpl.unwrap(Unknown Source)
+	at sun.security.ssl.SSLEngineImpl.unwrap(Unknown Source)
+	at javax.net.ssl.SSLEngine.unwrap(Unknown Source)
+	at io.netty.handler.ssl.SslHandler$SslEngineType$3.unwrap(SslHandler.java:281)
+	at io.netty.handler.ssl.SslHandler.unwrap(SslHandler.java:1215)
+	at io.netty.handler.ssl.SslHandler.decodeJdkCompatible(SslHandler.java:1127)
+	at io.netty.handler.ssl.SslHandler.decode(SslHandler.java:1162)
+	at io.netty.handler.codec.ByteToMessageDecoder.decodeRemovalReentryProtection(ByteToMessageDecoder.java:489)
+	at io.netty.handler.codec.ByteToMessageDecoder.callDecode(ByteToMessageDecoder.java:428)
+	... 15 common frames omitted
+21:41:07.484 WARN  vert.x-eventloop-thread-0 DefaultChannelPipeline : An exceptionCaught() event was fired, and it reached at the tail of the pipeline. It usually means the last handler in the pipeline did not handle the exception.
+io.netty.handler.codec.DecoderException: javax.net.ssl.SSLHandshakeException: Received fatal alert: certificate_unknown
+	at io.netty.handler.codec.ByteToMessageDecoder.callDecode(ByteToMessageDecoder.java:459)
+	at io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:265)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:362)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:348)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:340)
+	at io.netty.channel.DefaultChannelPipeline$HeadContext.channelRead(DefaultChannelPipeline.java:1359)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:362)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:348)
+	at io.netty.channel.DefaultChannelPipeline.fireChannelRead(DefaultChannelPipeline.java:935)
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:134)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:645)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:580)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:497)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:459)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:858)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: javax.net.ssl.SSLHandshakeException: Received fatal alert: certificate_unknown
+	at sun.security.ssl.Alert.createSSLException(Unknown Source)
+	at sun.security.ssl.Alert.createSSLException(Unknown Source)
+	at sun.security.ssl.TransportContext.fatal(Unknown Source)
+	at sun.security.ssl.Alert$AlertConsumer.consume(Unknown Source)
+	at sun.security.ssl.TransportContext.dispatch(Unknown Source)
+	at sun.security.ssl.SSLTransport.decode(Unknown Source)
+	at sun.security.ssl.SSLEngineImpl.decode(Unknown Source)
+	at sun.security.ssl.SSLEngineImpl.readRecord(Unknown Source)
+	at sun.security.ssl.SSLEngineImpl.unwrap(Unknown Source)
+	at sun.security.ssl.SSLEngineImpl.unwrap(Unknown Source)
+	at javax.net.ssl.SSLEngine.unwrap(Unknown Source)
+	at io.netty.handler.ssl.SslHandler$SslEngineType$3.unwrap(SslHandler.java:281)
+	at io.netty.handler.ssl.SslHandler.unwrap(SslHandler.java:1215)
+	at io.netty.handler.ssl.SslHandler.decodeJdkCompatible(SslHandler.java:1127)
+	at io.netty.handler.ssl.SslHandler.decode(SslHandler.java:1162)
+	at io.netty.handler.codec.ByteToMessageDecoder.decodeRemovalReentryProtection(ByteToMessageDecoder.java:489)
+	at io.netty.handler.codec.ByteToMessageDecoder.callDecode(ByteToMessageDecoder.java:428)
+	... 15 common frames omitted
+21:41:08.085 INFO  vert.x-eventloop-thread-0 BaseServiceProxy     : -> GET /sso/Login?forwardTo=22&RL=1&ip2loc=US,200|503ms
+21:41:08.085 INFO  vert.x-eventloop-thread-0 CookieManager        : set cookies [partnerID=""; Domain=.ibkr.com; Expires=Thu, 01 Jan 1970 00:00:10 GMT; Path=/; Secure;Secure;HttpOnly;SameSite=None, XYZAB_AM.LOGIN=""; Domain=.ibkr.com; Expires=Thu, 01 Jan 1970 00:00:10 GMT; Path=/; Secure;Secure;SameSite=None, XYZAB=""; Domain=.ibkr.com; Expires=Thu, 01 Jan 1970 00:00:10 GMT; Path=/; Secure;Secure;SameSite=None, USERID=""; Domain=.ibkr.com; Expires=Thu, 01 Jan 1970 00:00:10 GMT; Path=/; Secure;Secure;SameSite=None, partnerID=""; Domain=.ibkr.com; Expires=Thu, 01 Jan 1970 00:00:10 GMT; Path=/; Secure;Secure;HttpOnly;SameSite=None, URL_PARAM="forwardTo=22&RL=1&ip2loc=US"; Version=1; Domain=.ibkr.com; Path=/; Secure;Secure, JSESSIONID=66D3D06247B80CF18CC3B408F4E824B0.cwwwdam2-internet; Path=/sso; Secure; HttpOnly;Secure;SameSite=None, x-sess-uuid=0.c1dd517.1742172067.37211148; secure; HttpOnly]
+21:41:08.085 DEBUG vert.x-eventloop-thread-0 BaseServiceProxy     : Remapping Set-cookies [partnerID=""; Domain=.ibkr.com; Expires=Thu, 01 Jan 1970 00:00:10 GMT; Path=/; Secure;Secure;HttpOnly;SameSite=None, XYZAB_AM.LOGIN=""; Domain=.ibkr.com; Expires=Thu, 01 Jan 1970 00:00:10 GMT; Path=/; Secure;Secure;SameSite=None, XYZAB=""; Domain=.ibkr.com; Expires=Thu, 01 Jan 1970 00:00:10 GMT; Path=/; Secure;Secure;SameSite=None, USERID=""; Domain=.ibkr.com; Expires=Thu, 01 Jan 1970 00:00:10 GMT; Path=/; Secure;Secure;SameSite=None, partnerID=""; Domain=.ibkr.com; Expires=Thu, 01 Jan 1970 00:00:10 GMT; Path=/; Secure;Secure;HttpOnly;SameSite=None, URL_PARAM="forwardTo=22&RL=1&ip2loc=US"; Version=1; Domain=.ibkr.com; Path=/; Secure;Secure, JSESSIONID=66D3D06247B80CF18CC3B408F4E824B0.cwwwdam2-internet; Path=/sso; Secure; HttpOnly;Secure;SameSite=None, x-sess-uuid=0.c1dd517.1742172067.37211148; secure; HttpOnly] -> 
+21:41:08.457 INFO  vert.x-eventloop-thread-0 BaseServiceProxy     : -> GET /css/bootstrap-5.2.2/bootstrap.min.css,200|337ms
+21:41:08.473 WARN  vert.x-eventloop-thread-0 DefaultChannelPipeline : An exceptionCaught() event was fired, and it reached at the tail of the pipeline. It usually means the last handler in the pipeline did not handle the exception.
+io.netty.handler.codec.DecoderException: javax.net.ssl.SSLHandshakeException: Received fatal alert: certificate_unknown
+	at io.netty.handler.codec.ByteToMessageDecoder.callDecode(ByteToMessageDecoder.java:459)
+	at io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:265)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:362)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:348)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:340)
+	at io.netty.channel.DefaultChannelPipeline$HeadContext.channelRead(DefaultChannelPipeline.java:1359)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:362)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:348)
+	at io.netty.channel.DefaultChannelPipeline.fireChannelRead(DefaultChannelPipeline.java:935)
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:134)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:645)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:580)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:497)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:459)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:858)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: javax.net.ssl.SSLHandshakeException: Received fatal alert: certificate_unknown
+	at sun.security.ssl.Alert.createSSLException(Unknown Source)
+	at sun.security.ssl.Alert.createSSLException(Unknown Source)
+	at sun.security.ssl.TransportContext.fatal(Unknown Source)
+	at sun.security.ssl.Alert$AlertConsumer.consume(Unknown Source)
+	at sun.security.ssl.TransportContext.dispatch(Unknown Source)
+	at sun.security.ssl.SSLTransport.decode(Unknown Source)
+	at sun.security.ssl.SSLEngineImpl.decode(Unknown Source)
+	at sun.security.ssl.SSLEngineImpl.readRecord(Unknown Source)
+	at sun.security.ssl.SSLEngineImpl.unwrap(Unknown Source)
+	at sun.security.ssl.SSLEngineImpl.unwrap(Unknown Source)
+	at javax.net.ssl.SSLEngine.unwrap(Unknown Source)
+	at io.netty.handler.ssl.SslHandler$SslEngineType$3.unwrap(SslHandler.java:281)
+	at io.netty.handler.ssl.SslHandler.unwrap(SslHandler.java:1215)
+	at io.netty.handler.ssl.SslHandler.decodeJdkCompatible(SslHandler.java:1127)
+	at io.netty.handler.ssl.SslHandler.decode(SslHandler.java:1162)
+	at io.netty.handler.codec.ByteToMessageDecoder.decodeRemovalReentryProtection(ByteToMessageDecoder.java:489)
+	at io.netty.handler.codec.ByteToMessageDecoder.callDecode(ByteToMessageDecoder.java:428)
+	... 15 common frames omitted
+21:41:08.474 WARN  vert.x-eventloop-thread-0 DefaultChannelPipeline : An exceptionCaught() event was fired, and it reached at the tail of the pipeline. It usually means the last handler in the pipeline did not handle the exception.
+io.netty.handler.codec.DecoderException: javax.net.ssl.SSLHandshakeException: Received fatal alert: certificate_unknown
+	at io.netty.handler.codec.ByteToMessageDecoder.callDecode(ByteToMessageDecoder.java:459)
+	at io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:265)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:362)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:348)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:340)
+	at io.netty.channel.DefaultChannelPipeline$HeadContext.channelRead(DefaultChannelPipeline.java:1359)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:362)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:348)
+	at io.netty.channel.DefaultChannelPipeline.fireChannelRead(DefaultChannelPipeline.java:935)
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:134)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:645)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:580)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:497)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:459)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:858)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: javax.net.ssl.SSLHandshakeException: Received fatal alert: certificate_unknown
+	at sun.security.ssl.Alert.createSSLException(Unknown Source)
+	at sun.security.ssl.Alert.createSSLException(Unknown Source)
+	at sun.security.ssl.TransportContext.fatal(Unknown Source)
+	at sun.security.ssl.Alert$AlertConsumer.consume(Unknown Source)
+	at sun.security.ssl.TransportContext.dispatch(Unknown Source)
+	at sun.security.ssl.SSLTransport.decode(Unknown Source)
+	at sun.security.ssl.SSLEngineImpl.decode(Unknown Source)
+	at sun.security.ssl.SSLEngineImpl.readRecord(Unknown Source)
+	at sun.security.ssl.SSLEngineImpl.unwrap(Unknown Source)
+	at sun.security.ssl.SSLEngineImpl.unwrap(Unknown Source)
+	at javax.net.ssl.SSLEngine.unwrap(Unknown Source)
+	at io.netty.handler.ssl.SslHandler$SslEngineType$3.unwrap(SslHandler.java:281)
+	at io.netty.handler.ssl.SslHandler.unwrap(SslHandler.java:1215)
+	at io.netty.handler.ssl.SslHandler.decodeJdkCompatible(SslHandler.java:1127)
+	at io.netty.handler.ssl.SslHandler.decode(SslHandler.java:1162)
+	at io.netty.handler.codec.ByteToMessageDecoder.decodeRemovalReentryProtection(ByteToMessageDecoder.java:489)
+	at io.netty.handler.codec.ByteToMessageDecoder.callDecode(ByteToMessageDecoder.java:428)
+	... 15 common frames omitted
+21:41:08.475 WARN  vert.x-eventloop-thread-0 DefaultChannelPipeline : An exceptionCaught() event was fired, and it reached at the tail of the pipeline. It usually means the last handler in the pipeline did not handle the exception.
+io.netty.handler.codec.DecoderException: javax.net.ssl.SSLHandshakeException: Received fatal alert: certificate_unknown
+	at io.netty.handler.codec.ByteToMessageDecoder.callDecode(ByteToMessageDecoder.java:459)
+	at io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:265)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:362)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:348)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:340)
+	at io.netty.channel.DefaultChannelPipeline$HeadContext.channelRead(DefaultChannelPipeline.java:1359)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:362)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:348)
+	at io.netty.channel.DefaultChannelPipeline.fireChannelRead(DefaultChannelPipeline.java:935)
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:134)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:645)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:580)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:497)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:459)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:858)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: javax.net.ssl.SSLHandshakeException: Received fatal alert: certificate_unknown
+	at sun.security.ssl.Alert.createSSLException(Unknown Source)
+	at sun.security.ssl.Alert.createSSLException(Unknown Source)
+	at sun.security.ssl.TransportContext.fatal(Unknown Source)
+	at sun.security.ssl.Alert$AlertConsumer.consume(Unknown Source)
+	at sun.security.ssl.TransportContext.dispatch(Unknown Source)
+	at sun.security.ssl.SSLTransport.decode(Unknown Source)
+	at sun.security.ssl.SSLEngineImpl.decode(Unknown Source)
+	at sun.security.ssl.SSLEngineImpl.readRecord(Unknown Source)
+	at sun.security.ssl.SSLEngineImpl.unwrap(Unknown Source)
+	at sun.security.ssl.SSLEngineImpl.unwrap(Unknown Source)
+	at javax.net.ssl.SSLEngine.unwrap(Unknown Source)
+	at io.netty.handler.ssl.SslHandler$SslEngineType$3.unwrap(SslHandler.java:281)
+	at io.netty.handler.ssl.SslHandler.unwrap(SslHandler.java:1215)
+	at io.netty.handler.ssl.SslHandler.decodeJdkCompatible(SslHandler.java:1127)
+	at io.netty.handler.ssl.SslHandler.decode(SslHandler.java:1162)
+	at io.netty.handler.codec.ByteToMessageDecoder.decodeRemovalReentryProtection(ByteToMessageDecoder.java:489)
+	at io.netty.handler.codec.ByteToMessageDecoder.callDecode(ByteToMessageDecoder.java:428)
+	... 15 common frames omitted
+21:41:08.476 WARN  vert.x-eventloop-thread-0 DefaultChannelPipeline : An exceptionCaught() event was fired, and it reached at the tail of the pipeline. It usually means the last handler in the pipeline did not handle the exception.
+io.netty.handler.codec.DecoderException: javax.net.ssl.SSLHandshakeException: Received fatal alert: certificate_unknown
+	at io.netty.handler.codec.ByteToMessageDecoder.callDecode(ByteToMessageDecoder.java:459)
+	at io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:265)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:362)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:348)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:340)
+	at io.netty.channel.DefaultChannelPipeline$HeadContext.channelRead(DefaultChannelPipeline.java:1359)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:362)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:348)
+	at io.netty.channel.DefaultChannelPipeline.fireChannelRead(DefaultChannelPipeline.java:935)
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:134)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:645)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:580)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:497)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:459)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:858)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: javax.net.ssl.SSLHandshakeException: Received fatal alert: certificate_unknown
+	at sun.security.ssl.Alert.createSSLException(Unknown Source)
+	at sun.security.ssl.Alert.createSSLException(Unknown Source)
+	at sun.security.ssl.TransportContext.fatal(Unknown Source)
+	at sun.security.ssl.Alert$AlertConsumer.consume(Unknown Source)
+	at sun.security.ssl.TransportContext.dispatch(Unknown Source)
+	at sun.security.ssl.SSLTransport.decode(Unknown Source)
+	at sun.security.ssl.SSLEngineImpl.decode(Unknown Source)
+	at sun.security.ssl.SSLEngineImpl.readRecord(Unknown Source)
+	at sun.security.ssl.SSLEngineImpl.unwrap(Unknown Source)
+	at sun.security.ssl.SSLEngineImpl.unwrap(Unknown Source)
+	at javax.net.ssl.SSLEngine.unwrap(Unknown Source)
+	at io.netty.handler.ssl.SslHandler$SslEngineType$3.unwrap(SslHandler.java:281)
+	at io.netty.handler.ssl.SslHandler.unwrap(SslHandler.java:1215)
+	at io.netty.handler.ssl.SslHandler.decodeJdkCompatible(SslHandler.java:1127)
+	at io.netty.handler.ssl.SslHandler.decode(SslHandler.java:1162)
+	at io.netty.handler.codec.ByteToMessageDecoder.decodeRemovalReentryProtection(ByteToMessageDecoder.java:489)
+	at io.netty.handler.codec.ByteToMessageDecoder.callDecode(ByteToMessageDecoder.java:428)
+	... 15 common frames omitted
+21:41:08.517 INFO  vert.x-eventloop-thread-0 BaseServiceProxy     : -> GET /css/fontawesome-6.2.0/all.min.css,200|387ms
+21:41:08.810 WARN  vert.x-eventloop-thread-0 DefaultChannelPipeline : An exceptionCaught() event was fired, and it reached at the tail of the pipeline. It usually means the last handler in the pipeline did not handle the exception.
+io.netty.handler.codec.DecoderException: javax.net.ssl.SSLHandshakeException: Received fatal alert: certificate_unknown
+	at io.netty.handler.codec.ByteToMessageDecoder.callDecode(ByteToMessageDecoder.java:459)
+	at io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:265)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:362)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:348)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:340)
+	at io.netty.channel.DefaultChannelPipeline$HeadContext.channelRead(DefaultChannelPipeline.java:1359)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:362)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:348)
+	at io.netty.channel.DefaultChannelPipeline.fireChannelRead(DefaultChannelPipeline.java:935)
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:134)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:645)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:580)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:497)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:459)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:858)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: javax.net.ssl.SSLHandshakeException: Received fatal alert: certificate_unknown
+	at sun.security.ssl.Alert.createSSLException(Unknown Source)
+	at sun.security.ssl.Alert.createSSLException(Unknown Source)
+	at sun.security.ssl.TransportContext.fatal(Unknown Source)
+	at sun.security.ssl.Alert$AlertConsumer.consume(Unknown Source)
+	at sun.security.ssl.TransportContext.dispatch(Unknown Source)
+	at sun.security.ssl.SSLTransport.decode(Unknown Source)
+	at sun.security.ssl.SSLEngineImpl.decode(Unknown Source)
+	at sun.security.ssl.SSLEngineImpl.readRecord(Unknown Source)
+	at sun.security.ssl.SSLEngineImpl.unwrap(Unknown Source)
+	at sun.security.ssl.SSLEngineImpl.unwrap(Unknown Source)
+	at javax.net.ssl.SSLEngine.unwrap(Unknown Source)
+	at io.netty.handler.ssl.SslHandler$SslEngineType$3.unwrap(SslHandler.java:281)
+	at io.netty.handler.ssl.SslHandler.unwrap(SslHandler.java:1215)
+	at io.netty.handler.ssl.SslHandler.decodeJdkCompatible(SslHandler.java:1127)
+	at io.netty.handler.ssl.SslHandler.decode(SslHandler.java:1162)
+	at io.netty.handler.codec.ByteToMessageDecoder.decodeRemovalReentryProtection(ByteToMessageDecoder.java:489)
+	at io.netty.handler.codec.ByteToMessageDecoder.callDecode(ByteToMessageDecoder.java:428)
+	... 15 common frames omitted
+21:41:08.812 WARN  vert.x-eventloop-thread-0 DefaultChannelPipeline : An exceptionCaught() event was fired, and it reached at the tail of the pipeline. It usually means the last handler in the pipeline did not handle the exception.
+io.netty.handler.codec.DecoderException: javax.net.ssl.SSLHandshakeException: Received fatal alert: certificate_unknown
+	at io.netty.handler.codec.ByteToMessageDecoder.callDecode(ByteToMessageDecoder.java:459)
+	at io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:265)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:362)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:348)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:340)
+	at io.netty.channel.DefaultChannelPipeline$HeadContext.channelRead(DefaultChannelPipeline.java:1359)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:362)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:348)
+	at io.netty.channel.DefaultChannelPipeline.fireChannelRead(DefaultChannelPipeline.java:935)
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:134)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:645)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:580)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:497)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:459)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:858)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: javax.net.ssl.SSLHandshakeException: Received fatal alert: certificate_unknown
+	at sun.security.ssl.Alert.createSSLException(Unknown Source)
+	at sun.security.ssl.Alert.createSSLException(Unknown Source)
+	at sun.security.ssl.TransportContext.fatal(Unknown Source)
+	at sun.security.ssl.Alert$AlertConsumer.consume(Unknown Source)
+	at sun.security.ssl.TransportContext.dispatch(Unknown Source)
+	at sun.security.ssl.SSLTransport.decode(Unknown Source)
+	at sun.security.ssl.SSLEngineImpl.decode(Unknown Source)
+	at sun.security.ssl.SSLEngineImpl.readRecord(Unknown Source)
+	at sun.security.ssl.SSLEngineImpl.unwrap(Unknown Source)
+	at sun.security.ssl.SSLEngineImpl.unwrap(Unknown Source)
+	at javax.net.ssl.SSLEngine.unwrap(Unknown Source)
+	at io.netty.handler.ssl.SslHandler$SslEngineType$3.unwrap(SslHandler.java:281)
+	at io.netty.handler.ssl.SslHandler.unwrap(SslHandler.java:1215)
+	at io.netty.handler.ssl.SslHandler.decodeJdkCompatible(SslHandler.java:1127)
+	at io.netty.handler.ssl.SslHandler.decode(SslHandler.java:1162)
+	at io.netty.handler.codec.ByteToMessageDecoder.decodeRemovalReentryProtection(ByteToMessageDecoder.java:489)
+	at io.netty.handler.codec.ByteToMessageDecoder.callDecode(ByteToMessageDecoder.java:428)
+	... 15 common frames omitted
+21:41:08.890 INFO  vert.x-eventloop-thread-0 BaseServiceProxy     : -> GET /css/ibkr/theme-ibkr-portal.min.css,200|253ms
+21:41:08.907 INFO  vert.x-eventloop-thread-0 BaseServiceProxy     : -> GET /css/reg-am/login.min.css,200|299ms
+21:41:09.034 INFO  vert.x-eventloop-thread-0 BaseServiceProxy     : -> GET /scripts/common/js/bootstrap-5.2.2/bootstrap.bundle.min.js,200|113ms
+21:41:09.122 INFO  vert.x-eventloop-thread-0 BaseServiceProxy     : -> GET /scripts/common/js/jquery-3.7.0/jquery.min.js,200|286ms
+21:41:09.248 INFO  vert.x-eventloop-thread-0 BaseServiceProxy     : -> GET /sso/lib/xyz.bundle.min.js,200|137ms
+21:41:09.248 INFO  vert.x-eventloop-thread-0 CookieManager        : set cookies [x-sess-uuid=0.161dd517.1742172068.1cf7cef1; secure; HttpOnly]
+21:41:09.248 DEBUG vert.x-eventloop-thread-0 BaseServiceProxy     : Remapping Set-cookies [x-sess-uuid=0.161dd517.1742172068.1cf7cef1; secure; HttpOnly] -> 
+21:41:09.383 INFO  vert.x-eventloop-thread-0 BaseServiceProxy     : -> GET /css/bootstrap-switch-3.3.2/bootstrap-switch.min.css,200|550ms
+21:41:09.465 INFO  vert.x-eventloop-thread-0 BaseServiceProxy     : -> GET /images/common/logos/ibkr/interactive-brokers.svg,200|27ms
+21:41:09.583 INFO  vert.x-eventloop-thread-0 BaseServiceProxy     : -> GET /fonts/proxima-nova/Proxima-Nova-Regular.woff2,200|58ms
+21:41:09.595 INFO  vert.x-eventloop-thread-0 BaseServiceProxy     : -> GET /fonts/fontawesome-6.4.2/webfonts/fa-solid-900.woff2,200|69ms
+21:41:09.646 INFO  vert.x-eventloop-thread-0 BaseServiceProxy     : -> GET /fonts/proxima-nova/Proxima-Nova-Semibold.woff2,200|54ms
+21:41:09.751 INFO  vert.x-eventloop-thread-0 BaseServiceProxy     : -> GET /fonts/fontawesome-6.2.0/webfonts/fa-brands-400.woff2,200|208ms
+21:41:42.560 WARN  vert.x-eventloop-thread-0 DefaultChannelPipeline : An exceptionCaught() event was fired, and it reached at the tail of the pipeline. It usually means the last handler in the pipeline did not handle the exception.
+io.netty.handler.codec.DecoderException: javax.net.ssl.SSLHandshakeException: Received fatal alert: certificate_unknown
+	at io.netty.handler.codec.ByteToMessageDecoder.callDecode(ByteToMessageDecoder.java:459)
+	at io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:265)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:362)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:348)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:340)
+	at io.netty.channel.DefaultChannelPipeline$HeadContext.channelRead(DefaultChannelPipeline.java:1359)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:362)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:348)
+	at io.netty.channel.DefaultChannelPipeline.fireChannelRead(DefaultChannelPipeline.java:935)
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:134)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:645)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:580)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:497)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:459)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:858)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: javax.net.ssl.SSLHandshakeException: Received fatal alert: certificate_unknown
+	at sun.security.ssl.Alert.createSSLException(Unknown Source)
+	at sun.security.ssl.Alert.createSSLException(Unknown Source)
+	at sun.security.ssl.TransportContext.fatal(Unknown Source)
+	at sun.security.ssl.Alert$AlertConsumer.consume(Unknown Source)
+	at sun.security.ssl.TransportContext.dispatch(Unknown Source)
+	at sun.security.ssl.SSLTransport.decode(Unknown Source)
+	at sun.security.ssl.SSLEngineImpl.decode(Unknown Source)
+	at sun.security.ssl.SSLEngineImpl.readRecord(Unknown Source)
+	at sun.security.ssl.SSLEngineImpl.unwrap(Unknown Source)
+	at sun.security.ssl.SSLEngineImpl.unwrap(Unknown Source)
+	at javax.net.ssl.SSLEngine.unwrap(Unknown Source)
+	at io.netty.handler.ssl.SslHandler$SslEngineType$3.unwrap(SslHandler.java:281)
+	at io.netty.handler.ssl.SslHandler.unwrap(SslHandler.java:1215)
+	at io.netty.handler.ssl.SslHandler.decodeJdkCompatible(SslHandler.java:1127)
+	at io.netty.handler.ssl.SslHandler.decode(SslHandler.java:1162)
+	at io.netty.handler.codec.ByteToMessageDecoder.decodeRemovalReentryProtection(ByteToMessageDecoder.java:489)
+	at io.netty.handler.codec.ByteToMessageDecoder.callDecode(ByteToMessageDecoder.java:428)
+	... 15 common frames omitted
+21:41:42.831 WARN  vert.x-eventloop-thread-0 DefaultChannelPipeline : An exceptionCaught() event was fired, and it reached at the tail of the pipeline. It usually means the last handler in the pipeline did not handle the exception.
+io.netty.handler.codec.DecoderException: javax.net.ssl.SSLHandshakeException: Received fatal alert: certificate_unknown
+	at io.netty.handler.codec.ByteToMessageDecoder.callDecode(ByteToMessageDecoder.java:459)
+	at io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:265)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:362)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:348)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:340)
+	at io.netty.channel.DefaultChannelPipeline$HeadContext.channelRead(DefaultChannelPipeline.java:1359)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:362)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:348)
+	at io.netty.channel.DefaultChannelPipeline.fireChannelRead(DefaultChannelPipeline.java:935)
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:134)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:645)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:580)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:497)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:459)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:858)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: javax.net.ssl.SSLHandshakeException: Received fatal alert: certificate_unknown
+	at sun.security.ssl.Alert.createSSLException(Unknown Source)
+	at sun.security.ssl.Alert.createSSLException(Unknown Source)
+	at sun.security.ssl.TransportContext.fatal(Unknown Source)
+	at sun.security.ssl.Alert$AlertConsumer.consume(Unknown Source)
+	at sun.security.ssl.TransportContext.dispatch(Unknown Source)
+	at sun.security.ssl.SSLTransport.decode(Unknown Source)
+	at sun.security.ssl.SSLEngineImpl.decode(Unknown Source)
+	at sun.security.ssl.SSLEngineImpl.readRecord(Unknown Source)
+	at sun.security.ssl.SSLEngineImpl.unwrap(Unknown Source)
+	at sun.security.ssl.SSLEngineImpl.unwrap(Unknown Source)
+	at javax.net.ssl.SSLEngine.unwrap(Unknown Source)
+	at io.netty.handler.ssl.SslHandler$SslEngineType$3.unwrap(SslHandler.java:281)
+	at io.netty.handler.ssl.SslHandler.unwrap(SslHandler.java:1215)
+	at io.netty.handler.ssl.SslHandler.decodeJdkCompatible(SslHandler.java:1127)
+	at io.netty.handler.ssl.SslHandler.decode(SslHandler.java:1162)
+	at io.netty.handler.codec.ByteToMessageDecoder.decodeRemovalReentryProtection(ByteToMessageDecoder.java:489)
+	at io.netty.handler.codec.ByteToMessageDecoder.callDecode(ByteToMessageDecoder.java:428)
+	... 15 common frames omitted
+21:41:43.169 INFO  vert.x-eventloop-thread-0 BaseServiceProxy     : -> GET /sso/Authenticator,200|289ms
+21:41:43.169 INFO  vert.x-eventloop-thread-0 CookieManager        : set cookies [x-sess-uuid=0.c1dd517.1742172102.3727881c; secure; HttpOnly]
+21:41:43.169 DEBUG vert.x-eventloop-thread-0 BaseServiceProxy     : Remapping Set-cookies [x-sess-uuid=0.c1dd517.1742172102.3727881c; secure; HttpOnly] -> 
+21:41:43.482 INFO  vert.x-eventloop-thread-0 BaseServiceProxy     : -> GET /sso/Authenticator,200|298ms
+21:41:43.482 INFO  vert.x-eventloop-thread-0 CookieManager        : set cookies [x-sess-uuid=0.c1dd517.1742172102.37278995; secure; HttpOnly]
+21:41:43.482 DEBUG vert.x-eventloop-thread-0 BaseServiceProxy     : Remapping Set-cookies [x-sess-uuid=0.c1dd517.1742172102.37278995; secure; HttpOnly] -> 
+21:41:43.840 INFO  vert.x-eventloop-thread-0 BaseServiceProxy     : -> GET /sso/Authenticator,200|352ms
+21:41:43.840 INFO  vert.x-eventloop-thread-0 CookieManager        : set cookies [x-sess-uuid=0.c1dd517.1742172103.372789a5; secure; HttpOnly]
+21:41:43.840 DEBUG vert.x-eventloop-thread-0 BaseServiceProxy     : Remapping Set-cookies [x-sess-uuid=0.c1dd517.1742172103.372789a5; secure; HttpOnly] -> 
+21:41:44.210 INFO  vert.x-eventloop-thread-0 BaseServiceProxy     : -> GET /fonts/proxima-nova/proximanova-extrabold.woff2,200|329ms
+21:41:47.264 INFO  vert.x-eventloop-thread-0 BaseServiceProxy     : -> GET /sso/Authenticator,200|414ms
+21:41:47.264 INFO  vert.x-eventloop-thread-0 CookieManager        : set cookies [x-sess-uuid=0.161dd517.1742172106.1cf7d2ce; secure; HttpOnly]
+21:41:47.264 DEBUG vert.x-eventloop-thread-0 BaseServiceProxy     : Remapping Set-cookies [x-sess-uuid=0.161dd517.1742172106.1cf7d2ce; secure; HttpOnly] -> 
+21:41:50.100 INFO  vert.x-eventloop-thread-0 BaseServiceProxy     : -> GET /sso/Authenticator,200|251ms
+21:41:50.100 INFO  vert.x-eventloop-thread-0 CookieManager        : set cookies [x-sess-uuid=0.c1dd517.1742172109.37292820; secure; HttpOnly]
+21:41:50.100 DEBUG vert.x-eventloop-thread-0 BaseServiceProxy     : Remapping Set-cookies [x-sess-uuid=0.c1dd517.1742172109.37292820; secure; HttpOnly] -> 
+21:41:53.161 INFO  vert.x-eventloop-thread-0 BaseServiceProxy     : -> GET /sso/Authenticator,200|314ms
+21:41:53.162 INFO  vert.x-eventloop-thread-0 CookieManager        : set cookies [x-sess-uuid=0.c1dd517.1742172112.37292b64; secure; HttpOnly]
+21:41:53.162 DEBUG vert.x-eventloop-thread-0 BaseServiceProxy     : Remapping Set-cookies [x-sess-uuid=0.c1dd517.1742172112.37292b64; secure; HttpOnly] -> 
+21:41:56.087 INFO  vert.x-eventloop-thread-0 BaseServiceProxy     : -> GET /sso/Authenticator,200|238ms
+21:41:56.087 INFO  vert.x-eventloop-thread-0 CookieManager        : set cookies [x-sess-uuid=0.c1dd517.1742172115.37293008; secure; HttpOnly]
+21:41:56.087 DEBUG vert.x-eventloop-thread-0 BaseServiceProxy     : Remapping Set-cookies [x-sess-uuid=0.c1dd517.1742172115.37293008; secure; HttpOnly] -> 
+21:41:56.801 INFO  vert.x-eventloop-thread-0 BaseServiceProxy     : -> GET /sso/Dispatcher,302|697ms
+21:41:56.801 INFO  vert.x-eventloop-thread-0 CookieManager        : set cookies [USERID=50303093; Domain=.ibkr.com; Path=/; Secure;Secure;SameSite=None, x-sess-uuid=0.161dd517.1742172115.1cf8c718; secure; HttpOnly]
+21:41:56.801 DEBUG vert.x-eventloop-thread-0 BaseServiceProxy     : Remapping Set-cookies [USERID=50303093; Domain=.ibkr.com; Path=/; Secure;Secure;SameSite=None, x-sess-uuid=0.161dd517.1742172115.1cf8c718; secure; HttpOnly] -> 
+21:41:56.802 INFO  vert.x-eventloop-thread-0 GatewayHttpProxy     : Client login succeeds
+21:41:57.078 INFO  vert.x-eventloop-thread-0 BaseServiceProxy     : -> GET /v1/api/sso/validate?gw=1,200|276ms
+21:41:57.079 DEBUG vert.x-eventloop-thread-0 ClientPortalService  : portal validate response: {"SFT":"5.2a","IS_PENDING_APPLICANT":false,"SF_ENABLED":true,"HARDWARE_INFO":"","UNIQUE_LOGIN_ID":"50303093-1742172112604","AUTH_TIME":1742172112758,"SF_CONFIG":"5.2a","USER_NAME":"farin0003","CREDENTIAL_TYPE":0,"IS_FREE_TRIAL":false,"LOGIN_TYPE":1,"LANDING_APP":"PORTAL-US","CREDENTIAL":"farin0003","ANOMALOUS_LOGIN":false,"RESULT":true,"IP":"190.21.96.241","USER_ID":50303093,"EXPIRES":1742172116666,"TOKEN":"e4ed3c8f6664a77e460236f2c1ce2af453976a12","took":24,"IS_MASTER":false,"features":{"env":"PROD","wlms":true,"realtime":true,"bond":true,"optionChains":true,"calendar":true,"newMf":true},"region":"IL"}
+21:41:57.094 INFO  vert.x-eventloop-thread-0 GatewayHttpProxy     : authenticated to cp
+21:41:57.094 DEBUG vert.x-eventloop-thread-0 BaseServiceProxy     : cancel timer SsoService 9
+21:41:57.094 DEBUG vert.x-eventloop-thread-0 BaseServiceProxy     : start timer 300000 SsoService
+21:41:57.095 DEBUG vert.x-eventloop-thread-0 BaseServiceProxy     : forward event ON_SSO_VALIDATION, payload 50303093
+21:41:57.868 INFO  vert.x-eventloop-thread-0 BaseServiceProxy     : -> GET /v1/api/one/user,200|774ms
+21:41:57.868 INFO  vert.x-eventloop-thread-0 ClientPortalService  : get user reply {"username":"farin0003","features":{"env":"PROD","wlms":true,"realtime":true,"bond":true,"optionChains":true,"calendar":true,"newMf":true},"wbId":"","uar":{"portfolioAnalyst":true,"userInfo":true,"messageCenter":true,"accountDetails":true,"tradingRestrictions":false,"tws":true,"fyi":true,"voting":true,"forum":true,"recentTransactions":true},"props":{"isIBAMClient":false,"ReadOnlySession":null},"firstApprovedDate":1592193600000,"accts":{"U4264576":{"isIBAMClient":false,"clearingStatus":"O","openDate":1592193600000,"isFAClient":false,"isFunded":true,"tradingPermissions":["OPT","FUT","IOPT","WAR","STK","CASH","FOP","SSF"]}},"hasBrokerageAccessInd":true,"fa":false,"has2fa":false,"islite":false,"ispaper":false,"applicants":[{"id":6062844,"type":"INDIVIDUAL","businessType":"INDEPENDENT","nlcode":"es_ES","legalCountry":{"name":"Chile","alpha3":"CHL"}}]}
+21:41:58.869 INFO  vert.x-eventloop-thread-0 SsoService           : sso init status=200, url=https://api.ibkr.com/v1/api/ssodh/init
+21:41:59.068 DEBUG vert.x-eventloop-thread-0 SsoService           : K 443c15ff4722870c63f8285e828107b6579f932f
+21:41:59.068 DEBUG vert.x-eventloop-thread-0 BaseServiceProxy     : forward event ON_SSODH_COMPLETED, payload none
+21:41:59.079 DEBUG vert.x-eventloop-thread-0 GatewayHttpProxy     : delaying authentication for 3000
+21:42:02.308 INFO  vert.x-eventloop-thread-0 BaseServiceProxy     : -> GET /v1/api/iserver/auth/status,200|228ms
+21:42:02.308 DEBUG vert.x-eventloop-thread-0 ClientPortalService  : status {"authenticated":false,"competing":false,"connected":false,"MAC":"F4:03:43:CC:A2:00"}
+21:42:02.309 INFO  vert.x-eventloop-thread-0 ClientPortalService  : process auth status {"authenticated":false,"competing":false,"connected":false,"MAC":"F4:03:43:CC:A2:00"}
+21:42:02.333 DEBUG vert.x-eventloop-thread-0 ClientPortalService  : auth brokerage, k=443c15ff4722870c63f8285e828107b6579f932f, post={"username":"farin0003","machineId":"21bc9032","compete":true}
+21:42:04.126 INFO  vert.x-eventloop-thread-0 BaseServiceProxy     : -> POST https://api.ibkr.com/v1/api/iserver/auth/ssodh/init,200|1793ms
+21:42:04.127 DEBUG vert.x-eventloop-thread-0 ClientPortalService  : iserver init : {"passed":true,"authenticated":true,"connected":true,"competing":false,"hardware_info":"2a25595e|F4:03:43:CC:A2:00"}
+21:42:04.127 INFO  vert.x-eventloop-thread-0 ClientPortalService  : process auth status {"passed":true,"authenticated":true,"connected":true,"competing":false,"hardware_info":"2a25595e|F4:03:43:CC:A2:00"}
+21:42:04.127 DEBUG vert.x-eventloop-thread-0 BaseServiceProxy     : start timer 30000 ClientPortalService
+21:42:04.390 INFO  vert.x-eventloop-thread-0 BaseServiceProxy     : -> GET /v1/api/iserver/accounts,200|263ms
+21:42:04.390 DEBUG vert.x-eventloop-thread-0 ClientPortalService  : iserver accounts {"accounts":["U4264576"],"acctProps":{"U4264576":{"hasChildAccounts":false,"supportsCashQty":true,"liteUnderPro":false,"noFXConv":false,"isProp":false,"supportsFractions":true,"allowCustomerTime":false,"autoFx":false}},"aliases":{"U4264576":"U4264576"},"allowFeatures":{"showGFIS":true,"showEUCostReport":false,"allowEventContract":true,"allowFXConv":true,"allowFinancialLens":false,"allowMTA":true,"allowTypeAhead":true,"allowEventTrading":true,"snapshotRefreshTimeout":30,"liteUser":false,"showWebNews":true,"research":true,"debugPnl":true,"showTaxOpt":true,"showImpactDashboard":true,"allowDynAccount":false,"allowCrypto":false,"allowFA":false,"allowLiteUnderPro":false,"allowedAssetTypes":"STK,CFD,OPT,FOP,WAR,FUT,BAG,PDC,CASH,IND,BOND,BILL,FUND,SLB,News,CMDTY,IOPT,ICU,ICS,PHYSS,CRYPTO","restrictTradeSubscription":false,"showUkUserLabels":true,"sideBySide":false},"chartPeriods":{"STK":["*"],"CFD":["*"],"OPT":["2h","1d","2d","1w","1m"],"FOP":["2h","1d","2d","1w","1m"],"WAR":["*"],"IOPT":["*"],"FUT":["*"],"CASH":["*"],"IND":["*"],"BOND":["*"],"FUND":["*"],"CMDTY":["*"],"PHYSS":["*"],"CRYPTO":["*"]},"groups":[],"profiles":[],"selectedAccount":"U4264576","serverInfo":{"serverName":"JifC19060","serverVersion":"Build 10.34.1a, Mar 3, 2025 5:30:37 PM"},"sessionId":"67d650d4.00000033","isFT":false,"isPaper":false}
+21:42:14.573 WARN  vert.x-eventloop-thread-0 DefaultChannelPipeline : An exceptionCaught() event was fired, and it reached at the tail of the pipeline. It usually means the last handler in the pipeline did not handle the exception.
+io.netty.handler.codec.DecoderException: javax.net.ssl.SSLHandshakeException: Received fatal alert: certificate_unknown
+	at io.netty.handler.codec.ByteToMessageDecoder.callDecode(ByteToMessageDecoder.java:459)
+	at io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:265)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:362)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:348)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:340)
+	at io.netty.channel.DefaultChannelPipeline$HeadContext.channelRead(DefaultChannelPipeline.java:1359)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:362)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:348)
+	at io.netty.channel.DefaultChannelPipeline.fireChannelRead(DefaultChannelPipeline.java:935)
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:134)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:645)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:580)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:497)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:459)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:858)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: javax.net.ssl.SSLHandshakeException: Received fatal alert: certificate_unknown
+	at sun.security.ssl.Alert.createSSLException(Unknown Source)
+	at sun.security.ssl.Alert.createSSLException(Unknown Source)
+	at sun.security.ssl.TransportContext.fatal(Unknown Source)
+	at sun.security.ssl.Alert$AlertConsumer.consume(Unknown Source)
+	at sun.security.ssl.TransportContext.dispatch(Unknown Source)
+	at sun.security.ssl.SSLTransport.decode(Unknown Source)
+	at sun.security.ssl.SSLEngineImpl.decode(Unknown Source)
+	at sun.security.ssl.SSLEngineImpl.readRecord(Unknown Source)
+	at sun.security.ssl.SSLEngineImpl.unwrap(Unknown Source)
+	at sun.security.ssl.SSLEngineImpl.unwrap(Unknown Source)
+	at javax.net.ssl.SSLEngine.unwrap(Unknown Source)
+	at io.netty.handler.ssl.SslHandler$SslEngineType$3.unwrap(SslHandler.java:281)
+	at io.netty.handler.ssl.SslHandler.unwrap(SslHandler.java:1215)
+	at io.netty.handler.ssl.SslHandler.decodeJdkCompatible(SslHandler.java:1127)
+	at io.netty.handler.ssl.SslHandler.decode(SslHandler.java:1162)
+	at io.netty.handler.codec.ByteToMessageDecoder.decodeRemovalReentryProtection(ByteToMessageDecoder.java:489)
+	at io.netty.handler.codec.ByteToMessageDecoder.callDecode(ByteToMessageDecoder.java:428)
+	... 15 common frames omitted
+21:42:14.857 WARN  vert.x-eventloop-thread-0 DefaultChannelPipeline : An exceptionCaught() event was fired, and it reached at the tail of the pipeline. It usually means the last handler in the pipeline did not handle the exception.
+io.netty.handler.codec.DecoderException: javax.net.ssl.SSLHandshakeException: Received fatal alert: certificate_unknown
+	at io.netty.handler.codec.ByteToMessageDecoder.callDecode(ByteToMessageDecoder.java:459)
+	at io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:265)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:362)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:348)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:340)
+	at io.netty.channel.DefaultChannelPipeline$HeadContext.channelRead(DefaultChannelPipeline.java:1359)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:362)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:348)
+	at io.netty.channel.DefaultChannelPipeline.fireChannelRead(DefaultChannelPipeline.java:935)
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:134)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:645)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:580)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:497)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:459)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:858)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: javax.net.ssl.SSLHandshakeException: Received fatal alert: certificate_unknown
+	at sun.security.ssl.Alert.createSSLException(Unknown Source)
+	at sun.security.ssl.Alert.createSSLException(Unknown Source)
+	at sun.security.ssl.TransportContext.fatal(Unknown Source)
+	at sun.security.ssl.Alert$AlertConsumer.consume(Unknown Source)
+	at sun.security.ssl.TransportContext.dispatch(Unknown Source)
+	at sun.security.ssl.SSLTransport.decode(Unknown Source)
+	at sun.security.ssl.SSLEngineImpl.decode(Unknown Source)
+	at sun.security.ssl.SSLEngineImpl.readRecord(Unknown Source)
+	at sun.security.ssl.SSLEngineImpl.unwrap(Unknown Source)
+	at sun.security.ssl.SSLEngineImpl.unwrap(Unknown Source)
+	at javax.net.ssl.SSLEngine.unwrap(Unknown Source)
+	at io.netty.handler.ssl.SslHandler$SslEngineType$3.unwrap(SslHandler.java:281)
+	at io.netty.handler.ssl.SslHandler.unwrap(SslHandler.java:1215)
+	at io.netty.handler.ssl.SslHandler.decodeJdkCompatible(SslHandler.java:1127)
+	at io.netty.handler.ssl.SslHandler.decode(SslHandler.java:1162)
+	at io.netty.handler.codec.ByteToMessageDecoder.decodeRemovalReentryProtection(ByteToMessageDecoder.java:489)
+	at io.netty.handler.codec.ByteToMessageDecoder.callDecode(ByteToMessageDecoder.java:428)
+	... 15 common frames omitted
+21:42:28.911 INFO  vert.x-eventloop-thread-0 BaseServiceProxy     : -> GET /v1/api/portfolio/U4264576/positions,200|297ms
+21:42:31.691 INFO  vert.x-eventloop-thread-0 BaseServiceProxy     : -> GET /v1/api/iserver/marketdata/snapshot?conids=653081429,653081500,672829101,672829170,681926954,681927105,674163806,653250687,653250400,763665580,763665630,653152108,758141216,716497189,703415595,703415862,712169275,712168761,765895478,765895679,653157694,692857360,692857481,728874969,724340545,731526272,731526352,754945951,763687845,763689106,763689160,728902115,758170739,763732402,763732470,756975736,758204706,763724597,767949821,766259977,765590847,765911657,715191758,715192028,653319808,760319827,763762262,695638272,729003845,60532895,11031&fields=7308,7309,7310,7311,31,7633,6457,200|311ms
+21:42:34.639 INFO  vert.x-eventloop-thread-0 BaseServiceProxy     : -> GET /v1/api/tickle,200|498ms
+21:42:34.639 DEBUG vert.x-eventloop-thread-0 ClientPortalService  : tickle {"session":"814c68079c053a6cebe15329434ae91e","ssoExpires":562403,"collission":false,"userId":50303093,"hmds":{"error":"no bridge"},"iserver":{"authStatus":{"authenticated":true,"competing":false,"connected":true,"message":"","MAC":"F4:03:43:CC:A2:00","serverInfo":{"serverName":"JifC19060","serverVersion":"Build 10.34.1a, Mar 3, 2025 5:30:37 PM"},"hardware_info":"2a25595e|F4:03:43:CC:A2:00"}}}
+21:42:39.591 INFO  vert.x-eventloop-thread-0 BaseServiceProxy     : -> GET /v1/api/portfolio/U4264576/positions,200|291ms
+21:42:42.050 INFO  vert.x-eventloop-thread-0 BaseServiceProxy     : -> GET /v1/api/iserver/marketdata/snapshot?conids=653081429,653081500,672829101,672829170,681926954,681927105,674163806,653250687,653250400,763665580,763665630,653152108,758141216,716497189,703415595,703415862,712169275,712168761,765895478,765895679,653157694,692857360,692857481,728874969,724340545,731526272,731526352,754945951,763687845,763689106,763689160,728902115,758170739,763732402,763732470,756975736,758204706,763724597,767949821,766259977,765590847,765911657,715191758,715192028,653319808,760319827,763762262,695638272,729003845,60532895,11031&fields=7308,7309,7310,7311,31,7633,6457,200|204ms
+21:42:44.421 INFO  vert.x-eventloop-thread-0 BaseServiceProxy     : -> GET /v1/api/iserver/marketdata/snapshot?conids=4391,3691937,761335611,5684,44001820,51529211,208813719,209411798,152486141,83975037,75960201,11031,756733,365207014,nan&fields=55,31,7287,7655,200|224ms
+21:42:51.484 INFO  vert.x-eventloop-thread-0 BaseServiceProxy     : -> GET /v1/api/portfolio/U4264576/positions,200|592ms
+21:42:54.302 INFO  vert.x-eventloop-thread-0 BaseServiceProxy     : -> GET /v1/api/iserver/marketdata/snapshot?conids=653081429,653081500,672829101,672829170,681926954,681927105,674163806,653250687,653250400,763665580,763665630,653152108,758141216,716497189,703415595,703415862,712169275,712168761,765895478,765895679,653157694,692857360,692857481,728874969,724340545,731526272,731526352,754945951,763687845,763689106,763689160,728902115,758170739,763732402,763732470,756975736,758204706,763724597,767949821,766259977,765590847,765911657,715191758,715192028,653319808,760319827,763762262,695638272,729003845,60532895,11031&fields=7308,7309,7310,7311,31,7633,6457,200|588ms
+21:42:56.628 INFO  vert.x-eventloop-thread-0 BaseServiceProxy     : -> GET /v1/api/iserver/marketdata/snapshot?conids=4391,3691937,761335611,5684,44001820,51529211,208813719,209411798,152486141,83975037,75960201,11031,756733,365207014,nan&fields=55,31,7287,7655,200|196ms
+21:43:04.448 INFO  vert.x-eventloop-thread-0 BaseServiceProxy     : -> GET /v1/api/tickle,200|311ms
+21:43:04.448 DEBUG vert.x-eventloop-thread-0 ClientPortalService  : tickle {"session":"814c68079c053a6cebe15329434ae91e","ssoExpires":532605,"collission":false,"userId":50303093,"hmds":{"error":"no bridge"},"iserver":{"authStatus":{"authenticated":true,"competing":false,"connected":true,"message":"","MAC":"F4:03:43:CC:A2:00","serverInfo":{"serverName":"JifC19060","serverVersion":"Build 10.34.1a, Mar 3, 2025 5:30:37 PM"},"hardware_info":"2a25595e|F4:03:43:CC:A2:00"}}}
+21:43:34.633 INFO  vert.x-eventloop-thread-0 BaseServiceProxy     : -> GET /v1/api/tickle,200|496ms
+21:43:34.633 DEBUG vert.x-eventloop-thread-0 ClientPortalService  : tickle {"session":"814c68079c053a6cebe15329434ae91e","ssoExpires":502493,"collission":false,"userId":50303093,"hmds":{"error":"no bridge"},"iserver":{"authStatus":{"authenticated":true,"competing":false,"connected":true,"message":"","MAC":"F4:03:43:CC:A2:00","serverInfo":{"serverName":"JifC19060","serverVersion":"Build 10.34.1a, Mar 3, 2025 5:30:37 PM"},"hardware_info":"2a25595e|F4:03:43:CC:A2:00"}}}
+21:44:04.530 INFO  vert.x-eventloop-thread-0 BaseServiceProxy     : -> GET /v1/api/tickle,200|392ms
+21:44:04.530 DEBUG vert.x-eventloop-thread-0 ClientPortalService  : tickle {"session":"814c68079c053a6cebe15329434ae91e","ssoExpires":472537,"collission":false,"userId":50303093,"hmds":{"error":"no bridge"},"iserver":{"authStatus":{"authenticated":true,"competing":false,"connected":true,"message":"","MAC":"F4:03:43:CC:A2:00","serverInfo":{"serverName":"JifC19060","serverVersion":"Build 10.34.1a, Mar 3, 2025 5:30:37 PM"},"hardware_info":"2a25595e|F4:03:43:CC:A2:00"}}}
+21:44:34.461 INFO  vert.x-eventloop-thread-0 BaseServiceProxy     : -> GET /v1/api/tickle,200|326ms
+21:44:34.461 DEBUG vert.x-eventloop-thread-0 ClientPortalService  : tickle {"session":"814c68079c053a6cebe15329434ae91e","ssoExpires":442594,"collission":false,"userId":50303093,"hmds":{"error":"no bridge"},"iserver":{"authStatus":{"authenticated":true,"competing":false,"connected":true,"message":"","MAC":"F4:03:43:CC:A2:00","serverInfo":{"serverName":"JifC19060","serverVersion":"Build 10.34.1a, Mar 3, 2025 5:30:37 PM"},"hardware_info":"2a25595e|F4:03:43:CC:A2:00"}}}
+21:45:04.352 INFO  vert.x-eventloop-thread-0 BaseServiceProxy     : -> GET /v1/api/tickle,200|217ms
+21:45:04.352 DEBUG vert.x-eventloop-thread-0 ClientPortalService  : tickle {"session":"814c68079c053a6cebe15329434ae91e","ssoExpires":412714,"collission":false,"userId":50303093,"hmds":{"error":"no bridge"},"iserver":{"authStatus":{"authenticated":true,"competing":false,"connected":true,"message":"","MAC":"F4:03:43:CC:A2:00","serverInfo":{"serverName":"JifC19060","serverVersion":"Build 10.34.1a, Mar 3, 2025 5:30:37 PM"},"hardware_info":"2a25595e|F4:03:43:CC:A2:00"}}}
+21:45:34.328 INFO  vert.x-eventloop-thread-0 BaseServiceProxy     : -> GET /v1/api/tickle,200|198ms
+21:45:34.328 DEBUG vert.x-eventloop-thread-0 ClientPortalService  : tickle {"session":"814c68079c053a6cebe15329434ae91e","ssoExpires":382719,"collission":false,"userId":50303093,"hmds":{"error":"no bridge"},"iserver":{"authStatus":{"authenticated":true,"competing":false,"connected":true,"message":"","MAC":"F4:03:43:CC:A2:00","serverInfo":{"serverName":"JifC19060","serverVersion":"Build 10.34.1a, Mar 3, 2025 5:30:37 PM"},"hardware_info":"2a25595e|F4:03:43:CC:A2:00"}}}
+21:46:04.432 INFO  vert.x-eventloop-thread-0 BaseServiceProxy     : -> GET /v1/api/tickle,200|291ms
+21:46:04.432 DEBUG vert.x-eventloop-thread-0 ClientPortalService  : tickle {"session":"814c68079c053a6cebe15329434ae91e","ssoExpires":352624,"collission":false,"userId":50303093,"hmds":{"error":"no bridge"},"iserver":{"authStatus":{"authenticated":true,"competing":false,"connected":true,"message":"","MAC":"F4:03:43:CC:A2:00","serverInfo":{"serverName":"JifC19060","serverVersion":"Build 10.34.1a, Mar 3, 2025 5:30:37 PM"},"hardware_info":"2a25595e|F4:03:43:CC:A2:00"}}}
+21:46:34.507 INFO  vert.x-eventloop-thread-0 BaseServiceProxy     : -> GET /v1/api/tickle,200|368ms
+21:46:34.507 DEBUG vert.x-eventloop-thread-0 ClientPortalService  : tickle {"session":"814c68079c053a6cebe15329434ae91e","ssoExpires":322640,"collission":false,"userId":50303093,"hmds":{"error":"no bridge"},"iserver":{"authStatus":{"authenticated":true,"competing":false,"connected":true,"message":"","MAC":"F4:03:43:CC:A2:00","serverInfo":{"serverName":"JifC19060","serverVersion":"Build 10.34.1a, Mar 3, 2025 5:30:37 PM"},"hardware_info":"2a25595e|F4:03:43:CC:A2:00"}}}
+21:46:40.641 INFO  vert.x-eventloop-thread-0 BaseServiceProxy     : -> GET /v1/api/portfolio/U4264576/positions,200|744ms
+21:46:43.137 INFO  vert.x-eventloop-thread-0 BaseServiceProxy     : -> GET /v1/api/iserver/marketdata/snapshot?conids=653081429,653081500,672829101,672829170,681926954,681927105,674163806,653250687,653250400,763665580,763665630,653152108,758141216,716497189,703415595,703415862,712169275,712168761,765895478,765895679,653157694,692857360,692857481,728874969,724340545,731526272,731526352,754945951,763687845,763689106,763689160,728902115,758170739,763732402,763732470,756975736,758204706,763724597,767949821,766259977,765590847,765911657,715191758,715192028,653319808,760319827,763762262,695638272,729003845,60532895,11031&fields=7308,7309,7310,7311,31,7633,6457,200|239ms
+21:46:45.468 INFO  vert.x-eventloop-thread-0 BaseServiceProxy     : -> GET /v1/api/iserver/marketdata/snapshot?conids=4391,3691937,761335611,5684,44001820,51529211,208813719,209411798,152486141,83975037,75960201,11031,756733,365207014,nan&fields=55,31,7287,7655,200|243ms
+21:46:57.331 INFO  vert.x-eventloop-thread-0 BaseServiceProxy     : -> GET /sso/ping,200|233ms
+21:46:57.331 INFO  vert.x-eventloop-thread-0 SsoService           : sso ping {"result": "true"}
+21:47:04.400 INFO  vert.x-eventloop-thread-0 BaseServiceProxy     : -> GET /v1/api/tickle,200|263ms
+21:47:04.401 DEBUG vert.x-eventloop-thread-0 ClientPortalService  : tickle {"session":"814c68079c053a6cebe15329434ae91e","ssoExpires":292672,"collission":false,"userId":50303093,"hmds":{"error":"no bridge"},"iserver":{"authStatus":{"authenticated":true,"competing":false,"connected":true,"message":"","MAC":"F4:03:43:CC:A2:00","serverInfo":{"serverName":"JifC19060","serverVersion":"Build 10.34.1a, Mar 3, 2025 5:30:37 PM"},"hardware_info":"2a25595e|F4:03:43:CC:A2:00"}}}
+21:47:34.359 INFO  vert.x-eventloop-thread-0 BaseServiceProxy     : -> GET /v1/api/tickle,200|222ms
+21:47:34.359 DEBUG vert.x-eventloop-thread-0 ClientPortalService  : tickle {"session":"814c68079c053a6cebe15329434ae91e","ssoExpires":262696,"collission":false,"userId":50303093,"hmds":{"error":"no bridge"},"iserver":{"authStatus":{"authenticated":true,"competing":false,"connected":true,"message":"","MAC":"F4:03:43:CC:A2:00","serverInfo":{"serverName":"JifC19060","serverVersion":"Build 10.34.1a, Mar 3, 2025 5:30:37 PM"},"hardware_info":"2a25595e|F4:03:43:CC:A2:00"}}}
+21:48:04.599 INFO  vert.x-eventloop-thread-0 BaseServiceProxy     : -> GET /v1/api/tickle,200|458ms
+21:48:04.599 DEBUG vert.x-eventloop-thread-0 ClientPortalService  : tickle {"session":"814c68079c053a6cebe15329434ae91e","ssoExpires":232534,"collission":false,"userId":50303093,"hmds":{"error":"no bridge"},"iserver":{"authStatus":{"authenticated":true,"competing":false,"connected":true,"message":"","MAC":"F4:03:43:CC:A2:00","serverInfo":{"serverName":"JifC19060","serverVersion":"Build 10.34.1a, Mar 3, 2025 5:30:37 PM"},"hardware_info":"2a25595e|F4:03:43:CC:A2:00"}}}
+21:48:10.198 INFO  vert.x-eventloop-thread-0 BaseServiceProxy     : -> GET /v1/api/portfolio/U4264576/positions,200|274ms
+21:48:12.657 INFO  vert.x-eventloop-thread-0 BaseServiceProxy     : -> GET /v1/api/iserver/marketdata/snapshot?conids=653081429,653081500,672829101,672829170,681926954,681927105,674163806,653250687,653250400,763665580,763665630,653152108,758141216,716497189,703415595,703415862,712169275,712168761,765895478,765895679,653157694,692857360,692857481,728874969,724340545,731526272,731526352,754945951,763687845,763689106,763689160,728902115,758170739,763732402,763732470,756975736,758204706,763724597,767949821,766259977,765590847,765911657,715191758,715192028,653319808,760319827,763762262,695638272,729003845,60532895,11031&fields=7308,7309,7310,7311,31,7633,6457,200|216ms
+21:48:14.996 INFO  vert.x-eventloop-thread-0 BaseServiceProxy     : -> GET /v1/api/iserver/marketdata/snapshot?conids=4391,3691937,761335611,5684,44001820,51529211,208813719,209411798,152486141,83975037,75960201,11031,756733,365207014,nan&fields=55,31,7287,7655,200|228ms
+21:48:32.951 INFO  vert.x-eventloop-thread-0 BaseServiceProxy     : -> GET /v1/api/portfolio/U4264576/positions,200|280ms
+21:48:34.499 INFO  vert.x-eventloop-thread-0 BaseServiceProxy     : -> GET /v1/api/tickle,200|366ms
+21:48:34.499 DEBUG vert.x-eventloop-thread-0 ClientPortalService  : tickle {"session":"814c68079c053a6cebe15329434ae91e","ssoExpires":202671,"collission":false,"userId":50303093,"hmds":{"error":"no bridge"},"iserver":{"authStatus":{"authenticated":true,"competing":false,"connected":true,"message":"","MAC":"F4:03:43:CC:A2:00","serverInfo":{"serverName":"JifC19060","serverVersion":"Build 10.34.1a, Mar 3, 2025 5:30:37 PM"},"hardware_info":"2a25595e|F4:03:43:CC:A2:00"}}}
+21:48:35.744 INFO  vert.x-eventloop-thread-0 BaseServiceProxy     : -> GET /v1/api/iserver/marketdata/snapshot?conids=653081429,653081500,672829101,672829170,681926954,681927105,674163806,653250687,653250400,763665580,763665630,653152108,758141216,716497189,703415595,703415862,712169275,712168761,765895478,765895679,653157694,692857360,692857481,728874969,724340545,731526272,731526352,754945951,763687845,763689106,763689160,728902115,758170739,763732402,763732470,756975736,758204706,763724597,767949821,766259977,765590847,765911657,715191758,715192028,653319808,760319827,763762262,695638272,729003845,60532895,11031&fields=7308,7309,7310,7311,31,7633,6457,200|566ms
+21:48:38.038 INFO  vert.x-eventloop-thread-0 BaseServiceProxy     : -> GET /v1/api/iserver/marketdata/snapshot?conids=4391,3691937,761335611,5684,44001820,51529211,208813719,209411798,152486141,83975037,75960201,11031,756733,365207014,nan&fields=55,31,7287,7655,200|204ms
+21:49:04.362 INFO  vert.x-eventloop-thread-0 BaseServiceProxy     : -> GET /v1/api/tickle,200|220ms
+21:49:04.362 DEBUG vert.x-eventloop-thread-0 ClientPortalService  : tickle {"session":"814c68079c053a6cebe15329434ae91e","ssoExpires":172700,"collission":false,"userId":50303093,"hmds":{"error":"no bridge"},"iserver":{"authStatus":{"authenticated":true,"competing":false,"connected":true,"message":"","MAC":"F4:03:43:CC:A2:00","serverInfo":{"serverName":"JifC19060","serverVersion":"Build 10.34.1a, Mar 3, 2025 5:30:37 PM"},"hardware_info":"2a25595e|F4:03:43:CC:A2:00"}}}
+21:49:34.371 INFO  vert.x-eventloop-thread-0 BaseServiceProxy     : -> GET /v1/api/tickle,200|243ms
+21:49:34.371 DEBUG vert.x-eventloop-thread-0 ClientPortalService  : tickle {"session":"814c68079c053a6cebe15329434ae91e","ssoExpires":142684,"collission":false,"userId":50303093,"hmds":{"error":"no bridge"},"iserver":{"authStatus":{"authenticated":true,"competing":false,"connected":true,"message":"","MAC":"F4:03:43:CC:A2:00","serverInfo":{"serverName":"JifC19060","serverVersion":"Build 10.34.1a, Mar 3, 2025 5:30:37 PM"},"hardware_info":"2a25595e|F4:03:43:CC:A2:00"}}}
+21:50:00.305 INFO  vert.x-eventloop-thread-0 BaseServiceProxy     : -> GET /v1/api/portfolio/U4264576/positions,200|318ms
+21:50:03.219 INFO  vert.x-eventloop-thread-0 BaseServiceProxy     : -> GET /v1/api/iserver/marketdata/snapshot?conids=653081429,653081500,672829101,672829170,681926954,681927105,674163806,653250687,653250400,763665580,763665630,653152108,758141216,716497189,703415595,703415862,712169275,712168761,765895478,765895679,653157694,692857360,692857481,728874969,724340545,731526272,731526352,754945951,763687845,763689106,763689160,728902115,758170739,763732402,763732470,756975736,758204706,763724597,767949821,766259977,765590847,765911657,715191758,715192028,653319808,760319827,763762262,695638272,729003845,60532895,11031&fields=7308,7309,7310,7311,31,7633,6457,200|333ms
+21:50:04.383 INFO  vert.x-eventloop-thread-0 BaseServiceProxy     : -> GET /v1/api/tickle,200|250ms
+21:50:04.383 DEBUG vert.x-eventloop-thread-0 ClientPortalService  : tickle {"session":"814c68079c053a6cebe15329434ae91e","ssoExpires":112704,"collission":false,"userId":50303093,"hmds":{"error":"no bridge"},"iserver":{"authStatus":{"authenticated":true,"competing":false,"connected":true,"message":"","MAC":"F4:03:43:CC:A2:00","serverInfo":{"serverName":"JifC19060","serverVersion":"Build 10.34.1a, Mar 3, 2025 5:30:37 PM"},"hardware_info":"2a25595e|F4:03:43:CC:A2:00"}}}
+21:50:05.544 INFO  vert.x-eventloop-thread-0 BaseServiceProxy     : -> GET /v1/api/iserver/marketdata/snapshot?conids=4391,3691937,761335611,5684,44001820,51529211,208813719,209411798,152486141,83975037,75960201,11031,756733,365207014,nan&fields=55,31,7287,7655,200|199ms
+21:50:34.411 INFO  vert.x-eventloop-thread-0 BaseServiceProxy     : -> GET /v1/api/tickle,200|270ms
+21:50:34.411 DEBUG vert.x-eventloop-thread-0 ClientPortalService  : tickle {"session":"814c68079c053a6cebe15329434ae91e","ssoExpires":82656,"collission":false,"userId":50303093,"hmds":{"error":"no bridge"},"iserver":{"authStatus":{"authenticated":true,"competing":false,"connected":true,"message":"","MAC":"F4:03:43:CC:A2:00","serverInfo":{"serverName":"JifC19060","serverVersion":"Build 10.34.1a, Mar 3, 2025 5:30:37 PM"},"hardware_info":"2a25595e|F4:03:43:CC:A2:00"}}}
+21:51:04.351 INFO  vert.x-eventloop-thread-0 BaseServiceProxy     : -> GET /v1/api/tickle,200|214ms
+21:51:04.351 DEBUG vert.x-eventloop-thread-0 ClientPortalService  : tickle {"session":"814c68079c053a6cebe15329434ae91e","ssoExpires":52718,"collission":false,"userId":50303093,"hmds":{"error":"no bridge"},"iserver":{"authStatus":{"authenticated":true,"competing":false,"connected":true,"message":"","MAC":"F4:03:43:CC:A2:00","serverInfo":{"serverName":"JifC19060","serverVersion":"Build 10.34.1a, Mar 3, 2025 5:30:37 PM"},"hardware_info":"2a25595e|F4:03:43:CC:A2:00"}}}
+21:51:09.997 INFO  vert.x-eventloop-thread-0 BaseServiceProxy     : -> GET /v1/api/portfolio/U4264576/positions,200|353ms
+21:51:12.447 INFO  vert.x-eventloop-thread-0 BaseServiceProxy     : -> GET /v1/api/iserver/marketdata/snapshot?conids=653081429,653081500,672829101,672829170,681926954,681927105,674163806,653250687,653250400,763665580,763665630,653152108,758141216,716497189,703415595,703415862,712169275,712168761,765895478,765895679,653157694,692857360,692857481,728874969,724340545,731526272,731526352,754945951,763687845,763689106,763689160,728902115,758170739,763732402,763732470,756975736,758204706,763724597,767949821,766259977,765590847,765911657,715191758,715192028,653319808,760319827,763762262,695638272,729003845,60532895,11031&fields=7308,7309,7310,7311,31,7633,6457,200|208ms
+21:51:14.822 INFO  vert.x-eventloop-thread-0 BaseServiceProxy     : -> GET /v1/api/iserver/marketdata/snapshot?conids=4391,3691937,761335611,5684,44001820,51529211,208813719,209411798,152486141,83975037,75960201,11031,756733,365207014,nan&fields=55,31,7287,7655,200|269ms
+21:51:24.570 INFO  vert.x-eventloop-thread-0 BaseServiceProxy     : -> GET /v1/api/portfolio/U4264576/positions,200|330ms
+21:51:27.036 INFO  vert.x-eventloop-thread-0 BaseServiceProxy     : -> GET /v1/api/iserver/marketdata/snapshot?conids=653081429,653081500,672829101,672829170,681926954,681927105,674163806,653250687,653250400,763665580,763665630,653152108,758141216,716497189,703415595,703415862,712169275,712168761,765895478,765895679,653157694,692857360,692857481,728874969,724340545,731526272,731526352,754945951,763687845,763689106,763689160,728902115,758170739,763732402,763732470,756975736,758204706,763724597,767949821,766259977,765590847,765911657,715191758,715192028,653319808,760319827,763762262,695638272,729003845,60532895,11031&fields=7308,7309,7310,7311,31,7633,6457,200|210ms
+21:51:29.346 INFO  vert.x-eventloop-thread-0 BaseServiceProxy     : -> GET /v1/api/iserver/marketdata/snapshot?conids=4391,3691937,761335611,5684,44001820,51529211,208813719,209411798,152486141,83975037,75960201,11031,756733,365207014,nan&fields=55,31,7287,7655,200|238ms
+21:51:34.347 INFO  vert.x-eventloop-thread-0 BaseServiceProxy     : -> GET /v1/api/tickle,200|209ms
+21:51:34.347 DEBUG vert.x-eventloop-thread-0 ClientPortalService  : tickle {"session":"814c68079c053a6cebe15329434ae91e","ssoExpires":22715,"collission":false,"userId":50303093,"hmds":{"error":"no bridge"},"iserver":{"authStatus":{"authenticated":true,"competing":false,"connected":true,"message":"","MAC":"F4:03:43:CC:A2:00","serverInfo":{"serverName"
+21:51:34.354 WARN  vert.x-eventloop-thread-0 BaseServiceProxy     : failed /v1/api/tickle | reason io.vertx.core.json.DecodeException: Failed to decode:null
+21:51:34.354 DEBUG vert.x-eventloop-thread-0 ClientPortalService  : tickle null
+21:51:34.354 ERROR vert.x-eventloop-thread-0 ClientPortalService  : tickle cp session failed {}
+io.vertx.core.impl.NoStackTraceThrowable: io.vertx.core.json.DecodeException: Failed to decode:null
+21:51:34.354 DEBUG vert.x-eventloop-thread-0 BaseServiceProxy     : cancel timer ClientPortalService 12
+21:51:34.354 DEBUG vert.x-eventloop-thread-0 ClientPortalService  : tickle :"JifC19060","serverVersion":"Build 10.34.1a, Mar 3, 2025 5:30:37 PM"},"hardware_info":"2a25595e|F4:03:43:CC:A2:00"}}}
+21:51:34.360 WARN  vert.x-eventloop-thread-0 BaseServiceProxy     : failed /v1/api/tickle | reason io.vertx.core.json.DecodeException: Failed to decode:Unexpected character (':' (code 58)): expected a valid value (number, String, array, object, 'true', 'false' or 'null')
+ at [Source: (io.netty.buffer.ByteBufInputStream); line: 1, column: -1]
+21:51:34.360 DEBUG vert.x-eventloop-thread-0 ClientPortalService  : tickle null
+21:51:34.360 ERROR vert.x-eventloop-thread-0 ClientPortalService  : tickle cp session failed {}
+io.vertx.core.impl.NoStackTraceThrowable: io.vertx.core.json.DecodeException: Failed to decode:Unexpected character (':' (code 58)): expected a valid value (number, String, array, object, 'true', 'false' or 'null')
+ at [Source: (io.netty.buffer.ByteBufInputStream); line: 1, column: -1]
+21:51:34.360 DEBUG vert.x-eventloop-thread-0 BaseServiceProxy     : cancel timer ClientPortalService 0
+21:51:34.361 DEBUG vert.x-eventloop-thread-0 BaseServiceProxy     : forward event ON_CP_TICKLE_FAILED, payload none
+21:51:34.361 DEBUG vert.x-eventloop-thread-0 BaseServiceProxy     : forward event ON_CP_TICKLE_FAILED, payload none
+21:51:34.613 INFO  vert.x-eventloop-thread-0 BaseServiceProxy     : -> GET /v1/api/sso/validate?gw=1,200|252ms
+21:51:34.613 DEBUG vert.x-eventloop-thread-0 ClientPortalService  : portal validate response: {"USER_ID":50303093,"USER_NAME":"farin0003","RESULT":true,"AUTH_TIME":1742172112758,"SF_ENABLED":true,"IS_FREE_TRIAL":false,"CREDENTIAL":"farin0003","IP":"190.21.96.241","EXPIRES":22441,"QUALIFIED_FOR_MOBILE_AUTH":null,"LANDING_APP":"PORTAL-US","IS_MASTER":false,"lastAccessed":1742172694210,"features":{"env":"PROD","wlms":true,"realtime":true,"bond":true,"optionChains":true,"calendar":true,"newMf":true},"region":"IL"}
+21:51:34.613 INFO  vert.x-eventloop-thread-0 GatewayHttpProxy     : authenticated to cp
+21:51:34.613 DEBUG vert.x-eventloop-thread-0 BaseServiceProxy     : cancel timer SsoService 10
+21:51:34.613 DEBUG vert.x-eventloop-thread-0 BaseServiceProxy     : start timer 300000 SsoService
+21:51:34.614 DEBUG vert.x-eventloop-thread-0 BaseServiceProxy     : forward event ON_SSO_VALIDATION, payload 50303093
+21:51:34.621 INFO  vert.x-eventloop-thread-0 BaseServiceProxy     : -> GET /v1/api/sso/validate?gw=1,200|260ms
+21:51:34.621 DEBUG vert.x-eventloop-thread-0 ClientPortalService  : portal validate response: {"USER_ID":50303093,"USER_NAME":"farin0003","RESULT":true,"AUTH_TIME":1742172112758,"SF_ENABLED":true,"IS_FREE_TRIAL":false,"CREDENTIAL":"farin0003","IP":"190.21.96.241","EXPIRES":22457,"QUALIFIED_FOR_MOBILE_AUTH":null,"LANDING_APP":"PORTAL-US","IS_MASTER":false,"lastAccessed":1742172693952,"features":{"env":"PROD","wlms":true,"realtime":true,"bond":true,"optionChains":true,"calendar":true,"newMf":true},"region":"IL"}
+21:51:34.621 INFO  vert.x-eventloop-thread-0 GatewayHttpProxy     : authenticated to cp
+21:51:34.621 DEBUG vert.x-eventloop-thread-0 BaseServiceProxy     : cancel timer SsoService 13
+21:51:34.622 DEBUG vert.x-eventloop-thread-0 BaseServiceProxy     : start timer 300000 SsoService
+21:51:34.622 DEBUG vert.x-eventloop-thread-0 BaseServiceProxy     : forward event ON_SSO_VALIDATION, payload 50303093
+21:51:34.814 INFO  vert.x-eventloop-thread-0 BaseServiceProxy     : -> GET /v1/api/one/user,200|201ms
+21:51:34.814 INFO  vert.x-eventloop-thread-0 ClientPortalService  : get user reply {"username":"farin0003","features":{"env":"PROD","wlms":true,"realtime":true,"bond":true,"optionChains":true,"calendar":true,"newMf":true},"wbId":"","uar":{"portfolioAnalyst":true,"userInfo":true,"messageCenter":true,"accountDetails":true,"tradingRestrictions":false,"tws":true,"fyi":true,"voting":true,"forum":true,"recentTransactions":true},"props":{"isIBAMClient":false,"ReadOnlySession":null},"firstApprovedDate":1592193600000,"accts":{"U4264576":{"isIBAMClient":false,"clearingStatus":"O","openDate":1592193600000,"isFAClient":false,"isFunded":true,"tradingPermissions":["OPT","FUT","IOPT","WAR","STK","CASH","FOP","SSF"]}},"hasBrokerageAccessInd":true,"fa":false,"has2fa":false,"islite":false,"ispaper":false,"applicants":[{"id":6062844,"type":"INDIVIDUAL","businessType":"INDEPENDENT","nlcode":"es_ES","legalCountry":{"name":"Chile","alpha3":"CHL"}}]}
+21:51:34.816 INFO  vert.x-eventloop-thread-0 SsoService           : sso init status=200, url=https://api.ibkr.com/v1/api/ssodh/init
+21:51:34.816 ERROR vert.x-eventloop-thread-0 SsoService           : ssodh response error: {"message":"sso dh already set"}
+21:51:34.816 DEBUG vert.x-eventloop-thread-0 BaseServiceProxy     : forward event ON_SSODH_FAILED, payload none
+21:51:34.816 ERROR vert.x-eventloop-thread-0 GatewayHttpProxy     : ssodh failed, retry with /iserver/reauthenticate
+21:51:34.825 INFO  vert.x-eventloop-thread-0 SsoService           : sso init status=200, url=https://api.ibkr.com/v1/api/ssodh/init
+21:51:34.825 ERROR vert.x-eventloop-thread-0 SsoService           : ssodh response error: {"message":"sso dh already set"}
+21:51:34.825 DEBUG vert.x-eventloop-thread-0 BaseServiceProxy     : forward event ON_SSODH_FAILED, payload none
+21:51:34.825 ERROR vert.x-eventloop-thread-0 GatewayHttpProxy     : ssodh failed, retry with /iserver/reauthenticate
+21:51:34.835 INFO  vert.x-eventloop-thread-0 BaseServiceProxy     : -> GET /v1/api/one/user,200|214ms
+21:51:34.835 INFO  vert.x-eventloop-thread-0 ClientPortalService  : get user reply {"username":"farin0003","features":{"env":"PROD","wlms":true,"realtime":true,"bond":true,"optionChains":true,"calendar":true,"newMf":true},"wbId":"","uar":{"portfolioAnalyst":true,"userInfo":true,"messageCenter":true,"accountDetails":true,"tradingRestrictions":false,"tws":true,"fyi":true,"voting":true,"forum":true,"recentTransactions":true},"props":{"isIBAMClient":false,"ReadOnlySession":null},"firstApprovedDate":1592193600000,"accts":{"U4264576":{"isIBAMClient":false,"clearingStatus":"O","openDate":1592193600000,"isFAClient":false,"isFunded":true,"tradingPermissions":["OPT","FUT","IOPT","WAR","STK","CASH","FOP","SSF"]}},"hasBrokerageAccessInd":true,"fa":false,"has2fa":false,"islite":false,"ispaper":false,"applicants":[{"id":6062844,"type":"INDIVIDUAL","businessType":"INDEPENDENT","nlcode":"es_ES","legalCountry":{"name":"Chile","alpha3":"CHL"}}]}
+21:51:58.190 INFO  vert.x-eventloop-thread-0 BaseServiceProxy     : -> GET /v1/api/portfolio/U4264576/positions,200|321ms
+21:52:00.738 INFO  vert.x-eventloop-thread-0 BaseServiceProxy     : -> GET /v1/api/iserver/marketdata/snapshot?conids=653081429,653081500,672829101,672829170,681926954,681927105,674163806,653250687,653250400,763665580,763665630,653152108,758141216,716497189,703415595,703415862,712169275,712168761,765895478,765895679,653157694,692857360,692857481,728874969,724340545,731526272,731526352,754945951,763687845,763689106,763689160,728902115,758170739,763732402,763732470,756975736,758204706,763724597,767949821,766259977,765590847,765911657,715191758,715192028,653319808,760319827,763762262,695638272,729003845,60532895,11031&fields=7308,7309,7310,7311,31,7633,6457,200|295ms
+21:52:03.071 INFO  vert.x-eventloop-thread-0 BaseServiceProxy     : -> GET /v1/api/iserver/marketdata/snapshot?conids=4391,3691937,761335611,5684,44001820,51529211,208813719,209411798,152486141,83975037,75960201,11031,756733,365207014,nan&fields=55,31,7287,7655,200|255ms
+21:53:03.108 INFO  vert.x-eventloop-thread-0 BaseServiceProxy     : -> GET /v1/api/portfolio/U4264576/positions,200|327ms
+21:53:05.554 INFO  vert.x-eventloop-thread-0 BaseServiceProxy     : -> GET /v1/api/iserver/marketdata/snapshot?conids=653081429,653081500,672829101,672829170,681926954,681927105,674163806,653250687,653250400,763665580,763665630,653152108,758141216,716497189,703415595,703415862,712169275,712168761,765895478,765895679,653157694,692857360,692857481,728874969,724340545,731526272,731526352,754945951,763687845,763689106,763689160,728902115,758170739,763732402,763732470,756975736,758204706,763724597,767949821,766259977,765590847,765911657,715191758,715192028,653319808,760319827,763762262,695638272,729003845,60532895,11031&fields=7308,7309,7310,7311,31,7633,6457,200|213ms
+21:53:07.931 INFO  vert.x-eventloop-thread-0 BaseServiceProxy     : -> GET /v1/api/iserver/marketdata/snapshot?conids=4391,3691937,761335611,5684,44001820,51529211,208813719,209411798,152486141,83975037,75960201,11031,756733,365207014,nan&fields=55,31,7287,7655,200|276ms
+21:53:22.346 INFO  vert.x-eventloop-thread-0 BaseServiceProxy     : -> GET /v1/api/portfolio/U4264576/positions,200|308ms
+21:53:24.823 INFO  vert.x-eventloop-thread-0 BaseServiceProxy     : -> GET /v1/api/iserver/marketdata/snapshot?conids=653081429,653081500,672829101,672829170,681926954,681927105,674163806,653250687,653250400,763665580,763665630,653152108,758141216,716497189,703415595,703415862,712169275,712168761,765895478,765895679,653157694,692857360,692857481,728874969,724340545,731526272,731526352,754945951,763687845,763689106,763689160,728902115,758170739,763732402,763732470,756975736,758204706,763724597,767949821,766259977,765590847,765911657,715191758,715192028,653319808,760319827,763762262,695638272,729003845,60532895,11031&fields=7308,7309,7310,7311,31,7633,6457,200|230ms
+21:53:27.117 INFO  vert.x-eventloop-thread-0 BaseServiceProxy     : -> GET /v1/api/iserver/marketdata/snapshot?conids=4391,3691937,761335611,5684,44001820,51529211,208813719,209411798,152486141,83975037,75960201,11031,756733,365207014,nan&fields=55,31,7287,7655,200|201ms
+21:56:34.821 INFO  vert.x-eventloop-thread-0 BaseServiceProxy     : -> GET /sso/ping,200|192ms
+21:56:34.822 INFO  vert.x-eventloop-thread-0 SsoService           : sso ping {"result": "true"}

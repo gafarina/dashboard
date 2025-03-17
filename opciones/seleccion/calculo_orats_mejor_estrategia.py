@@ -14,32 +14,40 @@ class opciones:
     # Class attributes
     api = "43af86de-fd09-4fc4-b780-6a301d267cb2"
 
-    def get_core_data_historical(self, list_dates):
+    def get_core_data_historical(self, list_dates, quantil):
         """
             calcula los datos cores para las variables anteriores descritas y para cada fecha se van concatenando, se van guardando en un pickle
             list_date: lista de fechas que voy a ir concatenando
+            1. calcula las fechas validas en que el nasdaq estuvo funcionando
+            2. Calcular los tickers con mas volumen
+            3. Con los tickers en 2 se calculan los ultimos 5 años, hacer esto mensualmente, para no guardar toda la base
+
+
+            args
+            list_dates : es en lista la primera fecha
         """
         df_total = pd.DataFrame()
+        # Calcula las fechas habiles entre la fecha de inicio del estudio y la fecha de consulta
         nzdq = mcal.get_calendar('NASDAQ')
         trading_days = nzdq.valid_days(start_date=list_dates[0], end_date=str(datetime.date.today()))
         trading_days = [str(x)[0:10] for x in trading_days]
         last_day = trading_days[-2]
-        print(last_day)
-        ## get the tickers with more volume in the last day
+        ## Baja los tickers con mas volumen del penultimo dia ya que ese esta generalmente disponible en orats
         try:
             link = "https://api.orats.io/datav2/hist/cores?token=" + self.api + "&tradeDate=" + str(last_day)
             f = requests.get(link)
             f = f.json()
             db = pd.DataFrame(f['data'])
-            # tomar solo los que el cVolu + pVolu y cOi + pOi sea mayor que el cuantil 95
+            # tomar solo los que el cVolu + pVolu y cOi + pOi sea mayor que el cuantil definido en la variable quantil
             db['option_volume'] = db['cVolu'] + db['pVolu']
             db['option_oi'] = db['cOi'] + db['pOi']
-            db = db[(db['option_volume'] >= db['option_volume'].quantile(0.70)) & (db['option_volume'] >= db['option_oi'].quantile(0.70))]
+            db = db[(db['option_volume'] >= db['option_volume'].quantile(quantil)) & (db['option_volume'] >= db['option_oi'].quantile(quantil))]
             df_total = pd.concat([df_total, db])
             tickers = list(pd.unique(df_total['ticker']))
         except:
             tickers = []
         print("Los tickers en el universo son {}".format(str(tickers)))
+        # para cada dia se va calculando y se genera una base
         for date in trading_days:
             print("Se esta procesando {} ".format(str(date)))
             try:
@@ -54,8 +62,9 @@ class opciones:
                 print("existio un problema con la fecha {}".format(str(date)))
                 db = pd.DataFrame()
                 df_total = pd.concat([df_total, db])
-        #print(df_total)
         return None
+    ## crear una funcion que vaya actualizando la base
+    ## crear una funcion que concatene el ultimo valor
 
     def read_train_data(self, path):
         """
